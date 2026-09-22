@@ -1931,7 +1931,8 @@
             // Clean up running exam resources if leaving practice
             if (state.currentRoute === 'practice' && route !== 'practice') {
                 clearInterval(state.exam.timerInterval);
-                stopListeningAudio();
+                stopListeningAudio(true);
+                safeSpeechCancel();
                 if (state.exam.mediaRecorder && state.exam.isRecording) {
                     state.exam.mediaRecorder.stop();
                 }
@@ -2111,38 +2112,177 @@
         }
 
         // ====================================================
-        // IELTS LISTENING AUDIO SYNTHESIZER & PLAYER
+        // IELTS LISTENING AUDIO SYNTHESIZER & PLAYER (Ponytail Resilient Engine)
         // ====================================================
+        let _ieltsAudioCtx = null;
+        function getAudioContext() {
+            try {
+                if (!_ieltsAudioCtx) {
+                    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+                    if (AudioContextClass) {
+                        _ieltsAudioCtx = new AudioContextClass();
+                    }
+                }
+                if (_ieltsAudioCtx && _ieltsAudioCtx.state === 'suspended') {
+                    _ieltsAudioCtx.resume().catch(() => {});
+                }
+                return _ieltsAudioCtx;
+            } catch (e) {
+                return null;
+            }
+        }
+
+        // Two-tone bell chime (523Hz C5 -> 659Hz E5) to signal exam listening audio start
         function playChimeBell() {
             try {
-                const AudioContext = window.AudioContext || window.webkitAudioContext;
-                if (!AudioContext) return;
-                const ctx = new AudioContext();
+                const ctx = getAudioContext();
+                if (!ctx) return;
                 const now = ctx.currentTime;
                 
-                // 2-tone bell chime (523Hz C5 -> 659Hz E5)
                 const osc1 = ctx.createOscillator();
                 const gain1 = ctx.createGain();
                 osc1.frequency.setValueAtTime(523.25, now);
-                gain1.gain.setValueAtTime(0.15, now);
-                gain1.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
+                gain1.gain.setValueAtTime(0.12, now);
+                gain1.gain.exponentialRampToValueAtTime(0.001, now + 0.45);
                 osc1.connect(gain1);
                 gain1.connect(ctx.destination);
                 osc1.start(now);
-                osc1.stop(now + 0.6);
+                osc1.stop(now + 0.45);
 
                 const osc2 = ctx.createOscillator();
                 const gain2 = ctx.createGain();
-                osc2.frequency.setValueAtTime(659.25, now + 0.3);
-                gain2.gain.setValueAtTime(0.15, now + 0.3);
-                gain2.gain.exponentialRampToValueAtTime(0.001, now + 1.2);
+                osc2.frequency.setValueAtTime(659.25, now + 0.22);
+                gain2.gain.setValueAtTime(0.12, now + 0.22);
+                gain2.gain.exponentialRampToValueAtTime(0.001, now + 0.85);
                 osc2.connect(gain2);
                 gain2.connect(ctx.destination);
-                osc2.start(now + 0.3);
-                osc2.stop(now + 1.2);
+                osc2.start(now + 0.22);
+                osc2.stop(now + 0.85);
             } catch (e) {
-                console.log('Audio chime unsupported');
+                // Audio chime unsupported
             }
+        }
+
+        // Cached Voice Resolution
+        let _ieltsVoices = [];
+        function loadIeltsVoices() {
+            if (!('speechSynthesis' in window)) return [];
+            try {
+                _ieltsVoices = window.speechSynthesis.getVoices() || [];
+            } catch (e) {
+                _ieltsVoices = [];
+            }
+            return _ieltsVoices;
+        }
+
+        if ('speechSynthesis' in window) {
+            loadIeltsVoices();
+            if (typeof window.speechSynthesis.onvoiceschanged !== 'undefined') {
+                window.speechSynthesis.onvoiceschanged = () => {
+                    loadIeltsVoices();
+                };
+            }
+        }
+
+        function getBestEnglishVoice(preferGender = 'neutral') {
+            const voices = _ieltsVoices.length > 0 ? _ieltsVoices : loadIeltsVoices();
+            if (!voices || voices.length === 0) return null;
+            
+            // 1. UK English (en-GB)
+            const ukVoices = voices.filter(v => v.lang && (v.lang === 'en-GB' || v.lang.replace('_', '-').toLowerCase().startsWith('en-gb')));
+            if (ukVoices.length > 0) {
+                if (preferGender === 'female') {
+                    const f = ukVoices.find(v => /female|zira|susan|hazel|catherine|stephanie|libby|serena/i.test(v.name));
+                    if (f) return f;
+                } else if (preferGender === 'male') {
+                    const m = ukVoices.find(v => /male|george|david|brian|oliver|ryan|arthur/i.test(v.name));
+                    if (m) return m;
+                }
+                return ukVoices[0];
+            }
+            
+            // 2. Any English voice (en-US, en-AU, en-CA, etc.)
+            const anyEn = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+            if (anyEn.length > 0) {
+                if (preferGender === 'female') {
+                    const f = anyEn.find(v => /female|zira|samantha|karen|victoria|jenny|aria/i.test(v.name));
+                    if (f) return f;
+                } else if (preferGender === 'male') {
+                    const m = anyEn.find(v => /male|david|guy|mark|alex|daniel/i.test(v.name));
+                    if (m) return m;
+                }
+                return anyEn[0];
+            }
+            
+            // 3. Fallback to default system voice
+            return voices.find(v => v.default) || voices[0] || null;
+        }
+
+        // Split long transcript into manageable sentence chunks (<= 140 chars)
+        // to bypass Chromium's 15-second speech synthesis watchdog freeze bug
+        function splitIntoAudioChunks(text) {
+            if (!text) return [];
+            const cleaned = text.replace(/\r\n/g, '\n').trim();
+            const rawLines = cleaned.split('\n');
+            const chunks = [];
+
+            rawLines.forEach(line => {
+                const trimmed = line.trim();
+                if (!trimmed) return;
+                
+                let speaker = null;
+                let content = trimmed;
+                const speakerMatch = trimmed.match(/^([A-Za-z\s]{2,20}):\s*(.*)$/);
+                if (speakerMatch) {
+                    speaker = speakerMatch[1].trim();
+                    content = speakerMatch[2].trim();
+                }
+
+                // Match sentences by standard punctuation
+                const sentences = content.match(/[^.!?]+[.!?]+|\S[^.!?]*$/g) || [content];
+                sentences.forEach(s => {
+                    const sTrim = s.trim();
+                    if (!sTrim) return;
+                    if (sTrim.length > 150) {
+                        // Split long sentence by commas or semicolons
+                        const parts = sTrim.match(/[^,;]+[,;]+|\S[^,;]*$/g) || [sTrim];
+                        parts.forEach(p => {
+                            const pTrim = p.trim();
+                            if (pTrim) {
+                                chunks.push({
+                                    text: pTrim,
+                                    speaker: speaker,
+                                    fullLine: speaker ? `${speaker}: ${pTrim}` : pTrim
+                                });
+                            }
+                        });
+                    } else {
+                        chunks.push({
+                            text: sTrim,
+                            speaker: speaker,
+                            fullLine: speaker ? `${speaker}: ${sTrim}` : sTrim
+                        });
+                    }
+                });
+            });
+
+            return chunks;
+        }
+
+        function safeSpeechCancel(callback) {
+            if (!('speechSynthesis' in window)) {
+                if (callback) callback();
+                return;
+            }
+            try {
+                if (window.speechSynthesis.paused) {
+                    window.speechSynthesis.resume();
+                }
+                window.speechSynthesis.cancel();
+            } catch (e) {}
+            setTimeout(() => {
+                if (callback) callback();
+            }, 60);
         }
 
         function toggleListeningAudio() {
@@ -2154,63 +2294,241 @@
         }
 
         function startListeningAudio() {
-            const transcript = state.exam.data?.audioScript || state.exam.data?.passage || '';
-            if (!transcript) return;
-
-            playChimeBell();
-            state.exam.isAudioPlaying = true;
-            document.getElementById('audio-play-icon').innerText = '⏸ Tạm Dừng';
-
-            if ('speechSynthesis' in window) {
-                window.speechSynthesis.cancel();
-                const utterance = new SpeechSynthesisUtterance(transcript);
-                utterance.lang = 'en-GB';
-                utterance.rate = state.exam.audioSpeed || 1.0;
-
-                utterance.onend = () => {
-                    stopListeningAudio();
-                };
-
-                window.speechSynthesis.speak(utterance);
+            if (!('speechSynthesis' in window)) {
+                showToast('Trình duyệt không hỗ trợ Web Speech. Vui lòng mở Bản gỡ băng để xem nội dung.');
+                toggleTranscriptDrawer();
+                return;
             }
 
-            // Progress bar tracker
+            // Ensure AudioContext is unlocked by user gesture
+            getAudioContext();
+
+            // Check if resuming from paused state
+            if (state.exam.isAudioPaused && window.speechSynthesis.paused) {
+                try {
+                    window.speechSynthesis.resume();
+                } catch (e) {}
+                state.exam.isAudioPlaying = true;
+                state.exam.isAudioPaused = false;
+                startAudioProgressBarInterval();
+                startAudioKeepAliveInterval();
+                const icon = document.getElementById('audio-play-icon');
+                if (icon) icon.innerText = '⏸ Tạm Dừng';
+                const curChunk = state.exam.audioChunks?.[state.exam.audioCurrentChunkIndex];
+                if (curChunk) showAudioNowPlaying(curChunk.fullLine);
+                return;
+            }
+
+            // If starting fresh or playing from current chunk index
+            const transcript = state.exam.data?.audioScript || state.exam.data?.passage || '';
+            if (!transcript) {
+                showToast('Không có dữ liệu âm thanh cho bài thi này.');
+                return;
+            }
+
+            // Initialize chunks if not already parsed
+            if (!state.exam.audioChunks || state.exam.audioChunks.length === 0) {
+                state.exam.audioChunks = splitIntoAudioChunks(transcript);
+                state.exam.audioCurrentChunkIndex = 0;
+            }
+
+            // Play starting chime bell
+            playChimeBell();
+
+            state.exam.isAudioPlaying = true;
+            state.exam.isAudioPaused = false;
+            const icon = document.getElementById('audio-play-icon');
+            if (icon) icon.innerText = '⏸ Tạm Dừng';
+
+            // Safe cancel and speak with 60ms tick to avoid Chrome cancel-speak race condition
+            safeSpeechCancel(() => {
+                playCurrentAudioChunk();
+                startAudioProgressBarInterval();
+                startAudioKeepAliveInterval();
+            });
+        }
+
+        function playCurrentAudioChunk() {
+            if (!state.exam.isAudioPlaying) return;
+            const chunks = state.exam.audioChunks || [];
+            const idx = state.exam.audioCurrentChunkIndex || 0;
+
+            if (idx >= chunks.length) {
+                // Completed playback
+                stopListeningAudio(true);
+                showToast('Đã phát xong toàn bộ bài nghe.');
+                return;
+            }
+
+            const chunk = chunks[idx];
+            showAudioNowPlaying(chunk.fullLine);
+
+            const utterance = new SpeechSynthesisUtterance(chunk.text);
+            
+            // Gender differentiation for dialogue
+            let preferGender = 'neutral';
+            if (chunk.speaker) {
+                const sLower = chunk.speaker.toLowerCase();
+                if (/officer|interviewer|doctor|clerk|announcer|woman|ms|mrs/i.test(sLower)) {
+                    preferGender = 'female';
+                } else if (/student|applicant|patient|john|peter|stephen|man|mr/i.test(sLower)) {
+                    preferGender = 'male';
+                }
+            }
+            
+            const voice = getBestEnglishVoice(preferGender);
+            if (voice) {
+                utterance.voice = voice;
+                utterance.lang = voice.lang;
+            } else {
+                utterance.lang = 'en-GB';
+            }
+            
+            utterance.rate = state.exam.audioSpeed || 1.0;
+            utterance.pitch = preferGender === 'female' ? 1.05 : (preferGender === 'male' ? 0.95 : 1.0);
+
+            utterance.onend = () => {
+                if (!state.exam.isAudioPlaying) return;
+                state.exam.audioCurrentChunkIndex = idx + 1;
+                // Brief natural conversational pause between sentences
+                setTimeout(() => {
+                    if (state.exam.isAudioPlaying) {
+                        playCurrentAudioChunk();
+                    }
+                }, 160);
+            };
+
+            utterance.onerror = (err) => {
+                console.warn('Speech chunk error, advancing to next sentence:', err);
+                if (state.exam.isAudioPlaying) {
+                    state.exam.audioCurrentChunkIndex = idx + 1;
+                    setTimeout(() => {
+                        if (state.exam.isAudioPlaying) {
+                            playCurrentAudioChunk();
+                        }
+                    }, 180);
+                }
+            };
+
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function stopListeningAudio(isFinished = false) {
+            state.exam.isAudioPlaying = false;
+            clearInterval(state.exam.audioInterval);
+            clearInterval(state.exam.audioKeepAliveInterval);
+
+            if ('speechSynthesis' in window) {
+                try {
+                    if (isFinished) {
+                        window.speechSynthesis.cancel();
+                        state.exam.isAudioPaused = false;
+                        state.exam.audioCurrentChunkIndex = 0;
+                        state.exam.audioCurrentSeconds = 0;
+                    } else {
+                        window.speechSynthesis.pause();
+                        state.exam.isAudioPaused = true;
+                    }
+                } catch (e) {}
+            }
+
+            const icon = document.getElementById('audio-play-icon');
+            if (icon) {
+                icon.innerText = isFinished ? '▶ Nghe Lại' : '▶ Tiếp Tục';
+            }
+            updateAudioProgressUI();
+            if (isFinished) {
+                hideAudioNowPlaying();
+            }
+        }
+
+        // Keep-alive heartbeat interval to defeat Chromium 15s freeze bug
+        function startAudioKeepAliveInterval() {
+            clearInterval(state.exam.audioKeepAliveInterval);
+            state.exam.audioKeepAliveInterval = setInterval(() => {
+                if (!state.exam.isAudioPlaying) {
+                    clearInterval(state.exam.audioKeepAliveInterval);
+                    return;
+                }
+                if ('speechSynthesis' in window && window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+                    // Quick pause and resume keeps Chrome's internal IPC alive without interrupting audible sound
+                    window.speechSynthesis.pause();
+                    window.speechSynthesis.resume();
+                }
+            }, 10000);
+        }
+
+        function startAudioProgressBarInterval() {
             clearInterval(state.exam.audioInterval);
             state.exam.audioInterval = setInterval(() => {
+                if (!state.exam.isAudioPlaying) {
+                    clearInterval(state.exam.audioInterval);
+                    return;
+                }
                 if (state.exam.audioCurrentSeconds < state.exam.audioTotalSeconds) {
                     state.exam.audioCurrentSeconds++;
                     updateAudioProgressUI();
-                } else {
-                    stopListeningAudio();
                 }
             }, 1000);
-        }
-
-        function stopListeningAudio() {
-            state.exam.isAudioPlaying = false;
-            clearInterval(state.exam.audioInterval);
-            if ('speechSynthesis' in window) {
-                window.speechSynthesis.pause();
-            }
-            const icon = document.getElementById('audio-play-icon');
-            if (icon) icon.innerText = '▶ Tiếp Tục';
         }
 
         function updateAudioProgressUI() {
             const curElem = document.getElementById('audio-curr-time');
             const fillElem = document.getElementById('audio-progress-fill');
+            const totalSec = state.exam.audioTotalSeconds || 120;
             if (curElem && fillElem) {
                 const m = Math.floor(state.exam.audioCurrentSeconds / 60).toString().padStart(2, '0');
                 const s = (state.exam.audioCurrentSeconds % 60).toString().padStart(2, '0');
                 curElem.innerText = `${m}:${s}`;
-                const pct = (state.exam.audioCurrentSeconds / state.exam.audioTotalSeconds) * 100;
+                const pct = (state.exam.audioCurrentSeconds / totalSec) * 100;
                 fillElem.style.width = `${Math.min(100, pct)}%`;
             }
         }
 
         function seekListeningAudio(seconds) {
-            state.exam.audioCurrentSeconds = Math.max(0, Math.min(state.exam.audioTotalSeconds, state.exam.audioCurrentSeconds + seconds));
+            const total = state.exam.audioTotalSeconds || 120;
+            const chunks = state.exam.audioChunks || [];
+            const targetSec = Math.max(0, Math.min(total, state.exam.audioCurrentSeconds + seconds));
+            state.exam.audioCurrentSeconds = targetSec;
+            
+            if (chunks.length > 0) {
+                const ratio = targetSec / total;
+                const newChunkIdx = Math.min(chunks.length - 1, Math.max(0, Math.floor(ratio * chunks.length)));
+                state.exam.audioCurrentChunkIndex = newChunkIdx;
+            }
+            
             updateAudioProgressUI();
+
+            if (state.exam.isAudioPlaying) {
+                safeSpeechCancel(() => {
+                    playCurrentAudioChunk();
+                });
+            }
+        }
+
+        function seekAudioFromClick(event) {
+            const bar = document.getElementById('audio-progress-bar');
+            if (!bar) return;
+            const rect = bar.getBoundingClientRect();
+            const clickX = event.clientX - rect.left;
+            const ratio = Math.max(0, Math.min(1, clickX / rect.width));
+            const total = state.exam.audioTotalSeconds || 120;
+            const targetSec = Math.round(ratio * total);
+            
+            state.exam.audioCurrentSeconds = targetSec;
+            const chunks = state.exam.audioChunks || [];
+            if (chunks.length > 0) {
+                const newChunkIdx = Math.min(chunks.length - 1, Math.max(0, Math.floor(ratio * chunks.length)));
+                state.exam.audioCurrentChunkIndex = newChunkIdx;
+            }
+            
+            updateAudioProgressUI();
+
+            if (state.exam.isAudioPlaying) {
+                safeSpeechCancel(() => {
+                    playCurrentAudioChunk();
+                });
+            }
         }
 
         function cycleAudioSpeed() {
@@ -2219,10 +2537,34 @@
             const nextSpeed = speeds[(currIdx + 1) % speeds.length];
             state.exam.audioSpeed = nextSpeed;
             document.getElementById('btn-audio-speed').innerText = `${nextSpeed}x`;
+            
             if (state.exam.isAudioPlaying) {
-                stopListeningAudio();
-                startListeningAudio();
+                safeSpeechCancel(() => {
+                    playCurrentAudioChunk();
+                });
             }
+        }
+
+        function showAudioNowPlaying(text) {
+            let el = document.getElementById('audio-now-playing');
+            if (!el) {
+                const panel = document.getElementById('prac-audio-panel');
+                if (panel) {
+                    el = document.createElement('div');
+                    el.id = 'audio-now-playing';
+                    el.style.cssText = 'width:100%; font-size:0.8rem; color:var(--primary); font-style:italic; margin-top:0.4rem; padding-top:0.4rem; border-top:1px dashed var(--border-subtle); display:flex; align-items:center; gap:0.5rem;';
+                    panel.appendChild(el);
+                }
+            }
+            if (el && text) {
+                el.style.display = 'flex';
+                el.innerHTML = `<span style="display:inline-block; animation:pulse 1s infinite;">🔊</span> <span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">"${escapeHtml(text)}"</span>`;
+            }
+        }
+
+        function hideAudioNowPlaying() {
+            const el = document.getElementById('audio-now-playing');
+            if (el) el.style.display = 'none';
         }
 
         function toggleTranscriptDrawer() {
@@ -2235,13 +2577,26 @@
         // REALISTIC IELTS SPEAKING EXAMINER STUDIO
         // ====================================================
         function speakExaminerPrompt() {
-            if (!('speechSynthesis' in window)) return;
+            if (!('speechSynthesis' in window)) {
+                showToast('Trình duyệt không hỗ trợ Web Speech');
+                return;
+            }
+            getAudioContext();
             const promptText = document.getElementById('speaking-examiner-prompt')?.innerText || '';
-            window.speechSynthesis.cancel();
-            const utterance = new SpeechSynthesisUtterance(promptText);
-            utterance.lang = 'en-GB';
-            utterance.rate = 0.92;
-            window.speechSynthesis.speak(utterance);
+            if (!promptText) return;
+
+            safeSpeechCancel(() => {
+                const utterance = new SpeechSynthesisUtterance(promptText);
+                const voice = getBestEnglishVoice('male') || getBestEnglishVoice('neutral');
+                if (voice) {
+                    utterance.voice = voice;
+                    utterance.lang = voice.lang;
+                } else {
+                    utterance.lang = 'en-GB';
+                }
+                utterance.rate = 0.92;
+                window.speechSynthesis.speak(utterance);
+            });
         }
 
         function startSpeakingPrepTimer(seconds) {
@@ -2841,10 +3196,19 @@
         function playCurrentCardTTS() {
             const card = state.fc.queue[state.fc.currentIndex];
             if (!card || !('speechSynthesis' in window)) return;
-            const utterance = new SpeechSynthesisUtterance(card.term);
-            utterance.lang = 'en-GB';
-            utterance.rate = 0.9;
-            window.speechSynthesis.speak(utterance);
+            getAudioContext();
+            safeSpeechCancel(() => {
+                const utterance = new SpeechSynthesisUtterance(card.term);
+                const voice = getBestEnglishVoice('neutral');
+                if (voice) {
+                    utterance.voice = voice;
+                    utterance.lang = voice.lang;
+                } else {
+                    utterance.lang = 'en-GB';
+                }
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            });
         }
 
         // ====================================================
@@ -2940,10 +3304,14 @@
                 timeSpent: 0,
                 timerInterval: null,
                 isAudioPlaying: false,
+                isAudioPaused: false,
                 audioSpeed: 1.0,
                 audioInterval: null,
+                audioKeepAliveInterval: null,
                 audioCurrentSeconds: 0,
-                audioTotalSeconds: 150,
+                audioTotalSeconds: 120,
+                audioChunks: [],
+                audioCurrentChunkIndex: 0,
                 recordedBlob: null,
                 mediaRecorder: null,
                 recognition: null,
@@ -2973,12 +3341,38 @@
 
             // Handle Audio player for Listening
             const audioPanel = document.getElementById('prac-audio-panel');
+            const passageHeader = document.getElementById('passage-header-label');
             if (exam.skill === 'listening') {
                 audioPanel.style.display = 'flex';
+                const transcript = exam.data?.audioScript || exam.data?.passage || '';
+                const wordCount = transcript.trim().split(/\s+/).filter(Boolean).length;
+                state.exam.audioTotalSeconds = Math.max(45, Math.round((wordCount / 140) * 60));
                 state.exam.audioCurrentSeconds = 0;
+                state.exam.audioChunks = splitIntoAudioChunks(transcript);
+                state.exam.audioCurrentChunkIndex = 0;
+                state.exam.isAudioPlaying = false;
+                state.exam.isAudioPaused = false;
+
+                const totalM = Math.floor(state.exam.audioTotalSeconds / 60).toString().padStart(2, '0');
+                const totalS = (state.exam.audioTotalSeconds % 60).toString().padStart(2, '0');
+                const totalTimeElem = document.getElementById('audio-total-time');
+                if (totalTimeElem) totalTimeElem.innerText = `${totalM}:${totalS}`;
+
+                const playIcon = document.getElementById('audio-play-icon');
+                if (playIcon) playIcon.innerText = '▶ Phát Audio';
+
                 updateAudioProgressUI();
+                hideAudioNowPlaying();
+
+                if (passageHeader) {
+                    passageHeader.innerText = '🎧 Bản Gỡ Băng Nghe (Listening Transcript - Bôi đen để đánh dấu hoặc sao chép)';
+                }
             } else {
                 audioPanel.style.display = 'none';
+                hideAudioNowPlaying();
+                if (passageHeader) {
+                    passageHeader.innerText = '📖 Bài Đọc Học Thuật (Bôi đen để đánh dấu hoặc sao chép)';
+                }
             }
 
             // Handle Speaking Studio
@@ -3135,6 +3529,8 @@
 
         function exitPracticeSession() {
             if (confirm('Bạn có chắc muốn thoát phiên làm bài này? Tiến trình chưa nộp sẽ không được tính.')) {
+                stopListeningAudio(true);
+                safeSpeechCancel();
                 routeTo('today');
             }
         }
@@ -3144,7 +3540,8 @@
         // ====================================================
         function submitCurrentExam() {
             clearInterval(state.exam.timerInterval);
-            stopListeningAudio();
+            stopListeningAudio(true);
+            safeSpeechCancel();
 
             let correctCount = 0;
             const results = [];
