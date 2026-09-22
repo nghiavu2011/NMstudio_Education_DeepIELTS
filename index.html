@@ -1428,35 +1428,59 @@
 
         <!-- VIEW 5: TEST / THI THỬ -->
         <section id="view-app-test" class="view-layer">
-            <div style="margin-bottom:1.5rem;">
-                <h2 style="font-size:1.45rem;">Phòng Thi Thử IELTS Chuẩn Hóa</h2>
-                <p style="color:var(--ink-muted); font-size:0.9rem;">Đề thi phân hóa đa dạng và bài thi thử toàn diện 4 kỹ năng</p>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; flex-wrap:wrap; gap:0.75rem;">
+                <div>
+                    <h2 style="font-size:1.45rem;">Phòng Thi Thử IELTS Chuẩn Hóa</h2>
+                    <p style="color:var(--ink-muted); font-size:0.9rem;">Thư viện đề thi thực tế: 10 Full Mock Tests quốc tế & 10 loại đề phân hóa theo từng Band</p>
+                </div>
+                <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                    <button type="button" class="btn-outline-sm active" id="btn-test-mode-full" onclick="switchTestMode('full_mock')">🏆 10 Đề Thi Thử Toàn Diện (Full Mocks)</button>
+                    <button type="button" class="btn-outline-sm" id="btn-test-mode-sec" onclick="switchTestMode('sectional')">🎯 Luyện Đề Theo Band (10 Đề / Band)</button>
+                </div>
             </div>
 
-            <div class="card" style="background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); border:2px solid var(--primary-border); margin-bottom:2rem;">
-                <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem;">
-                    <div>
-                        <span class="badge-pill badge-blue">Toàn Diện 4 Kỹ Năng • Format Quốc Tế</span>
-                        <h3 style="font-size:1.3rem; margin:0.4rem 0;">IELTS Academic Full Mock Test 01</h3>
-                        <p style="color:var(--ink-muted); font-size:0.92rem; max-width:680px; line-height:1.6;">
-                            Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực).
-                        </p>
+            <!-- TAB 1: 10 FULL MOCK EXAMS -->
+            <div id="test-view-full-mocks">
+                <div style="margin-bottom:1.25rem; color:var(--ink-muted); font-size:0.88rem; line-height:1.5;">
+                    Trải nghiệm tuần tự theo đúng format phòng thi quốc tế IDP/Cambridge: <strong>Nghe (40p) → Đọc (60p) → Viết (60p) → Nói (14p với Giám khảo AI và Micro thu âm thực)</strong>.
+                </div>
+                <div id="full-mocks-container" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;"></div>
+            </div>
+
+            <!-- TAB 2: SECTIONAL TESTS BY BAND -->
+            <div id="test-view-sectional" style="display:none;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+                    <h3 style="font-size:1.15rem;">Luyện Đề Phân Hóa Theo Từng Band Điểm (10 Đề Mỗi Cấp Độ)</h3>
+                    <div style="display:flex; gap:0.5rem; flex-wrap:wrap;" id="test-band-selector"></div>
+                </div>
+
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap; gap:0.75rem;">
+                    <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                        <button type="button" class="btn-outline-sm active" id="test-skill-listening" onclick="filterTestBySkill('listening')">🎧 Nghe</button>
+                        <button type="button" class="btn-outline-sm" id="test-skill-reading" onclick="filterTestBySkill('reading')">📖 Đọc</button>
+                        <button type="button" class="btn-outline-sm" id="test-skill-writing" onclick="filterTestBySkill('writing')">✍️ Viết</button>
+                        <button type="button" class="btn-outline-sm" id="test-skill-speaking" onclick="filterTestBySkill('speaking')">🗣️ Nói</button>
                     </div>
-                    <button type="button" class="btn-primary" onclick="startFullMockTest('MOCK_FULL_01')">
-                        Bắt Đầu Bài Thi Toàn Diện →
-                    </button>
-                </div>
-            </div>
 
-            <div>
-                <h3 style="font-size:1.15rem; margin-bottom:0.75rem;">Luyện Đề Phân Hóa Theo Từng Band Điểm</h3>
-                <div style="display:flex; gap:0.5rem; margin-bottom:1rem; flex-wrap:wrap;" id="test-band-selector"></div>
-                <div style="display:flex; gap:0.5rem; margin-bottom:1.25rem; flex-wrap:wrap;">
-                    <button type="button" class="btn-outline-sm active" id="test-skill-listening" onclick="filterTestBySkill('listening')">🎧 Nghe</button>
-                    <button type="button" class="btn-outline-sm" id="test-skill-reading" onclick="filterTestBySkill('reading')">📖 Đọc</button>
-                    <button type="button" class="btn-outline-sm" id="test-skill-writing" onclick="filterTestBySkill('writing')">✍️ Viết</button>
-                    <button type="button" class="btn-outline-sm" id="test-skill-speaking" onclick="filterTestBySkill('speaking')">🗣️ Nói</button>
+                    <!-- Topic Filter -->
+                    <div style="display:flex; align-items:center; gap:0.5rem;">
+                        <span style="font-size:0.8rem; color:var(--ink-muted);">Chủ đề:</span>
+                        <select id="test-topic-filter" class="form-input" style="padding:0.35rem 0.65rem; font-size:0.82rem; width:auto;" onchange="filterTestByTopic(this.value)">
+                            <option value="all">Tất cả 10 loại đề</option>
+                            <option value="campus_life">🎓 Đời sống sinh viên</option>
+                            <option value="environment">🌱 Môi trường & Sinh thái</option>
+                            <option value="technology">🤖 Công nghệ & AI</option>
+                            <option value="history">🏛️ Lịch sử & Khảo cổ</option>
+                            <option value="psychology">🧠 Tâm lý học</option>
+                            <option value="architecture">🏙️ Đô thị & Kiến trúc</option>
+                            <option value="economics">📊 Kinh tế toàn cầu</option>
+                            <option value="culture_arts">🎨 Nghệ thuật & Văn hóa</option>
+                            <option value="health_sports">🏥 Y tế & Thể thao</option>
+                            <option value="space_astronomy">🚀 Vũ trụ & Thiên văn</option>
+                        </select>
+                    </div>
                 </div>
+
                 <div id="test-list-container" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(290px, 1fr)); gap:1rem;"></div>
             </div>
         </section>
@@ -1788,6 +1812,8 @@
             currentReviewSubTab: 'due',
             currentTestSkill: 'listening',
             currentTestBand: '6.0',
+            currentTestMode: 'full_mock',
+            currentTopicFilter: 'all',
             targetBand: localStorage.getItem('targetBand') || '6.5',
             darkMode: localStorage.getItem('darkMode') === 'true',
             
@@ -3213,20 +3239,82 @@
 
         // ====================================================
         // TEST & EXAM ENGINE
-        // ====================================================
-        function renderTestView() {
-            const bandContainer = document.getElementById('test-band-selector');
-            if (!bandContainer) return;
+        function switchTestMode(mode) {
+            state.currentTestMode = mode;
+            const btnFull = document.getElementById('btn-test-mode-full');
+            const btnSec = document.getElementById('btn-test-mode-sec');
+            const viewFull = document.getElementById('test-view-full-mocks');
+            const viewSec = document.getElementById('test-view-sectional');
 
-            const bands = ['4.0', '5.0', '5.5', '6.0', '6.5', '7.0'];
-            let bHtml = '';
-            bands.forEach(b => {
-                const isActive = b === state.currentTestBand;
-                bHtml += `<button type="button" class="btn-outline-sm ${isActive ? 'active' : ''}" onclick="selectTestBand('${b}')">Band ${b}</button>`;
-            });
-            bandContainer.innerHTML = bHtml;
+            if (btnFull) btnFull.classList.toggle('active', mode === 'full_mock');
+            if (btnSec) btnSec.classList.toggle('active', mode === 'sectional');
+            if (viewFull) viewFull.style.display = mode === 'full_mock' ? 'block' : 'none';
+            if (viewSec) viewSec.style.display = mode === 'sectional' ? 'block' : 'none';
+
+            if (mode === 'full_mock') {
+                renderFullMockList();
+            } else {
+                renderSectionalTestList();
+            }
+        }
+
+        function filterTestByTopic(topic) {
+            state.currentTopicFilter = topic;
+            renderSectionalTestList();
+        }
+
+        function renderTestView() {
+            if (!state.currentTestMode) state.currentTestMode = 'full_mock';
+            
+            // Render Full Mocks
+            renderFullMockList();
+
+            // Render Band Selector for Sectional
+            const bandContainer = document.getElementById('test-band-selector');
+            if (bandContainer) {
+                const bands = ['4.0', '5.0', '5.5', '6.0', '6.5', '7.0'];
+                let bHtml = '';
+                bands.forEach(b => {
+                    const isActive = b === state.currentTestBand;
+                    bHtml += `<button type="button" class="btn-outline-sm ${isActive ? 'active' : ''}" onclick="selectTestBand('${b}')">Band ${b}</button>`;
+                });
+                bandContainer.innerHTML = bHtml;
+            }
 
             renderSectionalTestList();
+        }
+
+        function renderFullMockList() {
+            const container = document.getElementById('full-mocks-container');
+            if (!container) return;
+
+            const mocks = IELTS_DATA.mockExams || [];
+            let html = '';
+            mocks.forEach((m, idx) => {
+                const mockNum = (idx + 1).toString().padStart(2, '0');
+                html += `
+                    <div class="card" style="display:flex; flex-direction:column; justify-content:space-between; border:1px solid var(--border-subtle); transition:var(--transition-smooth);">
+                        <div>
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem;">
+                                <span class="badge-pill badge-blue">Full Mock ${mockNum}</span>
+                                <span class="badge-pill badge-green">Target Band ${m.target_band || '6.5'}</span>
+                            </div>
+                            <h4 style="font-size:1.1rem; color:var(--ink); margin-bottom:0.4rem; line-height:1.4;">${m.title_vi || m.title}</h4>
+                            <p style="font-size:0.83rem; color:var(--ink-muted); line-height:1.5; margin-bottom:0.85rem;">${m.description}</p>
+                            <div style="background:var(--surface-muted); padding:0.65rem 0.85rem; border-radius:var(--radius-md); font-size:0.78rem; color:var(--ink-muted); display:flex; flex-direction:column; gap:0.3rem; margin-bottom:1rem;">
+                                <div>🎧 <strong>Nghe:</strong> ${m.listening.title} (30p)</div>
+                                <div>📖 <strong>Đọc:</strong> ${m.reading.title} (60p)</div>
+                                <div>✍️ <strong>Viết:</strong> Task 1 & Task 2 (60p)</div>
+                                <div>🗣️ <strong>Nói:</strong> Part 1, 2, 3 với Giám khảo AI (14p)</div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-primary" style="width:100%; justify-content:center;" onclick="startFullMockTest('${m.id}')">
+                            Làm Bài Toàn Diện (175 Phút) →
+                        </button>
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
         }
 
         function selectTestBand(band) {
@@ -3248,10 +3336,14 @@
             if (!container) return;
 
             const skillData = IELTS_DATA[state.currentTestSkill] || {};
-            const exams = skillData.exams?.[state.currentTestBand] || [];
+            let exams = skillData.exams?.[state.currentTestBand] || [];
+
+            if (state.currentTopicFilter && state.currentTopicFilter !== 'all') {
+                exams = exams.filter(ex => ex.topic === state.currentTopicFilter);
+            }
 
             if (exams.length === 0) {
-                container.innerHTML = '<div class="card"><p>Chưa có đề thi cho cấp độ này.</p></div>';
+                container.innerHTML = '<div class="card" style="grid-column:1/-1;"><p>Không tìm thấy đề thi phù hợp với bộ lọc chủ đề này.</p></div>';
                 return;
             }
 
@@ -3262,11 +3354,11 @@
                         <div>
                             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
                                 <span class="badge-pill badge-blue">Đề Số ${idx + 1}</span>
-                                <span style="font-size:0.75rem; color:var(--ink-muted);">${ex.topic_vi || ex.topic || 'IELTS'}</span>
+                                <span style="font-size:0.75rem; color:var(--ink-muted); font-weight:600;">${ex.topic_vi || ex.topic || 'IELTS'}</span>
                             </div>
-                            <h4 style="font-size:1.05rem; margin-bottom:0.4rem; color:var(--ink);">${ex.title_vi || ex.title}</h4>
+                            <h4 style="font-size:1.02rem; margin-bottom:0.4rem; color:var(--ink); line-height:1.4;">${ex.title_vi || ex.title}</h4>
                             <div style="font-size:0.8rem; color:var(--ink-muted); margin-bottom:1rem;">
-                                📝 ${ex.questions.length} câu hỏi • ⏱️ 15 phút
+                                📝 ${ex.questions.length} câu hỏi • ⏱️ ${ex.time_minutes || 15} phút • Chuẩn Cambridge
                             </div>
                         </div>
                         <button type="button" class="btn-primary" style="width:100%; justify-content:center;" onclick="startExam('${state.currentTestSkill}', '${state.currentTestBand}', ${idx})">
@@ -3329,9 +3421,40 @@
                 return;
             }
 
-            // Start with Reading/Listening section
-            startExam('reading', '6.0', 0);
-            showToast('Đã bắt đầu bài thi thử toàn diện!');
+            // Start with Listening module of the Full Mock
+            const lModule = mock.listening;
+            state.exam = {
+                id: mock.id,
+                skill: 'listening',
+                band: mock.target_band || '6.5',
+                title: `${mock.title_vi || mock.title} — Phần Nghe`,
+                data: lModule,
+                questions: lModule.questions || [],
+                answers: {},
+                currentQIndex: 0,
+                timeRemaining: (lModule.time || 30) * 60,
+                timeSpent: 0,
+                timerInterval: null,
+                isAudioPlaying: false,
+                isAudioPaused: false,
+                audioSpeed: 1.0,
+                audioInterval: null,
+                audioKeepAliveInterval: null,
+                audioCurrentSeconds: 0,
+                audioTotalSeconds: 120,
+                audioChunks: [],
+                audioCurrentChunkIndex: 0,
+                isFullMock: true,
+                mockData: mock,
+                recordedBlob: null,
+                mediaRecorder: null,
+                recognition: null,
+                isRecording: false
+            };
+
+            routeTo('practice');
+            initPracticeUI();
+            showToast(`Đã bắt đầu ${mock.title_vi || mock.title} (Phần Nghe)!`);
         }
 
         function initPracticeUI() {
