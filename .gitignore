@@ -1,0 +1,12 @@
+# Dependency & System files
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Backups
+*.backup.js
+*.bak
+
+# Temporary / Scratch
+*.log
+.vercel

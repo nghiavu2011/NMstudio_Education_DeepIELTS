@@ -1,0 +1,2212 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepIELTS — N&Mstudio Education | Tổ Hợp Ôn Luyện IELTS Sư Phạm THPT</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --primary-light: rgba(37, 99, 235, 0.08);
+            --success: #10b981;
+            --success-light: rgba(16, 185, 129, 0.1);
+            --warning: #f59e0b;
+            --warning-light: rgba(245, 158, 11, 0.1);
+            --danger: #ef4444;
+            --danger-light: rgba(239, 68, 68, 0.08);
+            --bg-color: #f8fafc;
+            --surface-color: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+            --radius-sm: 0.375rem;
+            --radius-md: 0.75rem;
+            --radius-lg: 1rem;
+            --radius-full: 9999px;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #0f172a;
+            --surface-color: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --card-bg: #1e293b;
+            --border-color: #334155;
+            --primary-light: rgba(59, 130, 246, 0.15);
+            --success-light: rgba(16, 185, 129, 0.15);
+            --warning-light: rgba(245, 158, 11, 0.15);
+            --danger-light: rgba(239, 68, 68, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.65;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 15px;
+        }
+
+        header {
+            background-color: var(--surface-color);
+            border-bottom: 1px solid var(--border-color);
+            padding: 0.85rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow-sm);
+            backdrop-filter: blur(8px);
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            cursor: pointer;
+        }
+
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.02em;
+        }
+
+        .header-controls {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .streak-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            background: var(--warning-light);
+            color: #d97706;
+            padding: 0.3rem 0.75rem;
+            border-radius: var(--radius-full);
+            font-weight: 700;
+            font-size: 0.85rem;
+            border: 1px solid rgba(245, 158, 11, 0.2);
+        }
+
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.55rem 1.1rem;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+        }
+
+        button:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+
+        button.outline {
+            background-color: transparent;
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+        }
+
+        button.outline:hover {
+            background-color: var(--primary-light);
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem 3rem;
+            min-height: calc(100vh - 120px);
+        }
+
+        /* Views */
+        .view { display: none; }
+        .view.active { display: block; animation: fadeIn 0.25s ease-out; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Cards & Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1.35rem;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.25s ease;
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: rgba(37, 99, 235, 0.3);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.85rem;
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 700;
+            background-color: var(--border-color);
+            color: var(--text-muted);
+            letter-spacing: 0.02em;
+        }
+
+        .badge.active { background-color: var(--success-light); color: var(--success); border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        .mode-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .mode-btn {
+            width: 100%;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.65rem 0.9rem;
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            color: var(--text-main);
+            font-size: 0.88rem;
+            transition: all 0.15s ease;
+        }
+
+        .mode-btn:hover {
+            background-color: var(--primary-light);
+            border-color: var(--primary);
+            color: var(--primary);
+            padding-left: 1.1rem;
+        }
+
+        .stats-section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 1.25rem;
+            border-radius: var(--radius-lg);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 1rem;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            margin-top: 1rem;
+        }
+
+        .stat-value { font-size: 1.85rem; font-weight: 800; color: var(--primary); letter-spacing: -0.02em; }
+        .stat-label { font-size: 0.8rem; color: var(--text-muted); font-weight: 500; }
+
+        /* Psychology & Roadmap Widgets */
+        .psycho-banner {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.06), rgba(139, 92, 246, 0.06));
+            border: 1px solid rgba(37, 99, 235, 0.15);
+            border-radius: var(--radius-lg);
+            padding: 1.25rem;
+            margin-top: 1.25rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .roadmap-path {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .band-milestone {
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 1rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .band-milestone:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .band-milestone.current {
+            border-color: var(--primary);
+            background: var(--primary-light);
+        }
+
+        /* Box Breathing Widget */
+        .breathing-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1rem 1.25rem;
+            margin-top: 1rem;
+        }
+
+        .breathing-circle {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            animation: pulseBreath 8s infinite ease-in-out;
+        }
+
+        @keyframes pulseBreath {
+            0%, 100% { transform: scale(1); opacity: 0.8; }
+            25% { transform: scale(1.25); opacity: 1; }
+            50% { transform: scale(1.25); opacity: 1; }
+            75% { transform: scale(1); opacity: 0.8; }
+        }
+
+        /* Flashcard */
+        .fc-container {
+            perspective: 1000px;
+            width: 100%;
+            max-width: 520px;
+            height: 330px;
+            margin: 1.5rem auto;
+        }
+
+        .fc-card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+
+        .fc-card.is-flipped { transform: rotateY(180deg); }
+
+        .fc-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1.75rem;
+            text-align: center;
+            background-color: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .fc-back {
+            transform: rotateY(180deg);
+            border-color: var(--primary);
+        }
+
+        .fc-term { font-size: 1.85rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+        .fc-ipa { color: var(--text-muted); font-style: italic; margin-bottom: 0.75rem; font-size: 0.95rem; }
+        .fc-def { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--primary); }
+        .fc-example { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.75rem; border-top: 1px dashed var(--border-color); padding-top: 0.75rem; font-style: italic; }
+
+        .fc-controls {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .rating-btn { flex: 1; min-width: 80px; padding: 0.65rem 0.5rem; font-size: 0.85rem; }
+        .rating-btn.again { background-color: var(--danger); }
+        .rating-btn.hard { background-color: var(--warning); }
+        .rating-btn.good { background-color: var(--primary); }
+        .rating-btn.easy { background-color: var(--success); }
+
+        /* Exam Mode & Split-Screen Reading */
+        .exam-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: 0.85rem 1.25rem;
+            background: var(--card-bg);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .timer { font-size: 1.25rem; font-weight: 800; font-family: monospace; color: var(--primary); }
+        
+        .exam-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.25rem;
+        }
+
+        .exam-layout.split {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: 768px) {
+            .exam-layout.split { grid-template-columns: 1fr; }
+        }
+
+        .passage-panel {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            max-height: 480px;
+            overflow-y: auto;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+
+        .q-nav {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.25rem;
+        }
+
+        .q-dot {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 600;
+            transition: all 0.15s ease;
+        }
+
+        .q-dot.answered { background-color: var(--primary); color: white; border-color: var(--primary); }
+        .q-dot.active { border-width: 2px; border-color: var(--warning); transform: scale(1.1); box-shadow: var(--shadow-sm); }
+
+        .question-box {
+            background-color: var(--card-bg);
+            padding: 1.35rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 1.25rem;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Band Selector & Diverse Test Cards */
+        .band-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .band-btn {
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 1rem 0.75rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .band-btn:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .band-btn.active {
+            border-color: var(--primary);
+            background-color: var(--primary-light);
+            box-shadow: 0 0 0 2px var(--primary);
+        }
+
+        .band-stars { font-size: 1.25rem; margin-bottom: 0.25rem; }
+        .band-label { font-weight: 800; font-size: 1rem; color: var(--text-main); }
+
+        #fc-topic-bar .outline.active {
+            background-color: var(--primary) !important;
+            color: #ffffff !important;
+            border-color: var(--primary) !important;
+            font-weight: 700;
+        }
+
+        .test-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .test-card:hover {
+            border-color: var(--primary);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+        }
+    </style>
+    <!-- SEO & Social Meta Tags -->
+    <meta name="description" content="DeepIELTS — N&Mstudio Education: Tổ hợp ôn luyện IELTS toàn diện chuẩn Sư phạm DeepTutor từ Band 4.0 đến 7.0+ dành cho học sinh THPT Việt Nam (Lớp 10–12). Chẩn đoán 4 trụ cột nhận thức, luyện đề thực chiến và đồng hành cùng phụ huynh.">
+    <meta name="keywords" content="IELTS THPT, ôn thi IELTS cấp 3, miễn thi tốt nghiệp tiếng Anh, xét tuyển đại học IELTS, DeepTutor, N&Mstudio Education, tự học IELTS, Active Recall, FSRS">
+    <meta name="author" content="N&Mstudio Education">
+    <link rel="icon" type="image/png" href="logo.png">
+    
+    <!-- Open Graph / Facebook / Zalo -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DeepIELTS — N&Mstudio Education | Tổ Hợp Ôn Luyện IELTS Sư Phạm Toàn Diện">
+    <meta property="og:description" content="Chinh phục IELTS từ Band 4.0 đến 7.0+ với phương pháp DeepTutor Sư phạm, Ma trận chẩn đoán 4 trụ cột và Góc Phụ Huynh đồng hành.">
+    <meta property="og:image" content="logo.png">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DeepIELTS — N&Mstudio Education">
+    <meta name="twitter:description" content="Hệ thống tự học IELTS thông minh cho học sinh THPT và báo cáo tiến trình cho phụ huynh.">
+    <meta name="twitter:image" content="logo.png">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalApplication",
+      "name": "DeepIELTS — N&Mstudio Education",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All modern web browsers",
+      "description": "Tổ hợp ôn luyện IELTS toàn diện chuẩn Sư phạm DeepTutor từ Band 4.0 đến 7.0+ cho học sinh THPT Việt Nam.",
+      "author": {
+        "@type": "Organization",
+        "name": "N&Mstudio Education",
+        "telephone": "+98 557 8385"
+      },
+      "educationalLevel": "High School (Grade 10-12)",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "VND"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="header-brand" onclick="navigate('dashboard')" style="display:flex; align-items:center; gap:0.65rem; cursor:pointer;">
+            <img src="logo.png" alt="N&Mstudio Education" style="height:38px; width:38px; border-radius:8px; object-fit:cover; box-shadow:var(--shadow-sm);">
+            <div>
+                <div class="header-title" style="font-size:1.15rem; font-weight:800; line-height:1.2;">N&Mstudio Education</div>
+                <div style="font-size:0.75rem; color:var(--text-muted); font-weight:600;">DeepIELTS • Sư Phạm 4.0 – 7.0+</div>
+            </div>
+        </div>
+        <div class="header-controls">
+            <button class="outline" style="padding:0.35rem 0.75rem; font-size:0.82rem; border-color:var(--primary); color:var(--primary); font-weight:700;" onclick="navigate('parent')" title="Dành riêng cho phụ huynh theo dõi tiến trình của con">
+                👨‍👩‍👧 Góc Phụ Huynh
+            </button>
+            <div class="streak-badge" title="Chuỗi ngày kiên trì rèn luyện">🔥 <span id="streak-days">1</span> Ngày</div>
+            <button class="outline" style="padding:0.35rem 0.65rem; font-size:0.82rem;" onclick="toggleTheme()">🌓</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Dashboard View -->
+        <div id="view-dashboard" class="view active">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
+                <div>
+                    <h2 style="font-size:1.6rem; font-weight:800; letter-spacing:-0.02em;">Tổ Hợp Ôn Luyện IELTS Sư Phạm</h2>
+                    <p style="color:var(--text-muted); font-size:0.9rem;">Dẫn dắt tư duy • Chẩn đoán lỗ hổng • Từng bước khai phóng năng lực</p>
+                </div>
+            </div>
+
+            <!-- Psychological Safety Banner -->
+            <div class="psycho-banner">
+                <div style="font-size:2rem; line-height:1;">🌿</div>
+                <div>
+                    <div style="font-weight:700; color:var(--primary); font-size:0.95rem;">Tâm Lý Học Học Tập: Tôn Trọng Nhịp Độ Cá Nhân</div>
+                    <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;">
+                        Mỗi lỗi sai hôm nay là một điểm chạm nhận thức để bứt phá ngày mai. Không áp lực điểm số, hãy cùng DeepTutor bảo vệ sự tò mò và vững bước trên từng cấp độ!
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stats-section">
+                <div>
+                    <div class="stat-value" id="stat-exercises">0</div>
+                    <div class="stat-label">Bài tập hoàn thành</div>
+                </div>
+                <div>
+                    <div class="stat-value" id="stat-score">-</div>
+                    <div class="stat-label">Điểm TB / Avg Score</div>
+                </div>
+                <div>
+                    <div class="stat-value" id="stat-flashcards">0</div>
+                    <div class="stat-label">Thẻ ghi nhớ tích lũy</div>
+                </div>
+                <div>
+                    <div class="stat-value" id="stat-tier" style="color:var(--warning); font-size:1.4rem; padding-top:0.35rem;">Tier 1</div>
+                    <div class="stat-label">Cấp độ hiện tại</div>
+                </div>
+            </div>
+
+            <!-- Interactive Band Pathway -->
+            <div style="margin-top:1.5rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+                    <h3 style="font-size:1.05rem; font-weight:700;">🗺️ La Bàn Bậc Thang Cấp Độ IELTS (Band Pathway)</h3>
+                    <span style="font-size:0.8rem; color:var(--text-muted);">Bấm để xem trọng tâm từng band</span>
+                </div>
+                <div class="roadmap-path">
+                    <div class="band-milestone" onclick="showBandInfo('4.0')">
+                        <div style="color:var(--warning); font-size:1.1rem; margin-bottom:0.25rem;">🌱</div>
+                        <div style="font-weight:700; font-size:0.9rem;">Band 4.0</div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">Khởi động nền tảng</div>
+                    </div>
+                    <div class="band-milestone" onclick="showBandInfo('5.0')">
+                        <div style="color:var(--warning); font-size:1.1rem; margin-bottom:0.25rem;">⭐</div>
+                        <div style="font-weight:700; font-size:0.9rem;">Band 5.0</div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">Phản xạ nhận diện</div>
+                    </div>
+                    <div class="band-milestone" onclick="showBandInfo('5.5')">
+                        <div style="color:var(--warning); font-size:1.1rem; margin-bottom:0.25rem;">⭐⭐</div>
+                        <div style="font-weight:700; font-size:0.9rem;">Band 5.5</div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">Loại trừ bẫy cơ bản</div>
+                    </div>
+                    <div class="band-milestone" onclick="showBandInfo('6.0')">
+                        <div style="color:var(--warning); font-size:1.1rem; margin-bottom:0.25rem;">⭐⭐⭐</div>
+                        <div style="font-weight:700; font-size:0.9rem;">Band 6.0</div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">Xử lý Paraphrase</div>
+                    </div>
+                    <div class="band-milestone" onclick="showBandInfo('6.5')">
+                        <div style="color:var(--warning); font-size:1.1rem; margin-bottom:0.25rem;">⭐⭐⭐⭐</div>
+                        <div style="font-weight:700; font-size:0.9rem;">Band 6.5</div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">Tư duy PEEL / PPF</div>
+                    </div>
+                    <div class="band-milestone" onclick="showBandInfo('7.0')">
+                        <div style="color:var(--warning); font-size:1.1rem; margin-bottom:0.25rem;">⭐⭐⭐⭐⭐</div>
+                        <div style="font-weight:700; font-size:0.9rem;">Band 7.0+</div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">Làm chủ học thuật</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box Breathing Widget -->
+            <div class="breathing-box">
+                <div style="display:flex; align-items:center; gap:1rem;">
+                    <div class="breathing-circle">🧘</div>
+                    <div>
+                        <div style="font-weight:700; font-size:0.95rem;">Góc Bình Tâm Phòng Thi (Box Breathing)</div>
+                        <div style="font-size:0.82rem; color:var(--text-muted);">
+                            Hít 4s — Giữ 4s — Thở 4s — Nghỉ 4s. Giảm tải áp lực cortisol, đưa não bộ về trạng thái tỉnh thức tối ưu.
+                        </div>
+                    </div>
+                </div>
+                <button class="outline" style="font-size:0.8rem; padding:0.4rem 0.8rem;" onclick="startBreathingExercise()">Bắt đầu</button>
+            </div>
+
+            <div class="grid">
+                <!-- Listening Card -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">🎧 Listening (Nghe)</span>
+                        <span class="badge active">Active</span>
+                    </div>
+                    <div class="mode-list">
+                        <button class="mode-btn" onclick="navigate('review', {skill: 'listening'})">
+                            <span>📝 Ôn Luyện Bài (Review)</span>
+                            <span>→</span>
+                        </button>
+                        <button class="mode-btn" onclick="navigate('flashcard', {skill: 'listening'})">
+                            <span>🃏 Flashcard (Active Recall)</span>
+                            <span>→</span>
+                        </button>
+                        <button class="mode-btn" onclick="navigate('exam-select', {skill: 'listening'})">
+                            <span>🎯 Luyện Đề (4.0 - 7.0+)</span>
+                            <span>→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Reading Card -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">📖 Reading (Đọc)</span>
+                        <span class="badge active">Active</span>
+                    </div>
+                    <div class="mode-list">
+                        <button class="mode-btn" onclick="navigate('review', {skill: 'reading'})">
+                            <span>📝 Ôn Luyện Bài (Review)</span>
+                            <span>→</span>
+                        </button>
+                        <button class="mode-btn" onclick="navigate('flashcard', {skill: 'reading'})">
+                            <span>🃏 Flashcard (Vocab & Strategy)</span>
+                            <span>→</span>
+                        </button>
+                        <button class="mode-btn" onclick="navigate('exam-select', {skill: 'reading'})">
+                            <span>🎯 Luyện Đề (4.0 - 7.0+)</span>
+                            <span>→</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Writing Card -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">✍️ Writing (Viết)</span>
+                        <span class="badge active">Active</span>
+                    </div>
+                    <div class="mode-list">
+                        <button class="mode-btn" onclick="navigate('review', {skill: 'writing'})">
+                            <span>📝 Ôn Luyện Bài (Review)</span>
+                            <span>→</span>
+                        </button>
+                        <button class="mode-btn" onclick="navigate('flashcard', {skill: 'writing'})">
+                            <span>🃏 Flashcard (Collocations & Connectors)</span>
+                            <span>→</span>
+                        </button>
+                        <button class="mode-btn" onclick="navigate('exam-select', {skill: 'writing'})">
+                            <span>🎯 Luyện Đề (4.0 - 7.0+)</span>
+                            <span>→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Speaking Card -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">🗣️ Speaking (Nói)</span>
+                        <span class="badge active">Active</span>
+                    </div>
+                    <div class="mode-list">
+                        <button class="mode-btn" onclick="navigate('review', {skill: 'speaking'})">
+                            <span>📝 Ôn Luyện Bài (Review)</span>
+                            <span>→</span>
+                        </button>
+                        <button class="mode-btn" onclick="navigate('flashcard', {skill: 'speaking'})">
+                            <span>🃏 Flashcard (Idioms & Fluency)</span>
+                            <span>→</span>
+                        </button>
+                        <button class="mode-btn" onclick="navigate('exam-select', {skill: 'speaking'})">
+                            <span>🎯 Luyện Đề (4.0 - 7.0+)</span>
+                            <span>→</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review Mode View -->
+
+        <!-- Parent Portal View (Góc Phụ Huynh Đồng Hành) -->
+        <div id="view-parent" class="view">
+            <div style="text-align:center; margin-bottom:1.5rem;">
+                <span class="badge active" style="font-size:0.85rem; padding:0.35rem 0.9rem;">👨‍👩‍👧 DÀNH CHO PHỤ HUYNH HỌC SINH</span>
+                <h2 style="margin-top:0.5rem; font-size:1.6rem; font-weight:800;">Báo Cáo Tiến Trình & Đồng Hành Cùng Con</h2>
+                <p style="color:var(--text-muted); font-size:0.9rem; max-width:680px; margin:0.35rem auto 0;">
+                    Nền tảng giúp cha mẹ thấu hiểu năng lực thực tế, theo dõi chuyên cần và cùng con chuẩn bị lộ trình miễn thi tốt nghiệp THPT hoặc xét tuyển Đại học Top đầu mà không tạo áp lực tâm lý độc hại.
+                </p>
+            </div>
+
+            <!-- Parent Overview Stats -->
+            <div class="stats-section" style="margin-bottom:1.5rem;">
+                <div>
+                    <div class="stat-value" id="parent-streak">1</div>
+                    <div class="stat-label">Ngày kiên trì liên tục 🔥</div>
+                </div>
+                <div>
+                    <div class="stat-value" id="parent-exercises">0</div>
+                    <div class="stat-label">Bài tập & Đề thi đã làm</div>
+                </div>
+                <div>
+                    <div class="stat-value" id="parent-flashcards">0</div>
+                    <div class="stat-label">Thẻ từ vựng đã nhớ</div>
+                </div>
+                <div>
+                    <div class="stat-value" id="parent-score">-</div>
+                    <div class="stat-label">Điểm TB / Average Score</div>
+                </div>
+            </div>
+
+            <!-- Parent Educational Guide & Psychology -->
+            <div class="grid">
+                <div class="card">
+                    <h3 style="color:var(--primary); font-size:1.1rem; margin-bottom:0.75rem;">🧭 Định Hướng Theo Từng Lớp Học (10–12)</h3>
+                    <ul style="padding-left:1.25rem; font-size:0.9rem; color:var(--text-muted); display:flex; flex-direction:column; gap:0.6rem;">
+                        <li><b>Lớp 10 (Giai đoạn Nền tảng):</b> Xây gốc từ vựng, ngữ âm và thói quen học 15 phút mỗi ngày qua Flashcard. Chưa cần vội vã luyện đề khó.</li>
+                        <li><b>Lớp 11 (Giai đoạn Tăng tốc):</b> Mục tiêu đạt <b>Band 5.5 - 6.5</b> để chuẩn bị hồ sơ xét tuyển sớm và miễn thi tốt nghiệp THPT môn Tiếng Anh.</li>
+                        <li><b>Lớp 12 (Giai đoạn Về đích):</b> Bứt phá lên <b>Band 6.5 - 7.5+</b> để mở rộng cánh cửa vào các trường Đại học Top đầu (FTU, NEU, Bách Khoa, RMIT, Du học).</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 style="color:var(--success); font-size:1.1rem; margin-bottom:0.75rem;">🌿 3 Lời Khuyên Tâm Lý Vàng Cho Cha Mẹ</h3>
+                    <ul style="padding-left:1.25rem; font-size:0.9rem; color:var(--text-muted); display:flex; flex-direction:column; gap:0.6rem;">
+                        <li><b>1. Khen ngợi sự kiên trì, không khen điểm số:</b> "Mẹ thấy con duy trì chuỗi học 7 ngày rất nỗ lực" giá trị gấp 10 lần câu "sao câu này con làm sai?".</li>
+                        <li><b>2. Tôn trọng nhịp độ tự nhiên:</b> Mỗi lỗi sai trong DeepTutor là cơ hội nhận thức, không phải thất bại. Hãy cho con thời gian tiêu hóa kiến thức.</li>
+                        <li><b>3. Giữ không gian yên tĩnh và giảm căng thẳng:</b> Khuyến khích con dùng tính năng <i>Góc bình tâm (Box Breathing)</i> mỗi khi thấy mệt mỏi.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Action buttons for Parents -->
+            <div class="card" style="margin-top:1.5rem; text-align:center; padding:1.75rem;">
+                <h3 style="font-size:1.15rem; margin-bottom:0.5rem;">📲 Báo Cáo Nhanh & Kết Nối Chuyên Gia</h3>
+                <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1.25rem;">
+                    Xuất bản báo cáo tóm tắt để lưu vào Zalo hoặc trao đổi trực tiếp với ban cố vấn giáo dục N&Mstudio.
+                </p>
+                <div style="display:flex; justify-content:center; gap:0.75rem; flex-wrap:wrap;">
+                    <button onclick="copyParentReportZalo()">📋 Sao Chép Báo Cáo Học Tập Gửi Zalo</button>
+                    <a href="https://zalo.me/0985578385" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
+                        <button class="outline" style="border-color:var(--primary); color:var(--primary);">
+                            📞 Liên hệ Cố vấn Học thuật: +98 557 8385 (Zalo)
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div style="text-align:center; margin-top:1.5rem;">
+                <button class="outline" onclick="navigate('dashboard')">← Quay về Trang Chủ / Back to Dashboard</button>
+            </div>
+        </div>
+
+        <div id="view-review" class="view">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <h2 id="review-header-title">📝 Ôn Luyện Bài / Review Mode</h2>
+                <div id="review-skill-selector" style="display:flex; gap:0.5rem;">
+                    <button class="outline" onclick="changeSkill('listening', 'review')">🎧 Nghe</button>
+                    <button class="outline" onclick="changeSkill('reading', 'review')">📖 Đọc</button>
+                    <button class="outline" onclick="changeSkill('writing', 'review')">✍️ Viết</button>
+                    <button class="outline" onclick="changeSkill('speaking', 'review')">🗣️ Nói</button>
+                </div>
+            </div>
+            <div id="review-content" class="grid" style="margin-top:1rem;">
+                <p>Nội dung bài học sẽ được cập nhật...</p>
+            </div>
+            <button class="outline" style="margin-top: 1rem;" onclick="navigate('dashboard')">← Quay lại / Back</button>
+        </div>
+
+        <!-- Flashcard View -->
+        <div id="view-flashcard" class="view">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <h2 id="fc-header-title">🃏 Flashcard (Active Recall)</h2>
+                <div style="display:flex; gap:0.5rem;">
+                    <button class="outline" onclick="changeSkill('listening', 'flashcard')">🎧 Nghe</button>
+                    <button class="outline" onclick="changeSkill('reading', 'flashcard')">📖 Đọc</button>
+                    <button class="outline" onclick="changeSkill('writing', 'flashcard')">✍️ Viết</button>
+                    <button class="outline" onclick="changeSkill('speaking', 'flashcard')">🗣️ Nói</button>
+                </div>
+            </div>
+            <p style="text-align: center; color: var(--text-muted); margin-top:0.5rem;" id="fc-status">Loading cards...</p>
+            
+            <!-- Topic Filter for Flashcards -->
+            <div id="fc-topic-bar" style="display:flex; gap:0.4rem; flex-wrap:wrap; justify-content:center; margin: 0.75rem 0;">
+                <button class="outline" style="padding:0.25rem 0.6rem; font-size:0.8rem;" onclick="filterFlashcards('all')">✨ Tất cả</button>
+                <button class="outline" style="padding:0.25rem 0.6rem; font-size:0.8rem;" onclick="filterFlashcards('education')">🎓 Giáo dục</button>
+                <button class="outline" style="padding:0.25rem 0.6rem; font-size:0.8rem;" onclick="filterFlashcards('environment')">🌿 Môi trường</button>
+                <button class="outline" style="padding:0.25rem 0.6rem; font-size:0.8rem;" onclick="filterFlashcards('technology')">💻 Công nghệ</button>
+                <button class="outline" style="padding:0.25rem 0.6rem; font-size:0.8rem;" onclick="filterFlashcards('health')">🏥 Sức khỏe</button>
+                <button class="outline" style="padding:0.25rem 0.6rem; font-size:0.8rem;" onclick="filterFlashcards('urban')">🏙️ Đô thị</button>
+                <button class="outline" style="padding:0.25rem 0.6rem; font-size:0.8rem;" onclick="filterFlashcards('society')">🏛️ Xã hội</button>
+            </div>
+            
+            <div class="fc-container" onclick="flipCard()">
+                <div class="fc-card" id="fc-card-elem">
+                    <div class="fc-face fc-front">
+                        <div class="fc-term" id="fc-front-term">Term</div>
+                        <button class="outline" style="margin-top: 0.5rem; padding: 0.25rem 0.75rem;" onclick="event.stopPropagation(); playTTS()">🔊 Phát âm / Pronounce</button>
+                        <div style="color: var(--text-muted); font-size: 0.875rem; margin-top: 0.5rem;">Chạm để lật / Tap to flip</div>
+                    </div>
+                    <div class="fc-face fc-back">
+                        <div class="fc-term" id="fc-back-term">Term</div>
+                        <div class="fc-ipa" id="fc-back-ipa">/ipa/</div>
+                        <div class="fc-def" id="fc-back-def">Definition</div>
+                        <div class="fc-example" id="fc-back-ex">Example sentence</div>
+                        <button class="outline" style="margin-top: 0.5rem; padding: 0.25rem 0.75rem;" onclick="event.stopPropagation(); playTTS()">🔊 Nghe lại</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fc-controls" id="fc-controls" style="display: none;">
+                <button class="rating-btn again" onclick="rateCard(1)">😟 Lại<br>(1m)</button>
+                <button class="rating-btn hard" onclick="rateCard(2)">🤔 Khó<br>(10m)</button>
+                <button class="rating-btn good" onclick="rateCard(3)">😊 Tốt<br>(1d)</button>
+                <button class="rating-btn easy" onclick="rateCard(4)">🤩 Dễ<br>(3d)</button>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <button class="outline" onclick="navigate('dashboard')">← Kết thúc / Finish</button>
+            </div>
+        </div>
+
+        <!-- Exam Selection View -->
+        <div id="view-exam-select" class="view">
+            <h2 id="exam-select-title">🎯 Luyện Đề - Chọn Band Điểm / Select Band</h2>
+            <div style="margin: 1rem 0; display:flex; gap:0.5rem;">
+                <button class="outline" onclick="changeSkill('listening', 'exam-select')">🎧 Nghe</button>
+                <button class="outline" onclick="changeSkill('reading', 'exam-select')">📖 Đọc</button>
+                <button class="outline" onclick="changeSkill('writing', 'exam-select')">✍️ Viết</button>
+                <button class="outline" onclick="changeSkill('speaking', 'exam-select')">🗣️ Nói</button>
+            </div>
+            <div class="band-selector" id="band-selector-container">
+                <div class="band-btn" id="band-btn-4.0" onclick="selectBandForExams('4.0')">
+                    <div class="band-stars">🌱</div>
+                    <div class="band-label">Band 4.0</div>
+                    <div style="font-size:0.75rem; color:var(--text-muted)">Foundation & Basics</div>
+                </div>
+                <div class="band-btn" id="band-btn-5.0" onclick="selectBandForExams('5.0')">
+                    <div class="band-stars">⭐</div>
+                    <div class="band-label">Band 5.0</div>
+                    <div style="font-size:0.75rem; color:var(--text-muted)">Basic Foundation</div>
+                </div>
+                <div class="band-btn" id="band-btn-5.5" onclick="selectBandForExams('5.5')">
+                    <div class="band-stars">⭐⭐</div>
+                    <div class="band-label">Band 5.5</div>
+                    <div style="font-size:0.75rem; color:var(--text-muted)">Pre-Intermediate</div>
+                </div>
+                <div class="band-btn" id="band-btn-6.0" onclick="selectBandForExams('6.0')">
+                    <div class="band-stars">⭐⭐⭐</div>
+                    <div class="band-label">Band 6.0</div>
+                    <div style="font-size:0.75rem; color:var(--text-muted)">Competent</div>
+                </div>
+                <div class="band-btn" id="band-btn-6.5" onclick="selectBandForExams('6.5')">
+                    <div class="band-stars">⭐⭐⭐⭐</div>
+                    <div class="band-label">Band 6.5</div>
+                    <div style="font-size:0.75rem; color:var(--text-muted)">Good User</div>
+                </div>
+                <div class="band-btn" id="band-btn-7.0" onclick="selectBandForExams('7.0')">
+                    <div class="band-stars">⭐⭐⭐⭐⭐</div>
+                    <div class="band-label">Band 7.0+</div>
+                    <div style="font-size:0.75rem; color:var(--text-muted)">Very Good / Expert</div>
+                </div>
+            </div>
+
+            <!-- Diverse Tests Container for Selected Band -->
+            <div id="band-tests-container" style="margin-top: 1.5rem;"></div>
+
+            <button class="outline" style="margin-top: 1.5rem;" onclick="navigate('dashboard')">← Quay lại / Back</button>
+        </div>
+
+        <!-- Exam Interface -->
+        <div id="view-exam" class="view">
+            <div class="exam-header">
+                <div>
+                    <h3 id="exam-title" style="font-size:1.15rem; font-weight:700;">Exam</h3>
+                    <div id="exam-audio-container" style="margin-top: 5px;"></div>
+                </div>
+                <div style="text-align:right;">
+                    <div class="timer" id="exam-timer">15:00</div>
+                    <div style="font-size:0.75rem; color:var(--text-muted);">Thời gian còn lại</div>
+                </div>
+            </div>
+
+            <!-- Exam Split Layout (Passage Left, Questions Right) -->
+            <div class="exam-layout" id="exam-layout-container">
+                <!-- Reading Passage Container -->
+                <div id="exam-passage-box" class="passage-panel" style="display:none;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem; position:sticky; top:0; background:var(--card-bg); z-index:10;">
+                        <span style="font-weight:700; color:var(--primary); font-size:0.9rem;">📖 Bài Đọc Học Thuật (Reading Passage)</span>
+                        <div style="display:flex; gap:0.25rem;">
+                            <button class="outline" style="padding:0.15rem 0.4rem; font-size:0.75rem;" onclick="changePassageFontSize(-1)">A-</button>
+                            <button class="outline" style="padding:0.15rem 0.4rem; font-size:0.75rem;" onclick="changePassageFontSize(1)">A+</button>
+                        </div>
+                    </div>
+                    <div id="exam-passage-text" style="line-height:1.75;"></div>
+                </div>
+
+                <!-- Main Questions Panel -->
+                <div id="exam-main-panel">
+                    <div class="q-nav" id="exam-q-nav">
+                        <!-- Navigation dots injected here -->
+                    </div>
+
+                    <div id="exam-question-container">
+                        <!-- Question injected here -->
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; margin-top: 1.5rem; gap:0.5rem; flex-wrap:wrap;">
+                        <button class="outline" onclick="prevQuestion()">← Câu trước</button>
+                        <button id="btn-submit-exam" class="outline" style="border-color:var(--success); color:var(--success); font-weight:700;" onclick="submitExam()">Nộp bài (Submit) ↗</button>
+                        <button class="outline" onclick="nextQuestion()">Câu tiếp →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Analytics View -->
+        <div id="view-analytics" class="view">
+            <div style="text-align:center; margin-bottom:1.5rem;">
+                <span class="badge active" style="font-size:0.85rem; padding:0.3rem 0.8rem;">🎓 BÁO CÁO CHẨN ĐOÁN SƯ PHẠM DEEPTUTOR</span>
+                <h2 style="margin-top:0.5rem;">📊 Phân Tích Lỗ Hổng & Lộ Trình Khai Phóng</h2>
+            </div>
+
+            <div class="analytics-card">
+                <div style="display:flex; justify-content:center; align-items:center; gap:2rem; flex-wrap:wrap; margin-bottom:1.5rem;">
+                    <div class="score-circle">
+                        <div class="val" id="res-score">0/0</div>
+                        <div class="lbl">Điểm số</div>
+                    </div>
+                    <div>
+                        <div style="font-size:1.25rem; font-weight:bold; color:var(--primary);" id="res-band">Band 0.0</div>
+                        <div style="color:var(--text-muted); font-size:0.9rem;">Thời gian làm bài: <span id="res-time">00:00</span></div>
+                        <div id="res-tier-badge" style="margin-top:0.5rem;"></div>
+                    </div>
+                </div>
+
+                <!-- DeepTutor 4-Pillar Cognitive Gap Matrix -->
+                <div style="background:var(--bg-color); border:1px solid var(--border-color); border-radius:0.75rem; padding:1.25rem; margin-bottom:1.5rem;">
+                    <h3 style="font-size:1.1rem; color:var(--primary); margin-bottom:0.75rem;">🔬 Ma Trận 4 Trụ Cột Chẩn Đoán Lỗ Hổng (Cognitive Gap Matrix)</h3>
+                    <div id="res-matrix-bars" style="display:flex; flex-direction:column; gap:0.75rem;">
+                        <!-- Injected dynamically -->
+                    </div>
+                </div>
+
+                <!-- DeepTutor Mastery Tier -->
+                <div style="background:var(--bg-color); border:1px solid var(--border-color); border-radius:0.75rem; padding:1.25rem; margin-bottom:1.5rem;">
+                    <h3 style="font-size:1.1rem; color:var(--warning); margin-bottom:0.5rem;">🎖️ Bậc Thang Cấp Độ Khám Phá & Khai Phóng</h3>
+                    <div id="res-tier-stepper" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:0.5rem; margin-top:0.75rem;">
+                        <!-- Injected dynamically -->
+                    </div>
+                </div>
+                
+                <div class="grid">
+                    <div class="feedback-section">
+                        <h3 style="color: var(--danger);">🔴 Lỗ Hổng Cần Khắc Phục (Core Gaps)</h3>
+                        <ul id="res-weak" style="padding-left:1.5rem; color:var(--text-muted); margin-top:0.5rem;"></ul>
+                    </div>
+                    <div class="feedback-section">
+                        <h3 style="color: var(--success);">🟢 Năng Lực Đã Vững Vàng (Mastered)</h3>
+                        <ul id="res-strong" style="padding-left:1.5rem; color:var(--text-muted); margin-top:0.5rem;"></ul>
+                    </div>
+                </div>
+                
+                <div class="feedback-section" style="margin-top:1.5rem;">
+                    <h3 style="color: var(--primary);">📋 Đơn Thuốc Sư Phạm: 3 Bước Bứt Phá Lên Band Cao Hơn</h3>
+                    <ul class="roadmap" id="res-roadmap" style="margin-top:0.5rem;"></ul>
+                    <div id="res-remediation-actions" style="margin-top:1rem; display:flex; gap:0.75rem; flex-wrap:wrap;"></div>
+                </div>
+            </div>
+
+            <h3 style="margin-top:2rem;">💡 Giải Phẫu Từng Câu Hỏi: Bẫy Nhiễu & Gợi Mở Socratic</h3>
+            <div id="res-details" style="margin-top:1rem;"></div>
+
+            <div style="text-align: center; margin-top: 2rem;">
+                <button onclick="navigate('dashboard')">🏠 Về trang chủ / Back to Dashboard</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div style="display:flex; justify-content:center; align-items:center; gap:0.5rem; margin-bottom:0.4rem;">
+            <img src="logo.png" alt="N&Mstudio Education" style="height:24px; width:24px; border-radius:4px; object-fit:cover;">
+            <b>N&Mstudio Education — DeepIELTS (Version 4.0)</b>
+        </div>
+        © 2026 N&Mstudio. Bản quyền thuộc về N&Mstudio Education.<br>
+        <small>Hotline & Hợp tác học thuật: <a href="https://zalo.me/0985578385" target="_blank" rel="noopener noreferrer" style="color:var(--primary); font-weight:700; text-decoration:none;">+98 557 8385 (Zalo)</a> • Thiết kế tối ưu cho học sinh THPT Lớp 10–12 & Phụ huynh.</small>
+    </footer>
+
+    <!-- Load external data file -->
+    <script src="ielts_data.js"></script>
+
+    <script>
+        // ==========================================
+        // ALIBABA OCR ROBUSTNESS & SECURITY HELPERS
+        // ==========================================
+        function escapeHtml(str) {
+            if (str === null || str === undefined) return '';
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        function getStorageJSON(key, defaultVal) {
+            try {
+                const val = localStorage.getItem(key);
+                return val ? JSON.parse(val) : defaultVal;
+            } catch (e) {
+                console.warn('LocalStorage error for key ' + key + ':', e);
+                return defaultVal;
+            }
+        }
+
+        // State Management
+        const state = {
+            currentView: 'dashboard',
+            currentSkill: 'listening',
+            darkMode: localStorage.getItem('darkMode') === 'true',
+            progress: getStorageJSON('progress', { exercises: 0, totalScore: 0, examsTaken: 0, flashcards: 0 }),
+            flashcardSRS: getStorageJSON('flashcardSRS', {}),
+            examHistory: getStorageJSON('examHistory', []),
+            
+            // Exam temp state
+            exam: {
+                skill: 'listening',
+                band: '',
+                questions: [],
+                answers: {},
+                currentQIndex: 0,
+                timeRemaining: 900, // 15 mins default
+                timerInterval: null,
+                timeSpent: 0
+            },
+            
+            // Flashcard temp state
+            fc: {
+                queue: [],
+                currentIndex: 0,
+                sessionCount: 0
+            }
+        };
+
+        // Initialization
+        function init() {
+            if (state.darkMode) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+            updateDashboardStats();
+            navigate('dashboard');
+
+            // Keyboard Shortcuts for Flashcards & Exam
+            window.addEventListener('keydown', (e) => {
+                // Flashcard view shortcuts
+                if (state.currentView === 'flashcard') {
+                    if (e.code === 'Space') {
+                        e.preventDefault();
+                        flipCard();
+                    } else if (['1', '2', '3', '4'].includes(e.key)) {
+                        rateCard(parseInt(e.key));
+                    }
+                }
+                // Exam view shortcuts
+                else if (state.currentView === 'exam') {
+                    if (e.key === 'ArrowLeft' && e.altKey) {
+                        prevQuestion();
+                    } else if (e.key === 'ArrowRight' && e.altKey) {
+                        nextQuestion();
+                    }
+                }
+            });
+        }
+
+        // Theme Toggle
+        function toggleTheme() {
+            state.darkMode = !state.darkMode;
+            if (state.darkMode) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+            }
+            localStorage.setItem('darkMode', state.darkMode);
+        }
+
+        // Skill Switcher
+        function changeSkill(skill, targetView) {
+            state.currentSkill = skill;
+            navigate(targetView, { skill: skill });
+        }
+
+        // Navigation Router with Alibaba OCR Resource Management
+        function navigate(view, params = {}) {
+            // Resource cleanup when navigating away from exam
+            if (state.currentView === 'exam' && view !== 'exam') {
+                clearInterval(state.exam.timerInterval);
+                const audio = document.getElementById('exam-audio-elem');
+                if (audio) { audio.pause(); }
+            }
+
+            if (params.skill) {
+                state.currentSkill = params.skill;
+            }
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            const viewElem = document.getElementById(`view-${view}`);
+            if (viewElem) viewElem.classList.add('active');
+            state.currentView = view;
+            window.scrollTo(0, 0);
+
+            if (view === 'dashboard') updateDashboardStats();
+            if (view === 'parent') updateParentPortalStats();
+            if (view === 'flashcard') initFlashcards('all');
+            if (view === 'exam') renderExamInterface();
+            if (view === 'review') renderReviewLessons();
+            if (view === 'exam-select') {
+                const names = { listening: '🎧 Nghe (Listening)', reading: '📖 Đọc (Reading)', writing: '✍️ Viết (Writing)', speaking: '🗣️ Nói (Speaking)' };
+                document.getElementById('exam-select-title').innerText = `🎯 Luyện Đề - ${names[state.currentSkill] || state.currentSkill}`;
+                selectBandForExams(state.selectedBand || '5.0');
+            }
+        }
+
+        function updateDashboardStats() {
+            const ex = state.progress.exercises || 0;
+            document.getElementById('stat-exercises').innerText = ex;
+            const avg = state.progress.examsTaken > 0 ? (state.progress.totalScore / state.progress.examsTaken).toFixed(1) : '-';
+            document.getElementById('stat-score').innerText = avg;
+            document.getElementById('stat-flashcards').innerText = state.progress.flashcards || 0;
+            
+            // Calculate Current Tier
+            let tierText = 'Tier 1';
+            if (ex >= 40 || (avg !== '-' && parseFloat(avg) >= 8.0)) tierText = 'Tier 4 👑';
+            else if (ex >= 25 || (avg !== '-' && parseFloat(avg) >= 6.5)) tierText = 'Tier 3 🥇';
+            else if (ex >= 10 || (avg !== '-' && parseFloat(avg) >= 5.5)) tierText = 'Tier 2 🥈';
+            const tierElem = document.getElementById('stat-tier');
+            if (tierElem) tierElem.innerText = tierText;
+
+            // Streak tracking
+            const lastActive = parseInt(localStorage.getItem('lastActiveDate') || '0');
+            const today = new Date().setHours(0,0,0,0);
+            let streak = parseInt(localStorage.getItem('streakDays') || '1');
+            if (lastActive) {
+                const diffDays = Math.round((today - lastActive) / (1000 * 60 * 60 * 24));
+                if (diffDays === 1) streak++;
+                else if (diffDays > 1) streak = 1;
+            }
+            localStorage.setItem('lastActiveDate', today.toString());
+            localStorage.setItem('streakDays', streak.toString());
+            const streakElem = document.getElementById('streak-days');
+            if (streakElem) streakElem.innerText = streak;
+        }
+
+        // ==========================================
+        // REVIEW MODE (PPP Framework)
+        // ==========================================
+        function renderReviewLessons() {
+            const container = document.getElementById('review-content');
+            const skillData = IELTS_DATA[state.currentSkill] || {};
+            const allLessons = skillData.lessons || [];
+            
+            const titles = { listening: '🎧 Nghe (Listening)', reading: '📖 Đọc (Reading)', writing: '✍️ Viết (Writing)', speaking: '🗣️ Nói (Speaking)' };
+            document.getElementById('review-header-title').innerText = `📝 Ôn Luyện Bài - ${titles[state.currentSkill] || state.currentSkill}`;
+
+            if (!allLessons.length) {
+                container.innerHTML = `<div class="card"><p>Chưa có bài học cho kỹ năng này.</p></div>`;
+                return;
+            }
+            let html = '';
+            allLessons.forEach(lesson => {
+                const done = state.progress['lesson_' + lesson.id];
+                html += `<div class="card" style="cursor:pointer;" onclick="showLesson('${lesson.id}')">
+                    <div class="card-header">
+                        <span class="card-title">${lesson.title_vi}</span>
+                        <span class="badge ${done ? 'active' : ''}">${done ? '✅ Đã học' : lesson.band_target}</span>
+                    </div>
+                    <p style="color:var(--text-muted); font-size:0.9rem;">${lesson.title_en}</p>
+                </div>`;
+            });
+            container.innerHTML = html;
+        }
+
+        function showLesson(id) {
+            const skillData = IELTS_DATA[state.currentSkill] || {};
+            const lesson = (skillData.lessons || []).find(l => l.id === id);
+            if (!lesson) return;
+            const container = document.getElementById('review-content');
+            const p = lesson.presentation || {};
+            const pr = lesson.practice || {};
+            const we = pr.workedExample || {};
+            container.innerHTML = `
+                <div class="card">
+                    <h3>${lesson.title_vi}</h3>
+                    <p style="color:var(--text-muted);">${lesson.title_en}</p>
+                    <div style="margin:1rem 0; padding:0.75rem; background:var(--bg-color); border-radius:0.5rem;">
+                        <strong>🎯 Khung Mục Tiêu Sư Phạm (K-A-B):</strong><br>
+                        <b>K (Kiến thức):</b> ${lesson.objectives?.knowledge || ''}<br>
+                        <b>A (Kỹ năng):</b> ${lesson.objectives?.ability || ''}<br>
+                        <b>B (Thái độ):</b> ${lesson.objectives?.behavior || ''}
+                    </div>
+
+                    <h4 style="color:var(--primary); margin-top:1.5rem;">📖 Chặng 1: Presentation (Trình bày & Bản chất)</h4>
+                    <p><strong>Khái niệm & Quy tắc:</strong> ${p.concepts || ''}</p>
+                    <p><strong>Quy tắc ghi nhớ:</strong> ${p.rules || ''}</p>
+                    <p><strong>⚠️ Bẫy thường gặp (Common Mistakes):</strong></p>
+                    <ul style="padding-left:1.5rem; color:var(--danger);">
+                        ${(p.commonMistakes || []).map(m => `<li>${m}</li>`).join('')}
+                    </ul>
+
+                    <h4 style="color:var(--warning); margin-top:1.5rem;">🏋️ Chặng 2: Practice (Luyện tập có hướng dẫn)</h4>
+                    <p><strong>Mechanical:</strong> ${pr.mechanical || ''}</p>
+                    <p><strong>Meaningful:</strong> ${pr.meaningful || ''}</p>
+                    ${we.prompt ? `
+                    <div style="margin:1rem 0; padding:0.75rem; background:var(--bg-color); border-radius:0.5rem; border-left:3px solid var(--primary);">
+                        <strong>Worked Example (Giải mẫu 3 bước):</strong><br>
+                        <b>Đề bài:</b> ${we.prompt}<br>
+                        <b>Các bước giải:</b> ${(we.steps || []).join(' → ')}<br>
+                        <b>Đáp số chuẩn:</b> <span style="color:var(--success); font-weight:bold;">${we.answer}</span>
+                    </div>` : ''}
+
+                    <h4 style="color:var(--success); margin-top:1.5rem;">🚀 Chặng 3: Production (Vận dụng tự do)</h4>
+                    <p>${lesson.production || ''}</p>
+
+                    <div style="display:flex; gap:1rem; margin-top:1.5rem;">
+                        <button onclick="markLessonDone('${lesson.id}')">✅ Đánh dấu Đã Học (Mark Done)</button>
+                        <button class="outline" onclick="renderReviewLessons()">← Danh sách bài / Back</button>
+                    </div>
+                </div>`;
+        }
+
+        function markLessonDone(id) {
+            state.progress['lesson_' + id] = true;
+            state.progress.exercises = (state.progress.exercises || 0) + 1;
+            localStorage.setItem('progress', JSON.stringify(state.progress));
+            renderReviewLessons();
+        }
+
+        // ==========================================
+        // FLASHCARD MODE (Active Recall + FSRS)
+        // ==========================================
+        // ==========================================
+        // FLASHCARD MODE (Active Recall + FSRS)
+        // ==========================================
+        function filterFlashcards(topic) {
+            initFlashcards(topic);
+        }
+
+        function initFlashcards(topicFilter = 'all') {
+            state.fc.currentTopic = topicFilter;
+
+            // Highlight active topic filter button
+            const topicBar = document.getElementById('fc-topic-bar');
+            if (topicBar) {
+                const buttons = topicBar.querySelectorAll('button');
+                buttons.forEach(btn => {
+                    btn.classList.remove('active');
+                    const onclickAttr = btn.getAttribute('onclick') || '';
+                    if (onclickAttr.includes(`'${topicFilter}'`)) {
+                        btn.classList.add('active');
+                    }
+                });
+            }
+
+            const now = Date.now();
+            let dueCards = [];
+            const skillData = IELTS_DATA[state.currentSkill] || {};
+            let allCards = skillData.flashcards || [];
+
+            if (topicFilter && topicFilter !== 'all') {
+                allCards = allCards.filter(c => c.topic === topicFilter);
+            }
+
+            const titles = { listening: '🎧 Nghe (Listening)', reading: '📖 Đọc (Reading)', writing: '✍️ Viết (Writing)', speaking: '🗣️ Nói (Speaking)' };
+            document.getElementById('fc-header-title').innerText = `🃏 Flashcard - ${titles[state.currentSkill] || state.currentSkill}`;
+
+            allCards.forEach(card => {
+                const srs = state.flashcardSRS[card.id];
+                if (!srs || srs.nextReview <= now) {
+                    dueCards.push(card);
+                }
+            });
+
+            // If all done, load all cards in this topic for free practice
+            if (dueCards.length === 0 && allCards.length > 0) {
+                dueCards = [...allCards];
+            }
+
+            // Shuffle
+            dueCards = dueCards.sort(() => Math.random() - 0.5);
+            state.fc.queue = dueCards;
+            state.fc.currentIndex = 0;
+            state.fc.sessionCount = 0;
+
+            showNextCard();
+        }
+
+        function showNextCard() {
+            const cardElem = document.getElementById('fc-card-elem');
+            const controls = document.getElementById('fc-controls');
+            const status = document.getElementById('fc-status');
+            
+            cardElem.classList.remove('is-flipped');
+            controls.style.display = 'none';
+
+            if (state.fc.queue.length === 0) {
+                status.innerText = `Chưa có thẻ nào trong chủ đề này. Hãy chọn chủ đề khác!`;
+                document.querySelector('.fc-container').style.display = 'none';
+                return;
+            }
+
+            if (state.fc.currentIndex >= state.fc.queue.length) {
+                status.innerText = `🎉 Hoàn thành! Bạn đã ôn ${state.fc.sessionCount} thẻ ghi nhớ.`;
+                document.querySelector('.fc-container').style.display = 'none';
+                return;
+            }
+
+            document.querySelector('.fc-container').style.display = 'block';
+            status.innerText = `Thẻ ${state.fc.currentIndex + 1} / ${state.fc.queue.length}`;
+            
+            const card = state.fc.queue[state.fc.currentIndex];
+            const topicIcons = {
+                education: '🎓 Giáo dục',
+                environment: '🌿 Môi trường',
+                technology: '💻 Công nghệ',
+                health: '🏥 Sức khỏe',
+                urban: '🏙️ Đô thị',
+                society: '🏛️ Xã hội'
+            };
+            const topicLabel = topicIcons[card.topic] || card.topic || 'IELTS Core';
+
+            document.getElementById('fc-front-term').innerHTML = `${card.term}<div style="font-size:0.75rem; font-weight:normal; margin-top:0.5rem;"><span class="badge active">${topicLabel}</span></div>`;
+            document.getElementById('fc-back-term').innerText = card.term;
+            document.getElementById('fc-back-ipa').innerText = card.ipa || '';
+            document.getElementById('fc-back-def').innerText = card.def;
+            document.getElementById('fc-back-ex').innerText = card.ex ? `Ví dụ: "${card.ex}"` : '';
+        }
+
+        function flipCard() {
+            const cardElem = document.getElementById('fc-card-elem');
+            if (!cardElem.classList.contains('is-flipped')) {
+                cardElem.classList.add('is-flipped');
+                document.getElementById('fc-controls').style.display = 'flex';
+            }
+        }
+
+        function playTTS() {
+            if (!('speechSynthesis' in window)) return;
+            const card = state.fc.queue[state.fc.currentIndex];
+            if (!card) return;
+            const utterance = new SpeechSynthesisUtterance(card.term);
+            utterance.lang = 'en-GB';
+            utterance.rate = 0.9;
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function rateCard(rating) {
+            // rating: 1(again), 2(hard), 3(good), 4(easy)
+            const card = state.fc.queue[state.fc.currentIndex];
+            const now = Date.now();
+            let nextDelay = 0; // ms
+
+            if (rating === 1) nextDelay = 60 * 1000; // 1 min
+            else if (rating === 2) nextDelay = 10 * 60 * 1000; // 10 min
+            else if (rating === 3) nextDelay = 24 * 60 * 60 * 1000; // 1 day
+            else if (rating === 4) nextDelay = 3 * 24 * 60 * 60 * 1000; // 3 days
+
+            state.flashcardSRS[card.id] = {
+                nextReview: now + nextDelay,
+                lastRating: rating
+            };
+            
+            localStorage.setItem('flashcardSRS', JSON.stringify(state.flashcardSRS));
+
+            if(!state.progress.flashcards) state.progress.flashcards = 0;
+            state.progress.flashcards++;
+            localStorage.setItem('progress', JSON.stringify(state.progress));
+
+            state.fc.sessionCount++;
+            state.fc.currentIndex++;
+            setTimeout(showNextCard, 150);
+        }
+
+        // ==========================================
+        // EXAM MODE (Band 4.0 -> 7.0+)
+        // ==========================================
+        function selectBandForExams(band) {
+            state.selectedBand = band;
+            
+            // Highlight band button
+            const container = document.getElementById('band-selector-container');
+            if (container) {
+                const buttons = container.querySelectorAll('.band-btn');
+                buttons.forEach(btn => {
+                    btn.classList.remove('active');
+                    if (btn.id === `band-btn-${band}`) btn.classList.add('active');
+                });
+            }
+
+            renderBandTests(band);
+        }
+
+        function renderBandTests(band) {
+            const container = document.getElementById('band-tests-container');
+            if (!container) return;
+
+            const skillData = IELTS_DATA[state.currentSkill] || {};
+            const bandExams = skillData.exams?.[band];
+
+            if (!bandExams) {
+                container.innerHTML = `
+                    <div class="card" style="text-align:center; padding:2rem;">
+                        <p style="color:var(--text-muted);">Chưa có dữ liệu đề thi cho ${state.currentSkill.toUpperCase()} Band ${band}.</p>
+                    </div>`;
+                return;
+            }
+
+            const tests = Array.isArray(bandExams) ? bandExams : [bandExams];
+            const topicIcons = {
+                education: '🎓 Giáo dục & Học đường',
+                environment: '🌿 Môi trường & Sinh thái',
+                technology: '💻 Công nghệ & AI',
+                health: '🏥 Sức khỏe & Thể thao',
+                urban: '🏙️ Đô thị & Giao thông',
+                society: '🏛️ Xã hội & Lịch sử'
+            };
+
+            let html = `
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+                    <div>
+                        <h3 style="font-size:1.15rem; font-weight:700;">
+                            🎯 Đề Thi Phân Hóa Band ${band} (${tests.length} Đề thi thực chiến)
+                        </h3>
+                        <div style="font-size:0.85rem; color:var(--text-muted);">
+                            Chọn đề thi theo chủ đề học thuật để kích hoạt chẩn đoán DeepTutor.
+                        </div>
+                    </div>
+                    <button class="outline" style="font-size:0.8rem; padding:0.3rem 0.7rem;" onclick="showBandInfo('${band}')">
+                        💡 Lời khuyên tâm lý & Chiến lược Band ${band}
+                    </button>
+                </div>
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1rem;">
+            `;
+
+            tests.forEach((test, idx) => {
+                const topicTag = topicIcons[test.topic] || test.topic_vi || test.topic || 'Học thuật';
+                const qCount = test.questions ? test.questions.length : 0;
+                const hasAudio = !!test.audioRef;
+                const hasPassage = !!test.passage;
+
+                html += `
+                    <div class="test-card">
+                        <div>
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem;">
+                                <span class="badge active" style="font-size:0.75rem;">Đề số ${idx + 1}</span>
+                                <span class="badge" style="font-size:0.75rem;">${topicTag}</span>
+                            </div>
+                            <h4 style="font-size:1rem; font-weight:700; margin-bottom:0.4rem; color:var(--text-main);">
+                                ${test.title_vi || test.title}
+                            </h4>
+                            <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:0.75rem;">
+                                ${test.title}
+                            </p>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap; font-size:0.8rem; color:var(--text-muted); margin-bottom:1rem;">
+                                <span>📝 ${qCount} câu hỏi</span>
+                                <span>⏱️ 15 phút</span>
+                                ${hasAudio ? '<span style="color:var(--primary);">🎧 Có Audio</span>' : ''}
+                                ${hasPassage ? '<span style="color:var(--primary);">📖 Có Bài đọc</span>' : ''}
+                            </div>
+                        </div>
+                        <button style="width:100%; justify-content:center;" onclick="startExam('${band}', ${idx})">
+                            🚀 Vào Làm Bài (Start Test ${idx + 1}) →
+                        </button>
+                    </div>
+                `;
+            });
+
+            html += `</div>`;
+            container.innerHTML = html;
+        }
+
+        function startExam(band, testIndex = 0) {
+            const skillData = IELTS_DATA[state.currentSkill] || {};
+            const bandExams = skillData.exams?.[band];
+            if (!bandExams) {
+                alert(`Chưa có dữ liệu cho ${state.currentSkill} Band ${band}`);
+                return;
+            }
+
+            const examData = Array.isArray(bandExams) ? (bandExams[testIndex] || bandExams[0]) : bandExams;
+            if (!examData) {
+                alert(`Không tìm thấy đề thi.`);
+                return;
+            }
+
+            state.exam = {
+                skill: state.currentSkill,
+                band: band,
+                testIndex: testIndex,
+                data: examData,
+                questions: examData.questions || [],
+                answers: {},
+                currentQIndex: 0,
+                timeRemaining: (examData.timeLimit || 15) * 60, // 15 minutes
+                timeSpent: 0
+            };
+            
+            navigate('exam');
+        }
+
+        let currentPassageFontSize = 15;
+
+        function renderExamInterface() {
+            const exam = state.exam;
+            document.getElementById('exam-title').innerText = exam.data.title || `${state.currentSkill.toUpperCase()} Band ${exam.band}`;
+            
+            // Audio setup for Listening with Skip buttons
+            const audioContainer = document.getElementById('exam-audio-container');
+            if (exam.data.audioRef) {
+                audioContainer.innerHTML = `
+                    <div style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
+                        <audio id="exam-audio-elem" controls style="height: 32px;">
+                            <source src="${exam.data.audioRef}" type="audio/mpeg">
+                        </audio>
+                        <div style="display:flex; gap:0.25rem;">
+                            <button class="outline" style="padding:0.2rem 0.45rem; font-size:0.75rem;" onclick="skipAudio(-5)" title="Lùi 5s">⏪ -5s</button>
+                            <button class="outline" style="padding:0.2rem 0.45rem; font-size:0.75rem;" onclick="skipAudio(5)" title="Tua 5s">⏩ +5s</button>
+                            <button class="outline" style="padding:0.2rem 0.45rem; font-size:0.75rem;" onclick="setAudioSpeed(0.75)">0.75x</button>
+                            <button class="outline" style="padding:0.2rem 0.45rem; font-size:0.75rem;" onclick="setAudioSpeed(1.0)">1.0x</button>
+                            <button class="outline" style="padding:0.2rem 0.45rem; font-size:0.75rem;" onclick="setAudioSpeed(1.25)">1.25x</button>
+                        </div>
+                    </div>`;
+            } else {
+                audioContainer.innerHTML = '';
+            }
+
+            // Split-Screen Reading Passage setup
+            const layoutContainer = document.getElementById('exam-layout-container');
+            const passageBox = document.getElementById('exam-passage-box');
+            const passageText = document.getElementById('exam-passage-text');
+            const currentQ = exam.questions[exam.currentQIndex];
+            const passage = currentQ?.passage || exam.data.passage;
+
+            if (passage) {
+                if (layoutContainer) layoutContainer.classList.add('split');
+                passageBox.style.display = 'block';
+                passageText.innerText = passage;
+                passageText.style.fontSize = currentPassageFontSize + 'px';
+            } else {
+                if (layoutContainer) layoutContainer.classList.remove('split');
+                passageBox.style.display = 'none';
+            }
+
+            renderQuestionNav();
+            renderCurrentQuestion();
+            startTimer();
+        }
+
+        function skipAudio(sec) {
+            const audio = document.getElementById('exam-audio-elem');
+            if (audio) {
+                audio.currentTime = Math.max(0, audio.currentTime + sec);
+            }
+        }
+
+        function changePassageFontSize(delta) {
+            currentPassageFontSize = Math.min(22, Math.max(13, currentPassageFontSize + delta));
+            const passageText = document.getElementById('exam-passage-text');
+            if (passageText) passageText.style.fontSize = currentPassageFontSize + 'px';
+        }
+
+        function setAudioSpeed(speed) {
+            const audio = document.getElementById('exam-audio-elem');
+            if (audio) audio.playbackRate = speed;
+        }
+
+        // Psychology & Band Info Helpers
+        function showBandInfo(band) {
+            const info = {
+                '4.0': {
+                    title: 'Band 4.0 — Khởi Động Nền Tảng (Foundation)',
+                    focus: 'Bù đắp lỗ hổng ngữ âm, bảng chữ cái, số đếm, mã bưu điện và 12 thì cơ bản.',
+                    psychology: 'Vạn dặm khởi đầu từ bước chân đầu tiên! Đừng sợ phát âm sai hay nghe không kịp. Mỗi từ vựng tích lũy hôm nay là một viên gạch vững chắc cho ngày mai.',
+                    nextStep: 'Luyện tập chính tả từng chữ cái và làm quen với việc nghe liên tục 5 phút.'
+                },
+                '5.0': {
+                    title: 'Band 5.0 — Khởi Động Nền Tảng (Foundation)',
+                    focus: 'Nhận diện thông tin trực diện (Tên riêng, con số, thời gian, từ khóa rõ ràng).',
+                    psychology: 'Đừng sợ sai! Giai đoạn này là để xây dựng sự tự tin và sự quen thuộc với giọng đọc và mặt chữ.',
+                    nextStep: 'Tập trung vào chính tả từ đơn và hạn chế mất tập trung ở các chi tiết nhiễu đầu tiên.'
+                },
+                '5.5': {
+                    title: 'Band 5.5 — Tiền Trung Cấp (Pre-Intermediate)',
+                    focus: 'Bắt đầu đối mặt với bẫy sửa đổi thông tin (Correction Trap) và các từ đồng nghĩa cơ bản.',
+                    psychology: 'Bạn đã có nền tảng! Giờ là lúc rèn tính kiên nhẫn: chờ người nói xác nhận xong mới chọn đáp án.',
+                    nextStep: 'Học cách loại bỏ phương án bị từ chối trong hội thoại.'
+                },
+                '6.0': {
+                    title: 'Band 6.0 — Vững Vàng (Competent User)',
+                    focus: 'Chinh phục Paraphrasing học thuật, liên từ tương phản và theo dõi đa người nói.',
+                    psychology: 'Tránh cái bẫy "nghe thấy từ giống hệt trong câu hỏi là chọn ngay". Từ giống hệt thường là bẫy nhiễu!',
+                    nextStep: 'Luyện tập kỹ năng Skimming/Scanning và nhận diện từ đồng nghĩa trong vòng 10 giây.'
+                },
+                '6.5': {
+                    title: 'Band 6.5 — Chiến Lược Gia (Good User)',
+                    focus: 'Đọc quét văn bản dài, nắm bắt thái độ người nói, viết đoạn văn chuẩn PEEL và nói theo PPF.',
+                    psychology: 'Sự kiên định về cảm xúc là chìa khóa. Nếu lỡ mất 1 câu, hãy buông bỏ ngay để đón câu tiếp theo!',
+                    nextStep: 'Làm chủ từ nối học thuật (Conversely, Notably, Substantiate) và phản xạ loại trừ nhanh.'
+                },
+                '7.0': {
+                    title: 'Band 7.0+ — Bậc Thầy Khai Phóng (Expert / Liberated)',
+                    focus: 'Hiểu sâu sắc thái nghĩa (Nuance), bài giảng chuyên ngành trừu tượng, tư duy lập luận tự do.',
+                    psychology: 'Trạng thái dòng chảy (Flow State). Bạn không còn "thi", mà đang tiếp nhận tri thức quốc tế một cách tự nhiên.',
+                    nextStep: 'Hoàn thiện ngữ điệu nối âm tự nhiên và chiều sâu lập luận đa chiều.'
+                }
+            };
+            const b = info[band] || info['5.0'];
+            alert(`🎯 ${b.title}\n\n📌 Trọng tâm: ${b.focus}\n\n🌿 Lời khuyên tâm lý: ${b.psychology}\n\n🚀 Bước tiếp theo: ${b.nextStep}`);
+        }
+
+        function startBreathingExercise() {
+            let count = 4;
+            let step = 0;
+            const steps = [
+                'Hít vào thật sâu bằng mũi (Inhale)... 4s 🌿',
+                'Giữ hơi thở bình thản (Hold)... 4s 🧘',
+                'Thở ra từ từ bằng miệng (Exhale)... 4s 💨',
+                'Nghỉ ngơi và thả lỏng toàn thân (Rest)... 4s ☀️'
+            ];
+            
+            const btn = event?.target;
+            if (btn) btn.disabled = true;
+
+            const interval = setInterval(() => {
+                if (btn) btn.innerText = `${steps[step]} [${count}s]`;
+                count--;
+                if (count < 0) {
+                    count = 4;
+                    step++;
+                    if (step >= steps.length) {
+                        clearInterval(interval);
+                        if (btn) {
+                            btn.disabled = false;
+                            btn.innerText = 'Hoàn thành! Bạn đã sẵn sàng ✨';
+                        }
+                    }
+                }
+            }, 1000);
+        }
+
+        function renderQuestionNav() {
+            const nav = document.getElementById('exam-q-nav');
+            let html = '';
+            state.exam.questions.forEach((q, idx) => {
+                let classes = 'q-dot';
+                if (state.exam.answers[q.id]) classes += ' answered';
+                if (idx === state.exam.currentQIndex) classes += ' active';
+                html += `<div class="${classes}" onclick="jumpQuestion(${idx})">${idx + 1}</div>`;
+            });
+            nav.innerHTML = html;
+        }
+
+        function renderCurrentQuestion() {
+            const q = state.exam.questions[state.exam.currentQIndex];
+            const container = document.getElementById('exam-question-container');
+            
+            // Update passage if question-specific
+            const passageBox = document.getElementById('exam-passage-box');
+            const passageText = document.getElementById('exam-passage-text');
+            const passage = q.passage || state.exam.data.passage;
+            if (passage) {
+                passageBox.style.display = 'block';
+                passageText.innerText = passage;
+            } else {
+                passageBox.style.display = 'none';
+            }
+
+            let html = `<div class="question-box">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                    <span style="font-weight:bold; color:var(--primary);">Câu hỏi ${state.exam.currentQIndex + 1} / ${state.exam.questions.length}</span>
+                    <span class="badge active">${q.band ? 'Band ' + q.band : ''}</span>
+                </div>
+                ${q.context ? `<div class="q-context" style="background:var(--bg-color); padding:0.5rem; border-radius:0.5rem; margin-bottom:0.75rem; font-size:0.9rem; color:var(--text-muted);">Ngữ cảnh: ${q.context} ${q.context_vi ? '— ' + q.context_vi : ''}</div>` : ''}
+                <div style="font-size: 1.125rem; font-weight: 500; margin-bottom: 1.25rem;">${q.text}</div>`;
+
+            const currentAns = state.exam.answers[q.id] || '';
+
+            if (q.type === 'mcq' && q.options) {
+                html += `<div class="options-list" style="display:flex; flex-direction:column; gap:0.5rem;">`;
+                for (const [key, val] of Object.entries(q.options)) {
+                    const checked = currentAns.toUpperCase() === key ? 'checked' : '';
+                    html += `
+                        <label class="option-label" style="display:flex; align-items:center; gap:0.75rem; padding:0.75rem; background:var(--bg-color); border:1px solid var(--border-color); border-radius:0.5rem; cursor:pointer;">
+                            <input type="radio" name="q_${q.id}" value="${key}" ${checked} onchange="saveAnswer('${q.id}', '${key}')">
+                            <span><strong>${key}.</strong> ${val}</span>
+                        </label>
+                    `;
+                }
+                html += `</div>`;
+            } else if (q.type === 'fill_in') {
+                html += `
+                    <div style="margin-top:0.5rem;">
+                        <input type="text" style="width:100%; padding:0.75rem; border:1px solid var(--border-color); border-radius:0.5rem; background:var(--bg-color); color:var(--text-main); font-size:1rem;" placeholder="Nhập câu trả lời của bạn vào đây..." value="${currentAns}" oninput="saveAnswer('${q.id}', this.value)">
+                    </div>
+                `;
+            } else if (q.type === 'essay') {
+                const words = currentAns ? currentAns.trim().split(/\s+/).filter(Boolean).length : 0;
+                html += `
+                    <div style="margin-top:0.5rem;">
+                        <textarea id="input-essay-${q.id}" rows="9" style="width:100%; padding:0.75rem; border:1px solid var(--border-color); border-radius:0.5rem; background:var(--bg-color); color:var(--text-main); font-size:0.95rem; font-family:inherit; line-height:1.6;" placeholder="Soạn thảo bài viết của bạn tại đây (Khuyến nghị 150 - 250+ từ)..." oninput="saveAnswer('${q.id}', this.value); updateEssayWordCount('${q.id}', this.value)">${currentAns}</textarea>
+                        <div id="essay-wc-${q.id}" style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">
+                            📝 Số từ: <b>${words}</b> từ (Chuẩn IELTS: 150 - 250+ từ)
+                        </div>
+                    </div>
+                `;
+            } else if (q.type === 'speech') {
+                const words = currentAns ? currentAns.trim().split(/\s+/).filter(Boolean).length : 0;
+                html += `
+                    <div style="margin-top:0.5rem;">
+                        <div style="background:var(--bg-color); padding:0.75rem; border-radius:0.5rem; margin-bottom:0.75rem; border:1px dashed var(--primary); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
+                            <div>
+                                <span style="font-weight:600; color:var(--primary); font-size:0.9rem;">🎙️ Phòng Luyện Nói Phản Xạ (Speaking Practice)</span>
+                                <div style="font-size:0.8rem; color:var(--text-muted);">Hãy đọc to câu trả lời của bạn, hoặc ghi chú các luận điểm vào khung bên dưới.</div>
+                            </div>
+                            <button type="button" class="outline" style="font-size:0.8rem; padding:0.25rem 0.6rem;" onclick="playPromptTTS('${encodeURIComponent(q.text)}')">
+                                🔊 Giám khảo đọc câu hỏi (TTS)
+                            </button>
+                        </div>
+                        <textarea id="input-speech-${q.id}" rows="5" style="width:100%; padding:0.75rem; border:1px solid var(--border-color); border-radius:0.5rem; background:var(--bg-color); color:var(--text-main); font-size:0.95rem; font-family:inherit; line-height:1.6;" placeholder="Ghi chú ý tưởng, từ vựng học thuật hoặc dàn ý câu trả lời của bạn..." oninput="saveAnswer('${q.id}', this.value); updateSpeechWordCount('${q.id}', this.value)">${currentAns}</textarea>
+                        <div id="speech-wc-${q.id}" style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">
+                            🗣️ Số từ ghi chú: <b>${words}</b> từ
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Socratic Scaffolding Button
+            html += `
+                <div style="margin-top:1rem;">
+                    <button type="button" class="outline" style="font-size:0.85rem; padding:0.3rem 0.75rem; border-color:var(--warning); color:var(--warning);" onclick="toggleSocraticHint('${q.id}')">
+                        💡 Gợi mở tư duy Socratic (DeepTutor Hint)
+                    </button>
+                    <div id="hint-${q.id}" style="display:none; margin-top:0.5rem; padding:0.75rem; background:var(--bg-color); border-left:3px solid var(--warning); border-radius:0.5rem; font-size:0.9rem;">
+                        <strong style="color:var(--warning);">🤔 DeepTutor gợi mở tư duy:</strong> ${q.socraticPrompt || 'Hãy phân tích kỹ các từ hạn định (all, some, only) và từ chỉ thời gian trong câu hỏi.'}
+                    </div>
+                </div>
+            `;
+
+            html += `</div>`;
+            container.innerHTML = html;
+            renderQuestionNav();
+        }
+
+        function updateEssayWordCount(qId, text) {
+            const count = text.trim().split(/\s+/).filter(Boolean).length;
+            const elem = document.getElementById(`essay-wc-${qId}`);
+            if (elem) elem.innerHTML = `📝 Số từ: <b>${count}</b> từ (Chuẩn IELTS: 150 - 250+ từ)`;
+        }
+
+        function updateSpeechWordCount(qId, text) {
+            const count = text.trim().split(/\s+/).filter(Boolean).length;
+            const elem = document.getElementById(`speech-wc-${qId}`);
+            if (elem) elem.innerHTML = `🗣️ Số từ ghi chú: <b>${count}</b> từ`;
+        }
+
+        function playPromptTTS(encodedText) {
+            if (!('speechSynthesis' in window)) return;
+            const text = decodeURIComponent(encodedText);
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-GB';
+            utterance.rate = 0.92;
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function toggleSocraticHint(qId) {
+            const hint = document.getElementById(`hint-${qId}`);
+            if (hint) {
+                hint.style.display = hint.style.display === 'none' ? 'block' : 'none';
+            }
+        }
+
+        function saveAnswer(qId, val) {
+            const hadAnswer = Boolean(state.exam.answers[qId] && state.exam.answers[qId].trim().length > 0);
+            const nowHasAnswer = Boolean(val && val.trim().length > 0);
+            state.exam.answers[qId] = val;
+
+            // Only update DOM dot class when state transitions, avoiding laggy full re-render on every keystroke
+            if (hadAnswer !== nowHasAnswer) {
+                const dots = document.querySelectorAll('#exam-q-nav .q-dot');
+                if (dots[state.exam.currentQIndex]) {
+                    if (nowHasAnswer) dots[state.exam.currentQIndex].classList.add('answered');
+                    else dots[state.exam.currentQIndex].classList.remove('answered');
+                }
+            }
+        }
+
+        function jumpQuestion(idx) {
+            state.exam.currentQIndex = idx;
+            renderCurrentQuestion();
+        }
+
+        function prevQuestion() {
+            if (state.exam.currentQIndex > 0) {
+                state.exam.currentQIndex--;
+                renderCurrentQuestion();
+            }
+        }
+
+        function nextQuestion() {
+            if (state.exam.currentQIndex < state.exam.questions.length - 1) {
+                state.exam.currentQIndex++;
+                renderCurrentQuestion();
+            }
+        }
+
+        function startTimer() {
+            clearInterval(state.exam.timerInterval);
+            updateTimerDisplay();
+            state.exam.timerInterval = setInterval(() => {
+                if (state.exam.timeRemaining > 0) {
+                    state.exam.timeRemaining--;
+                    state.exam.timeSpent++;
+                    updateTimerDisplay();
+                } else {
+                    clearInterval(state.exam.timerInterval);
+                    submitExam();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const m = Math.floor(state.exam.timeRemaining / 60).toString().padStart(2, '0');
+            const s = (state.exam.timeRemaining % 60).toString().padStart(2, '0');
+            document.getElementById('exam-timer').innerText = `${m}:${s}`;
+        }
+
+        // ==========================================
+        // DEEPTUTOR ANALYTICS & DIAGNOSTIC ENGINE
+        // ==========================================
+        function submitExam() {
+            clearInterval(state.exam.timerInterval);
+            
+            if(Object.keys(state.exam.answers).length < state.exam.questions.length) {
+                if(!confirm("Bạn chưa hoàn thành tất cả câu hỏi. Vẫn muốn nộp bài để chẩn đoán?")) {
+                    startTimer(); // resume
+                    return;
+                }
+            }
+
+            let correctCount = 0;
+            const results = [];
+
+            state.exam.questions.forEach(q => {
+                const userAns = (state.exam.answers[q.id] || '').trim();
+                const userAnsLower = userAns.toLowerCase();
+                const correctAns = (q.correct || '').trim();
+                const correctAnsLower = correctAns.toLowerCase();
+                
+                let isCorrect = false;
+                if (q.type === 'essay') {
+                    isCorrect = userAns.split(/\s+/).filter(Boolean).length >= 15;
+                } else if (q.type === 'speech') {
+                    isCorrect = userAns.split(/\s+/).filter(Boolean).length >= 5;
+                } else if (q.type === 'fill_in') {
+                    isCorrect = userAnsLower === correctAnsLower || (correctAnsLower.length > 0 && userAnsLower.includes(correctAnsLower));
+                } else {
+                    isCorrect = userAnsLower === correctAnsLower;
+                }
+
+                if (isCorrect) correctCount++;
+                
+                results.push({
+                    q: q,
+                    userAns: userAns || '[Chưa trả lời]',
+                    isCorrect: isCorrect
+                });
+            });
+
+            const total = state.exam.questions.length;
+            
+            // Save progress
+            state.progress.exercises += total;
+            state.progress.examsTaken++;
+            state.progress.totalScore += (correctCount/total)*10;
+            localStorage.setItem('progress', JSON.stringify(state.progress));
+
+            // Record history
+            state.examHistory.push({
+                date: Date.now(),
+                skill: state.exam.skill,
+                band: state.exam.band,
+                score: correctCount,
+                total: total
+            });
+            localStorage.setItem('examHistory', JSON.stringify(state.examHistory));
+
+            renderAnalytics(correctCount, total, results, state.exam.timeSpent);
+        }
+
+        function renderAnalytics(score, total, results, timeSpent) {
+            navigate('analytics');
+            
+            document.getElementById('res-score').innerText = `${score}/${total}`;
+            const bandText = calculateBandEquivalent(score, total);
+            document.getElementById('res-band').innerText = `Band ${bandText}`;
+            
+            const m = Math.floor(timeSpent / 60);
+            const s = timeSpent % 60;
+            document.getElementById('res-time').innerText = `${m}m ${s}s`;
+
+            // 1. Cognitive Gap Matrix (4 Pillars)
+            const pillars = {
+                perceptual: { name: '🎧/📖 Nhận thức Âm & Quét Từ (Perceptual & Scanning)', total: 0, correct: 0 },
+                lexical: { name: '📚 Vốn Từ & Bẫy Đồng Nghĩa (Lexical & Paraphrase)', total: 0, correct: 0 },
+                structural: { name: '📐 Cấu Trúc & Ngữ Pháp (Structural & Grammar)', total: 0, correct: 0 },
+                inference: { name: '🧠 Tư Duy Phản Biện & Phá Bẫy (Critical Inference)', total: 0, correct: 0 }
+            };
+
+            const weaknesses = new Set();
+            const strengths = new Set();
+            let detailsHtml = '';
+
+            results.forEach((res, i) => {
+                const qNum = i + 1;
+                const q = res.q;
+                const concept = (q.breakdown?.concept || '').toLowerCase();
+                
+                // Classify into 4 pillars
+                let pillarKey = 'inference';
+                if (concept.includes('spell') || concept.includes('number') || concept.includes('time') || concept.includes('scan') || concept.includes('percept') || q.type === 'fill_in') {
+                    pillarKey = 'perceptual';
+                } else if (concept.includes('paraphras') || concept.includes('vocab') || concept.includes('collocation') || concept.includes('synonym')) {
+                    pillarKey = 'lexical';
+                } else if (concept.includes('grammar') || concept.includes('structur') || concept.includes('tense') || concept.includes('cohesion')) {
+                    pillarKey = 'structural';
+                }
+                
+                pillars[pillarKey].total++;
+                let distractorReason = '';
+                if (q.distractorReasons) {
+                    distractorReason = q.distractorReasons[res.userAns.toUpperCase()] || q.distractorReasons[res.userAns] || q.distractorReasons[q.correct] || q.distractorReasons['wrong'] || Object.values(q.distractorReasons)[0] || 'Cần phân tích kỹ các yếu tố gây nhiễu.';
+                }
+
+                if (res.isCorrect) {
+                    pillars[pillarKey].correct++;
+                    strengths.add(q.breakdown?.concept || q.type);
+
+                    if (q.type === 'essay' || q.type === 'speech') {
+                        detailsHtml += `
+                            <div class="q-detail right" style="border-left: 4px solid var(--success); padding: 1rem; background: var(--card-bg); margin-bottom: 1.5rem; border-radius: 0.5rem;">
+                                <strong style="color:var(--success);">✓ Câu ${qNum}: Hoàn thành tốt (${q.type === 'essay' ? 'Viết luận' : 'Luyện nói'})!</strong>
+                                <p style="margin-top:0.35rem;"><strong>Đề bài:</strong> ${q.text}</p>
+                                <div style="background:var(--bg-color); padding:0.75rem; border-radius:0.5rem; margin-top:0.5rem; border:1px solid var(--border-color); font-size:0.9rem;">
+                                    <b>Bài làm của bạn:</b>
+                                    <p style="white-space: pre-wrap; margin-top:0.25rem; font-style:italic;">${escapeHtml(res.userAns)}</p>
+                                </div>
+                                <div style="margin-top: 0.75rem; background: var(--bg-color); padding: 0.75rem; border-radius: 0.5rem; border: 1px solid var(--border-color);">
+                                    <p style="font-size:0.9rem; margin-bottom:0.4rem;"><strong>📋 Tiêu chí chấm điểm & Dàn ý học thuật:</strong> ${distractorReason}</p>
+                                    <p style="font-size:0.9rem; margin-bottom:0.4rem; color:var(--primary);"><strong>📐 Các bước triển khai chuẩn:</strong> ${(q.breakdown?.steps || []).join(' → ')}</p>
+                                    <p style="font-size:0.9rem; color:var(--warning);"><strong>⚠️ Lưu ý phòng tránh bẫy:</strong> ${q.breakdown?.trap || 'Tránh thiếu liên kết giữa các luận điểm.'}</p>
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        detailsHtml += `
+                            <div class="q-detail right" style="border-left: 4px solid var(--success); padding: 1rem; background: var(--card-bg); margin-bottom: 1rem; border-radius: 0.5rem;">
+                                <strong style="color:var(--success);">✓ Câu ${qNum}: Chính xác!</strong>
+                                <p style="color:var(--text-muted); font-size:0.9rem; margin-top:0.25rem;">Câu trả lời của bạn: <b>${escapeHtml(res.userAns)}</b></p>
+                                <p style="font-size:0.85rem; color:var(--text-muted);">Trọng tâm nhận thức: ${q.breakdown?.concept || ''}</p>
+                                ${q.breakdown?.steps ? `<p style="font-size:0.85rem; color:var(--primary); margin-top:0.25rem;">Các bước tư duy: ${q.breakdown.steps.join(' → ')}</p>` : ''}
+                            </div>
+                        `;
+                    }
+                } else {
+                    weaknesses.add(q.breakdown?.concept || q.type);
+                    
+                    if (q.type === 'essay' || q.type === 'speech') {
+                        detailsHtml += `
+                            <div class="q-detail wrong" style="border-left: 4px solid var(--danger); padding: 1rem; background: var(--card-bg); margin-bottom: 1.5rem; border-radius: 0.5rem;">
+                                <div style="font-weight:bold; color:var(--danger); margin-bottom:0.5rem;">✗ Câu ${qNum}: Cần nỗ lực bổ sung nội dung</div>
+                                <p><strong>Đề bài:</strong> ${q.text}</p>
+                                <p style="margin-top:0.25rem;"><strong>Nội dung đã ghi:</strong> <span style="color:var(--danger); font-style:italic;">${escapeHtml(res.userAns)}</span></p>
+                                
+                                <div style="margin-top: 1rem; background: var(--bg-color); padding: 0.75rem; border-radius: 0.5rem; border: 1px solid var(--border-color);">
+                                    <p style="font-size:0.9rem; margin-bottom:0.5rem;"><strong>🔍 Yêu cầu tiêu chí Band ${q.band || 'Mục tiêu'}:</strong> ${distractorReason}</p>
+                                    <p style="font-size:0.9rem; margin-bottom:0.5rem; color:var(--primary);"><strong>🤔 Gợi mở tư duy Socratic:</strong> ${q.socraticPrompt || 'Hãy phân tích lại yêu cầu đề bài và lập dàn ý 3 phần.'}</p>
+                                    <p style="font-size:0.9rem; color:var(--warning);"><strong>⚠️ Bẫy sai lầm chí tử (Critical Trap):</strong> ${q.breakdown?.trap || 'Tránh bỏ trống câu hỏi hoặc viết quá ngắn không đủ phát triển luận điểm.'}</p>
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        detailsHtml += `
+                            <div class="q-detail wrong" style="border-left: 4px solid var(--danger); padding: 1rem; background: var(--card-bg); margin-bottom: 1.5rem; border-radius: 0.5rem;">
+                                <div style="font-weight:bold; color:var(--danger); margin-bottom:0.5rem;">✗ Câu ${qNum}: Chưa chính xác</div>
+                                <p><strong>Câu hỏi:</strong> ${q.text}</p>
+                                <p style="margin-top:0.25rem;"><strong>Đáp án bạn chọn:</strong> <span style="color:var(--danger); font-weight:bold;">${escapeHtml(res.userAns)}</span></p>
+                                <p><strong>Đáp án đúng:</strong> <span style="color:var(--success); font-weight:bold;">${q.correct}</span></p>
+                                
+                                <div style="margin-top: 1rem; background: var(--bg-color); padding: 0.75rem; border-radius: 0.5rem; border: 1px solid var(--border-color);">
+                                    <p style="font-size:0.9rem; margin-bottom:0.5rem;"><strong>🔍 Giải phẫu bẫy nhiễu (Distractor Analysis):</strong> ${distractorReason}</p>
+                                    <p style="font-size:0.9rem; margin-bottom:0.5rem; color:var(--primary);"><strong>🤔 Gợi mở tư duy Socratic:</strong> ${q.socraticPrompt || 'Hãy phân tích lại ngữ cảnh bài để tìm manh mối.'}</p>
+                                    <p style="font-size:0.9rem; color:var(--warning);"><strong>⚠️ Bẫy sai lầm chí tử (Critical Trap):</strong> ${q.breakdown?.trap || 'Tránh chọn vội vàng khi nghe/đọc từ giống hệt.'}</p>
+                                </div>
+                            </div>
+                        `;
+                    }
+                }
+            });
+
+            // Render Matrix Bars
+            let matrixHtml = '';
+            for (const [key, p] of Object.entries(pillars)) {
+                if (p.total === 0) continue;
+                const pct = Math.round((p.correct / p.total) * 100);
+                let color = 'var(--danger)';
+                let status = '🔴 Cần chữa lành khẩn cấp';
+                if (pct >= 80) { color = 'var(--success)'; status = '🟢 Vững vàng (Solid)'; }
+                else if (pct >= 50) { color = 'var(--warning)'; status = '🟡 Cần củng cố'; }
+
+                matrixHtml += `
+                    <div>
+                        <div style="display:flex; justify-content:space-between; font-size:0.9rem; margin-bottom:0.25rem;">
+                            <span><b>${p.name}</b></span>
+                            <span>${p.correct}/${p.total} (${pct}%) — <small>${status}</small></span>
+                        </div>
+                        <div style="background:var(--border-color); height:8px; border-radius:4px; overflow:hidden;">
+                            <div style="background:${color}; width:${pct}%; height:100%; transition:width 0.5s ease;"></div>
+                        </div>
+                    </div>
+                `;
+            }
+            document.getElementById('res-matrix-bars').innerHTML = matrixHtml;
+
+            // Render Mastery Tier
+            const pctTotal = (score / total) * 100;
+            let currentTier = 1;
+            if (pctTotal >= 85) currentTier = 4;
+            else if (pctTotal >= 70) currentTier = 3;
+            else if (pctTotal >= 50) currentTier = 2;
+
+            const tiers = [
+                { id: 1, title: 'Tier 1: Nhận thức Nền tảng', desc: 'Band 5.0 — Phản xạ nhận diện từ khóa, con số, thông tin trực tiếp.' },
+                { id: 2, title: 'Tier 2: Phản xạ Phá bẫy', desc: 'Band 5.5-6.0 — Nhận diện bẫy paraphrase và câu sửa đổi thông tin.' },
+                { id: 3, title: 'Tier 3: Chiến lược Học thuật', desc: 'Band 6.5 — Đọc quét tốc độ cao, tư duy logic PEEL/PPF vững vàng.' },
+                { id: 4, title: 'Tier 4: Tư duy Khai phóng', desc: 'Band 7.0+ — Làm chủ sắc thái học thuật, tự do xử lý đề thi thực tế.' }
+            ];
+
+            let tierHtml = '';
+            tiers.forEach(t => {
+                const isActive = t.id === currentTier;
+                const isPassed = t.id < currentTier;
+                tierHtml += `
+                    <div style="padding:0.75rem; border-radius:0.5rem; border:2px solid ${isActive ? 'var(--primary)' : 'var(--border-color)'}; background:${isActive ? 'rgba(37,99,235,0.08)' : 'transparent'};">
+                        <div style="font-weight:bold; font-size:0.85rem; color:${isActive ? 'var(--primary)' : (isPassed ? 'var(--success)' : 'var(--text-muted)')};">
+                            ${isPassed ? '✓ ' : (isActive ? '⭐ ' : '🔒 ')}${t.title}
+                        </div>
+                        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">${t.desc}</div>
+                    </div>
+                `;
+            });
+            document.getElementById('res-tier-stepper').innerHTML = tierHtml;
+            document.getElementById('res-tier-badge').innerHTML = `
+                <span class="badge active" style="background:var(--primary); font-size:0.85rem;">
+                    Cấp độ hiện tại: ${tiers[currentTier - 1].title}
+                </span>
+            `;
+
+            // Render Strengths / Weaknesses
+            document.getElementById('res-weak').innerHTML = weaknesses.size ? 
+                Array.from(weaknesses).map(w => `<li>${w}</li>`).join('') : '<li>Không phát hiện lỗ hổng nghiêm trọng nào!</li>';
+            
+            document.getElementById('res-strong').innerHTML = strengths.size ? 
+                Array.from(strengths).map(s => `<li>${s}</li>`).join('') : '<li>Hãy tiếp tục kiên trì ôn luyện để bứt phá.</li>';
+                
+            const firstWeakness = Array.from(weaknesses)[0] || 'Từ vựng học thuật & Bẫy Paraphrase';
+            document.getElementById('res-roadmap').innerHTML = `
+                <li><b>Bước 1: Chữa lành lỗ hổng nhận thức:</b> Tập trung vào mảng <i>${firstWeakness}</i> ngay bằng bộ Flashcard Active Recall.</li>
+                <li><b>Bước 2: Nâng cao năng lực phá bẫy:</b> Vào chế độ Ôn Luyện Bài (Review Mode), nghiên cứu kỹ cấu trúc bài học và <i>Worked Example 3 bước</i> để định hình lại tư duy.</li>
+                <li><b>Bước 3: Tái kiểm tra & Khai phóng:</b> Làm lại đề này sau 24 giờ để kích hoạt cơ chế ghi nhớ ngắt quãng (FSRS), sẵn sàng mở khóa Tier tiếp theo!</li>
+            `;
+
+            // Instant Remediation Action Buttons & Social Share
+            document.getElementById('res-remediation-actions').innerHTML = `
+                <button onclick="navigate('flashcard', {skill: state.exam.skill})">🃏 Chữa lành bằng Flashcard (${state.exam.skill.toUpperCase()})</button>
+                <button class="outline" onclick="navigate('review', {skill: state.exam.skill})">📝 Học Bài PPP Chuyên Sâu</button>
+                <button class="outline" style="border-color:var(--warning); color:var(--warning); font-weight:700;" onclick="shareScorecard()">🎉 Khoe Thành Tích / Chia Sẻ Bảng Điểm</button>
+            `;
+
+            document.getElementById('res-details').innerHTML = detailsHtml;
+        }
+
+        function calculateBandEquivalent(score, total) {
+            const percentage = score / total;
+            if(percentage >= 0.9) return "7.5+ (Xuất sắc / Expert)";
+            if(percentage >= 0.8) return "7.0 (Rất tốt / Very Good)";
+            if(percentage >= 0.7) return "6.5 (Khá tốt / Good User)";
+            if(percentage >= 0.6) return "6.0 (Đạt yêu cầu / Competent)";
+            if(percentage >= 0.5) return "5.5 (Trung bình khá)";
+            if(percentage >= 0.4) return "5.0 (Cơ bản / Modest)";
+            return "<5.0 (Cần củng cố nền tảng)";
+        }
+
+        // Run Init
+        document.addEventListener('DOMContentLoaded', init);
+
+    </script>
+    <!-- Floating Zalo Hotline Widget (Marketing & Chăm sóc học sinh / phụ huynh) -->
+    <aside aria-label="Tư vấn và Hỗ trợ" style="position:fixed; bottom:20px; right:20px; z-index:999; display:flex; flex-direction:column; align-items:flex-end; gap:0.5rem;">
+        <a href="https://zalo.me/0985578385" target="_blank" rel="noopener noreferrer" style="display:flex; align-items:center; gap:0.5rem; background:linear-gradient(135deg, #0284c7, #2563eb); color:white; padding:0.6rem 1rem; border-radius:9999px; text-decoration:none; font-weight:700; font-size:0.85rem; box-shadow:0 10px 15px -3px rgba(37,99,235,0.35); transition:all 0.2s ease;">
+            <span style="font-size:1.15rem;">💬</span>
+            <span>Tư vấn Zalo: +98 557 8385</span>
+        </a>
+    </aside>
+
+</body>
+</html>

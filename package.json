@@ -1,0 +1,20 @@
+{
+  "name": "n-mstudio-education-deep-ielts",
+  "version": "4.0.0",
+  "description": "DeepIELTS — N&Mstudio Education: Tổ hợp ôn luyện IELTS toàn diện chuẩn Sư phạm DeepTutor từ Band 4.0 đến 7.0+ dành cho học sinh THPT Việt Nam (Lớp 10–12) và Phụ huynh đồng hành.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "ielts",
+    "education",
+    "deeptutor",
+    "vietnam-highschool",
+    "active-recall",
+    "fsrs",
+    "nmstudio"
+  ],
+  "author": "N&Mstudio Education",
+  "license": "MIT"
+}
