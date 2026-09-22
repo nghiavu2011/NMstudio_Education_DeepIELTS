@@ -6,33 +6,69 @@ const IELTS_DATA = {
     "levels": [
       {
         "id": "4.0",
-        "name": "Level 1: Foundation (3.5 - 4.5)",
-        "desc": "Khởi động nền tảng, bù đắp lỗ hổng ngữ âm & 12 thì cơ bản"
+        "code": "4.0",
+        "name_en": "BUILD THE FOUNDATION",
+        "name_vi": "Xây Dựng Nền Tảng",
+        "name": "Band 4.0: Build the Foundation",
+        "desc": "Bù đắp lỗ hổng phát âm cơ bản, nhận diện từ khóa trực diện, con số, chữ cái và 12 thì cơ bản.",
+        "capabilities": "Có thể hiểu thông tin cơ bản trong các tình huống quen thuộc.",
+        "needs": "Cần cải thiện độ chính xác từ vựng và phản xạ nghe chính tả.",
+        "nextReq": "Làm quen câu phức và từ nối cơ bản."
       },
       {
         "id": "5.0",
-        "name": "Level 2: Pre-IELTS (4.5 - 5.0)",
-        "desc": "Làm quen câu phức, nghe bắt từ khóa đơn giản, đọc quét thông tin"
+        "code": "5.0",
+        "name_en": "DEVELOP CORE SKILLS",
+        "name_vi": "Phát Triển Kỹ Năng Cốt Lõi",
+        "name": "Band 5.0: Develop Core Skills",
+        "desc": "Làm quen cấu trúc câu phức, nghe bắt ý chính hội thoại đời sống, đọc quét thông tin thực tế.",
+        "capabilities": "Nắm được ý chính trong các ngữ cảnh đời sống thường nhật.",
+        "needs": "Dễ bị phân tâm bởi các yếu tố nhiễu đầu tiên trong bài thi.",
+        "nextReq": "Nhận diện bẫy sửa đổi thông tin (Correction trap)."
       },
       {
         "id": "5.5",
-        "name": "Level 3: Developing (5.0 - 5.5)",
-        "desc": "Bắt paraphrase cơ bản, nhận diện bẫy đổi hướng thông tin trong hội thoại"
+        "code": "5.5",
+        "name_en": "IMPROVE ACCURACY",
+        "name_vi": "Nâng Cao Độ Chính Xác",
+        "name": "Band 5.5: Improve Accuracy",
+        "desc": "Nhận diện paraphrase cơ bản, kiểm soát bẫy đổi hướng thông tin, viết câu mạch lạc.",
+        "capabilities": "Hiểu được ý chính nhưng còn mất điểm ở các cấu trúc đảo ngữ hoặc từ đồng nghĩa.",
+        "needs": "Kiên nhẫn kiểm tra bằng chứng trước khi chọn đáp án.",
+        "nextReq": "Làm chủ từ nối tương phản và tư duy liên kết PEEL."
       },
       {
         "id": "6.0",
-        "name": "Level 4: Intermediate (5.5 - 6.0)",
-        "desc": "Chuẩn miễn thi tốt nghiệp THPT, viết đoạn văn PEEL Task 2, phân tích biểu đồ"
+        "code": "6.0",
+        "name_en": "INDEPENDENT USER",
+        "name_vi": "Người Dùng Độc Lập",
+        "name": "Band 6.0: Independent User",
+        "desc": "Sử dụng tiếng Anh độc lập, diễn đạt ý tưởng học thuật mạch lạc, phân tích biểu đồ Task 1 và bài luận Task 2.",
+        "capabilities": "Xử lý hiệu quả phần lớn tình huống học thuật và đời sống quen thuộc.",
+        "needs": "Tránh suy diễn quá đà (over-inference) khi đọc văn bản trừu tượng.",
+        "nextReq": "Nâng cao vốn từ vựng học thuật ít phổ biến và liên kết lập luận đa chiều."
       },
       {
         "id": "6.5",
-        "name": "Level 5: Upper-Intermediate (6.0 - 6.5)",
-        "desc": "Target vàng xét tuyển Đại học Top đầu, làm chủ Matching Headings & Yes/No/NG"
+        "code": "6.5",
+        "name_en": "ACADEMIC READINESS",
+        "name_vi": "Sẵn Sàng Học Thuật",
+        "name": "Band 6.5: Academic Readiness",
+        "desc": "Làm chủ kỹ năng đọc quét tốc độ cao, giải mã dạng đề Matching Headings & Yes/No/Not Given, nói theo trục PPF.",
+        "capabilities": "Tự tin nghiên cứu tài liệu học thuật quốc tế và thảo luận chuyên sâu.",
+        "needs": "Kiểm soát bẫy từ ngữ cực đoan (all, always, only) trong các bài đọc dài.",
+        "nextReq": "Tư duy phản biện phê phán và làm chủ sắc thái biểu cảm tự nhiên."
       },
       {
         "id": "7.0",
-        "name": "Level 6: Advanced (7.0+)",
-        "desc": "Tư duy phản biện (Critical Thinking), văn phong học thuật tự nhiên & chiều sâu"
+        "code": "7.0+",
+        "name_en": "ADVANCED ACADEMIC ENGLISH",
+        "name_vi": "Tiếng Anh Học Thuật Nâng Cao",
+        "name": "Band 7.0+: Advanced Academic English",
+        "desc": "Tư duy phản biện (Critical Thinking), làm chủ bài giảng chuyên ngành trừu tượng, văn phong tinh tế và chiều sâu.",
+        "capabilities": "Sử dụng ngôn ngữ linh hoạt, tự nhiên, phong phú và chính xác cao.",
+        "needs": "Duy trì trạng thái tập trung liên tục trong các bài thi kéo dài.",
+        "nextReq": "Bứt phá lên chuẩn học giả quốc tế Band 8.0 - 9.0."
       }
     ],
     "topics": [
@@ -72,7 +108,24 @@ const IELTS_DATA = {
         "name_vi": "Văn hóa, Lịch sử & Động thái xã hội",
         "icon": "🏛️"
       }
-    ]
+    ],
+    "admission_policy_guide": {
+      "title": "Thông Tin Tham Chiếu: IELTS & Tuyển Sinh",
+      "effective_year": "2025 - 2026",
+      "last_updated": "Tháng 09/2026",
+      "disclaimer": "Lưu ý quan trọng: Quy chế thi tốt nghiệp THPT và đề án tuyển sinh đại học có thể thay đổi hàng năm theo thông tư của Bộ Giáo dục & Đào tạo cũng như từng trường đại học. IELTS không đảm bảo kết quả trúng tuyển cố định và không tự động quy đổi thành điểm 10 trong mọi phương thức xét tuyển.",
+      "graduation_policy": {
+        "status": "Miễn thi môn Ngoại ngữ trong xét công nhận tốt nghiệp THPT",
+        "detail": "Theo quy chế hiện hành của Bộ GD&ĐT, thí sinh sở hữu chứng chỉ IELTS từ 4.0 trở lên (hoặc tương đương) còn hạn sử dụng được đăng ký miễn thi môn Ngoại ngữ để xét tốt nghiệp THPT. Lưu ý: Điểm này áp dụng cho việc xét tốt nghiệp, việc quy đổi điểm xét tuyển đại học phụ thuộc hoàn toàn vào đề án tuyển sinh của từng cơ sở giáo dục đại học.",
+        "official_source": "Bộ Giáo dục và Đào tạo Việt Nam",
+        "official_url": "https://moet.gov.vn"
+      },
+      "university_admission": {
+        "status": "Phương thức xét tuyển kết hợp chứng chỉ quốc tế",
+        "detail": "Các trường đại học thường áp dụng phương thức xét tuyển kết hợp (IELTS + học bạ THPT hoặc IELTS + điểm thi ĐGNL / điểm thi tốt nghiệp). Ngưỡng điểm sàn và bảng quy đổi điểm do từng trường quy định độc lập trong đề án tuyển sinh chính thức hàng năm.",
+        "advice": "Học sinh và phụ huynh nên tra cứu trực tiếp tại Cổng thông tin tuyển sinh của trường đại học mục tiêu tại thời điểm đăng ký xét tuyển."
+      }
+    }
   },
   "skills": [
     "listening",
@@ -563,7 +616,8 @@ const IELTS_DATA = {
               },
               "context": "Oxford Employment Agency Interview",
               "context_vi": "Phỏng vấn đăng ký tìm việc tại trung tâm",
-              "passage": ""
+              "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+              "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
             },
             {
               "id": "L40_1_2",
@@ -588,7 +642,8 @@ const IELTS_DATA = {
               },
               "context": "Oxford Employment Agency Interview",
               "context_vi": "Ghi địa chỉ nhà ở",
-              "passage": ""
+              "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+              "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
             },
             {
               "id": "L40_1_3",
@@ -613,7 +668,8 @@ const IELTS_DATA = {
               },
               "context": "Oxford Employment Agency Interview",
               "context_vi": "Mã bưu cục",
-              "passage": ""
+              "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+              "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
             },
             {
               "id": "L40_1_4",
@@ -638,9 +694,12 @@ const IELTS_DATA = {
               },
               "context": "Oxford Employment Agency Interview",
               "context_vi": "Chuyên ngành học tại đại học",
-              "passage": ""
+              "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+              "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
             }
-          ]
+          ],
+          "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+          "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
         },
         {
           "id": "L40_T2",
@@ -673,7 +732,8 @@ const IELTS_DATA = {
               },
               "context": "Campus Library Helpdesk",
               "context_vi": "Đăng ký thẻ thư viện",
-              "passage": ""
+              "passage": "LIBRARIAN: Welcome to the University Central Library. Are you registering your student card today?\nSTUDENT: Yes, please. I'm a first-year undergraduate student.\nLIBRARIAN: Perfect. May I have your university student ID number?\nSTUDENT: Sure, it's ST88402. That's S-T double eight four oh two.\nLIBRARIAN: S-T double eight four oh two. Thank you. Now, let me explain the borrowing entitlement. Postgraduate researchers can borrow up to twelve books, but as a first-year undergraduate, you are entitled to borrow up to six books simultaneously for standard two-week loan periods. Short-loan reference texts are limited to three books overnight, but for general circulating books, it is up to six books.\nSTUDENT: Up to six books. That's very helpful, thank you!",
+              "audioScript": "LIBRARIAN: Welcome to the University Central Library. Are you registering your student card today?\nSTUDENT: Yes, please. I'm a first-year undergraduate student.\nLIBRARIAN: Perfect. May I have your university student ID number?\nSTUDENT: Sure, it's ST88402. That's S-T double eight four oh two.\nLIBRARIAN: S-T double eight four oh two. Thank you. Now, let me explain the borrowing entitlement. Postgraduate researchers can borrow up to twelve books, but as a first-year undergraduate, you are entitled to borrow up to six books simultaneously for standard two-week loan periods. Short-loan reference texts are limited to three books overnight, but for general circulating books, it is up to six books.\nSTUDENT: Up to six books. That's very helpful, thank you!"
             },
             {
               "id": "L40_2_2",
@@ -705,9 +765,12 @@ const IELTS_DATA = {
               },
               "context": "Campus Library Helpdesk",
               "context_vi": "Quy định mượn sách thư viện",
-              "passage": ""
+              "passage": "LIBRARIAN: Welcome to the University Central Library. Are you registering your student card today?\nSTUDENT: Yes, please. I'm a first-year undergraduate student.\nLIBRARIAN: Perfect. May I have your university student ID number?\nSTUDENT: Sure, it's ST88402. That's S-T double eight four oh two.\nLIBRARIAN: S-T double eight four oh two. Thank you. Now, let me explain the borrowing entitlement. Postgraduate researchers can borrow up to twelve books, but as a first-year undergraduate, you are entitled to borrow up to six books simultaneously for standard two-week loan periods. Short-loan reference texts are limited to three books overnight, but for general circulating books, it is up to six books.\nSTUDENT: Up to six books. That's very helpful, thank you!",
+              "audioScript": "LIBRARIAN: Welcome to the University Central Library. Are you registering your student card today?\nSTUDENT: Yes, please. I'm a first-year undergraduate student.\nLIBRARIAN: Perfect. May I have your university student ID number?\nSTUDENT: Sure, it's ST88402. That's S-T double eight four oh two.\nLIBRARIAN: S-T double eight four oh two. Thank you. Now, let me explain the borrowing entitlement. Postgraduate researchers can borrow up to twelve books, but as a first-year undergraduate, you are entitled to borrow up to six books simultaneously for standard two-week loan periods. Short-loan reference texts are limited to three books overnight, but for general circulating books, it is up to six books.\nSTUDENT: Up to six books. That's very helpful, thank you!"
             }
-          ]
+          ],
+          "audioScript": "LIBRARIAN: Welcome to the University Central Library. Are you registering your student card today?\nSTUDENT: Yes, please. I'm a first-year undergraduate student.\nLIBRARIAN: Perfect. May I have your university student ID number?\nSTUDENT: Sure, it's ST88402. That's S-T double eight four oh two.\nLIBRARIAN: S-T double eight four oh two. Thank you. Now, let me explain the borrowing entitlement. Postgraduate researchers can borrow up to twelve books, but as a first-year undergraduate, you are entitled to borrow up to six books simultaneously for standard two-week loan periods. Short-loan reference texts are limited to three books overnight, but for general circulating books, it is up to six books.\nSTUDENT: Up to six books. That's very helpful, thank you!",
+          "passage": "LIBRARIAN: Welcome to the University Central Library. Are you registering your student card today?\nSTUDENT: Yes, please. I'm a first-year undergraduate student.\nLIBRARIAN: Perfect. May I have your university student ID number?\nSTUDENT: Sure, it's ST88402. That's S-T double eight four oh two.\nLIBRARIAN: S-T double eight four oh two. Thank you. Now, let me explain the borrowing entitlement. Postgraduate researchers can borrow up to twelve books, but as a first-year undergraduate, you are entitled to borrow up to six books simultaneously for standard two-week loan periods. Short-loan reference texts are limited to three books overnight, but for general circulating books, it is up to six books.\nSTUDENT: Up to six books. That's very helpful, thank you!"
         }
       ],
       "5.0": [
@@ -742,7 +805,8 @@ const IELTS_DATA = {
               },
               "context": "Employment Agency Experience Check",
               "context_vi": "Kinh nghiệm làm việc trước đây",
-              "passage": ""
+              "passage": "INTERVIEWER: Thanks for coming in, Stephen. Let's review your previous work experience. You mentioned retail and hospitality?\nSTEPHEN: Yes, last summer I completed two months of retail experience as an assistant in a sports shop. We handled running gear and sportswear inventory.\nINTERVIEWER: Excellent. And you also mentioned working at an Italian restaurant downtown?\nSTEPHEN: That's right. Initially, they advertised for a kitchen assistant washing dishes, but when I arrived for my first shift, they were short of front-of-house staff. So they asked me if I could serve tables. I spent the entire summer as a waiter serving customers.\nINTERVIEWER: That's great customer-facing experience. Waiter skills translate very well to our campus event coordinator role.",
+              "audioScript": "INTERVIEWER: Thanks for coming in, Stephen. Let's review your previous work experience. You mentioned retail and hospitality?\nSTEPHEN: Yes, last summer I completed two months of retail experience as an assistant in a sports shop. We handled running gear and sportswear inventory.\nINTERVIEWER: Excellent. And you also mentioned working at an Italian restaurant downtown?\nSTEPHEN: That's right. Initially, they advertised for a kitchen assistant washing dishes, but when I arrived for my first shift, they were short of front-of-house staff. So they asked me if I could serve tables. I spent the entire summer as a waiter serving customers.\nINTERVIEWER: That's great customer-facing experience. Waiter skills translate very well to our campus event coordinator role."
             },
             {
               "id": "L50_1_2",
@@ -774,9 +838,12 @@ const IELTS_DATA = {
               },
               "context": "Employment Agency Experience Check",
               "context_vi": "Vị trí thực tế đã làm",
-              "passage": ""
+              "passage": "INTERVIEWER: Thanks for coming in, Stephen. Let's review your previous work experience. You mentioned retail and hospitality?\nSTEPHEN: Yes, last summer I completed two months of retail experience as an assistant in a sports shop. We handled running gear and sportswear inventory.\nINTERVIEWER: Excellent. And you also mentioned working at an Italian restaurant downtown?\nSTEPHEN: That's right. Initially, they advertised for a kitchen assistant washing dishes, but when I arrived for my first shift, they were short of front-of-house staff. So they asked me if I could serve tables. I spent the entire summer as a waiter serving customers.\nINTERVIEWER: That's great customer-facing experience. Waiter skills translate very well to our campus event coordinator role.",
+              "audioScript": "INTERVIEWER: Thanks for coming in, Stephen. Let's review your previous work experience. You mentioned retail and hospitality?\nSTEPHEN: Yes, last summer I completed two months of retail experience as an assistant in a sports shop. We handled running gear and sportswear inventory.\nINTERVIEWER: Excellent. And you also mentioned working at an Italian restaurant downtown?\nSTEPHEN: That's right. Initially, they advertised for a kitchen assistant washing dishes, but when I arrived for my first shift, they were short of front-of-house staff. So they asked me if I could serve tables. I spent the entire summer as a waiter serving customers.\nINTERVIEWER: That's great customer-facing experience. Waiter skills translate very well to our campus event coordinator role."
             }
-          ]
+          ],
+          "audioScript": "INTERVIEWER: Thanks for coming in, Stephen. Let's review your previous work experience. You mentioned retail and hospitality?\nSTEPHEN: Yes, last summer I completed two months of retail experience as an assistant in a sports shop. We handled running gear and sportswear inventory.\nINTERVIEWER: Excellent. And you also mentioned working at an Italian restaurant downtown?\nSTEPHEN: That's right. Initially, they advertised for a kitchen assistant washing dishes, but when I arrived for my first shift, they were short of front-of-house staff. So they asked me if I could serve tables. I spent the entire summer as a waiter serving customers.\nINTERVIEWER: That's great customer-facing experience. Waiter skills translate very well to our campus event coordinator role.",
+          "passage": "INTERVIEWER: Thanks for coming in, Stephen. Let's review your previous work experience. You mentioned retail and hospitality?\nSTEPHEN: Yes, last summer I completed two months of retail experience as an assistant in a sports shop. We handled running gear and sportswear inventory.\nINTERVIEWER: Excellent. And you also mentioned working at an Italian restaurant downtown?\nSTEPHEN: That's right. Initially, they advertised for a kitchen assistant washing dishes, but when I arrived for my first shift, they were short of front-of-house staff. So they asked me if I could serve tables. I spent the entire summer as a waiter serving customers.\nINTERVIEWER: That's great customer-facing experience. Waiter skills translate very well to our campus event coordinator role."
         },
         {
           "id": "L50_T2",
@@ -809,9 +876,12 @@ const IELTS_DATA = {
               },
               "context": "Sports Complex Reception",
               "context_vi": "Hỏi giờ mở cửa hồ bơi",
-              "passage": ""
+              "passage": "RECEPTIONIST: Welcome to the Oakridge Community Fitness Center. Are you interested in our active weekend membership?\nCUSTOMER: Yes, specifically the swimming facilities. What are your opening hours on the weekend?\nRECEPTIONIST: On weekdays, we open very early at 6.00 a.m. for the commuter lane swims. On Sundays, opening hours are slightly delayed until 8.30 a.m. However, on Saturdays, our swimming pool opening time is promptly at 7.30 a.m., allowing early morning endurance swimmers to practice before the family fun splash begins at 10.00.\nCUSTOMER: 7.30 a.m. on Saturdays sounds ideal for my schedule!",
+              "audioScript": "RECEPTIONIST: Welcome to the Oakridge Community Fitness Center. Are you interested in our active weekend membership?\nCUSTOMER: Yes, specifically the swimming facilities. What are your opening hours on the weekend?\nRECEPTIONIST: On weekdays, we open very early at 6.00 a.m. for the commuter lane swims. On Sundays, opening hours are slightly delayed until 8.30 a.m. However, on Saturdays, our swimming pool opening time is promptly at 7.30 a.m., allowing early morning endurance swimmers to practice before the family fun splash begins at 10.00.\nCUSTOMER: 7.30 a.m. on Saturdays sounds ideal for my schedule!"
             }
-          ]
+          ],
+          "audioScript": "RECEPTIONIST: Welcome to the Oakridge Community Fitness Center. Are you interested in our active weekend membership?\nCUSTOMER: Yes, specifically the swimming facilities. What are your opening hours on the weekend?\nRECEPTIONIST: On weekdays, we open very early at 6.00 a.m. for the commuter lane swims. On Sundays, opening hours are slightly delayed until 8.30 a.m. However, on Saturdays, our swimming pool opening time is promptly at 7.30 a.m., allowing early morning endurance swimmers to practice before the family fun splash begins at 10.00.\nCUSTOMER: 7.30 a.m. on Saturdays sounds ideal for my schedule!",
+          "passage": "RECEPTIONIST: Welcome to the Oakridge Community Fitness Center. Are you interested in our active weekend membership?\nCUSTOMER: Yes, specifically the swimming facilities. What are your opening hours on the weekend?\nRECEPTIONIST: On weekdays, we open very early at 6.00 a.m. for the commuter lane swims. On Sundays, opening hours are slightly delayed until 8.30 a.m. However, on Saturdays, our swimming pool opening time is promptly at 7.30 a.m., allowing early morning endurance swimmers to practice before the family fun splash begins at 10.00.\nCUSTOMER: 7.30 a.m. on Saturdays sounds ideal for my schedule!"
         }
       ],
       "5.5": [
@@ -853,7 +923,8 @@ const IELTS_DATA = {
               },
               "context": "School Principal Welcome Speech",
               "context_vi": "Phát biểu của Hiệu trưởng",
-              "passage": ""
+              "passage": "HEADTEACHER: Good evening, parents and prospective students. Welcome to our annual School Open Evening. Before we begin the tour of the science labs and arts wing, I want to brief you on a couple of important practical updates.\nFirstly, regarding school lunchtimes. In previous terms, all years were dismissed simultaneously, creating immense congestion in the dining hall. To avoid overcrowding and shorten waiting times, we have introduced a staggered lunch schedule. This makes it far easier for everyone to eat comfortably without waiting in long queues.\nSecondly, after this introductory talk finishes, you will exit the main hall through the double doors at the back. Refreshments, including hot tea, coffee, and biscuits, are provided on your immediate right outside the back doors. Please help yourselves before heading toward the faculty classrooms.",
+              "audioScript": "HEADTEACHER: Good evening, parents and prospective students. Welcome to our annual School Open Evening. Before we begin the tour of the science labs and arts wing, I want to brief you on a couple of important practical updates.\nFirstly, regarding school lunchtimes. In previous terms, all years were dismissed simultaneously, creating immense congestion in the dining hall. To avoid overcrowding and shorten waiting times, we have introduced a staggered lunch schedule. This makes it far easier for everyone to eat comfortably without waiting in long queues.\nSecondly, after this introductory talk finishes, you will exit the main hall through the double doors at the back. Refreshments, including hot tea, coffee, and biscuits, are provided on your immediate right outside the back doors. Please help yourselves before heading toward the faculty classrooms."
             },
             {
               "id": "L55_1_2",
@@ -885,9 +956,12 @@ const IELTS_DATA = {
               },
               "context": "School Facilities Map",
               "context_vi": "Định vị khu vực giải khát ngoài sảnh",
-              "passage": ""
+              "passage": "HEADTEACHER: Good evening, parents and prospective students. Welcome to our annual School Open Evening. Before we begin the tour of the science labs and arts wing, I want to brief you on a couple of important practical updates.\nFirstly, regarding school lunchtimes. In previous terms, all years were dismissed simultaneously, creating immense congestion in the dining hall. To avoid overcrowding and shorten waiting times, we have introduced a staggered lunch schedule. This makes it far easier for everyone to eat comfortably without waiting in long queues.\nSecondly, after this introductory talk finishes, you will exit the main hall through the double doors at the back. Refreshments, including hot tea, coffee, and biscuits, are provided on your immediate right outside the back doors. Please help yourselves before heading toward the faculty classrooms.",
+              "audioScript": "HEADTEACHER: Good evening, parents and prospective students. Welcome to our annual School Open Evening. Before we begin the tour of the science labs and arts wing, I want to brief you on a couple of important practical updates.\nFirstly, regarding school lunchtimes. In previous terms, all years were dismissed simultaneously, creating immense congestion in the dining hall. To avoid overcrowding and shorten waiting times, we have introduced a staggered lunch schedule. This makes it far easier for everyone to eat comfortably without waiting in long queues.\nSecondly, after this introductory talk finishes, you will exit the main hall through the double doors at the back. Refreshments, including hot tea, coffee, and biscuits, are provided on your immediate right outside the back doors. Please help yourselves before heading toward the faculty classrooms."
             }
-          ]
+          ],
+          "audioScript": "HEADTEACHER: Good evening, parents and prospective students. Welcome to our annual School Open Evening. Before we begin the tour of the science labs and arts wing, I want to brief you on a couple of important practical updates.\nFirstly, regarding school lunchtimes. In previous terms, all years were dismissed simultaneously, creating immense congestion in the dining hall. To avoid overcrowding and shorten waiting times, we have introduced a staggered lunch schedule. This makes it far easier for everyone to eat comfortably without waiting in long queues.\nSecondly, after this introductory talk finishes, you will exit the main hall through the double doors at the back. Refreshments, including hot tea, coffee, and biscuits, are provided on your immediate right outside the back doors. Please help yourselves before heading toward the faculty classrooms.",
+          "passage": "HEADTEACHER: Good evening, parents and prospective students. Welcome to our annual School Open Evening. Before we begin the tour of the science labs and arts wing, I want to brief you on a couple of important practical updates.\nFirstly, regarding school lunchtimes. In previous terms, all years were dismissed simultaneously, creating immense congestion in the dining hall. To avoid overcrowding and shorten waiting times, we have introduced a staggered lunch schedule. This makes it far easier for everyone to eat comfortably without waiting in long queues.\nSecondly, after this introductory talk finishes, you will exit the main hall through the double doors at the back. Refreshments, including hot tea, coffee, and biscuits, are provided on your immediate right outside the back doors. Please help yourselves before heading toward the faculty classrooms."
         },
         {
           "id": "L55_T2",
@@ -927,9 +1001,12 @@ const IELTS_DATA = {
               },
               "context": "Nature Reserve Audio Guide",
               "context_vi": "Bản đồ tham quan vườn bách thảo",
-              "passage": ""
+              "passage": "TOUR GUIDE: Welcome to the Botanical Nature Reserve. If everyone can look at the orientation map on the board before we set off along the wetland trail.\nRight in the middle of our sanctuary is the central lake. On the northern shore of the lake, we have our waterfowl bird sanctuary where binoculars are available. However, if you are looking for our rare orchid glasshouse, you must walk south, cross the wooden footbridge over the stream, and you will find the glasshouse situated directly across the wooden bridge on the south-west bank of the lake. It is climate-controlled at twenty-four degrees Celsius to preserve endangered tropical flora.",
+              "audioScript": "TOUR GUIDE: Welcome to the Botanical Nature Reserve. If everyone can look at the orientation map on the board before we set off along the wetland trail.\nRight in the middle of our sanctuary is the central lake. On the northern shore of the lake, we have our waterfowl bird sanctuary where binoculars are available. However, if you are looking for our rare orchid glasshouse, you must walk south, cross the wooden footbridge over the stream, and you will find the glasshouse situated directly across the wooden bridge on the south-west bank of the lake. It is climate-controlled at twenty-four degrees Celsius to preserve endangered tropical flora."
             }
-          ]
+          ],
+          "audioScript": "TOUR GUIDE: Welcome to the Botanical Nature Reserve. If everyone can look at the orientation map on the board before we set off along the wetland trail.\nRight in the middle of our sanctuary is the central lake. On the northern shore of the lake, we have our waterfowl bird sanctuary where binoculars are available. However, if you are looking for our rare orchid glasshouse, you must walk south, cross the wooden footbridge over the stream, and you will find the glasshouse situated directly across the wooden bridge on the south-west bank of the lake. It is climate-controlled at twenty-four degrees Celsius to preserve endangered tropical flora.",
+          "passage": "TOUR GUIDE: Welcome to the Botanical Nature Reserve. If everyone can look at the orientation map on the board before we set off along the wetland trail.\nRight in the middle of our sanctuary is the central lake. On the northern shore of the lake, we have our waterfowl bird sanctuary where binoculars are available. However, if you are looking for our rare orchid glasshouse, you must walk south, cross the wooden footbridge over the stream, and you will find the glasshouse situated directly across the wooden bridge on the south-west bank of the lake. It is climate-controlled at twenty-four degrees Celsius to preserve endangered tropical flora."
         }
       ],
       "6.0": [
@@ -971,9 +1048,12 @@ const IELTS_DATA = {
               },
               "context": "University Media Studies Tutorial",
               "context_vi": "Thảo luận về chuyển đổi số báo chí",
-              "passage": ""
+              "passage": "HOLLY: Liam, have you finished reading through the historical archive section for our Media Studies seminar?\nLIAM: Yes, Holly. I was particularly fascinated by the circulation records of the Daily Chronicle from the late nineteenth century.\nHOLLY: Exactly! What struck me most was the sheer volume of daily print copies sold. Given that population figures were so much smaller and literacy was still expanding, their sales figures were exceptionally high compared to current newspaper circulation standards.\nLIAM: I completely agree. It was amazing and way beyond what I thought possible. Today's major broadsheets would celebrate reaching a fraction of that daily print volume without digital paywalls.",
+              "audioScript": "HOLLY: Liam, have you finished reading through the historical archive section for our Media Studies seminar?\nLIAM: Yes, Holly. I was particularly fascinated by the circulation records of the Daily Chronicle from the late nineteenth century.\nHOLLY: Exactly! What struck me most was the sheer volume of daily print copies sold. Given that population figures were so much smaller and literacy was still expanding, their sales figures were exceptionally high compared to current newspaper circulation standards.\nLIAM: I completely agree. It was amazing and way beyond what I thought possible. Today's major broadsheets would celebrate reaching a fraction of that daily print volume without digital paywalls."
             }
-          ]
+          ],
+          "audioScript": "HOLLY: Liam, have you finished reading through the historical archive section for our Media Studies seminar?\nLIAM: Yes, Holly. I was particularly fascinated by the circulation records of the Daily Chronicle from the late nineteenth century.\nHOLLY: Exactly! What struck me most was the sheer volume of daily print copies sold. Given that population figures were so much smaller and literacy was still expanding, their sales figures were exceptionally high compared to current newspaper circulation standards.\nLIAM: I completely agree. It was amazing and way beyond what I thought possible. Today's major broadsheets would celebrate reaching a fraction of that daily print volume without digital paywalls.",
+          "passage": "HOLLY: Liam, have you finished reading through the historical archive section for our Media Studies seminar?\nLIAM: Yes, Holly. I was particularly fascinated by the circulation records of the Daily Chronicle from the late nineteenth century.\nHOLLY: Exactly! What struck me most was the sheer volume of daily print copies sold. Given that population figures were so much smaller and literacy was still expanding, their sales figures were exceptionally high compared to current newspaper circulation standards.\nLIAM: I completely agree. It was amazing and way beyond what I thought possible. Today's major broadsheets would celebrate reaching a fraction of that daily print volume without digital paywalls."
         },
         {
           "id": "L60_T2",
@@ -1013,9 +1093,12 @@ const IELTS_DATA = {
               },
               "context": "University Agronomy Seminar",
               "context_vi": "Hội thảo báo cáo tiến độ đề tài nông nghiệp",
-              "passage": ""
+              "passage": "TUTOR: Good afternoon, team. How is your urban rooftop farming research project progressing?\nSTUDENT: Overall, the hydroponic crops grew exceptionally well, Professor. However, we ran into a serious data collection issue when calculating the final crop yield per square meter.\nTUTOR: What happened? Was it the sudden heatwave or pest infestation?\nSTUDENT: No, biological pests were minimal, under five percent. The major obstacle we encountered was irregular water pressure from the building's secondary plumbing system. Because the auxiliary booster pump malfunctioned intermittently, our sensor readings fluctuated wildly, making it nearly impossible to standardize irrigation flow rates for the baseline yield analysis.",
+              "audioScript": "TUTOR: Good afternoon, team. How is your urban rooftop farming research project progressing?\nSTUDENT: Overall, the hydroponic crops grew exceptionally well, Professor. However, we ran into a serious data collection issue when calculating the final crop yield per square meter.\nTUTOR: What happened? Was it the sudden heatwave or pest infestation?\nSTUDENT: No, biological pests were minimal, under five percent. The major obstacle we encountered was irregular water pressure from the building's secondary plumbing system. Because the auxiliary booster pump malfunctioned intermittently, our sensor readings fluctuated wildly, making it nearly impossible to standardize irrigation flow rates for the baseline yield analysis."
             }
-          ]
+          ],
+          "audioScript": "TUTOR: Good afternoon, team. How is your urban rooftop farming research project progressing?\nSTUDENT: Overall, the hydroponic crops grew exceptionally well, Professor. However, we ran into a serious data collection issue when calculating the final crop yield per square meter.\nTUTOR: What happened? Was it the sudden heatwave or pest infestation?\nSTUDENT: No, biological pests were minimal, under five percent. The major obstacle we encountered was irregular water pressure from the building's secondary plumbing system. Because the auxiliary booster pump malfunctioned intermittently, our sensor readings fluctuated wildly, making it nearly impossible to standardize irrigation flow rates for the baseline yield analysis.",
+          "passage": "TUTOR: Good afternoon, team. How is your urban rooftop farming research project progressing?\nSTUDENT: Overall, the hydroponic crops grew exceptionally well, Professor. However, we ran into a serious data collection issue when calculating the final crop yield per square meter.\nTUTOR: What happened? Was it the sudden heatwave or pest infestation?\nSTUDENT: No, biological pests were minimal, under five percent. The major obstacle we encountered was irregular water pressure from the building's secondary plumbing system. Because the auxiliary booster pump malfunctioned intermittently, our sensor readings fluctuated wildly, making it nearly impossible to standardize irrigation flow rates for the baseline yield analysis."
         }
       ],
       "6.5": [
@@ -1051,7 +1134,8 @@ const IELTS_DATA = {
               },
               "context": "History of Civil Engineering Lecture",
               "context_vi": "Bài giảng kỹ thuật cầu Tháp London",
-              "passage": ""
+              "passage": "ARCHAEOLOGIST: Welcome to the subterranean engine rooms of Tower Bridge. Today, we examine the Victorian hydraulic engineering that revolutionized Thames maritime commerce.\nTo lift the massive bascules weighing over one thousand tons each, immense energy was required. Coal-fired steam engines in these chambers boiled water to generate pressurized water, which was stored in gigantic accumulators under a pressure of eight hundred pounds per square inch before being routed via heavy cast-iron pipes directly into the operating mechanisms.\nThe entire hydraulic operation required pinpoint precision. All lifting and lowering levers were manipulated by the Bridge Operator, who was stationed in a glass cabin situated at the base of the south tower, carefully observing river traffic signals from passing steamships.",
+              "audioScript": "ARCHAEOLOGIST: Welcome to the subterranean engine rooms of Tower Bridge. Today, we examine the Victorian hydraulic engineering that revolutionized Thames maritime commerce.\nTo lift the massive bascules weighing over one thousand tons each, immense energy was required. Coal-fired steam engines in these chambers boiled water to generate pressurized water, which was stored in gigantic accumulators under a pressure of eight hundred pounds per square inch before being routed via heavy cast-iron pipes directly into the operating mechanisms.\nThe entire hydraulic operation required pinpoint precision. All lifting and lowering levers were manipulated by the Bridge Operator, who was stationed in a glass cabin situated at the base of the south tower, carefully observing river traffic signals from passing steamships."
             },
             {
               "id": "L65_1_2",
@@ -1076,9 +1160,12 @@ const IELTS_DATA = {
               },
               "context": "History of Civil Engineering Lecture",
               "context_vi": "Chức danh người vận hành cầu",
-              "passage": ""
+              "passage": "ARCHAEOLOGIST: Welcome to the subterranean engine rooms of Tower Bridge. Today, we examine the Victorian hydraulic engineering that revolutionized Thames maritime commerce.\nTo lift the massive bascules weighing over one thousand tons each, immense energy was required. Coal-fired steam engines in these chambers boiled water to generate pressurized water, which was stored in gigantic accumulators under a pressure of eight hundred pounds per square inch before being routed via heavy cast-iron pipes directly into the operating mechanisms.\nThe entire hydraulic operation required pinpoint precision. All lifting and lowering levers were manipulated by the Bridge Operator, who was stationed in a glass cabin situated at the base of the south tower, carefully observing river traffic signals from passing steamships.",
+              "audioScript": "ARCHAEOLOGIST: Welcome to the subterranean engine rooms of Tower Bridge. Today, we examine the Victorian hydraulic engineering that revolutionized Thames maritime commerce.\nTo lift the massive bascules weighing over one thousand tons each, immense energy was required. Coal-fired steam engines in these chambers boiled water to generate pressurized water, which was stored in gigantic accumulators under a pressure of eight hundred pounds per square inch before being routed via heavy cast-iron pipes directly into the operating mechanisms.\nThe entire hydraulic operation required pinpoint precision. All lifting and lowering levers were manipulated by the Bridge Operator, who was stationed in a glass cabin situated at the base of the south tower, carefully observing river traffic signals from passing steamships."
             }
-          ]
+          ],
+          "audioScript": "ARCHAEOLOGIST: Welcome to the subterranean engine rooms of Tower Bridge. Today, we examine the Victorian hydraulic engineering that revolutionized Thames maritime commerce.\nTo lift the massive bascules weighing over one thousand tons each, immense energy was required. Coal-fired steam engines in these chambers boiled water to generate pressurized water, which was stored in gigantic accumulators under a pressure of eight hundred pounds per square inch before being routed via heavy cast-iron pipes directly into the operating mechanisms.\nThe entire hydraulic operation required pinpoint precision. All lifting and lowering levers were manipulated by the Bridge Operator, who was stationed in a glass cabin situated at the base of the south tower, carefully observing river traffic signals from passing steamships.",
+          "passage": "ARCHAEOLOGIST: Welcome to the subterranean engine rooms of Tower Bridge. Today, we examine the Victorian hydraulic engineering that revolutionized Thames maritime commerce.\nTo lift the massive bascules weighing over one thousand tons each, immense energy was required. Coal-fired steam engines in these chambers boiled water to generate pressurized water, which was stored in gigantic accumulators under a pressure of eight hundred pounds per square inch before being routed via heavy cast-iron pipes directly into the operating mechanisms.\nThe entire hydraulic operation required pinpoint precision. All lifting and lowering levers were manipulated by the Bridge Operator, who was stationed in a glass cabin situated at the base of the south tower, carefully observing river traffic signals from passing steamships."
         },
         {
           "id": "L65_T2",
@@ -1118,9 +1205,12 @@ const IELTS_DATA = {
               },
               "context": "Neuroscience Lecture",
               "context_vi": "Bài giảng khoa học thần kinh về giấc ngủ",
-              "passage": ""
+              "passage": "NEUROSCIENTIST: In today's lecture on sleep architecture and memory consolidation, we investigate how the human brain transforms transient daytime experiences into enduring long-term synaptic structures.\nWhile the rapid eye movement, or REM phase, is heavily implicated in emotional recalibration and creative associative synthesis, empirical EEG studies demonstrate that the hippocampus primarily replays newly encoded informational patterns during slow-wave non-REM (NREM) sleep. During these synchronized high-voltage delta waves, sharp-wave ripples transfer neural representations from temporary hippocampal storage to the neocortex for permanent consolidation.",
+              "audioScript": "NEUROSCIENTIST: In today's lecture on sleep architecture and memory consolidation, we investigate how the human brain transforms transient daytime experiences into enduring long-term synaptic structures.\nWhile the rapid eye movement, or REM phase, is heavily implicated in emotional recalibration and creative associative synthesis, empirical EEG studies demonstrate that the hippocampus primarily replays newly encoded informational patterns during slow-wave non-REM (NREM) sleep. During these synchronized high-voltage delta waves, sharp-wave ripples transfer neural representations from temporary hippocampal storage to the neocortex for permanent consolidation."
             }
-          ]
+          ],
+          "audioScript": "NEUROSCIENTIST: In today's lecture on sleep architecture and memory consolidation, we investigate how the human brain transforms transient daytime experiences into enduring long-term synaptic structures.\nWhile the rapid eye movement, or REM phase, is heavily implicated in emotional recalibration and creative associative synthesis, empirical EEG studies demonstrate that the hippocampus primarily replays newly encoded informational patterns during slow-wave non-REM (NREM) sleep. During these synchronized high-voltage delta waves, sharp-wave ripples transfer neural representations from temporary hippocampal storage to the neocortex for permanent consolidation.",
+          "passage": "NEUROSCIENTIST: In today's lecture on sleep architecture and memory consolidation, we investigate how the human brain transforms transient daytime experiences into enduring long-term synaptic structures.\nWhile the rapid eye movement, or REM phase, is heavily implicated in emotional recalibration and creative associative synthesis, empirical EEG studies demonstrate that the hippocampus primarily replays newly encoded informational patterns during slow-wave non-REM (NREM) sleep. During these synchronized high-voltage delta waves, sharp-wave ripples transfer neural representations from temporary hippocampal storage to the neocortex for permanent consolidation."
         }
       ],
       "7.0": [
@@ -1162,9 +1252,12 @@ const IELTS_DATA = {
               },
               "context": "Doctoral Colloquium on Energy Economics",
               "context_vi": "Hội thảo tiến sĩ về kinh tế học năng lượng",
-              "passage": ""
+              "passage": "PROFESSOR: In analyzing the fiscal architecture of green energy transitions, we must scrutinize the microeconomic dynamics of state intervention.\nWhile initial capital expenditure subsidies accelerated photovoltaic and wind adoption globally, economists observe an intriguing systemic contradiction. By guaranteeing fixed feed-in tariffs regardless of market fluctuations, renewable subsidies frequently foster short-term market distortion, inadvertently disincentivizing private investment in grid-scale battery storage innovation. Because renewable operators receive guaranteed subsidies even when producing excess power at zero spot price, commercial developers lack the arbitrage incentive to fund long-duration storage technologies.",
+              "audioScript": "PROFESSOR: In analyzing the fiscal architecture of green energy transitions, we must scrutinize the microeconomic dynamics of state intervention.\nWhile initial capital expenditure subsidies accelerated photovoltaic and wind adoption globally, economists observe an intriguing systemic contradiction. By guaranteeing fixed feed-in tariffs regardless of market fluctuations, renewable subsidies frequently foster short-term market distortion, inadvertently disincentivizing private investment in grid-scale battery storage innovation. Because renewable operators receive guaranteed subsidies even when producing excess power at zero spot price, commercial developers lack the arbitrage incentive to fund long-duration storage technologies."
             }
-          ]
+          ],
+          "audioScript": "PROFESSOR: In analyzing the fiscal architecture of green energy transitions, we must scrutinize the microeconomic dynamics of state intervention.\nWhile initial capital expenditure subsidies accelerated photovoltaic and wind adoption globally, economists observe an intriguing systemic contradiction. By guaranteeing fixed feed-in tariffs regardless of market fluctuations, renewable subsidies frequently foster short-term market distortion, inadvertently disincentivizing private investment in grid-scale battery storage innovation. Because renewable operators receive guaranteed subsidies even when producing excess power at zero spot price, commercial developers lack the arbitrage incentive to fund long-duration storage technologies.",
+          "passage": "PROFESSOR: In analyzing the fiscal architecture of green energy transitions, we must scrutinize the microeconomic dynamics of state intervention.\nWhile initial capital expenditure subsidies accelerated photovoltaic and wind adoption globally, economists observe an intriguing systemic contradiction. By guaranteeing fixed feed-in tariffs regardless of market fluctuations, renewable subsidies frequently foster short-term market distortion, inadvertently disincentivizing private investment in grid-scale battery storage innovation. Because renewable operators receive guaranteed subsidies even when producing excess power at zero spot price, commercial developers lack the arbitrage incentive to fund long-duration storage technologies."
         },
         {
           "id": "L70_T2",
@@ -1204,9 +1297,12 @@ const IELTS_DATA = {
               },
               "context": "Philosophy of Science Graduate Seminar",
               "context_vi": "Hội thảo sau đại học về triết học khoa học",
-              "passage": ""
+              "passage": "LECTURER: In his seminal 1962 treatise 'The Structure of Scientific Revolutions', Thomas Kuhn posited that scientific progress is punctuated by revolutionary paradigm shifts rather than cumulative linear accretion.\nCentral to Kuhn's philosophy is the concept of paradigm incommensurability. When a Newtonian framework competes against an Einsteinian relativistic framework, they cannot be evaluated on a common spectrum. Competing paradigms are considered incommensurable fundamentally because they lack a shared, neutral observational vocabulary through which objective truth claims can be neutrally arbitrated. Words like 'mass' or 'time' shift their semantic definition entirely between paradigms, making direct empirical translation theoretically impossible.",
+              "audioScript": "LECTURER: In his seminal 1962 treatise 'The Structure of Scientific Revolutions', Thomas Kuhn posited that scientific progress is punctuated by revolutionary paradigm shifts rather than cumulative linear accretion.\nCentral to Kuhn's philosophy is the concept of paradigm incommensurability. When a Newtonian framework competes against an Einsteinian relativistic framework, they cannot be evaluated on a common spectrum. Competing paradigms are considered incommensurable fundamentally because they lack a shared, neutral observational vocabulary through which objective truth claims can be neutrally arbitrated. Words like 'mass' or 'time' shift their semantic definition entirely between paradigms, making direct empirical translation theoretically impossible."
             }
-          ]
+          ],
+          "audioScript": "LECTURER: In his seminal 1962 treatise 'The Structure of Scientific Revolutions', Thomas Kuhn posited that scientific progress is punctuated by revolutionary paradigm shifts rather than cumulative linear accretion.\nCentral to Kuhn's philosophy is the concept of paradigm incommensurability. When a Newtonian framework competes against an Einsteinian relativistic framework, they cannot be evaluated on a common spectrum. Competing paradigms are considered incommensurable fundamentally because they lack a shared, neutral observational vocabulary through which objective truth claims can be neutrally arbitrated. Words like 'mass' or 'time' shift their semantic definition entirely between paradigms, making direct empirical translation theoretically impossible.",
+          "passage": "LECTURER: In his seminal 1962 treatise 'The Structure of Scientific Revolutions', Thomas Kuhn posited that scientific progress is punctuated by revolutionary paradigm shifts rather than cumulative linear accretion.\nCentral to Kuhn's philosophy is the concept of paradigm incommensurability. When a Newtonian framework competes against an Einsteinian relativistic framework, they cannot be evaluated on a common spectrum. Competing paradigms are considered incommensurable fundamentally because they lack a shared, neutral observational vocabulary through which objective truth claims can be neutrally arbitrated. Words like 'mass' or 'time' shift their semantic definition entirely between paradigms, making direct empirical translation theoretically impossible."
         }
       ]
     }
@@ -4128,5 +4224,468 @@ const IELTS_DATA = {
         }
       ]
     }
-  }
+  },
+  "mockExams": [
+    {
+      "id": "MOCK_FULL_01",
+      "title": "IELTS Academic Full Mock Test 01 (Chuẩn Format Quốc Tế)",
+      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 01 (Oxford & Cambridge Standard)",
+      "total_time": 175,
+      "skills_flow": [
+        "listening",
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "description": "Trải nghiệm bài thi chuẩn hóa theo đúng trình tự quốc tế: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút) kèm phân tích ma trận 4 trụ cột nhận thức.",
+      "listening": {
+        "time": 30,
+        "title": "Listening Test 01: Campus Life & Environmental Research",
+        "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.\n\nTUTOR: Good afternoon, team. How is your urban rooftop farming research project progressing?\nSTUDENT: Overall, the hydroponic crops grew exceptionally well, Professor. However, we ran into a serious data collection issue when calculating the final crop yield per square meter.\nTUTOR: What happened? Was it the sudden heatwave or pest infestation?\nSTUDENT: No, biological pests were minimal, under five percent. The major obstacle we encountered was irregular water pressure from the building's secondary plumbing system. Because the auxiliary booster pump malfunctioned intermittently, our sensor readings fluctuated wildly, making it nearly impossible to standardize irrigation flow rates for the baseline yield analysis.",
+        "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.\n\nTUTOR: Good afternoon, team. How is your urban rooftop farming research project progressing?\nSTUDENT: Overall, the hydroponic crops grew exceptionally well, Professor. However, we ran into a serious data collection issue when calculating the final crop yield per square meter.\nTUTOR: What happened? Was it the sudden heatwave or pest infestation?\nSTUDENT: No, biological pests were minimal, under five percent. The major obstacle we encountered was irregular water pressure from the building's secondary plumbing system. Because the auxiliary booster pump malfunctioned intermittently, our sensor readings fluctuated wildly, making it nearly impossible to standardize irrigation flow rates for the baseline yield analysis.",
+        "questions": [
+          {
+            "id": "L40_1_1",
+            "band": "4.0",
+            "type": "fill_in",
+            "text": "Applicant's surname: Stephen _____ .",
+            "options": null,
+            "correct": "Morgan",
+            "distractorReasons": {
+              "Morgan": "Chính xác: người nói nêu rõ họ là Morgan sau khi đánh vần tên Stephen.",
+              "wrong": "Lắng nghe kỹ phần giới thiệu họ và tên."
+            },
+            "socraticPrompt": "Khi người phỏng vấn hỏi 'And your surname?', ứng viên đã trả lời từ gì?",
+            "breakdown": {
+              "concept": "Name recording",
+              "steps": [
+                "Nghe tên đầy đủ",
+                "Tách riêng Surname",
+                "Ghi Morgan"
+              ],
+              "trap": "Ghi cả tên đệm hoặc nhầm lẫn tên với họ."
+            },
+            "context": "Oxford Employment Agency Interview",
+            "context_vi": "Phỏng vấn đăng ký tìm việc tại trung tâm",
+            "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+            "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
+          },
+          {
+            "id": "L40_1_2",
+            "band": "4.0",
+            "type": "fill_in",
+            "text": "Current street address: 14 _____ Road.",
+            "options": null,
+            "correct": "Sycamore",
+            "distractorReasons": {
+              "Sycamore": "Chính xác: người nói đánh vần từng chữ cái S-Y-C-A-M-O-R-E.",
+              "wrong": "Nghe kỹ từng âm chữ cái được đánh vần."
+            },
+            "socraticPrompt": "Người nói đánh vần tên con đường như thế nào (S-Y-C-A-M-O-R-E)?",
+            "breakdown": {
+              "concept": "Street spelling",
+              "steps": [
+                "Nghe số nhà 14",
+                "Ghi từng chữ cái",
+                "Ghép thành Sycamore"
+              ],
+              "trap": "Nhầm âm Y /waɪ/."
+            },
+            "context": "Oxford Employment Agency Interview",
+            "context_vi": "Ghi địa chỉ nhà ở",
+            "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+            "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
+          },
+          {
+            "id": "L40_1_3",
+            "band": "4.0",
+            "type": "fill_in",
+            "text": "British Postcode: _____ .",
+            "options": null,
+            "correct": "LM6 8PB",
+            "distractorReasons": {
+              "LM6 8PB": "Chính xác: mã bưu điện Anh kết hợp chữ cái và số.",
+              "wrong": "Phân biệt chữ P và B trong phát âm tiếng Anh."
+            },
+            "socraticPrompt": "Mã bưu chính gồm LM6 và 3 ký tự tiếp theo là gì?",
+            "breakdown": {
+              "concept": "Alphanumeric code",
+              "steps": [
+                "Nghe LM6",
+                "Nghe số 8",
+                "Phân biệt P và B"
+              ],
+              "trap": "Viết nhầm P thành B."
+            },
+            "context": "Oxford Employment Agency Interview",
+            "context_vi": "Mã bưu cục",
+            "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+            "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
+          },
+          {
+            "id": "L40_1_4",
+            "band": "4.0",
+            "type": "fill_in",
+            "text": "Academic degree subject: _____ (currently in 2nd year).",
+            "options": null,
+            "correct": "economics",
+            "distractorReasons": {
+              "economics": "Chính xác: ứng viên nói 'I'm doing a degree in economics'.",
+              "wrong": "Tên chuyên ngành học thuật kết thúc bằng đuôi -ics."
+            },
+            "socraticPrompt": "Ứng viên đang theo học ngành gì ở trường đại học?",
+            "breakdown": {
+              "concept": "Academic subject",
+              "steps": [
+                "Nghe từ khóa degree",
+                "Bắt từ economics",
+                "Kiểm tra chính tả"
+              ],
+              "trap": "Bỏ quên chữ 's' ở cuối từ economics."
+            },
+            "context": "Oxford Employment Agency Interview",
+            "context_vi": "Chuyên ngành học tại đại học",
+            "passage": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions.",
+            "audioScript": "OFFICER: Good morning. Welcome to Oxford Employment Agency. How can I help you today?\nSTEPHEN: Hello. I'd like to register for part-time student employment, please.\nOFFICER: Certainly. Let me take down your details. Can you give me your full name?\nSTEPHEN: Yes, my first name is Stephen, spelled S-T-E-P-H-E-N, and my surname is Morgan. That's M-O-R-G-A-N.\nOFFICER: Thank you, Stephen. And what is your current address in Oxford?\nSTEPHEN: I'm living in student shared housing at 14 Sycamore Road. That's S-Y-C-A-M-O-R-E Road.\nOFFICER: Great. Do you have the British postcode for that address?\nSTEPHEN: Yes, of course. The postcode is LM6 8PB.\nOFFICER: LM6 8PB. Perfect. And what subject are you currently studying at university?\nSTEPHEN: I'm in my second year doing an undergraduate degree in economics.\nOFFICER: Wonderful! Many local accounting and retail firms look for economics students. Let's look at available positions."
+          },
+          {
+            "id": "L60_2_1",
+            "band": "6.0",
+            "type": "mcq",
+            "text": "What major obstacle did the student researchers encounter when measuring crop yield?",
+            "options": {
+              "A": "A sudden pest infestation that destroyed 90% of the seedlings",
+              "B": "Irregular water pressure from the building's secondary plumbing system",
+              "C": "A complete ban by local municipal fire authorities",
+              "D": "The refusal of supermarket chains to buy organic tomatoes"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Sâu bệnh chỉ ảnh hưởng dưới 5%.",
+              "B": "Chính xác: 'sensor readings were skewed because of inconsistent water pressure from auxiliary pipes'.",
+              "C": "Đã được cấp phép an toàn PCCC.",
+              "D": "Dự án nghiên cứu học thuật."
+            },
+            "socraticPrompt": "Hệ thống đường ống dẫn nước phụ của tòa nhà đã gây ra vấn đề kỹ thuật gì khiến số liệu đo đạc bị sai lệch?",
+            "breakdown": {
+              "concept": "Technical obstacle in student research",
+              "steps": [
+                "Nghe từ khóa crop yield",
+                "Bắt cụm inconsistent water pressure",
+                "Chọn B"
+              ],
+              "trap": "Nhầm lẫn với bẫy sâu bệnh hại rau."
+            },
+            "context": "University Agronomy Seminar",
+            "context_vi": "Hội thảo báo cáo tiến độ đề tài nông nghiệp",
+            "passage": "TUTOR: Good afternoon, team. How is your urban rooftop farming research project progressing?\nSTUDENT: Overall, the hydroponic crops grew exceptionally well, Professor. However, we ran into a serious data collection issue when calculating the final crop yield per square meter.\nTUTOR: What happened? Was it the sudden heatwave or pest infestation?\nSTUDENT: No, biological pests were minimal, under five percent. The major obstacle we encountered was irregular water pressure from the building's secondary plumbing system. Because the auxiliary booster pump malfunctioned intermittently, our sensor readings fluctuated wildly, making it nearly impossible to standardize irrigation flow rates for the baseline yield analysis.",
+            "audioScript": "TUTOR: Good afternoon, team. How is your urban rooftop farming research project progressing?\nSTUDENT: Overall, the hydroponic crops grew exceptionally well, Professor. However, we ran into a serious data collection issue when calculating the final crop yield per square meter.\nTUTOR: What happened? Was it the sudden heatwave or pest infestation?\nSTUDENT: No, biological pests were minimal, under five percent. The major obstacle we encountered was irregular water pressure from the building's secondary plumbing system. Because the auxiliary booster pump malfunctioned intermittently, our sensor readings fluctuated wildly, making it nearly impossible to standardize irrigation flow rates for the baseline yield analysis."
+          }
+        ]
+      },
+      "reading": {
+        "time": 60,
+        "title": "Reading Test 01: The Evolution of Mechanical Timekeeping & Urban Microclimates",
+        "passage": "Before the invention of mechanical clocks, humans relied on natural phenomena such as the position of the sun, water clocks, and hourglasses to measure time. While sundials were effective on cloudless days, they were useless during the night or overcast weather. In the late thirteenth century, European craftsmen began building large mechanical clocks for church bell towers. These early clocks did not have dials or hands; they simply rang a bell every hour to alert town residents. In 1656, Dutch scientist Christiaan Huygens made a dramatic breakthrough by patenting the first pendulum clock. The regular swing of the pendulum vastly improved accuracy, reducing daily timekeeping errors from fifteen minutes down to merely fifteen seconds. This paved the way for industrial manufacturing, where coordinated labor schedules became indispensable.\n\nUrban heat islands (UHIs) represent one of the most pressing ecological challenges of modern urbanization. Dense concrete structures, asphalt pavements, and the continuous expulsion of waste heat from air conditioning systems create localized microclimates that are frequently 4 to 7 degrees Celsius warmer than adjacent rural perimeters. To mitigate this thermal accumulation, architects are implementing intensive green roofs and living walls. Far from being merely ornamental, vegetative layers provide evaporative cooling through plant transpiration, while simultaneously acting as thermal insulation that reduces a building's internal energy consumption by up to 30 percent. Nevertheless, critics argue that the structural load-bearing requirements and substantial irrigation expenses often restrict green facades to prestige corporate headquarters rather than affordable residential blocks.",
+        "questions": [
+          {
+            "id": "R40_1_1",
+            "band": "4.0",
+            "type": "mcq",
+            "text": "What was the main limitation of sundials mentioned in the passage?",
+            "options": {
+              "A": "They were too expensive for ordinary town residents to purchase",
+              "B": "They could not function at night or in cloudy weather",
+              "C": "Their metal components rusted very quickly in rain",
+              "D": "They were prohibited by church authorities"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Không có thông tin về giá thành.",
+              "B": "Chính xác: 'they were useless during the night or overcast weather'.",
+              "C": "Không nhắc đến rỉ sét.",
+              "D": "Không có lệnh cấm nào."
+            },
+            "socraticPrompt": "Đồng hồ mặt trời cần ánh sáng mặt trời để hoạt động. Vậy khi trời tối hoặc nhiều mây thì điều gì xảy ra?",
+            "breakdown": {
+              "concept": "Direct factual lookup",
+              "steps": [
+                "Tìm từ khóa sundials",
+                "Đọc useless during night or overcast weather",
+                "Chọn B"
+              ],
+              "trap": "Suy diễn ngoài bài về chi phí."
+            },
+            "context": "History of Time Measurement",
+            "context_vi": "Lịch sử đo lường thời gian",
+            "passage": ""
+          },
+          {
+            "id": "R40_1_2",
+            "band": "4.0",
+            "type": "fill_in",
+            "text": "In 1656, Christiaan Huygens invented the _____ clock.",
+            "options": null,
+            "correct": "pendulum",
+            "distractorReasons": {
+              "pendulum": "Chính xác: 'patented the first pendulum clock'.",
+              "wrong": "Cần điền từ chỉ loại đồng hồ mà Huygens đã phát minh."
+            },
+            "socraticPrompt": "Nhà khoa học Christiaan Huygens đã được cấp bằng sáng chế cho loại đồng hồ nào vào năm 1656?",
+            "breakdown": {
+              "concept": "Scanning for year & noun",
+              "steps": [
+                "Quét năm 1656",
+                "Tìm danh từ trước 'clock'",
+                "Điền pendulum"
+              ],
+              "trap": "Điền 'mechanical' thay vì 'pendulum'."
+            },
+            "context": "History of Time Measurement",
+            "context_vi": "Phát minh đồng hồ con lắc",
+            "passage": ""
+          },
+          {
+            "id": "R60_1_1",
+            "band": "6.0",
+            "type": "mcq",
+            "text": "What is the primary thermodynamic benefit of living walls and green roofs according to the text?",
+            "options": {
+              "A": "They generate commercial timber for downtown construction",
+              "B": "They provide evaporative cooling and internal thermal insulation",
+              "C": "They eliminate all external noise pollution entirely",
+              "D": "They absorb carbon dioxide and convert it into pure methane"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Không dùng khai thác gỗ.",
+              "B": "Chính xác: 'provide evaporative cooling through plant transpiration, while simultaneously acting as thermal insulation'.",
+              "C": "Bẫy từ tuyệt đối 'eliminate all'.",
+              "D": "Sai kiến thức sinh học."
+            },
+            "socraticPrompt": "Hai cơ chế kép nào giúp thảm thực vật trên mái nhà giảm nhiệt độ?",
+            "breakdown": {
+              "concept": "Technical mechanism extraction",
+              "steps": [
+                "Định vị evaporative cooling",
+                "Đọc thermal insulation",
+                "Chọn B"
+              ],
+              "trap": "Bẫy từ tuyệt đối 'eliminate all'."
+            },
+            "context": "Sustainable Urban Design",
+            "context_vi": "Thiết kế đô thị bền vững",
+            "passage": ""
+          },
+          {
+            "id": "R60_1_2",
+            "band": "6.0",
+            "type": "mcq",
+            "text": "What constraint limits the widespread adoption of green facades in low-cost housing?",
+            "options": {
+              "A": "A complete lack of certified landscape architects in metropolitan areas",
+              "B": "Structural weight burdens and ongoing irrigation costs",
+              "C": "Municipal laws that ban plants on exterior walls",
+              "D": "Public superstition regarding rooftop vegetation"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Không thiếu kiến trúc sư.",
+              "B": "Chính xác: 'structural load-bearing requirements and substantial irrigation expenses often restrict green facades'.",
+              "C": "Không có luật cấm.",
+              "D": "Không có mê tín dị đoan."
+            },
+            "socraticPrompt": "Hai rào cản tài chính và kỹ thuật nào khiến nhà ở giá rẻ khó lắp đặt tường xanh?",
+            "breakdown": {
+              "concept": "Constraint & barrier analysis",
+              "steps": [
+                "Tìm từ khóa restrict",
+                "Đọc structural load-bearing... irrigation expenses",
+                "Chọn B"
+              ],
+              "trap": "Nhầm rào cản kỹ thuật thành rào cản pháp lý."
+            },
+            "context": "Sustainable Urban Design",
+            "context_vi": "Rào cản nhân rộng tường xanh",
+            "passage": ""
+          }
+        ]
+      },
+      "writing": {
+        "time": 60,
+        "title": "Writing Test 01: Academic Task 1 & Task 2",
+        "tasks": [
+          {
+            "task": "Task 1 (Report)",
+            "min_words": 150,
+            "prompt": "When beef consumption plunged from 220g to 100g while chicken soared from 100g to 250g, what is the best overview summary?"
+          },
+          {
+            "task": "Task 2 (Essay)",
+            "min_words": 250,
+            "prompt": "Task 2 Prompt: 'As well as making money, businesses also have social responsibilities. Do you agree or disagree?' (Ngọc Bách Writing)."
+          }
+        ],
+        "questions": [
+          {
+            "id": "W60_2_1",
+            "band": "6.0",
+            "type": "mcq",
+            "text": "When beef consumption plunged from 220g to 100g while chicken soared from 100g to 250g, what is the best overview summary?",
+            "options": {
+              "A": "Beef was eaten by everybody and chicken was hated by people.",
+              "B": "Overall, while beef consumption experienced a dramatic downward trajectory over the period, chicken exhibited a remarkable surge, overtaking beef to become the dominant meat by 2010.",
+              "C": "All animals died in the UK between 1980 and 2010.",
+              "D": "The numbers went up and down every single day."
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Văn phong cảm tính phi học thuật.",
+              "B": "Chính xác: Tóm tắt được 2 xu hướng đối nghịch và mốc giao thoa (overtaking) then chốt mà không cần liệt kê toàn bộ số liệu.",
+              "C": "Hài hước, phi lý.",
+              "D": "Không có dữ liệu theo ngày."
+            },
+            "socraticPrompt": "Điểm mấu chốt của Overview là nhận diện được sự hoán đổi vị trí (overtaking) giữa thịt gà và thịt bò qua thời gian?",
+            "breakdown": {
+              "concept": "Dynamic overview synthesis",
+              "steps": [
+                "Xác định xu hướng thịt bò: giảm mạnh",
+                "Xác định xu hướng thịt gà: tăng vọt",
+                "Ghi nhận mốc hoán đổi: overtaking beef",
+                "Chọn B"
+              ],
+              "trap": "Liệt kê tất cả các con số vào Overview."
+            },
+            "context": "Task 1 Dynamic Graph",
+            "context_vi": "Tổng quan biểu đồ đường xu hướng đối lập",
+            "passage": ""
+          },
+          {
+            "id": "W65_2_1",
+            "band": "6.5",
+            "type": "essay",
+            "text": "Task 2 Prompt: 'As well as making money, businesses also have social responsibilities. Do you agree or disagree?' (Ngọc Bách Writing).",
+            "options": null,
+            "correct": "csr_essay",
+            "distractorReasons": {
+              "csr_essay": "Yêu cầu: Khẳng định lợi nhuận là điều kiện cần để sinh tồn, nhưng trách nhiệm môi trường và cộng đồng là điều kiện đủ để phát triển bền vững.",
+              "wrong": "Cần sử dụng từ vựng nâng cao: ethical obligation, corporate philanthropy, environmental externalities, sustainable commerce."
+            },
+            "socraticPrompt": "Nếu doanh nghiệp chỉ tối đa hóa lợi nhuận mà hủy hoại môi trường sống địa phương thì cái giá xã hội phải trả là gì?",
+            "breakdown": {
+              "concept": "CSR argumentative defense",
+              "steps": [
+                "Thừa nhận vai trò lợi nhuận",
+                "Chứng minh trách nhiệm môi trường",
+                "Chứng minh phúc lợi người lao động",
+                "Kết luận"
+              ],
+              "trap": "Phủ nhận hoàn toàn vai trò của lợi nhuận một cách phi thực tế."
+            },
+            "context": "Business Ethics Debate",
+            "context_vi": "Đạo đức kinh doanh và trách nhiệm xã hội",
+            "passage": ""
+          }
+        ]
+      },
+      "speaking": {
+        "time": 14,
+        "title": "Speaking Test 01: Real Examiner Interview (Part 1, 2, 3)",
+        "parts": [
+          {
+            "part": "Part 1 (Introduction & Interview)",
+            "time_prep": 10,
+            "prompt": "Part 1 Question: 'Where is your hometown, and what do you like most about living there?'"
+          },
+          {
+            "part": "Part 2 (Individual Long Turn - Cue Card)",
+            "time_prep": 60,
+            "prompt": "Part 2 Cue Card: 'Describe a difficult decision that you made. You should say: what the decision was, when you made it, why it was difficult, and explain how you felt after making the decision.' (Ngọc Bách Speaking)."
+          },
+          {
+            "part": "Part 3 (Two-way Academic Discussion)",
+            "time_prep": 15,
+            "prompt": "Part 3 Question: 'In what ways has the prevalence of online shopping altered the social fabric of traditional local communities?'"
+          }
+        ],
+        "questions": [
+          {
+            "id": "S40_1_1",
+            "band": "4.0",
+            "type": "speech",
+            "text": "Part 1 Question: 'Where is your hometown, and what do you like most about living there?'",
+            "options": null,
+            "correct": "hometown_intro",
+            "distractorReasons": {
+              "hometown_intro": "Tiêu chí: Nêu rõ vị trí quê hương, nêu 1 đặc điểm yêu thích và mở rộng 1 câu giải thích theo công thức A-R-E-A.",
+              "wrong": "Tránh chỉ trả lời: 'I live in Hanoi. It is good.'"
+            },
+            "socraticPrompt": "Quê hương bạn ở đâu và nét đặc trưng đáng nhớ nhất về con người hoặc cảnh vật ở đó là gì?",
+            "breakdown": {
+              "concept": "A-R-E-A Expansion",
+              "steps": [
+                "Nêu quê hương",
+                "Nêu lý do yêu thích",
+                "Thêm ví dụ"
+              ],
+              "trap": "Trả lời quá ngắn khiến giám khảo phải hỏi 'Why?'."
+            },
+            "context": "Speaking Part 1 Interview",
+            "context_vi": "Phỏng vấn khởi động về quê hương",
+            "passage": ""
+          },
+          {
+            "id": "S55_1_1",
+            "band": "5.5",
+            "type": "speech",
+            "text": "Part 2 Cue Card: 'Describe a difficult decision that you made. You should say: what the decision was, when you made it, why it was difficult, and explain how you felt after making the decision.' (Ngọc Bách Speaking).",
+            "options": null,
+            "correct": "cue_card_decision",
+            "distractorReasons": {
+              "cue_card_decision": "Tiêu chí: Nói liên tục 1.5 - 2 phút, áp dụng chiến lược PPF (Quá khứ - Hiện tại - Tương lai), sử dụng thì quá khứ đơn chính xác.",
+              "wrong": "Không nên chỉ đọc lướt qua các câu hỏi gợi ý mà cần liên kết thành một câu chuyện có cảm xúc."
+            },
+            "socraticPrompt": "Quyết định đó là gì, bối cảnh lúc đó khó khăn ra sao và nó đã dạy cho bạn bài học gì về sự trưởng thành?",
+            "breakdown": {
+              "concept": "PPF Narrative Framework",
+              "steps": [
+                "Mở đầu: Giới thiệu quyết định 2 năm trước",
+                "Thân bài: Phân tích 2 sự lựa chọn giằng co",
+                "Kết luận: Cảm xúc nhẹ nhõm và bài học"
+              ],
+              "trap": "Bị ngập ngừng quá lâu ở đoạn chuyển tiếp giữa quá khứ và hiện tại."
+            },
+            "context": "Speaking Part 2 Monologue",
+            "context_vi": "Độc thoại 2 phút về quyết định khó khăn",
+            "passage": ""
+          },
+          {
+            "id": "S65_1_1",
+            "band": "6.5",
+            "type": "speech",
+            "text": "Part 3 Question: 'In what ways has the prevalence of online shopping altered the social fabric of traditional local communities?'",
+            "options": null,
+            "correct": "retail_social_fabric",
+            "distractorReasons": {
+              "retail_social_fabric": "Tiêu chí: Phân tích cả mặt tiện ích kinh tế và sự suy giảm tương tác mặt-đối-mặt (face-to-face interaction) giữa người dân xóm phố.",
+              "wrong": "Cần sử dụng từ vựng nâng cao: social cohesion, interpersonal connections, sense of belonging, isolation."
+            },
+            "socraticPrompt": "Khi mọi người chỉ ngồi nhà đặt hàng qua điện thoại, không gian chợ truyền thống và sự gắn kết tình làng nghĩa xóm bị ảnh hưởng thế nào?",
+            "breakdown": {
+              "concept": "Sociological impact analysis",
+              "steps": [
+                "Thừa nhận tiện ích",
+                "Chỉ ra sự suy giảm không gian công cộng",
+                "Đề xuất bảo tồn văn hóa"
+              ],
+              "trap": "Chỉ nói về khía cạnh giá rẻ và giao hàng nhanh."
+            },
+            "context": "Speaking Part 3 Discussion",
+            "context_vi": "Tác động của mua sắm trực tuyến lên cộng đồng",
+            "passage": ""
+          }
+        ]
+      }
+    }
+  ]
 };
