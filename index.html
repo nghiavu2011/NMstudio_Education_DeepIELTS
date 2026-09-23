@@ -3292,7 +3292,7 @@
             let html = '';
             mocks.forEach((m, idx) => {
                 const mockNum = (idx + 1).toString().padStart(2, '0');
-                const isCam18 = idx < 4;
+                const isCam18 = true;
                 html += `
                     <div class="card" style="display:flex; flex-direction:column; justify-content:space-between; border:1px solid ${isCam18 ? '#93c5fd' : 'var(--border-subtle)'}; background:${isCam18 ? 'linear-gradient(180deg, #ffffff 0%, #f0f7ff 100%)' : 'var(--surface)'}; transition:var(--transition-smooth); box-shadow:${isCam18 ? '0 4px 12px rgba(37,99,235,0.08)' : 'none'};">
                         <div>

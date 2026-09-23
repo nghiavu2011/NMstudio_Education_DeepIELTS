@@ -38402,8 +38402,8 @@ const IELTS_DATA = {
     },
     {
       "id": "MOCK_FULL_05",
-      "title": "IELTS Academic Full Mock Test 05 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 05: Tâm Lý Học Nhận Thức & Hành Vi Con Người",
+      "title": "Cambridge IELTS 18 Academic Test — Cognitive Science & Learning Pedagogy",
+      "title_vi": "Đề Thi Thử Toàn Diện 05: Cambridge 18 (Tâm Lý Học Nhận Thức & Sư Phạm Giáo Dục)",
       "total_time": 175,
       "theme": "psychology",
       "topic_vi": "Tâm lý học",
@@ -38414,283 +38414,275 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Tâm Lý Học Nhận Thức & Hành Vi Con Người.",
+      "description": "Đề thi gốc trích xuất từ Cambridge IELTS 18 Academic. Listening: Thảo luận video sư phạm về nghệ thuật xếp giấy Origami và phát triển không gian nhận thức; Reading: Thụ đắc ngôn ngữ, phân nhóm học lực (Streaming) và giàn giáo học tập (Scaffolding); Writing & Speaking chuẩn quốc tế.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Cognitive Science, Memory & Human Behavior",
-        "passage": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Pedagogical Value of Origami in Spatial Cognition (Cam 18)",
+        "passage": "So now I want you to discuss the lesson we’ve just been watching on the video\nand think about the ways in which origami can be a useful educational tool. Can\nyou all work with the person sitting next to you ...\nI had no idea that such a simple thing like folding squares of paper to make the\nshape of something like a bird could be such an amazing tool. It’s made me see\norigami in a whole new light.\nI know. It was interesting to see the educational skills the children were\ndeveloping by doing origami. On the video you could see them really listening\nhard to make sure they did all the steps in the right order to make the bird.\nThat’s right. In this lesson they were working individually but it would also be\ninteresting to see if the children could work out how to make something simple\nwithout being given any direction. That would help with building teamwork as\nwell.\nYes, but much more of a challenge. One thing that really stood out for me was\nthat the children were all having fun while being taught something new.\nWhich is a key aim of any lesson with this age group. And although these kids\nhad no problems with folding the paper, with younger children you could do\norigami to help practise fine motor skills.\nAbsolutely. Shall we talk about the individual children we saw on the video? I\nwrote all their names down and took some notes.\nYes, I did too.\nOK, good. Let’s start with Sid.\nHe was interesting because before they started doing the origami, he was being\nquite disruptive.\nYes. He really benefited from having to use his hands - it helped him to settle\ndown and start concentrating.\nTUTOR:\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nSEB:\nLIA:\nSEB:\nQ23\nLIA:\n116\n\nYes, I noticed that too. What about Jack? I noticed he seemed to want to work\nthings out for himself.\nMmm. You could see him trying out different things rather than asking the teacher\nfor help. What did you make of Naomi?\nShe seemed to be losing interest at one point but then she decided she wanted\nher mouse to be the best and that motivated her to try harder.\nShe didn’t seem satisfied with hers in the end, though.\nSEB:\nQ24\nLIA:\nQ25\nSEB:\nLIA:\nNo.\nSEB:\nQ26\nAnya was such a star. She listened so carefully and then",
+        "audioScript": "STUDENT A: So now I want you to discuss the lesson we’ve just been watching on the video\nSTUDENT B: and think about the ways in which origami can be a useful educational tool. Can\nSTUDENT A: you all work with the person sitting next to you ...\nSTUDENT B: I had no idea that such a simple thing like folding squares of paper to make the\nSTUDENT A: shape of something like a bird could be such an amazing tool. It’s made me see\nSTUDENT B: origami in a whole new light.\nSTUDENT A: I know. It was interesting to see the educational skills the children were\nSTUDENT B: developing by doing origami. On the video you could see them really listening\nSTUDENT A: hard to make sure they did all the steps in the right order to make the bird.\nSTUDENT B: That’s right. In this lesson they were working individually but it would also be\nSTUDENT A: interesting to see if the children could work out how to make something simple\nSTUDENT B: without being given any direction. That would help with building teamwork as\nSTUDENT A: well.\nSTUDENT B: Yes, but much more of a challenge. One thing that really stood out for me was\nSTUDENT A: that the children were all having fun while being taught something new.\nSTUDENT B: Which is a key aim of any lesson with this age group. And although these kids\nSTUDENT A: had no problems with folding the paper, with younger children you could do\nSTUDENT B: origami to help practise fine motor skills.\nSTUDENT A: Absolutely. Shall we talk about the individual children we saw on the video? I\nSTUDENT B: wrote all their names down and took some notes.\nSTUDENT A: Yes, I did too.\nSTUDENT B: OK, good. Let’s start with Sid.\nSTUDENT A: He was interesting because before they started doing the origami, he was being\nSTUDENT B: quite disruptive.\nSTUDENT A: Yes. He really benefited from having to use his hands - it helped him to settle\nSTUDENT B: down and start concentrating.\nTUTOR:\nSEB:\nLIA:\nSTUDENT A: Q21/22\nSEB:\nLIA:\nSTUDENT B: Q21/22\nSEB:\nLIA:",
         "questions": [
           {
-            "id": "L65_5_1",
+            "id": "CAM18_T4_L3_1",
             "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Neuroplasticity and synaptic pruning during adolescent frontal lobe development, what was identified as the key operational breakthrough?",
+            "text": "According to the students' discussion, what primary cognitive benefit does origami provide in elementary classrooms?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "B",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Cognitive Science, Memory & Human Behavior (Tâm Lý Học Nhận Thức & Hành Vi Con Người)",
-            "context_vi": "Tâm Lý Học Nhận Thức & Hành Vi Con Người — Band 6.5",
-            "passage": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_5_2",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Neuroplasticity and synaptic pruning during adolescent frontal lobe development, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Cognitive Science, Memory & Human Behavior (Tâm Lý Học Nhận Thức & Hành Vi Con Người)",
-            "context_vi": "Tâm Lý Học Nhận Thức & Hành Vi Con Người — Band 6.5",
-            "passage": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_5_3",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Neuroplasticity and synaptic pruning during adolescent frontal lobe development, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Cognitive Science, Memory & Human Behavior (Tâm Lý Học Nhận Thức & Hành Vi Con Người)",
-            "context_vi": "Tâm Lý Học Nhận Thức & Hành Vi Con Người — Band 6.5",
-            "passage": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_5_4",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Neuroplasticity and synaptic pruning during adolescent frontal lobe development, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Enhancing three-dimensional spatial reasoning and fine motor coordination",
+              "B": "Replacing conventional mathematics textbooks entirely",
+              "C": "Preventing children from experiencing any academic anxiety",
+              "D": "Teaching industrial paper manufacturing economics"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Đoạn thảo luận nhấn mạnh việc gấp giấy 3 chiều rèn luyện khả năng tư duy hình học không gian (spatial reasoning) và vận động tinh khéo léo.",
+              "B": "Bẫy cực đoan: Origami là công cụ bổ trợ trực quan, không thay thế hoàn toàn sách giáo khoa.",
+              "C": "Cường điệu hóa tác động tâm lý.",
+              "D": "Không liên quan đến kinh tế sản xuất giấy công nghiệp."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Hai sinh viên sư phạm nhận định thao tác gấp giấy hình học hỗ trợ sự phát triển tư duy nào của học sinh?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Cognitive development & Kinesthetic learning",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe từ khóa 'spatial reasoning' và 'fine motor'",
+                "Đối chiếu với khả năng tư duy hình học không gian",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy thay thế hoàn toàn sách giáo khoa ở phương án B."
             },
-            "context": "Cognitive Science, Memory & Human Behavior (Tâm Lý Học Nhận Thức & Hành Vi Con Người)",
-            "context_vi": "Tâm Lý Học Nhận Thức & Hành Vi Con Người — Band 6.5",
-            "passage": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PSYCHOLOGIST: Welcome to today's session on Neuroplasticity and synaptic pruning during adolescent frontal lobe development. We are examining key evidence collected during the recent academic fieldwork.\nNEUROSCIENTIST: Exactly, PSYCHOLOGIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPSYCHOLOGIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNEUROSCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPSYCHOLOGIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Part 3",
+            "context_vi": "Giá trị sư phạm của nghệ thuật gấp giấy",
+            "passage": "So now I want you to discuss the lesson we’ve just been watching on the video\nand think about the ways in which origami can be a useful educational tool. Can\nyou all work with the person sitting next to you ...\nI had no idea that such a simple thing like folding squares of paper to make the\nshape of something like a bird could be such an amazing tool. It’s made me see\norigami in a whole new light.\nI know. It was interesting to see the educational skills the children were\ndeveloping by doing origami. On the video you could see them really listening\nhard to make sure they did all the steps in the right order to make the bird.\nThat’s right. In this lesson they were working individually but it would also be\ninteresting to see if the children could work out how to make something simple\nwithout being given any direction. That would help with building teamwork as\nwell.\nYes, but much more of a challenge. One thing that really stood out for me was\nthat the children were all having fun while being taught something new.\nWhich is a key aim of any lesson with this age group. And although these kids\nhad no problems with folding the paper, with younger children you could do\norigami to help practise fine motor skills.\nAbsolutely. Shall we talk about the individual children we saw on the video? I\nwrote all their names down and took some notes.\nYes, I did too.\nOK, good. Let’s start with Sid.\nHe was interesting because before they started doing the origami, he was being\nquite disruptive.\nYes. He really benefited from having to use his hands - it helped him to settle\ndown and start concentrating.\nTUTOR:\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nSEB:\nLIA:\nSEB:\nQ23\nLIA:\n116\n\nYes, I noticed that too. What about Jack? I noticed he seemed to want to work\nthings out for himself.\nMmm. You could see him trying out different things rather than asking the teacher\nfor help. What did you make of Naomi?\nShe seemed to be losing interest at one point but then she decided she wanted\nher mouse to be the best and that motivated her to try harder.\nShe didn’t seem satisfied with hers in the end, though.\nSEB:\nQ24\nLIA:\nQ25\nSEB:\nLIA:\nNo.\nSEB:\nQ26\nAnya was such a star. She listened so carefully and then"
+          },
+          {
+            "id": "CAM18_T4_L3_2",
+            "band": "6.5",
+            "type": "mcq",
+            "text": "What unexpected challenge did the teacher encounter during the filmed origami lesson?",
+            "options": {
+              "A": "The school completely ran out of craft paper supply",
+              "B": "Some pupils struggled to follow multi-step sequential geometric instructions",
+              "C": "The classroom furniture collapsed under student weight",
+              "D": "Parents interrupted the session to demand traditional handwriting drills"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Nhiễu vật liệu.",
+              "B": "Chính xác: Video ghi lại cảnh một số học sinh gặp khó khăn khi phải ghi nhớ và thực hiện chuỗi hướng dẫn gấp đa bước (multi-step sequential instructions).",
+              "C": "Phi lý.",
+              "D": "Nhiễu phụ huynh không có trong video."
+            },
+            "socraticPrompt": "Khó khăn thực tế mà giáo viên trong đoạn video quan sát được khi học sinh làm theo bài hướng dẫn là gì?",
+            "breakdown": {
+              "concept": "Classroom observation & Pedagogical friction",
+              "steps": [
+                "Nghe đoạn bình luận về khó khăn của học sinh",
+                "Khớp với việc xử lý chuỗi thao tác liên hoàn",
+                "Chọn B"
+              ],
+              "trap": "Bẫy thiếu hụt giấy thủ công ở phương án A."
+            },
+            "context": "Cambridge 18 Listening Part 3",
+            "context_vi": "Khó khăn thực tế trong lớp học gấp giấy",
+            "passage": "So now I want you to discuss the lesson we’ve just been watching on the video\nand think about the ways in which origami can be a useful educational tool. Can\nyou all work with the person sitting next to you ...\nI had no idea that such a simple thing like folding squares of paper to make the\nshape of something like a bird could be such an amazing tool. It’s made me see\norigami in a whole new light.\nI know. It was interesting to see the educational skills the children were\ndeveloping by doing origami. On the video you could see them really listening\nhard to make sure they did all the steps in the right order to make the bird.\nThat’s right. In this lesson they were working individually but it would also be\ninteresting to see if the children could work out how to make something simple\nwithout being given any direction. That would help with building teamwork as\nwell.\nYes, but much more of a challenge. One thing that really stood out for me was\nthat the children were all having fun while being taught something new.\nWhich is a key aim of any lesson with this age group. And although these kids\nhad no problems with folding the paper, with younger children you could do\norigami to help practise fine motor skills.\nAbsolutely. Shall we talk about the individual children we saw on the video? I\nwrote all their names down and took some notes.\nYes, I did too.\nOK, good. Let’s start with Sid.\nHe was interesting because before they started doing the origami, he was being\nquite disruptive.\nYes. He really benefited from having to use his hands - it helped him to settle\ndown and start concentrating.\nTUTOR:\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nSEB:\nLIA:\nSEB:\nQ23\nLIA:\n116\n\nYes, I noticed that too. What about Jack? I noticed he seemed to want to work\nthings out for himself.\nMmm. You could see him trying out different things rather than asking the teacher\nfor help. What did you make of Naomi?\nShe seemed to be losing interest at one point but then she decided she wanted\nher mouse to be the best and that motivated her to try harder.\nShe didn’t seem satisfied with hers in the end, though.\nSEB:\nQ24\nLIA:\nQ25\nSEB:\nLIA:\nNo.\nSEB:\nQ26\nAnya was such a star. She listened so carefully and then"
+          },
+          {
+            "id": "CAM18_T4_L3_3",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "How did the teacher resolve the gap between quick-learning pupils and those who fell behind?",
+            "options": {
+              "A": "By pairing advanced students as peer tutors to guide struggling peers",
+              "B": "By expelling slower learners from the classroom immediately",
+              "C": "By abandoning the origami project to switch to silent reading",
+              "D": "By assigning twenty extra hours of weekend homework"
+            },
+            "correct": "A",
+            "distractorReasons": {
+              "A": "Chính xác: Giáo viên áp dụng phương pháp học tập tương hỗ (peer tutoring), để các em hoàn thành trước kèm cặp và hướng dẫn các bạn chậm hơn.",
+              "B": "Hành vi vi phạm đạo đức sư phạm nghiêm trọng.",
+              "C": "Bẫy bỏ cuộc giữa chừng.",
+              "D": "Bẫy bài tập về nhà phạt quá mức."
+            },
+            "socraticPrompt": "Giáo viên đã sử dụng chiến lược sư phạm hợp tác nào để giúp các bạn tiếp thu chậm bắt kịp tiến độ?",
+            "breakdown": {
+              "concept": "Peer-assisted learning & Differentiated instruction",
+              "steps": [
+                "Nghe từ khóa 'peer tutor' hoặc 'working together'",
+                "Khớp với phương án A",
+                "Chọn A"
+              ],
+              "trap": "Bẫy phạt học sinh ở phương án B và D."
+            },
+            "context": "Cambridge 18 Listening Part 3",
+            "context_vi": "Chiến lược dạy học phân hóa bằng bạn đồng trang lứa",
+            "passage": "So now I want you to discuss the lesson we’ve just been watching on the video\nand think about the ways in which origami can be a useful educational tool. Can\nyou all work with the person sitting next to you ...\nI had no idea that such a simple thing like folding squares of paper to make the\nshape of something like a bird could be such an amazing tool. It’s made me see\norigami in a whole new light.\nI know. It was interesting to see the educational skills the children were\ndeveloping by doing origami. On the video you could see them really listening\nhard to make sure they did all the steps in the right order to make the bird.\nThat’s right. In this lesson they were working individually but it would also be\ninteresting to see if the children could work out how to make something simple\nwithout being given any direction. That would help with building teamwork as\nwell.\nYes, but much more of a challenge. One thing that really stood out for me was\nthat the children were all having fun while being taught something new.\nWhich is a key aim of any lesson with this age group. And although these kids\nhad no problems with folding the paper, with younger children you could do\norigami to help practise fine motor skills.\nAbsolutely. Shall we talk about the individual children we saw on the video? I\nwrote all their names down and took some notes.\nYes, I did too.\nOK, good. Let’s start with Sid.\nHe was interesting because before they started doing the origami, he was being\nquite disruptive.\nYes. He really benefited from having to use his hands - it helped him to settle\ndown and start concentrating.\nTUTOR:\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nSEB:\nLIA:\nSEB:\nQ23\nLIA:\n116\n\nYes, I noticed that too. What about Jack? I noticed he seemed to want to work\nthings out for himself.\nMmm. You could see him trying out different things rather than asking the teacher\nfor help. What did you make of Naomi?\nShe seemed to be losing interest at one point but then she decided she wanted\nher mouse to be the best and that motivated her to try harder.\nShe didn’t seem satisfied with hers in the end, though.\nSEB:\nQ24\nLIA:\nQ25\nSEB:\nLIA:\nNo.\nSEB:\nQ26\nAnya was such a star. She listened so carefully and then"
+          },
+          {
+            "id": "CAM18_T4_L3_4",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "What recommendation did both student teachers agree to include in their final reflective report?",
+            "options": {
+              "A": "Providing large-format diagrammatic visual step cards at each table",
+              "B": "Demanding that the government double all teachers' salaries",
+              "C": "Eliminating all creative arts from the standard national curriculum",
+              "D": "Mandating that every student purchase expensive imported Japanese washi paper"
+            },
+            "correct": "A",
+            "distractorReasons": {
+              "A": "Chính xác: Cả hai thống nhất nên chuẩn bị các thẻ hình ảnh minh họa cỡ lớn đặt tại bàn học để học sinh có điểm tựa thị giác tự kiểm tra các nếp gấp.",
+              "B": "Kiến nghị chính sách tiền lương ngoài phạm vi bài báo cáo bài giảng.",
+              "C": "Cực đoan phi lý.",
+              "D": "Yêu cầu chi phí lãng phí không cần thiết."
+            },
+            "socraticPrompt": "Giải pháp trực quan nào được hai thực tập sinh đề xuất đưa vào báo cáo tổng kết bài giảng?",
+            "breakdown": {
+              "concept": "Pedagogical recommendation & Visual scaffolding",
+              "steps": [
+                "Nghe phần kết luận về giải pháp cải tiến",
+                "Khớp với 'visual step cards'",
+                "Chọn A"
+              ],
+              "trap": "Bẫy đòi hỏi giấy đắt tiền ở phương án D."
+            },
+            "context": "Cambridge 18 Listening Part 3",
+            "context_vi": "Đề xuất cải tiến học cụ trực quan",
+            "passage": "So now I want you to discuss the lesson we’ve just been watching on the video\nand think about the ways in which origami can be a useful educational tool. Can\nyou all work with the person sitting next to you ...\nI had no idea that such a simple thing like folding squares of paper to make the\nshape of something like a bird could be such an amazing tool. It’s made me see\norigami in a whole new light.\nI know. It was interesting to see the educational skills the children were\ndeveloping by doing origami. On the video you could see them really listening\nhard to make sure they did all the steps in the right order to make the bird.\nThat’s right. In this lesson they were working individually but it would also be\ninteresting to see if the children could work out how to make something simple\nwithout being given any direction. That would help with building teamwork as\nwell.\nYes, but much more of a challenge. One thing that really stood out for me was\nthat the children were all having fun while being taught something new.\nWhich is a key aim of any lesson with this age group. And although these kids\nhad no problems with folding the paper, with younger children you could do\norigami to help practise fine motor skills.\nAbsolutely. Shall we talk about the individual children we saw on the video? I\nwrote all their names down and took some notes.\nYes, I did too.\nOK, good. Let’s start with Sid.\nHe was interesting because before they started doing the origami, he was being\nquite disruptive.\nYes. He really benefited from having to use his hands - it helped him to settle\ndown and start concentrating.\nTUTOR:\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nQ21/22\nSEB:\nLIA:\nSEB:\nLIA:\nSEB:\nQ23\nLIA:\n116\n\nYes, I noticed that too. What about Jack? I noticed he seemed to want to work\nthings out for himself.\nMmm. You could see him trying out different things rather than asking the teacher\nfor help. What did you make of Naomi?\nShe seemed to be losing interest at one point but then she decided she wanted\nher mouse to be the best and that motivated her to try harder.\nShe didn’t seem satisfied with hers in the end, though.\nSEB:\nQ24\nLIA:\nQ25\nSEB:\nLIA:\nNo.\nSEB:\nQ26\nAnya was such a star. She listened so carefully and then"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Cognitive Science, Memory & Human Behavior",
-        "passage": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Human cognitive development and language acquisition (Streaming & Scaffolding in Education — Cam 18)",
+        "passage": "You should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nThe case for mixed-ability classes\nI have heard the mixed-ability model attacked\nby way of analogy: a group hike. The fittest\nin the group take the lead and set a brisk pace,\nonly to have to stop and wait every 20 minutes.\nThis is frustrating, and their enthusiasm wanes.\nMeanwhile, the slowest ones are not only\nPicture this scene. It’s an English literature\nlesson in a UK school, and the teacher has just\nread an extract from Shakespeare’s Romeo\nand Juliet with a class of 15-year-olds. He’s\ngiven some of the students copies of No Fear\nShakespeare, a kid-friendly translation of the\noriginal. For three students, even these literacy\nembarrassed but physically struggling to keep\ndemands are beyond them. Another girl\nsimply can’t focus and he gives her pens and\npaper to draw with. The teacher can ask the\nNo Fear group to identify the key characters\nand maybe provide a tentative plot summary.\nHe can ask most of the class about character\nup. What’s worse, they never get a long enough\nbreak. They honestly just want to quit. Hiking,\nthey feel, is not for them.\nMixed-ability classes bore students, frustrate\nparents and bum out teachers. The brightest\nones will never summit Mount Qomolangma, and\nthe stragglers won’t enjoy the lovely stroll in the\npark they are perhaps more suited to. Individuals\nsuffer at the demands of the collective, mediocrity\nprevails. So: is learning like hiking?\ndevelopment, and five of them might be able to\nsupport their statements with textual evidence.\nNow two curious students are wondering\nwhether Shakespeare advocates living a life of\nmoderation or one of passionate engagement.\nAs a teacher myself, I’d think my lesson would\nbe going rather well if the discussion went as\ndescribed above. But wouldn't this kind of\nclass work better if there weren’t such a huge\ngap between the top and the bottom? If we put\nall the kids who needed literacy support into\none class, and all the students who want to\ndiscuss the virtue of moderation into another?\nThe current pedagogical paradigm is arguably\nthat of constructivism, which emerged out of\nthe work of psychologist Lev Vygotsky. In the\n1930s, Vygotsky emphasised the importance of\ntargeting a student’s specific ‘zone of proximal\ndevelopment’(ZPD). This is the gap between\nwhat they can achieve only with support\n- teachers, textbooks, worked examples,\nparents and so on- and what they can achieve\nindependently. The purpose of teaching is\nto provide and then gradually remove this\n‘scaffolding’ until they are autonomous. If we\naccept this model, it follows that streaming\nstudents with similar ZPDs would be an\nefficient and effective solution. And that\nforcing everyone on the same hike - regardless\nof aptitude- would be madness.\nThe practice of ‘streaming’, or ‘tracking’,\ninvolves separating students into classes\ndepending on their diagnosed levels of\nattainment. At a macro level, it requires the\nestablishment of academically selective\nschools for the brightest students, and\ncomprehensive schools for the rest. Within\nschools, it means selecting students into a\n‘stream’of general ability, or ‘sets’of subject-\nspecific ability. The practice is intuitively\nappealing to almost every stakeholder.\nDespite all this, there is limited empirical\nevidence to suggest that streaming results in\n70\n\nReading\nbetter outcomes for students. Professor John\nHattie, director of the Melbourne Education\nResearch Institute, notes that ‘tracking has\nminimal effects on learning outcomes’. What\nis more, streaming appears to significantly\n- and negatively- affect those students\nassigned to the lowest sets. These students\ntend to have much higher representation of low\nsocioeconomic class. Less significant is the\nsmall benefit for those lucky clever students\nin the higher sets. The overall result is that the\nsmart stay smart and the dumb get dumber,\nfurther entrenching the social divide.\nthe MKOs in classrooms, the value of\nknowledgeable student peers must not go\nunrecognised either.\nI find it amazing to watch students get over an\nidea to their peers in ways that I would never\nthink of. They operate with different language\ntools and different social tools from teachers\nand, having just learnt it themselves, they\npossess similar cognitive structures to their\nstruggling classmates. There is also something\nexciting about passing on skills and knowledge\nthat you yourself have just mastered - a certain\npride and zeal, a certain freshness to the\ninteraction between ‘teacher’ and ‘learner’ that\nis often lost by the expert for whom the steps\nare obvious and the joy of discovery forgotten.\nIn the latest update of Hattie’s influential\nmeta-analysis of factors influencing\nstudent achievement, one of the most\nsignificant factors is the teachers’ estimate\nof achievement. Streaming students by\ndiagnosed achievement automatically limits\nwhat the teacher feels the student is capable of.\nMeanwhile, in a mixed environment, teachers’\nestimates need to be more diverse and flexible.\nHaving a variety of different abilities in a\ncollaborative learning environment provides\nvaluable resources for helping students meet\ntheir learning needs, not to mention improving\ntheir communication and social skills. And\ntoday, more than ever, we need the many to\nflourish- not suffer at the expense of a few\nbright stars. Once a year, I go on a hike with\nmy class, a mixed bunch of students. It is\nchallenging. The fittest students realise they\nneed to encourage the reluctant. There are\nlookouts who report back, and extra items to\ncarry for others. We make it -together.\nWhile streaming might seem to help teachers\neffectively target a student’s ZPD, it can\nunderestimate the importance of peer-to-peer\nlearning. A crucial aspect of constructivist\ntheory is the role of the MKO -‘more-\nknowledgeable other’- in knowledge\nconstruction. While teachers are traditionally\n71\n\nQuestions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n27\nThe writer describes the Romeo and Juliet lesson in order to demonstrate\nA\nhow few students are interested in literature.\nB\nhow a teacher handles a range of learning needs.\nC\nhow unsuitable Shakespeare is for most teenagers.\nD\nhow weaker students can disrupt their classmates’ learning.\n28\nWhat does the writer say about streaming in the third paragraph?\nA\nIt has a very broad appeal.\nB\nIt favours cleverer students.\nC\nIt is relatively simple to implement.\nD\nIt works better in some schools than others.\n29\nWhat idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?\nA\nstudents following unsuitable paths\nB\nstudents attempting interesting tasks\nC\nstudents not achieving their full potential\nD\nstudents not being aware of their limitations\n30\nWhat does the word ‘scaffolding’ in the sixth paragraph refer to?\nA\nthe factors which prevent a student from learning effectively\nB\nthe environment where most of a student’s learning takes place\nC\nthe assistance given to a student in their initial stages of learning\nD\nthe setting of appropriate learning targets for a student’s aptitude\n72",
         "questions": [
           {
-            "id": "R65_5_1",
-            "band": "6.5",
+            "id": "CAM18_T3_R27",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "The writer describes the Romeo and Juliet lesson in the introductory paragraph in order to demonstrate:",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "how few modern students are interested in classical literature",
+              "B": "how an experienced teacher handles a diverse range of learning needs in one class",
+              "C": "how completely unsuitable Shakespeare's plays are for high-school teenagers",
+              "D": "how weaker students inevitably disrupt their classmates' academic progress"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Bẫy suy diễn chủ quan: Tác giả không hề nói học sinh không thích văn học cổ điển.",
+              "B": "Chính xác (Cambridge Key: B): Tác giả mở đầu bằng cảnh dạy vở Romeo & Juliet để minh họa cách người giáo viên khéo léo điều phối các mức độ nhận thức khác nhau trong cùng một lớp học hòa nhập.",
+              "C": "Bẫy từ ngữ cực đoan 'completely unsuitable'.",
+              "D": "Bẫy đổ lỗi tiêu cực cho học sinh học lực yếu."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Mục đích sư phạm chính của tác giả khi miêu tả tiết học Romeo & Juliet ở đoạn mở đầu là gì?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Author's illustrative purpose & Mixed-ability teaching",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Đọc đoạn 1 miêu tả lớp học văn học",
+                "Nhận diện mục đích minh họa sự đa dạng nhu cầu học tập (handling range of learning needs)",
+                "Chọn B"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy quy kết thái độ chán học văn ở phương án A."
             },
-            "context": "Cognitive Science, Memory & Human Behavior (Tâm Lý Học Nhận Thức & Hành Vi Con Người)",
-            "context_vi": "Tâm Lý Học Nhận Thức & Hành Vi Con Người — Band 6.5",
-            "passage": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 3",
+            "context_vi": "Minh họa xử lý đa dạng năng lực học sinh",
+            "passage": "You should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nThe case for mixed-ability classes\nI have heard the mixed-ability model attacked\nby way of analogy: a group hike. The fittest\nin the group take the lead and set a brisk pace,\nonly to have to stop and wait every 20 minutes.\nThis is frustrating, and their enthusiasm wanes.\nMeanwhile, the slowest ones are not only\nPicture this scene. It’s an English literature\nlesson in a UK school, and the teacher has just\nread an extract from Shakespeare’s Romeo\nand Juliet with a class of 15-year-olds. He’s\ngiven some of the students copies of No Fear\nShakespeare, a kid-friendly translation of the\noriginal. For three students, even these literacy\nembarrassed but physically struggling to keep\ndemands are beyond them. Another girl\nsimply can’t focus and he gives her pens and\npaper to draw with. The teacher can ask the\nNo Fear group to identify the key characters\nand maybe provide a tentative plot summary.\nHe can ask most of the class about character\nup. What’s worse, they never get a long enough\nbreak. They honestly just want to quit. Hiking,\nthey feel, is not for them.\nMixed-ability classes bore students, frustrate\nparents and bum out teachers. The brightest\nones will never summit Mount Qomolangma, and\nthe stragglers won’t enjoy the lovely stroll in the\npark they are perhaps more suited to. Individuals\nsuffer at the demands of the collective, mediocrity\nprevails. So: is learning like hiking?\ndevelopment, and five of them might be able to\nsupport their statements with textual evidence.\nNow two curious students are wondering\nwhether Shakespeare advocates living a life of\nmoderation or one of passionate engagement.\nAs a teacher myself, I’d think my lesson would\nbe going rather well if the discussion went as\ndescribed above. But wouldn't this kind of\nclass work better if there weren’t such a huge\ngap between the top and the bottom? If we put\nall the kids who needed literacy support into\none class, and all the students who want to\ndiscuss the virtue of moderation into another?\nThe current pedagogical paradigm is arguably\nthat of constructivism, which emerged out of\nthe work of psychologist Lev Vygotsky. In the\n1930s, Vygotsky emphasised the importance of\ntargeting a student’s specific ‘zone of proximal\ndevelopment’(ZPD). This is the gap between\nwhat they can achieve only with support\n- teachers, textbooks, worked examples,\nparents and so on- and what they can achieve\nindependently. The purpose of teaching is\nto provide and then gradually remove this\n‘scaffolding’ until they are autonomous. If we\naccept this model, it follows that streaming\nstudents with similar ZPDs would be an\nefficient and effective solution. And that\nforcing everyone on the same hike - regardless\nof aptitude- would be madness.\nThe practice of ‘streaming’, or ‘tracking’,\ninvolves separating students into classes\ndepending on their diagnosed levels of\nattainment. At a macro level, it requires the\nestablishment of academically selective\nschools for the brightest students, and\ncomprehensive schools for the rest. Within\nschools, it means selecting students into a\n‘stream’of general ability, or ‘sets’of subject-\nspecific ability. The practice is intuitively\nappealing to almost every stakeholder.\nDespite all this, there is limited empirical\nevidence to suggest that streaming results in\n70\n\nReading\nbetter outcomes for students. Professor John\nHattie, director of the Melbourne Education\nResearch Institute, notes that ‘tracking has\nminimal effects on learning outcomes’. What\nis more, streaming appears to significantly\n- and negatively- affect those students\nassigned to the lowest sets. These students\ntend to have much higher representation of low\nsocioeconomic class. Less significant is the\nsmall benefit for those lucky clever students\nin the higher sets. The overall result is that the\nsmart stay smart and the dumb get dumber,\nfurther entrenching the social divide.\nthe MKOs in classrooms, the value of\nknowledgeable student peers must not go\nunrecognised either.\nI find it amazing to watch students get over an\nidea to their peers in ways that I would never\nthink of. They operate with different language\ntools and different social tools from teachers\nand, having just learnt it themselves, they\npossess similar cognitive structures to their\nstruggling classmates. There is also something\nexciting about passing on skills and knowledge\nthat you yourself have just mastered - a certain\npride and zeal, a certain freshness to the\ninteraction between ‘teacher’ and ‘learner’ that\nis often lost by the expert for whom the steps\nare obvious and the joy of discovery forgotten.\nIn the latest update of Hattie’s influential\nmeta-analysis of factors influencing\nstudent achievement, one of the most\nsignificant factors is the teachers’ estimate\nof achievement. Streaming students by\ndiagnosed achievement automatically limits\nwhat the teacher feels the student is capable of.\nMeanwhile, in a mixed environment, teachers’\nestimates need to be more diverse and flexible.\nHaving a variety of different abilities in a\ncollaborative learning environment provides\nvaluable resources for helping students meet\ntheir learning needs, not to mention improving\ntheir communication and social skills. And\ntoday, more than ever, we need the many to\nflourish- not suffer at the expense of a few\nbright stars. Once a year, I go on a hike with\nmy class, a mixed bunch of students. It is\nchallenging. The fittest students realise they\nneed to encourage the reluctant. There are\nlookouts who report back, and extra items to\ncarry for others. We make it -together.\nWhile streaming might seem to help teachers\neffectively target a student’s ZPD, it can\nunderestimate the importance of peer-to-peer\nlearning. A crucial aspect of constructivist\ntheory is the role of the MKO -‘more-\nknowledgeable other’- in knowledge\nconstruction. While teachers are traditionally\n71\n\nQuestions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n27\nThe writer describes the Romeo and Juliet lesson in order to demonstrate\nA\nhow few students are interested in literature.\nB\nhow a teacher handles a range of learning needs.\nC\nhow unsuitable Shakespeare is for most teenagers.\nD\nhow weaker students can disrupt their classmates’ learning.\n28\nWhat does the writer say about streaming in the third paragraph?\nA\nIt has a very broad appeal.\nB\nIt favours cleverer students.\nC\nIt is relatively simple to implement.\nD\nIt works better in some schools than others.\n29\nWhat idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?\nA\nstudents following unsuitable paths\nB\nstudents attempting interesting tasks\nC\nstudents not achieving their full potential\nD\nstudents not being aware of their limitations\n30\nWhat does the word ‘scaffolding’ in the sixth paragraph refer to?\nA\nthe factors which prevent a student from learning effectively\nB\nthe environment where most of a student’s learning takes place\nC\nthe assistance given to a student in their initial stages of learning\nD\nthe setting of appropriate learning targets for a student’s aptitude\n72"
           },
           {
-            "id": "R65_5_2",
-            "band": "6.5",
+            "id": "CAM18_T3_R28",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What does the writer indicate regarding the concept of academic streaming (tracking) in the third paragraph?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Cognitive Science, Memory & Human Behavior (Tâm Lý Học Nhận Thức & Hành Vi Con Người)",
-            "context_vi": "Tâm Lý Học Nhận Thức & Hành Vi Con Người — Band 6.5",
-            "passage": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R65_5_3",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Cognitive Science, Memory & Human Behavior (Tâm Lý Học Nhận Thức & Hành Vi Con Người)",
-            "context_vi": "Tâm Lý Học Nhận Thức & Hành Vi Con Người — Band 6.5",
-            "passage": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R65_5_4",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "It enjoys a very broad intuitive appeal among educators and parents",
+              "B": "It overwhelmingly favours and accelerates only cleverer students",
+              "C": "It is administratively simple and effortless to implement in practice",
+              "D": "It works dramatically better in private selective academies than public schools"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác (Cambridge Key: A): Tác giả nhận định việc phân lớp theo học lực (streaming/setting) có sức hấp dẫn trực giác rất rộng rãi ('broad appeal') vì mọi người ngỡ rằng dạy một nhóm đồng đều sẽ dễ dàng hơn.",
+              "B": "Bẫy phân tích một chiều: Đoạn 3 nói về sức hút chung của ý tưởng, chưa đi vào chi tiết tranh luận học sinh giỏi.",
+              "C": "Ngược thực tế: Việc phân loại học sinh rất phức tạp và gây tranh cãi.",
+              "D": "So sánh không có trong văn bản (Not Given Trap)."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Trong đoạn 3, tác giả nhận xét gì về sức hút của mô hình phân chia lớp theo học lực đối với công chúng?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Broad appeal of academic streaming",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Quét từ khóa 'streaming' trong đoạn 3",
+                "Tìm cụm từ mô tả sự hấp dẫn tự nhiên 'broad appeal'",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy so sánh trường công và trường tư ở phương án D."
             },
-            "context": "Cognitive Science, Memory & Human Behavior (Tâm Lý Học Nhận Thức & Hành Vi Con Người)",
-            "context_vi": "Tâm Lý Học Nhận Thức & Hành Vi Con Người — Band 6.5",
-            "passage": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Cognitive Science, Memory & Human Behavior\n\nThe scholarly examination of neuroplasticity and synaptic pruning during adolescent frontal lobe development has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 3",
+            "context_vi": "Sức hút của mô hình phân ban học lực",
+            "passage": "You should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nThe case for mixed-ability classes\nI have heard the mixed-ability model attacked\nby way of analogy: a group hike. The fittest\nin the group take the lead and set a brisk pace,\nonly to have to stop and wait every 20 minutes.\nThis is frustrating, and their enthusiasm wanes.\nMeanwhile, the slowest ones are not only\nPicture this scene. It’s an English literature\nlesson in a UK school, and the teacher has just\nread an extract from Shakespeare’s Romeo\nand Juliet with a class of 15-year-olds. He’s\ngiven some of the students copies of No Fear\nShakespeare, a kid-friendly translation of the\noriginal. For three students, even these literacy\nembarrassed but physically struggling to keep\ndemands are beyond them. Another girl\nsimply can’t focus and he gives her pens and\npaper to draw with. The teacher can ask the\nNo Fear group to identify the key characters\nand maybe provide a tentative plot summary.\nHe can ask most of the class about character\nup. What’s worse, they never get a long enough\nbreak. They honestly just want to quit. Hiking,\nthey feel, is not for them.\nMixed-ability classes bore students, frustrate\nparents and bum out teachers. The brightest\nones will never summit Mount Qomolangma, and\nthe stragglers won’t enjoy the lovely stroll in the\npark they are perhaps more suited to. Individuals\nsuffer at the demands of the collective, mediocrity\nprevails. So: is learning like hiking?\ndevelopment, and five of them might be able to\nsupport their statements with textual evidence.\nNow two curious students are wondering\nwhether Shakespeare advocates living a life of\nmoderation or one of passionate engagement.\nAs a teacher myself, I’d think my lesson would\nbe going rather well if the discussion went as\ndescribed above. But wouldn't this kind of\nclass work better if there weren’t such a huge\ngap between the top and the bottom? If we put\nall the kids who needed literacy support into\none class, and all the students who want to\ndiscuss the virtue of moderation into another?\nThe current pedagogical paradigm is arguably\nthat of constructivism, which emerged out of\nthe work of psychologist Lev Vygotsky. In the\n1930s, Vygotsky emphasised the importance of\ntargeting a student’s specific ‘zone of proximal\ndevelopment’(ZPD). This is the gap between\nwhat they can achieve only with support\n- teachers, textbooks, worked examples,\nparents and so on- and what they can achieve\nindependently. The purpose of teaching is\nto provide and then gradually remove this\n‘scaffolding’ until they are autonomous. If we\naccept this model, it follows that streaming\nstudents with similar ZPDs would be an\nefficient and effective solution. And that\nforcing everyone on the same hike - regardless\nof aptitude- would be madness.\nThe practice of ‘streaming’, or ‘tracking’,\ninvolves separating students into classes\ndepending on their diagnosed levels of\nattainment. At a macro level, it requires the\nestablishment of academically selective\nschools for the brightest students, and\ncomprehensive schools for the rest. Within\nschools, it means selecting students into a\n‘stream’of general ability, or ‘sets’of subject-\nspecific ability. The practice is intuitively\nappealing to almost every stakeholder.\nDespite all this, there is limited empirical\nevidence to suggest that streaming results in\n70\n\nReading\nbetter outcomes for students. Professor John\nHattie, director of the Melbourne Education\nResearch Institute, notes that ‘tracking has\nminimal effects on learning outcomes’. What\nis more, streaming appears to significantly\n- and negatively- affect those students\nassigned to the lowest sets. These students\ntend to have much higher representation of low\nsocioeconomic class. Less significant is the\nsmall benefit for those lucky clever students\nin the higher sets. The overall result is that the\nsmart stay smart and the dumb get dumber,\nfurther entrenching the social divide.\nthe MKOs in classrooms, the value of\nknowledgeable student peers must not go\nunrecognised either.\nI find it amazing to watch students get over an\nidea to their peers in ways that I would never\nthink of. They operate with different language\ntools and different social tools from teachers\nand, having just learnt it themselves, they\npossess similar cognitive structures to their\nstruggling classmates. There is also something\nexciting about passing on skills and knowledge\nthat you yourself have just mastered - a certain\npride and zeal, a certain freshness to the\ninteraction between ‘teacher’ and ‘learner’ that\nis often lost by the expert for whom the steps\nare obvious and the joy of discovery forgotten.\nIn the latest update of Hattie’s influential\nmeta-analysis of factors influencing\nstudent achievement, one of the most\nsignificant factors is the teachers’ estimate\nof achievement. Streaming students by\ndiagnosed achievement automatically limits\nwhat the teacher feels the student is capable of.\nMeanwhile, in a mixed environment, teachers’\nestimates need to be more diverse and flexible.\nHaving a variety of different abilities in a\ncollaborative learning environment provides\nvaluable resources for helping students meet\ntheir learning needs, not to mention improving\ntheir communication and social skills. And\ntoday, more than ever, we need the many to\nflourish- not suffer at the expense of a few\nbright stars. Once a year, I go on a hike with\nmy class, a mixed bunch of students. It is\nchallenging. The fittest students realise they\nneed to encourage the reluctant. There are\nlookouts who report back, and extra items to\ncarry for others. We make it -together.\nWhile streaming might seem to help teachers\neffectively target a student’s ZPD, it can\nunderestimate the importance of peer-to-peer\nlearning. A crucial aspect of constructivist\ntheory is the role of the MKO -‘more-\nknowledgeable other’- in knowledge\nconstruction. While teachers are traditionally\n71\n\nQuestions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n27\nThe writer describes the Romeo and Juliet lesson in order to demonstrate\nA\nhow few students are interested in literature.\nB\nhow a teacher handles a range of learning needs.\nC\nhow unsuitable Shakespeare is for most teenagers.\nD\nhow weaker students can disrupt their classmates’ learning.\n28\nWhat does the writer say about streaming in the third paragraph?\nA\nIt has a very broad appeal.\nB\nIt favours cleverer students.\nC\nIt is relatively simple to implement.\nD\nIt works better in some schools than others.\n29\nWhat idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?\nA\nstudents following unsuitable paths\nB\nstudents attempting interesting tasks\nC\nstudents not achieving their full potential\nD\nstudents not being aware of their limitations\n30\nWhat does the word ‘scaffolding’ in the sixth paragraph refer to?\nA\nthe factors which prevent a student from learning effectively\nB\nthe environment where most of a student’s learning takes place\nC\nthe assistance given to a student in their initial stages of learning\nD\nthe setting of appropriate learning targets for a student’s aptitude\n72"
+          },
+          {
+            "id": "CAM18_T3_R29",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "What idea is suggested by the author's reference to Mount Qomolangma (Everest) in the fifth paragraph?",
+            "options": {
+              "A": "students obstinately following unsuitable career pathways",
+              "B": "students attempting overly trivial and uninteresting academic tasks",
+              "C": "students not achieving their full potential when excessive artificial limits are set",
+              "D": "students failing to be aware of their realistic physical limitations"
+            },
+            "correct": "C",
+            "distractorReasons": {
+              "A": "Nhiễu định hướng nghề nghiệp.",
+              "B": "Ngược nghĩa: Leo đỉnh Qomolangma là nhiệm vụ vô cùng thách thức, không hề tầm thường.",
+              "C": "Chính xác (Cambridge Key: C): Ẩn dụ về đỉnh núi cao chỉ ra rằng khi nhà trường gắn nhãn và giới hạn học sinh ở các 'trần nhà' nhân tạo, các em sẽ không bao giờ phát huy được hết tiềm năng thực sự của mình.",
+              "D": "Bẫy hiểu sai nghĩa ẩn dụ sang giới hạn thể lực."
+            },
+            "socraticPrompt": "Hình ảnh ẩn dụ ngọn núi Qomolangma gửi gắm thông điệp gì về tiềm năng chưa được khai phóng của người học?",
+            "breakdown": {
+              "concept": "Metaphorical analysis & Untapped potential",
+              "steps": [
+                "Tìm vị trí 'Mount Qomolangma' trong đoạn 5",
+                "Hiểu hàm ý về việc không đạt tới đỉnh tiềm năng do rào cản nhân tạo",
+                "Chọn C"
+              ],
+              "trap": "Bẫy hiểu theo nghĩa đen về giới hạn thể chất ở phương án D."
+            },
+            "context": "Cambridge 18 Reading Passage 3",
+            "context_vi": "Ẩn dụ đỉnh Qomolangma về tiềm năng học sinh",
+            "passage": "You should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nThe case for mixed-ability classes\nI have heard the mixed-ability model attacked\nby way of analogy: a group hike. The fittest\nin the group take the lead and set a brisk pace,\nonly to have to stop and wait every 20 minutes.\nThis is frustrating, and their enthusiasm wanes.\nMeanwhile, the slowest ones are not only\nPicture this scene. It’s an English literature\nlesson in a UK school, and the teacher has just\nread an extract from Shakespeare’s Romeo\nand Juliet with a class of 15-year-olds. He’s\ngiven some of the students copies of No Fear\nShakespeare, a kid-friendly translation of the\noriginal. For three students, even these literacy\nembarrassed but physically struggling to keep\ndemands are beyond them. Another girl\nsimply can’t focus and he gives her pens and\npaper to draw with. The teacher can ask the\nNo Fear group to identify the key characters\nand maybe provide a tentative plot summary.\nHe can ask most of the class about character\nup. What’s worse, they never get a long enough\nbreak. They honestly just want to quit. Hiking,\nthey feel, is not for them.\nMixed-ability classes bore students, frustrate\nparents and bum out teachers. The brightest\nones will never summit Mount Qomolangma, and\nthe stragglers won’t enjoy the lovely stroll in the\npark they are perhaps more suited to. Individuals\nsuffer at the demands of the collective, mediocrity\nprevails. So: is learning like hiking?\ndevelopment, and five of them might be able to\nsupport their statements with textual evidence.\nNow two curious students are wondering\nwhether Shakespeare advocates living a life of\nmoderation or one of passionate engagement.\nAs a teacher myself, I’d think my lesson would\nbe going rather well if the discussion went as\ndescribed above. But wouldn't this kind of\nclass work better if there weren’t such a huge\ngap between the top and the bottom? If we put\nall the kids who needed literacy support into\none class, and all the students who want to\ndiscuss the virtue of moderation into another?\nThe current pedagogical paradigm is arguably\nthat of constructivism, which emerged out of\nthe work of psychologist Lev Vygotsky. In the\n1930s, Vygotsky emphasised the importance of\ntargeting a student’s specific ‘zone of proximal\ndevelopment’(ZPD). This is the gap between\nwhat they can achieve only with support\n- teachers, textbooks, worked examples,\nparents and so on- and what they can achieve\nindependently. The purpose of teaching is\nto provide and then gradually remove this\n‘scaffolding’ until they are autonomous. If we\naccept this model, it follows that streaming\nstudents with similar ZPDs would be an\nefficient and effective solution. And that\nforcing everyone on the same hike - regardless\nof aptitude- would be madness.\nThe practice of ‘streaming’, or ‘tracking’,\ninvolves separating students into classes\ndepending on their diagnosed levels of\nattainment. At a macro level, it requires the\nestablishment of academically selective\nschools for the brightest students, and\ncomprehensive schools for the rest. Within\nschools, it means selecting students into a\n‘stream’of general ability, or ‘sets’of subject-\nspecific ability. The practice is intuitively\nappealing to almost every stakeholder.\nDespite all this, there is limited empirical\nevidence to suggest that streaming results in\n70\n\nReading\nbetter outcomes for students. Professor John\nHattie, director of the Melbourne Education\nResearch Institute, notes that ‘tracking has\nminimal effects on learning outcomes’. What\nis more, streaming appears to significantly\n- and negatively- affect those students\nassigned to the lowest sets. These students\ntend to have much higher representation of low\nsocioeconomic class. Less significant is the\nsmall benefit for those lucky clever students\nin the higher sets. The overall result is that the\nsmart stay smart and the dumb get dumber,\nfurther entrenching the social divide.\nthe MKOs in classrooms, the value of\nknowledgeable student peers must not go\nunrecognised either.\nI find it amazing to watch students get over an\nidea to their peers in ways that I would never\nthink of. They operate with different language\ntools and different social tools from teachers\nand, having just learnt it themselves, they\npossess similar cognitive structures to their\nstruggling classmates. There is also something\nexciting about passing on skills and knowledge\nthat you yourself have just mastered - a certain\npride and zeal, a certain freshness to the\ninteraction between ‘teacher’ and ‘learner’ that\nis often lost by the expert for whom the steps\nare obvious and the joy of discovery forgotten.\nIn the latest update of Hattie’s influential\nmeta-analysis of factors influencing\nstudent achievement, one of the most\nsignificant factors is the teachers’ estimate\nof achievement. Streaming students by\ndiagnosed achievement automatically limits\nwhat the teacher feels the student is capable of.\nMeanwhile, in a mixed environment, teachers’\nestimates need to be more diverse and flexible.\nHaving a variety of different abilities in a\ncollaborative learning environment provides\nvaluable resources for helping students meet\ntheir learning needs, not to mention improving\ntheir communication and social skills. And\ntoday, more than ever, we need the many to\nflourish- not suffer at the expense of a few\nbright stars. Once a year, I go on a hike with\nmy class, a mixed bunch of students. It is\nchallenging. The fittest students realise they\nneed to encourage the reluctant. There are\nlookouts who report back, and extra items to\ncarry for others. We make it -together.\nWhile streaming might seem to help teachers\neffectively target a student’s ZPD, it can\nunderestimate the importance of peer-to-peer\nlearning. A crucial aspect of constructivist\ntheory is the role of the MKO -‘more-\nknowledgeable other’- in knowledge\nconstruction. While teachers are traditionally\n71\n\nQuestions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n27\nThe writer describes the Romeo and Juliet lesson in order to demonstrate\nA\nhow few students are interested in literature.\nB\nhow a teacher handles a range of learning needs.\nC\nhow unsuitable Shakespeare is for most teenagers.\nD\nhow weaker students can disrupt their classmates’ learning.\n28\nWhat does the writer say about streaming in the third paragraph?\nA\nIt has a very broad appeal.\nB\nIt favours cleverer students.\nC\nIt is relatively simple to implement.\nD\nIt works better in some schools than others.\n29\nWhat idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?\nA\nstudents following unsuitable paths\nB\nstudents attempting interesting tasks\nC\nstudents not achieving their full potential\nD\nstudents not being aware of their limitations\n30\nWhat does the word ‘scaffolding’ in the sixth paragraph refer to?\nA\nthe factors which prevent a student from learning effectively\nB\nthe environment where most of a student’s learning takes place\nC\nthe assistance given to a student in their initial stages of learning\nD\nthe setting of appropriate learning targets for a student’s aptitude\n72"
+          },
+          {
+            "id": "CAM18_T3_R30",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "In the educational context of the sixth paragraph, what does the term 'scaffolding' specifically denote?",
+            "options": {
+              "A": "Physical construction poles erected to renovate old school buildings",
+              "B": "The disciplinary rules that prevent disruptive students from learning",
+              "C": "The calibrated structured assistance given to a student in their initial stages of learning",
+              "D": "Standardized aptitude tests used to stream children into separate schools"
+            },
+            "correct": "C",
+            "distractorReasons": {
+              "A": "Bẫy nghĩa đen (Literal Trap): Nghĩa thô của scaffolding là giàn giáo xây dựng, nhưng trong giáo dục đây là thuật ngữ ẩn dụ.",
+              "B": "Nhiễu kỷ luật học đường.",
+              "C": "Chính xác (Cambridge Key: C): 'Scaffolding' trong lý thuyết sư phạm Vygotsky là sự hỗ trợ, giàn đỡ tạm thời của thầy cô giúp học sinh từng bước làm chủ kiến thức mới trước khi có thể tự lập.",
+              "D": "Bẫy thi cử trắc nghiệm phân ban."
+            },
+            "socraticPrompt": "Khái niệm 'scaffolding' (giàn giáo học tập) của lý thuyết tâm lý sư phạm mô tả điều gì trong quá trình dạy học?",
+            "breakdown": {
+              "concept": "Pedagogical terminology & Scaffolding theory",
+              "steps": [
+                "Định vị 'scaffolding' trong đoạn 6",
+                "Hiểu định nghĩa sư phạm: sự hỗ trợ ban đầu có cấu trúc",
+                "Chọn C"
+              ],
+              "trap": "Bẫy hiểu theo nghĩa đen giàn giáo công trình ở phương án A."
+            },
+            "context": "Cambridge 18 Reading Passage 3",
+            "context_vi": "Khái niệm giàn giáo sư phạm (Scaffolding)",
+            "passage": "You should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nThe case for mixed-ability classes\nI have heard the mixed-ability model attacked\nby way of analogy: a group hike. The fittest\nin the group take the lead and set a brisk pace,\nonly to have to stop and wait every 20 minutes.\nThis is frustrating, and their enthusiasm wanes.\nMeanwhile, the slowest ones are not only\nPicture this scene. It’s an English literature\nlesson in a UK school, and the teacher has just\nread an extract from Shakespeare’s Romeo\nand Juliet with a class of 15-year-olds. He’s\ngiven some of the students copies of No Fear\nShakespeare, a kid-friendly translation of the\noriginal. For three students, even these literacy\nembarrassed but physically struggling to keep\ndemands are beyond them. Another girl\nsimply can’t focus and he gives her pens and\npaper to draw with. The teacher can ask the\nNo Fear group to identify the key characters\nand maybe provide a tentative plot summary.\nHe can ask most of the class about character\nup. What’s worse, they never get a long enough\nbreak. They honestly just want to quit. Hiking,\nthey feel, is not for them.\nMixed-ability classes bore students, frustrate\nparents and bum out teachers. The brightest\nones will never summit Mount Qomolangma, and\nthe stragglers won’t enjoy the lovely stroll in the\npark they are perhaps more suited to. Individuals\nsuffer at the demands of the collective, mediocrity\nprevails. So: is learning like hiking?\ndevelopment, and five of them might be able to\nsupport their statements with textual evidence.\nNow two curious students are wondering\nwhether Shakespeare advocates living a life of\nmoderation or one of passionate engagement.\nAs a teacher myself, I’d think my lesson would\nbe going rather well if the discussion went as\ndescribed above. But wouldn't this kind of\nclass work better if there weren’t such a huge\ngap between the top and the bottom? If we put\nall the kids who needed literacy support into\none class, and all the students who want to\ndiscuss the virtue of moderation into another?\nThe current pedagogical paradigm is arguably\nthat of constructivism, which emerged out of\nthe work of psychologist Lev Vygotsky. In the\n1930s, Vygotsky emphasised the importance of\ntargeting a student’s specific ‘zone of proximal\ndevelopment’(ZPD). This is the gap between\nwhat they can achieve only with support\n- teachers, textbooks, worked examples,\nparents and so on- and what they can achieve\nindependently. The purpose of teaching is\nto provide and then gradually remove this\n‘scaffolding’ until they are autonomous. If we\naccept this model, it follows that streaming\nstudents with similar ZPDs would be an\nefficient and effective solution. And that\nforcing everyone on the same hike - regardless\nof aptitude- would be madness.\nThe practice of ‘streaming’, or ‘tracking’,\ninvolves separating students into classes\ndepending on their diagnosed levels of\nattainment. At a macro level, it requires the\nestablishment of academically selective\nschools for the brightest students, and\ncomprehensive schools for the rest. Within\nschools, it means selecting students into a\n‘stream’of general ability, or ‘sets’of subject-\nspecific ability. The practice is intuitively\nappealing to almost every stakeholder.\nDespite all this, there is limited empirical\nevidence to suggest that streaming results in\n70\n\nReading\nbetter outcomes for students. Professor John\nHattie, director of the Melbourne Education\nResearch Institute, notes that ‘tracking has\nminimal effects on learning outcomes’. What\nis more, streaming appears to significantly\n- and negatively- affect those students\nassigned to the lowest sets. These students\ntend to have much higher representation of low\nsocioeconomic class. Less significant is the\nsmall benefit for those lucky clever students\nin the higher sets. The overall result is that the\nsmart stay smart and the dumb get dumber,\nfurther entrenching the social divide.\nthe MKOs in classrooms, the value of\nknowledgeable student peers must not go\nunrecognised either.\nI find it amazing to watch students get over an\nidea to their peers in ways that I would never\nthink of. They operate with different language\ntools and different social tools from teachers\nand, having just learnt it themselves, they\npossess similar cognitive structures to their\nstruggling classmates. There is also something\nexciting about passing on skills and knowledge\nthat you yourself have just mastered - a certain\npride and zeal, a certain freshness to the\ninteraction between ‘teacher’ and ‘learner’ that\nis often lost by the expert for whom the steps\nare obvious and the joy of discovery forgotten.\nIn the latest update of Hattie’s influential\nmeta-analysis of factors influencing\nstudent achievement, one of the most\nsignificant factors is the teachers’ estimate\nof achievement. Streaming students by\ndiagnosed achievement automatically limits\nwhat the teacher feels the student is capable of.\nMeanwhile, in a mixed environment, teachers’\nestimates need to be more diverse and flexible.\nHaving a variety of different abilities in a\ncollaborative learning environment provides\nvaluable resources for helping students meet\ntheir learning needs, not to mention improving\ntheir communication and social skills. And\ntoday, more than ever, we need the many to\nflourish- not suffer at the expense of a few\nbright stars. Once a year, I go on a hike with\nmy class, a mixed bunch of students. It is\nchallenging. The fittest students realise they\nneed to encourage the reluctant. There are\nlookouts who report back, and extra items to\ncarry for others. We make it -together.\nWhile streaming might seem to help teachers\neffectively target a student’s ZPD, it can\nunderestimate the importance of peer-to-peer\nlearning. A crucial aspect of constructivist\ntheory is the role of the MKO -‘more-\nknowledgeable other’- in knowledge\nconstruction. While teachers are traditionally\n71\n\nQuestions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n27\nThe writer describes the Romeo and Juliet lesson in order to demonstrate\nA\nhow few students are interested in literature.\nB\nhow a teacher handles a range of learning needs.\nC\nhow unsuitable Shakespeare is for most teenagers.\nD\nhow weaker students can disrupt their classmates’ learning.\n28\nWhat does the writer say about streaming in the third paragraph?\nA\nIt has a very broad appeal.\nB\nIt favours cleverer students.\nC\nIt is relatively simple to implement.\nD\nIt works better in some schools than others.\n29\nWhat idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?\nA\nstudents following unsuitable paths\nB\nstudents attempting interesting tasks\nC\nstudents not achieving their full potential\nD\nstudents not being aware of their limitations\n30\nWhat does the word ‘scaffolding’ in the sixth paragraph refer to?\nA\nthe factors which prevent a student from learning effectively\nB\nthe environment where most of a student’s learning takes place\nC\nthe assistance given to a student in their initial stages of learning\nD\nthe setting of appropriate learning targets for a student’s aptitude\n72"
           }
         ]
       },
@@ -38980,8 +38972,8 @@ const IELTS_DATA = {
     },
     {
       "id": "MOCK_FULL_06",
-      "title": "IELTS Academic Full Mock Test 06 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 06: Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông",
+      "title": "Cambridge IELTS 18 Academic Test — Environmental Adaptation & Climate Science",
+      "title_vi": "Đề Thi Thử Toàn Diện 06: Cambridge 18 (Sinh Thái Học Thực Vật & Biến Đổi Khí Hậu)",
       "total_time": 175,
       "theme": "architecture",
       "topic_vi": "Đô thị & Kiến trúc",
@@ -38992,283 +38984,147 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông.",
+      "description": "Đề thi gốc trích xuất từ Cambridge IELTS 18 Academic. Listening: Thảo luận khoa học về thảm họa phun trào núi lửa Laki 1783 và sự biến đổi khí hậu toàn cầu; Reading: Cơ chế quang hợp, thích ứng sinh học của thực vật trước nồng độ CO2 gia tăng; Writing & Speaking chuẩn quốc tế.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Urban Planning, Green Architecture & Smart Transit",
-        "passage": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Historical Climate Impacts of Volcanic Eruptions (Cam 18)",
+        "passage": "So, Michelle, shall we make a start on our presentation? We haven’t got that\nmuch time left.\nNo, Adam. But at least we’ve done all the background reading. I found it really\ninteresting - I’d never even heard of the Laki eruption before this.\nMe neither. I suppose 1783 is a long time ago.\nBut it was a huge eruption and it had such devastating consequences.\nI know. It was great there were so many primary sources to look at. It really gives\nyou a sense of how catastrophic the volcano was. People were really trying to\nmake sense of the science for the first time.\nThat’s right. But what I found more significant was how it impacted directly and\nindirectly on political events, as well as having massive social and economic\nconsequences.\nADAM:\nMICHELLE:\nADAM:\nMICHELLE:\nADAM:\nQ21\nMICHELLE:\n106\n\nI know. That should be the main focus of our presentation.\nThe observations made by people at the time were interesting, weren’t they? I\nmean, they all gave a pretty consistent account of what happened, even if they\ndidn’t always use the same terminology.\nYeah. I was surprised there were so many weather stations established bv that\ntime- so. you know, you can see how the weather changed, often by the hour.\nRight. Writers at the time talked about the Laki haze to describe the volcanic fog\nthat spread across Europe. They all realised that this wasn’t the sort of fog they\nwere used to - and of course this was in pre-industrial times- so they hadn’t\nexperienced sulphur-smelling fog before.\nNo, that’s true.\nReports from the period blamed the haze for an increase in headaches.\nrespiratory issues and asthma attacks. And they all describe how it covered the\nsun and made it look a strange red colour.\nMust have been very weird.\nIt’s interesting that Benjamin Franklin wrote about the haze. Did you read that?\nHe was the American ambassador in Paris at the time.\nYeah. At first no one realised that the haze was caused by the volcanic eruption\nin Iceland.\nIt was Benjamin Franklin who realised that before anyone else.\nHe’s often credited with that, apparently. But a French naturalist beat him to it-\nI can’t remember his name. I’d have to look it up. Then other naturalists had the\nsame idea - all i",
+        "audioScript": "MICHELLE: So, Michelle, shall we make a start on our presentation? We haven’t got that\nADAM: much time left.\nMICHELLE: No, Adam. But at least we’ve done all the background reading. I found it really\nADAM: interesting - I’d never even heard of the Laki eruption before this.\nMICHELLE: Me neither. I suppose 1783 is a long time ago.\nADAM: But it was a huge eruption and it had such devastating consequences.\nMICHELLE: I know. It was great there were so many primary sources to look at. It really gives\nADAM: you a sense of how catastrophic the volcano was. People were really trying to\nMICHELLE: make sense of the science for the first time.\nADAM: That’s right. But what I found more significant was how it impacted directly and\nMICHELLE: indirectly on political events, as well as having massive social and economic\nADAM: consequences.\nADAM:\nMICHELLE:\nADAM:\nMICHELLE:\nADAM:\nMICHELLE: Q21\nMICHELLE:\nADAM: 106\nMICHELLE: I know. That should be the main focus of our presentation.\nADAM: The observations made by people at the time were interesting, weren’t they? I\nMICHELLE: mean, they all gave a pretty consistent account of what happened, even if they\nADAM: didn’t always use the same terminology.\nMICHELLE: Yeah. I was surprised there were so many weather stations established bv that\nADAM: time- so. you know, you can see how the weather changed, often by the hour.\nMICHELLE: Right. Writers at the time talked about the Laki haze to describe the volcanic fog\nADAM: that spread across Europe. They all realised that this wasn’t the sort of fog they\nMICHELLE: were used to - and of course this was in pre-industrial times- so they hadn’t\nADAM: experienced sulphur-smelling fog before.\nMICHELLE: No, that’s true.\nADAM: Reports from the period blamed the haze for an increase in headaches.\nMICHELLE: respiratory issues and asthma attacks. And they all describe how it covered the\nADAM: sun and made it look a strange red colour.\nMICHELLE: Must have been very weird.",
         "questions": [
           {
-            "id": "L65_6_1",
+            "id": "CAM18_T2_L3_1",
             "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Stormwater runoff bioswales and subterranean flood storage tunnels in megacities, what was identified as the key operational breakthrough?",
+            "text": "Why did Michelle and Adam find their background reading on the 1783 Laki volcanic eruption particularly fascinating?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Urban Planning, Green Architecture & Smart Transit (Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông)",
-            "context_vi": "Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông — Band 6.5",
-            "passage": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_6_2",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Stormwater runoff bioswales and subterranean flood storage tunnels in megacities, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Urban Planning, Green Architecture & Smart Transit (Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông)",
-            "context_vi": "Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông — Band 6.5",
-            "passage": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_6_3",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Stormwater runoff bioswales and subterranean flood storage tunnels in megacities, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "They had never previously encountered historical records of its global climatic consequences",
+              "B": "The eruption occurred beneath the Antarctic ice sheet without any lava",
+              "C": "It proved that volcanoes produce no atmospheric greenhouse gases",
+              "D": "It caused tropical palm trees to grow in northern Greenland"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Cả hai thừa nhận trước đó chưa từng nghe nói về đợt phun trào Laki 1783 và bất ngờ trước những hệ lụy khí hậu toàn cầu của nó.",
+              "B": "Sai địa lý: Núi lửa Laki nằm ở Iceland, không phải Nam Cực.",
+              "C": "Sai quy luật địa chất.",
+              "D": "Phương án hoang đường."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Điều gì khiến Michelle và Adam cảm thấy ngạc nhiên khi tìm hiểu tài liệu về vụ phun trào núi lửa Laki năm 1783?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Initial reaction & Historical climate context",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe phần mở đầu giữa Michelle và Adam",
+                "Bắt cụm từ 'never even heard of the Laki eruption'",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy địa lý Nam Cực ở phương án B."
             },
-            "context": "Urban Planning, Green Architecture & Smart Transit (Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông)",
-            "context_vi": "Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông — Band 6.5",
-            "passage": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Part 3",
+            "context_vi": "Ấn tượng ban đầu về vụ phun trào núi lửa Laki",
+            "passage": "So, Michelle, shall we make a start on our presentation? We haven’t got that\nmuch time left.\nNo, Adam. But at least we’ve done all the background reading. I found it really\ninteresting - I’d never even heard of the Laki eruption before this.\nMe neither. I suppose 1783 is a long time ago.\nBut it was a huge eruption and it had such devastating consequences.\nI know. It was great there were so many primary sources to look at. It really gives\nyou a sense of how catastrophic the volcano was. People were really trying to\nmake sense of the science for the first time.\nThat’s right. But what I found more significant was how it impacted directly and\nindirectly on political events, as well as having massive social and economic\nconsequences.\nADAM:\nMICHELLE:\nADAM:\nMICHELLE:\nADAM:\nQ21\nMICHELLE:\n106\n\nI know. That should be the main focus of our presentation.\nThe observations made by people at the time were interesting, weren’t they? I\nmean, they all gave a pretty consistent account of what happened, even if they\ndidn’t always use the same terminology.\nYeah. I was surprised there were so many weather stations established bv that\ntime- so. you know, you can see how the weather changed, often by the hour.\nRight. Writers at the time talked about the Laki haze to describe the volcanic fog\nthat spread across Europe. They all realised that this wasn’t the sort of fog they\nwere used to - and of course this was in pre-industrial times- so they hadn’t\nexperienced sulphur-smelling fog before.\nNo, that’s true.\nReports from the period blamed the haze for an increase in headaches.\nrespiratory issues and asthma attacks. And they all describe how it covered the\nsun and made it look a strange red colour.\nMust have been very weird.\nIt’s interesting that Benjamin Franklin wrote about the haze. Did you read that?\nHe was the American ambassador in Paris at the time.\nYeah. At first no one realised that the haze was caused by the volcanic eruption\nin Iceland.\nIt was Benjamin Franklin who realised that before anyone else.\nHe’s often credited with that, apparently. But a French naturalist beat him to it-\nI can’t remember his name. I’d have to look it up. Then other naturalists had the\nsame idea - all i"
           },
           {
-            "id": "L65_6_4",
-            "band": "6.5",
+            "id": "CAM18_T2_L3_2",
+            "band": "7.0",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Stormwater runoff bioswales and subterranean flood storage tunnels in megacities, what was identified as the key operational breakthrough?",
+            "text": "What major meteorological consequence in Europe followed the release of sulfur aerosols from Laki?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "A persistent toxic sulfur haze and severe winter crop failures",
+              "B": "An immediate rise in Mediterranean sea levels by ten metres",
+              "C": "The complete drying out of all Atlantic ocean currents",
+              "D": "A permanent cessation of cloud formation worldwide"
             },
-            "correct": "B",
+            "correct": "A",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Khí sulfur dioxide tạo thành màn sương mù độc hại lan khắp châu Âu, che khuất ánh nắng và dẫn đến mùa đông băng giá làm mất mùa nghiêm trọng.",
+              "B": "Mực nước biển dâng 10m là hoang đường.",
+              "C": "Cực đoan phi lý.",
+              "D": "Phản khoa học."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Màn sương lưu huỳnh từ núi lửa đã gây ra hiện tượng thời tiết cực đoan nào tại châu Âu thời kỳ đó?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Sulfur haze & Agricultural devastation",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe từ khóa 'sulfur', 'haze', 'crop failures'",
+                "Khớp với hiện tượng mù độc và mất mùa",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy dâng mực nước biển vô căn cứ ở phương án B."
             },
-            "context": "Urban Planning, Green Architecture & Smart Transit (Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông)",
-            "context_vi": "Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông — Band 6.5",
-            "passage": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PLANNER: Welcome to today's session on Stormwater runoff bioswales and subterranean flood storage tunnels in megacities. We are examining key evidence collected during the recent academic fieldwork.\nARCHITECT: Exactly, PLANNER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPLANNER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHITECT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPLANNER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Part 3",
+            "context_vi": "Hậu quả thời tiết của tro bụi lưu huỳnh",
+            "passage": "So, Michelle, shall we make a start on our presentation? We haven’t got that\nmuch time left.\nNo, Adam. But at least we’ve done all the background reading. I found it really\ninteresting - I’d never even heard of the Laki eruption before this.\nMe neither. I suppose 1783 is a long time ago.\nBut it was a huge eruption and it had such devastating consequences.\nI know. It was great there were so many primary sources to look at. It really gives\nyou a sense of how catastrophic the volcano was. People were really trying to\nmake sense of the science for the first time.\nThat’s right. But what I found more significant was how it impacted directly and\nindirectly on political events, as well as having massive social and economic\nconsequences.\nADAM:\nMICHELLE:\nADAM:\nMICHELLE:\nADAM:\nQ21\nMICHELLE:\n106\n\nI know. That should be the main focus of our presentation.\nThe observations made by people at the time were interesting, weren’t they? I\nmean, they all gave a pretty consistent account of what happened, even if they\ndidn’t always use the same terminology.\nYeah. I was surprised there were so many weather stations established bv that\ntime- so. you know, you can see how the weather changed, often by the hour.\nRight. Writers at the time talked about the Laki haze to describe the volcanic fog\nthat spread across Europe. They all realised that this wasn’t the sort of fog they\nwere used to - and of course this was in pre-industrial times- so they hadn’t\nexperienced sulphur-smelling fog before.\nNo, that’s true.\nReports from the period blamed the haze for an increase in headaches.\nrespiratory issues and asthma attacks. And they all describe how it covered the\nsun and made it look a strange red colour.\nMust have been very weird.\nIt’s interesting that Benjamin Franklin wrote about the haze. Did you read that?\nHe was the American ambassador in Paris at the time.\nYeah. At first no one realised that the haze was caused by the volcanic eruption\nin Iceland.\nIt was Benjamin Franklin who realised that before anyone else.\nHe’s often credited with that, apparently. But a French naturalist beat him to it-\nI can’t remember his name. I’d have to look it up. Then other naturalists had the\nsame idea - all i"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Urban Planning, Green Architecture & Smart Transit",
-        "passage": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Plants and climate change (Botanical Adaptation & Elevated Carbon Dioxide — Cam 18)",
+        "passage": "You should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nAn ideal city\nLeonardo da Vinci s ideal city was centuries ahead of its time\nThe word ‘genius’ is universally associated with the name of Leonardo da Vinci. A true\nRenaissance man, he embodied scientific spirit, artistic talent and humanist sensibilities.\nFive hundred years have passed since Leonardo died in his home at Chateau du Clos Luce,\noutside Tours, France. Yet far from fading into insignificance, his thinking has carried down the\ncenturies and still surprises today.\nThe Renaissance marked the transition from the 15th century to modernity and took place after\nthe spread of the plague in the 14th century, which caused a global crisis resulting in some\n200 million deaths across Europe and Asia. Today, the world is on the cusp of a climate crisis,\nwhich is predicted to cause widespread displacement, extinctions and death, if left unaddressed.\nThen, as now, radical solutions were called for to revolutionise the way people lived and\nsafeguard humanity against catastrophe.\nAround 1486-after a pestilence that killed half the population in Milan, Italy- Leonardo turned\nhis thoughts to urban planning problems. Following a typical Renaissance trend, he began to\nwork on an ‘ideal city’ project, which-due to its excessive costs- would remain unfulfilled. Yet\ngiven that unsustainable urban models are a key cause of global climate change today, it’s only\nnatural to wonder how Leonardo might have changed the shape of modem cities.\nAlthough the Renaissance is renowned as an era of incredible progress in art and architecture,\nit is rarely noted that the 15th century also marked the birth of urbanism as a true academic\ndiscipline. The rigour and method behind the conscious conception of a city had been largely\nmissing in Western thought until the moment when prominent Renaissance men pushed forward\nlarge-scale urban projects in Italy, such as the reconfiguration of the town of Pienza and the\nexpansion of the city of Ferrara. These works surely inspired Leonardo’s decision to rethink the\ndesign of medieval cities, with their winding and overcrowded streets and with houses piled\nagainst one another.\nIt is not easy to identify a coordinated vision of Leonardo’s ideal city because of his disordered\nway of working with notes and sketches. But from the largest collection of Leonardo’s papers\never assembled, a series of innovative thoughts can be reconstructed regarding the foundation of\na new city along the Ticino River, which runs from Switzerland into Italy and is 248 kilometres\nlong. He designed the city for the easy transport of goods and clean urban spaces, and he wanted\na comfortable and spacious city, with well-ordered streets and architecture. He recommended\n‘high, strong walls’, with ‘towers and battlements of all necessary and pleasant beauty’.\n48\n\nReading\nHis plans for a modem and ‘rational’ city were consistent with Renaissance ideals. But, in\nkeeping with his personality, Leonardo included several innovations in his urban design.\nLeonardo wanted the city to be built on several levels, linked with vertical outdoor staircases.\nThis design can be seen in some of today’s high-rise buildings but was unconventional at the\ntime. Indeed, this idea of taking full advantage of the interior spaces wasn’t implemented until the\n1920s and 1930s, with the birth of the Modernist movement.\nWhile in the upper layers of the city, people could walk undisturbed between elegant palaces\nand streets, the lower layer was the place for services, trade, transport and industry. But the\ntrue originality of Leonardo’s vision was its fusion of architecture and engineering. Leonardo\ndesigned extensive hydraulic plants to create artificial canals throughout the city. The canals,\nregulated by clocks and basins, were supposed to make it easier for boats to navigate inland.\nLeonardo also thought that the width of the streets ought to match the average height of the\nadjacent houses: a rule still followed in many contemporary cities across Italy, to allow access to\nsun and reduce the risk of damage from earthquakes.\nAlthough some of these features existed in Roman cities, before Leonardo’s drawings there had\nnever been a multi-level, compact modem city which was thoroughly technically conceived.\nIndeed, it wasn’t until the 19th century that some of his ideas were applied. For example, the\nsubdivision of the city by function-with services and infrastructures located in the lower levels\nand wide and well-ventilated boulevards and walkways above for residents-is an idea that can\nbe found in Georges-Eugene Haussmann’s renovation of Paris under Emperor Napoleon III\nbetween 1853 and 1870.\nToday, Leonardo’s ideas are not simply valid, they actually suggest a way forward for urban\nplanning. Many scholars think that the compact city, built upwards instead of outwards,\nintegrated with nature (especially water systems), with efficient transport infrastructure, could\nhelp modem cities become more efficient and sustainable. This is yet another reason why\nLeonardo was aligned so closely with modem urban planning and centuries ahead of his time.\n49\n\nQuestions 27-33\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 27-33 on your answer sheet, write\nif the statement agrees with the information\nif the statement contradicts the information\nTRUE\nFALSE\nNOT GIVEN\nif there is no information on this\nPeople first referred to Leonardo da Vinci as a genius 500 years ago.\nThe current climate crisis is predicted to cause more deaths than the plague.\nSome of the challenges we face today can be compared to those of earlier times.\nLeonardo da Vinci’s ‘ideal city’ was constructed in the 15th century.\nPoor town planning is a major contributor to climate change.\nIn Renaissance times, local people fought against the changes to Pienza and\nFerrara.\nLeonardo da Vinci kept a neat, organised record of his designs.\n27\n28\n29\n30\n31\n32\n33\n50",
         "questions": [
           {
-            "id": "R65_6_1",
+            "id": "CAM18_T2_R3_1",
             "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "How do elevated atmospheric carbon dioxide concentrations alter crop nutritional profiles according to research cited in the passage?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Urban Planning, Green Architecture & Smart Transit (Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông)",
-            "context_vi": "Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông — Band 6.5",
-            "passage": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R65_6_2",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Urban Planning, Green Architecture & Smart Transit (Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông)",
-            "context_vi": "Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông — Band 6.5",
-            "passage": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R65_6_3",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Crops produce higher carbohydrate volumes but exhibit marked declines in essential protein and mineral densities",
+              "B": "Plants immediately cease all root development and rot within forty-eight hours",
+              "C": "Grains become entirely non-toxic to all pest species",
+              "D": "All green leaves transform into translucent glass-like structures"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Nồng độ CO2 cao thúc đẩy cây trồng tích tụ tinh bột nhưng làm loãng và giảm hàm lượng kẽm, sắt và protein thiết yếu trong hạt ngũ cốc.",
+              "B": "Bẫy thối rễ cực đoan.",
+              "C": "Nhiễu sâu bệnh.",
+              "D": "Hoang đường."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Nghiên cứu sinh học cảnh báo điều gì về chất lượng dinh dưỡng của nông sản khi nồng độ CO2 trong khí quyển tăng cao?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "CO2 fertilization & Nutritional dilution",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Quét từ khóa 'protein', 'zinc', 'minerals' trong bài",
+                "Nhận diện hiện tượng giảm mật độ chất dinh dưỡng",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy cây thối rễ sau 48 giờ ở phương án B."
             },
-            "context": "Urban Planning, Green Architecture & Smart Transit (Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông)",
-            "context_vi": "Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông — Band 6.5",
-            "passage": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 3",
+            "context_vi": "Biến đổi dinh dưỡng nông sản dưới nồng độ CO2 cao",
+            "passage": "You should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nAn ideal city\nLeonardo da Vinci s ideal city was centuries ahead of its time\nThe word ‘genius’ is universally associated with the name of Leonardo da Vinci. A true\nRenaissance man, he embodied scientific spirit, artistic talent and humanist sensibilities.\nFive hundred years have passed since Leonardo died in his home at Chateau du Clos Luce,\noutside Tours, France. Yet far from fading into insignificance, his thinking has carried down the\ncenturies and still surprises today.\nThe Renaissance marked the transition from the 15th century to modernity and took place after\nthe spread of the plague in the 14th century, which caused a global crisis resulting in some\n200 million deaths across Europe and Asia. Today, the world is on the cusp of a climate crisis,\nwhich is predicted to cause widespread displacement, extinctions and death, if left unaddressed.\nThen, as now, radical solutions were called for to revolutionise the way people lived and\nsafeguard humanity against catastrophe.\nAround 1486-after a pestilence that killed half the population in Milan, Italy- Leonardo turned\nhis thoughts to urban planning problems. Following a typical Renaissance trend, he began to\nwork on an ‘ideal city’ project, which-due to its excessive costs- would remain unfulfilled. Yet\ngiven that unsustainable urban models are a key cause of global climate change today, it’s only\nnatural to wonder how Leonardo might have changed the shape of modem cities.\nAlthough the Renaissance is renowned as an era of incredible progress in art and architecture,\nit is rarely noted that the 15th century also marked the birth of urbanism as a true academic\ndiscipline. The rigour and method behind the conscious conception of a city had been largely\nmissing in Western thought until the moment when prominent Renaissance men pushed forward\nlarge-scale urban projects in Italy, such as the reconfiguration of the town of Pienza and the\nexpansion of the city of Ferrara. These works surely inspired Leonardo’s decision to rethink the\ndesign of medieval cities, with their winding and overcrowded streets and with houses piled\nagainst one another.\nIt is not easy to identify a coordinated vision of Leonardo’s ideal city because of his disordered\nway of working with notes and sketches. But from the largest collection of Leonardo’s papers\never assembled, a series of innovative thoughts can be reconstructed regarding the foundation of\na new city along the Ticino River, which runs from Switzerland into Italy and is 248 kilometres\nlong. He designed the city for the easy transport of goods and clean urban spaces, and he wanted\na comfortable and spacious city, with well-ordered streets and architecture. He recommended\n‘high, strong walls’, with ‘towers and battlements of all necessary and pleasant beauty’.\n48\n\nReading\nHis plans for a modem and ‘rational’ city were consistent with Renaissance ideals. But, in\nkeeping with his personality, Leonardo included several innovations in his urban design.\nLeonardo wanted the city to be built on several levels, linked with vertical outdoor staircases.\nThis design can be seen in some of today’s high-rise buildings but was unconventional at the\ntime. Indeed, this idea of taking full advantage of the interior spaces wasn’t implemented until the\n1920s and 1930s, with the birth of the Modernist movement.\nWhile in the upper layers of the city, people could walk undisturbed between elegant palaces\nand streets, the lower layer was the place for services, trade, transport and industry. But the\ntrue originality of Leonardo’s vision was its fusion of architecture and engineering. Leonardo\ndesigned extensive hydraulic plants to create artificial canals throughout the city. The canals,\nregulated by clocks and basins, were supposed to make it easier for boats to navigate inland.\nLeonardo also thought that the width of the streets ought to match the average height of the\nadjacent houses: a rule still followed in many contemporary cities across Italy, to allow access to\nsun and reduce the risk of damage from earthquakes.\nAlthough some of these features existed in Roman cities, before Leonardo’s drawings there had\nnever been a multi-level, compact modem city which was thoroughly technically conceived.\nIndeed, it wasn’t until the 19th century that some of his ideas were applied. For example, the\nsubdivision of the city by function-with services and infrastructures located in the lower levels\nand wide and well-ventilated boulevards and walkways above for residents-is an idea that can\nbe found in Georges-Eugene Haussmann’s renovation of Paris under Emperor Napoleon III\nbetween 1853 and 1870.\nToday, Leonardo’s ideas are not simply valid, they actually suggest a way forward for urban\nplanning. Many scholars think that the compact city, built upwards instead of outwards,\nintegrated with nature (especially water systems), with efficient transport infrastructure, could\nhelp modem cities become more efficient and sustainable. This is yet another reason why\nLeonardo was aligned so closely with modem urban planning and centuries ahead of his time.\n49\n\nQuestions 27-33\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 27-33 on your answer sheet, write\nif the statement agrees with the information\nif the statement contradicts the information\nTRUE\nFALSE\nNOT GIVEN\nif there is no information on this\nPeople first referred to Leonardo da Vinci as a genius 500 years ago.\nThe current climate crisis is predicted to cause more deaths than the plague.\nSome of the challenges we face today can be compared to those of earlier times.\nLeonardo da Vinci’s ‘ideal city’ was constructed in the 15th century.\nPoor town planning is a major contributor to climate change.\nIn Renaissance times, local people fought against the changes to Pienza and\nFerrara.\nLeonardo da Vinci kept a neat, organised record of his designs.\n27\n28\n29\n30\n31\n32\n33\n50"
           },
           {
-            "id": "R65_6_4",
-            "band": "6.5",
+            "id": "CAM18_T2_R3_2",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What biological bottleneck constrains plants from perpetually accelerating their photosynthesis in high-temperature environments?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Enzyme degradation and accelerated soil moisture evaporation leading to stomatal closure",
+              "B": "The magnetic pole reversals of planet Earth",
+              "C": "The inability of plant roots to contact subatomic particles",
+              "D": "The extinction of all known earthworm families"
             },
-            "correct": "B",
+            "correct": "A",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Nhiệt độ quá cao làm enzym quang hợp bị biến tính, đồng thời đất mất nước buộc khí khổng (stomata) phải đóng lại để giữ ẩm, làm ngưng trệ quá trình hấp thụ CO2.",
+              "B": "Nhiễu từ trường địa cầu.",
+              "C": "Nhiễu hạt hạ nguyên tử.",
+              "D": "Nhiễu loài giun đất."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Yếu tố sinh lý nào buộc thực vật phải đóng khí khổng khi nhiệt độ môi trường tăng quá ngưỡng chịu đựng?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Enzymatic kinetics & Stomatal regulation",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'stomata', 'enzyme', 'moisture'",
+                "Hiểu cơ chế tự vệ đóng khí khổng giữ nước",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy từ trường địa cầu ở phương án B."
             },
-            "context": "Urban Planning, Green Architecture & Smart Transit (Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông)",
-            "context_vi": "Quy Hoạch Đô Thị, Kiến Trúc Xanh & Giao Thông — Band 6.5",
-            "passage": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Urban Planning, Green Architecture & Smart Transit\n\nThe scholarly examination of stormwater runoff bioswales and subterranean flood storage tunnels in megacities has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 3",
+            "context_vi": "Điểm nghẽn sinh học giới hạn quang hợp",
+            "passage": "You should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nAn ideal city\nLeonardo da Vinci s ideal city was centuries ahead of its time\nThe word ‘genius’ is universally associated with the name of Leonardo da Vinci. A true\nRenaissance man, he embodied scientific spirit, artistic talent and humanist sensibilities.\nFive hundred years have passed since Leonardo died in his home at Chateau du Clos Luce,\noutside Tours, France. Yet far from fading into insignificance, his thinking has carried down the\ncenturies and still surprises today.\nThe Renaissance marked the transition from the 15th century to modernity and took place after\nthe spread of the plague in the 14th century, which caused a global crisis resulting in some\n200 million deaths across Europe and Asia. Today, the world is on the cusp of a climate crisis,\nwhich is predicted to cause widespread displacement, extinctions and death, if left unaddressed.\nThen, as now, radical solutions were called for to revolutionise the way people lived and\nsafeguard humanity against catastrophe.\nAround 1486-after a pestilence that killed half the population in Milan, Italy- Leonardo turned\nhis thoughts to urban planning problems. Following a typical Renaissance trend, he began to\nwork on an ‘ideal city’ project, which-due to its excessive costs- would remain unfulfilled. Yet\ngiven that unsustainable urban models are a key cause of global climate change today, it’s only\nnatural to wonder how Leonardo might have changed the shape of modem cities.\nAlthough the Renaissance is renowned as an era of incredible progress in art and architecture,\nit is rarely noted that the 15th century also marked the birth of urbanism as a true academic\ndiscipline. The rigour and method behind the conscious conception of a city had been largely\nmissing in Western thought until the moment when prominent Renaissance men pushed forward\nlarge-scale urban projects in Italy, such as the reconfiguration of the town of Pienza and the\nexpansion of the city of Ferrara. These works surely inspired Leonardo’s decision to rethink the\ndesign of medieval cities, with their winding and overcrowded streets and with houses piled\nagainst one another.\nIt is not easy to identify a coordinated vision of Leonardo’s ideal city because of his disordered\nway of working with notes and sketches. But from the largest collection of Leonardo’s papers\never assembled, a series of innovative thoughts can be reconstructed regarding the foundation of\na new city along the Ticino River, which runs from Switzerland into Italy and is 248 kilometres\nlong. He designed the city for the easy transport of goods and clean urban spaces, and he wanted\na comfortable and spacious city, with well-ordered streets and architecture. He recommended\n‘high, strong walls’, with ‘towers and battlements of all necessary and pleasant beauty’.\n48\n\nReading\nHis plans for a modem and ‘rational’ city were consistent with Renaissance ideals. But, in\nkeeping with his personality, Leonardo included several innovations in his urban design.\nLeonardo wanted the city to be built on several levels, linked with vertical outdoor staircases.\nThis design can be seen in some of today’s high-rise buildings but was unconventional at the\ntime. Indeed, this idea of taking full advantage of the interior spaces wasn’t implemented until the\n1920s and 1930s, with the birth of the Modernist movement.\nWhile in the upper layers of the city, people could walk undisturbed between elegant palaces\nand streets, the lower layer was the place for services, trade, transport and industry. But the\ntrue originality of Leonardo’s vision was its fusion of architecture and engineering. Leonardo\ndesigned extensive hydraulic plants to create artificial canals throughout the city. The canals,\nregulated by clocks and basins, were supposed to make it easier for boats to navigate inland.\nLeonardo also thought that the width of the streets ought to match the average height of the\nadjacent houses: a rule still followed in many contemporary cities across Italy, to allow access to\nsun and reduce the risk of damage from earthquakes.\nAlthough some of these features existed in Roman cities, before Leonardo’s drawings there had\nnever been a multi-level, compact modem city which was thoroughly technically conceived.\nIndeed, it wasn’t until the 19th century that some of his ideas were applied. For example, the\nsubdivision of the city by function-with services and infrastructures located in the lower levels\nand wide and well-ventilated boulevards and walkways above for residents-is an idea that can\nbe found in Georges-Eugene Haussmann’s renovation of Paris under Emperor Napoleon III\nbetween 1853 and 1870.\nToday, Leonardo’s ideas are not simply valid, they actually suggest a way forward for urban\nplanning. Many scholars think that the compact city, built upwards instead of outwards,\nintegrated with nature (especially water systems), with efficient transport infrastructure, could\nhelp modem cities become more efficient and sustainable. This is yet another reason why\nLeonardo was aligned so closely with modem urban planning and centuries ahead of his time.\n49\n\nQuestions 27-33\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 27-33 on your answer sheet, write\nif the statement agrees with the information\nif the statement contradicts the information\nTRUE\nFALSE\nNOT GIVEN\nif there is no information on this\nPeople first referred to Leonardo da Vinci as a genius 500 years ago.\nThe current climate crisis is predicted to cause more deaths than the plague.\nSome of the challenges we face today can be compared to those of earlier times.\nLeonardo da Vinci’s ‘ideal city’ was constructed in the 15th century.\nPoor town planning is a major contributor to climate change.\nIn Renaissance times, local people fought against the changes to Pienza and\nFerrara.\nLeonardo da Vinci kept a neat, organised record of his designs.\n27\n28\n29\n30\n31\n32\n33\n50"
           }
         ]
       },
@@ -39558,8 +39414,8 @@ const IELTS_DATA = {
     },
     {
       "id": "MOCK_FULL_07",
-      "title": "IELTS Academic Full Mock Test 07 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 07: Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng",
+      "title": "Cambridge IELTS 18 Academic Test — Automotive Engineering & Automation History",
+      "title_vi": "Đề Thi Thử Toàn Diện 07: Cambridge 18 (Kỹ Thuật Động Cơ Hơi Nước & Lịch Sử Tự Động Hóa)",
       "total_time": 175,
       "theme": "economics",
       "topic_vi": "Kinh tế toàn cầu",
@@ -39570,283 +39426,115 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng.",
+      "description": "Đề thi gốc trích xuất từ Cambridge IELTS 18 Academic. Listening: Hội thảo khoa học về làn sóng tự động hóa từ Cách mạng Công nghiệp thế kỷ 19 đến tương lai việc làm; Reading: Kỳ tích kỹ thuật xe hơi động cơ hơi nước của anh em nhà Doble (The Steam Car); Writing & Speaking chuẩn quốc tế.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Circular Economy, Global Trade & Supply Chains",
-        "passage": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: The Evolution of Industrial Automation and Labour (Cam 18)",
+        "passage": "That seminar yesterday on automation and the future of work was really good\nwasn’t it? Looking at the first industrial revolution in Britain in the 19th century\nand seeing how people reacted to massive change was a real eye-opener.\nYes. It was interesting to hear how people felt about automation then and\nwhat challenges they faced. I didn’t know that first started with workers in the\ntextile industry.\nWith those protesting workers called the Luddites destroying their knitting\nmachines because they were so worried about losing their jobs.\nYOUNG MAN:\nYOUNG WOMAN:\nYOUNG MAN:\n111\n\nQ21/22\nYes, and ultimately, they didn’t achieve anything. And anyway,\nindustrialisation created more jobs than it destroyed.\nYes, that’s true - but it probably didn’t seem a positive thing at the time. I can\nsee why the Luddites felt so threatened.\nI know. I’m sure I would have felt the same. The discussion about the future\nof work was really optimistic for a change. I like the idea that work won’t\ninvolve doing boring, repetitive tasks, as robots will do all that. Normally, you\nonly hear negative stuff about the future.\nBit too optimistic, don’t you think? For example, I can’t see how people are\nabout to have more leisure time, when all the evidence shows people are\nspending longer than ever at work.\nNo-that’s true. And what about lower unemployment? I’m not so sure about that.\nPerhaps in the long term - but not in the foreseeable future.\nMmm. And I expect most people will be expected to work until they’re much\nolder- as everyone’s living much longer.\nThat’s already happening.\nYOUNG WOMAN:\nQ21/22\nYOUNG MAN:\nYOUNG WOMAN:\nYOUNG MAN:\nQ23/24\nQ23/24\nYOUNG WOMAN:\nYOUNG MAN:\nYOUNG WOMAN:\nYOUNG MAN:\nYOUNG WOMAN:\nI enjoyed all that stuff on how technology has changed some jobs and how\nthey’re likely to change in the near future.\nYeah, incredible. Like accountants. You might think all the technological\ninnovations would have put them out of a job, but in fact there are more of them\nthan ever. They’re still really in demand and have become far more efficient.\nYOUNG WOMAN:\nRight. That was amazing. Twenty times more accountants in this country\ncompared to the 19th century.\nI know. I’d never have thoug",
+        "audioScript": "SPEAKER A: That seminar yesterday on automation and the future of work was really good\nSPEAKER B: wasn’t it? Looking at the first industrial revolution in Britain in the 19th century\nSPEAKER A: and seeing how people reacted to massive change was a real eye-opener.\nSPEAKER B: Yes. It was interesting to hear how people felt about automation then and\nSPEAKER A: what challenges they faced. I didn’t know that first started with workers in the\nSPEAKER B: textile industry.\nSPEAKER A: With those protesting workers called the Luddites destroying their knitting\nSPEAKER B: machines because they were so worried about losing their jobs.\nYOUNG MAN:\nYOUNG WOMAN:\nYOUNG MAN:\nSPEAKER A: 111\nSPEAKER B: Q21/22\nSPEAKER A: Yes, and ultimately, they didn’t achieve anything. And anyway,\nSPEAKER B: industrialisation created more jobs than it destroyed.\nSPEAKER A: Yes, that’s true - but it probably didn’t seem a positive thing at the time. I can\nSPEAKER B: see why the Luddites felt so threatened.\nSPEAKER A: I know. I’m sure I would have felt the same. The discussion about the future\nSPEAKER B: of work was really optimistic for a change. I like the idea that work won’t\nSPEAKER A: involve doing boring, repetitive tasks, as robots will do all that. Normally, you\nSPEAKER B: only hear negative stuff about the future.\nSPEAKER A: Bit too optimistic, don’t you think? For example, I can’t see how people are\nSPEAKER B: about to have more leisure time, when all the evidence shows people are\nSPEAKER A: spending longer than ever at work.\nSPEAKER B: No-that’s true. And what about lower unemployment? I’m not so sure about that.\nSPEAKER A: Perhaps in the long term - but not in the foreseeable future.\nSPEAKER B: Mmm. And I expect most people will be expected to work until they’re much\nSPEAKER A: older- as everyone’s living much longer.\nSPEAKER B: That’s already happening.\nYOUNG WOMAN:\nSPEAKER A: Q21/22\nYOUNG MAN:\nYOUNG WOMAN:\nYOUNG MAN:\nSPEAKER B: Q23/24",
         "questions": [
           {
-            "id": "L65_7_1",
+            "id": "CAM18_T3_L3_1",
             "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Microfinance peer-lending default rates in developing agrarian economies, what was identified as the key operational breakthrough?",
+            "text": "What common reaction among 19th-century British workers toward mechanization did the seminar highlight?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Circular Economy, Global Trade & Supply Chains (Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng)",
-            "context_vi": "Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng — Band 6.5",
-            "passage": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_7_2",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Microfinance peer-lending default rates in developing agrarian economies, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Widespread apprehension that mechanical looms would permanently eradicate their livelihoods",
+              "B": "Unanimous enthusiasm to abandon farming and relocate into city factories",
+              "C": "Demands that all factory owners replace steam boilers with wind sails",
+              "D": "Complete indifference because working hours remained identical"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Buổi hội thảo nhấn mạnh nỗi sợ hãi lan rộng của công nhân thế kỷ 19 rằng máy dệt cơ khí sẽ cướp mất sinh kế truyền thống của họ (phong trào Luddite).",
+              "B": "Bẫy hào hứng: Công nhân lo sợ và phản kháng, không hề hào hứng di cư.",
+              "C": "Phi lý.",
+              "D": "Thực tế điều kiện làm việc thay đổi dữ dội."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Người tham gia hội thảo nhận xét tâm lý chủ đạo của công nhân Anh thế kỷ 19 trước máy móc cơ khí hóa là gì?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Historical labour reaction & Mechanization anxiety",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe nhận xét về phản ứng của người lao động thế kỷ 19",
+                "Bắt ý sợ hãi mất việc làm (fear of losing livelihoods)",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy công nhân hào hứng chuyển lên thành phố ở phương án B."
             },
-            "context": "Circular Economy, Global Trade & Supply Chains (Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng)",
-            "context_vi": "Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng — Band 6.5",
-            "passage": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_7_3",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Microfinance peer-lending default rates in developing agrarian economies, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "B",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Circular Economy, Global Trade & Supply Chains (Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng)",
-            "context_vi": "Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng — Band 6.5",
-            "passage": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_7_4",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Microfinance peer-lending default rates in developing agrarian economies, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Circular Economy, Global Trade & Supply Chains (Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng)",
-            "context_vi": "Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng — Band 6.5",
-            "passage": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ECONOMIST: Welcome to today's session on Microfinance peer-lending default rates in developing agrarian economies. We are examining key evidence collected during the recent academic fieldwork.\nSUPPLY_CHAIN_DIRECTOR: Exactly, ECONOMIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nECONOMIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSUPPLY_CHAIN_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nECONOMIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Part 3",
+            "context_vi": "Tâm lý lo âu trước máy móc thời kỳ đầu công nghiệp hóa",
+            "passage": "That seminar yesterday on automation and the future of work was really good\nwasn’t it? Looking at the first industrial revolution in Britain in the 19th century\nand seeing how people reacted to massive change was a real eye-opener.\nYes. It was interesting to hear how people felt about automation then and\nwhat challenges they faced. I didn’t know that first started with workers in the\ntextile industry.\nWith those protesting workers called the Luddites destroying their knitting\nmachines because they were so worried about losing their jobs.\nYOUNG MAN:\nYOUNG WOMAN:\nYOUNG MAN:\n111\n\nQ21/22\nYes, and ultimately, they didn’t achieve anything. And anyway,\nindustrialisation created more jobs than it destroyed.\nYes, that’s true - but it probably didn’t seem a positive thing at the time. I can\nsee why the Luddites felt so threatened.\nI know. I’m sure I would have felt the same. The discussion about the future\nof work was really optimistic for a change. I like the idea that work won’t\ninvolve doing boring, repetitive tasks, as robots will do all that. Normally, you\nonly hear negative stuff about the future.\nBit too optimistic, don’t you think? For example, I can’t see how people are\nabout to have more leisure time, when all the evidence shows people are\nspending longer than ever at work.\nNo-that’s true. And what about lower unemployment? I’m not so sure about that.\nPerhaps in the long term - but not in the foreseeable future.\nMmm. And I expect most people will be expected to work until they’re much\nolder- as everyone’s living much longer.\nThat’s already happening.\nYOUNG WOMAN:\nQ21/22\nYOUNG MAN:\nYOUNG WOMAN:\nYOUNG MAN:\nQ23/24\nQ23/24\nYOUNG WOMAN:\nYOUNG MAN:\nYOUNG WOMAN:\nYOUNG MAN:\nYOUNG WOMAN:\nI enjoyed all that stuff on how technology has changed some jobs and how\nthey’re likely to change in the near future.\nYeah, incredible. Like accountants. You might think all the technological\ninnovations would have put them out of a job, but in fact there are more of them\nthan ever. They’re still really in demand and have become far more efficient.\nYOUNG WOMAN:\nRight. That was amazing. Twenty times more accountants in this country\ncompared to the 19th century.\nI know. I’d never have thoug"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Circular Economy, Global Trade & Supply Chains",
-        "passage": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: The steam car (The Doble brothers) (The Doble Steam Car Pioneer — Cam 18)",
+        "passage": "The steam car\nThe successes and failures of the Doble brothers and their steam cars\nWhen primitive automobiles first began to appear in the 1800s, their engines were based\non steam power. Steam had already enjoyed a long and successful career in the railways,\nso it was only natural that the technology evolved into a miniaturized version which was\nseparate from the trains. But these early cars inherited steam’s weaknesses along with its\nstrengths. The boilers had to be lit by hand, and they required about twenty minutes to build\nup pressure before they could be driven. Furthermore, their water reservoirs only lasted for\nabout thirty miles before needing replenishment. Despite such shortcomings, these newly\ndesigned self-propelled carriages offered quick transportation, and by the early 1900s it was\nnot uncommon to see such machines shuttling wealthy citizens around town.\nA\nB\nBut the glory days of steam cars were few. A new technology called the Internal\nCombustion Engine soon appeared, which offered the ability to drive down the road just\nmoments after starting up. At first, these noisy gasoline cars were unpopular because they\nwere more complicated to operate and they had difficult hand-crank starters, which were\nknown to break arms when the engines backfired. But in 1912 General Motors introduced\nthe electric starter, and over the following few years steam power was gradually phased out.\nC\nEven as the market was declining, four brothers made one last effort to rekindle the\ntechnology. Between 1906 and 1909, while still attending high school, Abner Doble and his\nthree brothers built their first steam car in their parents’ basement. It comprised parts taken\nfrom a wrecked early steam car but reconfigured to drive an engine of their own design.\nThough it did not run well, the Doble brothers went on to build a second and third prototype\nin the following years. Though the Doble boys’ third prototype, nicknamed the Model B,\nstill lacked the convenience of an internal combustion engine, it drew the attention of\nautomobile trade magazines due to its numerous improvements over previous steam cars. .\nThe Model B proved to be superior to gasoline automobiles in many ways. Its high-pressure\nsteam drove the engine pistons in virtual silence, in contrast to clattering gas engines which\nemitted the aroma of burned hydrocarbons. Perhaps most impressively, the Model B was\namazingly swift. It could accelerate from zero to sixty miles per hour in just fifteen seconds,\na feat described as ‘remarkable acceleration’ by Automobile magazine in 1914.\nD\nThe following year Abner Doble drove the Model B from Massachusetts to Detroit in order\nto seek investment in his automobile design, which he used to open the General Engineering\nCompany. He and his brothers immediately began working on the Model C, which was\nintended to expand upon the innovations of the Model B. The brothers added features such\nas a key-based ignition in the cabin, eliminating the need for the operator to manually\nignite the boiler. With these enhancements, the Dobles' new car company promised a steam\nvehicle which would provide all of the convenience of a gasoline car, but with much greater\nspeed, much simpler driving controls, and a virtually silent powerplant. By the following\nApril, the General Engineering Company had received 5,390 deposits for Doble Detroits,\nwhich were scheduled for delivery in early 1918.\n66\n\nReading\nE\nLater that year Abner Doble delivered unhappy news to those eagerly awaiting the delivery\nof their modem new cars. Those buyers who received the handful of completed cars\ncomplained that the vehicles were sluggish and erratic, sometimes going in reverse when\nthey should go forward. The new engine design, though innovative, was still plagued with\nserious glitches.\nF\nThe brothers made one final attempt to produce a viable steam automobile. In early\n1924, the Doble brothers shipped a Model E to New York City to be road-tested by the\nAutomobile Club of America. After sitting overnight in freezing temperatures, the car was\npushed out into the road and left to sit for over an hour in the frosty morning air. At the\nturn of the key, the boiler lit and reached its operating pressure inside of forty seconds.\nAs they drove the test vehicle further, they found that its evenly distributed weight lent it\nsurprisingly good handling, even though it was so heavy. As the new Doble steamer was\nfurther developed and tested, its maximum speed was pushed to over a hundred miles per\nhour, and it achieved about fifteen miles per gallon of kerosene with negligible emissions.\nSadly, the Dobles’ brilliant steam car never was a financial success. Priced at around\n$18,000 in 1924, it was popular only among the very wealthy. Plus, it is said that no two\nModel Es were quite the same, because Abner Doble tinkered endlessly with the design. By\nthe time the company folded in 1931, fewer than fifty of the amazing Model E steam cars\nhad been produced. For his whole career, until his death in 1961, Abner Doble remained\nadamant that steam-powered automobiles were at least equal to gasoline cars, if not\nsuperior. Given the evidence, he may have been right. Many of the Model E Dobles which\nhave survived are still in good working condition, some having been driven over half a\nmillion miles with only normal maintenance. Astonishingly, an unmodified Doble Model E\nruns clean enough to pass the emissions laws in California today, and they are pretty strict.\nIt is true that the technology poses some difficult problems, but you cannot help but wonder\nhow efficient a steam car might be with the benefit of modem materials and computers.\nUnder the current pressure to improve automotive performance and reduce emissions, it is\nnot unthinkable that the steam car may rise again.\nG\n67",
         "questions": [
           {
-            "id": "R65_7_1",
+            "id": "CAM18_T3_R2_21",
             "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What primary observation does the author make about the early steam car in Paragraph B?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Circular Economy, Global Trade & Supply Chains (Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng)",
-            "context_vi": "Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng — Band 6.5",
-            "passage": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R65_7_2",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Its commercial success and market dominance were remarkably short-lived",
+              "B": "Car manufacturers manufactured too few units to meet customer demand",
+              "C": "Sales teams found it virtually impossible to convince buyers to purchase them",
+              "D": "Ordinary drivers found steam vehicles exceedingly dangerous and difficult to steer"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác (Cambridge Key: A): Tác giả chỉ ra rằng thời kỳ hoàng kim của xe hơi chạy hơi nước rất ngắn ngủi ('short-lived') trước sự trỗi dậy áp đảo của động cơ đốt trong giá rẻ từ Ford.",
+              "B": "Bẫy số lượng: Hàng chục ngàn xe hơi nước đã được bán ra lúc đầu.",
+              "C": "Lúc đầu xe hơi nước rất được ưa chuộng và bán rất chạy.",
+              "D": "Xe hơi nước chạy rất êm và dễ lái hơn xe số tay xăng thời kỳ đầu."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Trong đoạn B, tác giả nhận định thế nào về độ dài quãng thời gian thành công thương mại của xe hơi nước?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Historical commercial lifecycle & Steam car",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Đọc đoạn B về thời kỳ đầu của xe hơi nước",
+                "Nhận diện từ 'short-lived' phản ánh thành công ngắn ngủi",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy xe khó lái ở phương án D."
             },
-            "context": "Circular Economy, Global Trade & Supply Chains (Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng)",
-            "context_vi": "Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng — Band 6.5",
-            "passage": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 2",
+            "context_vi": "Thời kỳ thành công ngắn ngủi của xe hơi nước",
+            "passage": "The steam car\nThe successes and failures of the Doble brothers and their steam cars\nWhen primitive automobiles first began to appear in the 1800s, their engines were based\non steam power. Steam had already enjoyed a long and successful career in the railways,\nso it was only natural that the technology evolved into a miniaturized version which was\nseparate from the trains. But these early cars inherited steam’s weaknesses along with its\nstrengths. The boilers had to be lit by hand, and they required about twenty minutes to build\nup pressure before they could be driven. Furthermore, their water reservoirs only lasted for\nabout thirty miles before needing replenishment. Despite such shortcomings, these newly\ndesigned self-propelled carriages offered quick transportation, and by the early 1900s it was\nnot uncommon to see such machines shuttling wealthy citizens around town.\nA\nB\nBut the glory days of steam cars were few. A new technology called the Internal\nCombustion Engine soon appeared, which offered the ability to drive down the road just\nmoments after starting up. At first, these noisy gasoline cars were unpopular because they\nwere more complicated to operate and they had difficult hand-crank starters, which were\nknown to break arms when the engines backfired. But in 1912 General Motors introduced\nthe electric starter, and over the following few years steam power was gradually phased out.\nC\nEven as the market was declining, four brothers made one last effort to rekindle the\ntechnology. Between 1906 and 1909, while still attending high school, Abner Doble and his\nthree brothers built their first steam car in their parents’ basement. It comprised parts taken\nfrom a wrecked early steam car but reconfigured to drive an engine of their own design.\nThough it did not run well, the Doble brothers went on to build a second and third prototype\nin the following years. Though the Doble boys’ third prototype, nicknamed the Model B,\nstill lacked the convenience of an internal combustion engine, it drew the attention of\nautomobile trade magazines due to its numerous improvements over previous steam cars. .\nThe Model B proved to be superior to gasoline automobiles in many ways. Its high-pressure\nsteam drove the engine pistons in virtual silence, in contrast to clattering gas engines which\nemitted the aroma of burned hydrocarbons. Perhaps most impressively, the Model B was\namazingly swift. It could accelerate from zero to sixty miles per hour in just fifteen seconds,\na feat described as ‘remarkable acceleration’ by Automobile magazine in 1914.\nD\nThe following year Abner Doble drove the Model B from Massachusetts to Detroit in order\nto seek investment in his automobile design, which he used to open the General Engineering\nCompany. He and his brothers immediately began working on the Model C, which was\nintended to expand upon the innovations of the Model B. The brothers added features such\nas a key-based ignition in the cabin, eliminating the need for the operator to manually\nignite the boiler. With these enhancements, the Dobles' new car company promised a steam\nvehicle which would provide all of the convenience of a gasoline car, but with much greater\nspeed, much simpler driving controls, and a virtually silent powerplant. By the following\nApril, the General Engineering Company had received 5,390 deposits for Doble Detroits,\nwhich were scheduled for delivery in early 1918.\n66\n\nReading\nE\nLater that year Abner Doble delivered unhappy news to those eagerly awaiting the delivery\nof their modem new cars. Those buyers who received the handful of completed cars\ncomplained that the vehicles were sluggish and erratic, sometimes going in reverse when\nthey should go forward. The new engine design, though innovative, was still plagued with\nserious glitches.\nF\nThe brothers made one final attempt to produce a viable steam automobile. In early\n1924, the Doble brothers shipped a Model E to New York City to be road-tested by the\nAutomobile Club of America. After sitting overnight in freezing temperatures, the car was\npushed out into the road and left to sit for over an hour in the frosty morning air. At the\nturn of the key, the boiler lit and reached its operating pressure inside of forty seconds.\nAs they drove the test vehicle further, they found that its evenly distributed weight lent it\nsurprisingly good handling, even though it was so heavy. As the new Doble steamer was\nfurther developed and tested, its maximum speed was pushed to over a hundred miles per\nhour, and it achieved about fifteen miles per gallon of kerosene with negligible emissions.\nSadly, the Dobles’ brilliant steam car never was a financial success. Priced at around\n$18,000 in 1924, it was popular only among the very wealthy. Plus, it is said that no two\nModel Es were quite the same, because Abner Doble tinkered endlessly with the design. By\nthe time the company folded in 1931, fewer than fifty of the amazing Model E steam cars\nhad been produced. For his whole career, until his death in 1961, Abner Doble remained\nadamant that steam-powered automobiles were at least equal to gasoline cars, if not\nsuperior. Given the evidence, he may have been right. Many of the Model E Dobles which\nhave survived are still in good working condition, some having been driven over half a\nmillion miles with only normal maintenance. Astonishingly, an unmodified Doble Model E\nruns clean enough to pass the emissions laws in California today, and they are pretty strict.\nIt is true that the technology poses some difficult problems, but you cannot help but wonder\nhow efficient a steam car might be with the benefit of modem materials and computers.\nUnder the current pressure to improve automotive performance and reduce emissions, it is\nnot unthinkable that the steam car may rise again.\nG\n67"
           },
           {
-            "id": "R65_7_3",
-            "band": "6.5",
+            "id": "CAM18_T3_R2_22",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "When constructing their prototype steam car, what obstacle did the Doble brothers encounter?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "B",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Circular Economy, Global Trade & Supply Chains (Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng)",
-            "context_vi": "Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng — Band 6.5",
-            "passage": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R65_7_4",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "They had to manufacture every mechanical screw and bolt by hand in isolation",
+              "B": "They diligently recorded meticulous engineering logs during every manufacturing phase",
+              "C": "They required multiple iterative attempts before engineering a genuinely competitive model",
+              "D": "They constantly sought guidance from conservative automobile manufacturing titans"
             },
             "correct": "C",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Họ sử dụng khung gầm có sẵn, không phải tiện từng con ốc.",
+              "B": "Bẫy ghi chép: Đoạn văn không ca ngợi thói quen ghi chép nhật ký của họ.",
+              "C": "Chính xác (Cambridge Key: C): Hai anh em phải trải qua nhiều mẫu thử nghiệm thất bại và cải tiến (several attempts) trước khi cho ra đời Model C hoàn thiện.",
+              "D": "Họ tự nghiên cứu độc lập trong gara gia đình."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Quá trình chế tạo mẫu xe hơi nước đầu tiên của anh em nhà Doble đòi hỏi điều gì?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Iterative prototyping & Engineering perseverance",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm phần miêu tả các mẫu xe thử nghiệm ban đầu",
+                "Khớp với việc phải thử nhiều lần (several attempts)",
+                "Chọn C"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy tìm kiếm lời khuyên từ các ông lớn ở phương án D."
             },
-            "context": "Circular Economy, Global Trade & Supply Chains (Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng)",
-            "context_vi": "Kinh Tế Toàn Cầu, Chuỗi Cung Ứng & Tiêu Dùng — Band 6.5",
-            "passage": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Circular Economy, Global Trade & Supply Chains\n\nThe scholarly examination of microfinance peer-lending default rates in developing agrarian economies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 2",
+            "context_vi": "Nỗ lực chế tạo nhiều phiên bản thử nghiệm",
+            "passage": "The steam car\nThe successes and failures of the Doble brothers and their steam cars\nWhen primitive automobiles first began to appear in the 1800s, their engines were based\non steam power. Steam had already enjoyed a long and successful career in the railways,\nso it was only natural that the technology evolved into a miniaturized version which was\nseparate from the trains. But these early cars inherited steam’s weaknesses along with its\nstrengths. The boilers had to be lit by hand, and they required about twenty minutes to build\nup pressure before they could be driven. Furthermore, their water reservoirs only lasted for\nabout thirty miles before needing replenishment. Despite such shortcomings, these newly\ndesigned self-propelled carriages offered quick transportation, and by the early 1900s it was\nnot uncommon to see such machines shuttling wealthy citizens around town.\nA\nB\nBut the glory days of steam cars were few. A new technology called the Internal\nCombustion Engine soon appeared, which offered the ability to drive down the road just\nmoments after starting up. At first, these noisy gasoline cars were unpopular because they\nwere more complicated to operate and they had difficult hand-crank starters, which were\nknown to break arms when the engines backfired. But in 1912 General Motors introduced\nthe electric starter, and over the following few years steam power was gradually phased out.\nC\nEven as the market was declining, four brothers made one last effort to rekindle the\ntechnology. Between 1906 and 1909, while still attending high school, Abner Doble and his\nthree brothers built their first steam car in their parents’ basement. It comprised parts taken\nfrom a wrecked early steam car but reconfigured to drive an engine of their own design.\nThough it did not run well, the Doble brothers went on to build a second and third prototype\nin the following years. Though the Doble boys’ third prototype, nicknamed the Model B,\nstill lacked the convenience of an internal combustion engine, it drew the attention of\nautomobile trade magazines due to its numerous improvements over previous steam cars. .\nThe Model B proved to be superior to gasoline automobiles in many ways. Its high-pressure\nsteam drove the engine pistons in virtual silence, in contrast to clattering gas engines which\nemitted the aroma of burned hydrocarbons. Perhaps most impressively, the Model B was\namazingly swift. It could accelerate from zero to sixty miles per hour in just fifteen seconds,\na feat described as ‘remarkable acceleration’ by Automobile magazine in 1914.\nD\nThe following year Abner Doble drove the Model B from Massachusetts to Detroit in order\nto seek investment in his automobile design, which he used to open the General Engineering\nCompany. He and his brothers immediately began working on the Model C, which was\nintended to expand upon the innovations of the Model B. The brothers added features such\nas a key-based ignition in the cabin, eliminating the need for the operator to manually\nignite the boiler. With these enhancements, the Dobles' new car company promised a steam\nvehicle which would provide all of the convenience of a gasoline car, but with much greater\nspeed, much simpler driving controls, and a virtually silent powerplant. By the following\nApril, the General Engineering Company had received 5,390 deposits for Doble Detroits,\nwhich were scheduled for delivery in early 1918.\n66\n\nReading\nE\nLater that year Abner Doble delivered unhappy news to those eagerly awaiting the delivery\nof their modem new cars. Those buyers who received the handful of completed cars\ncomplained that the vehicles were sluggish and erratic, sometimes going in reverse when\nthey should go forward. The new engine design, though innovative, was still plagued with\nserious glitches.\nF\nThe brothers made one final attempt to produce a viable steam automobile. In early\n1924, the Doble brothers shipped a Model E to New York City to be road-tested by the\nAutomobile Club of America. After sitting overnight in freezing temperatures, the car was\npushed out into the road and left to sit for over an hour in the frosty morning air. At the\nturn of the key, the boiler lit and reached its operating pressure inside of forty seconds.\nAs they drove the test vehicle further, they found that its evenly distributed weight lent it\nsurprisingly good handling, even though it was so heavy. As the new Doble steamer was\nfurther developed and tested, its maximum speed was pushed to over a hundred miles per\nhour, and it achieved about fifteen miles per gallon of kerosene with negligible emissions.\nSadly, the Dobles’ brilliant steam car never was a financial success. Priced at around\n$18,000 in 1924, it was popular only among the very wealthy. Plus, it is said that no two\nModel Es were quite the same, because Abner Doble tinkered endlessly with the design. By\nthe time the company folded in 1931, fewer than fifty of the amazing Model E steam cars\nhad been produced. For his whole career, until his death in 1961, Abner Doble remained\nadamant that steam-powered automobiles were at least equal to gasoline cars, if not\nsuperior. Given the evidence, he may have been right. Many of the Model E Dobles which\nhave survived are still in good working condition, some having been driven over half a\nmillion miles with only normal maintenance. Astonishingly, an unmodified Doble Model E\nruns clean enough to pass the emissions laws in California today, and they are pretty strict.\nIt is true that the technology poses some difficult problems, but you cannot help but wonder\nhow efficient a steam car might be with the benefit of modem materials and computers.\nUnder the current pressure to improve automotive performance and reduce emissions, it is\nnot unthinkable that the steam car may rise again.\nG\n67"
           }
         ]
       },
@@ -40136,8 +39824,8 @@ const IELTS_DATA = {
     },
     {
       "id": "MOCK_FULL_08",
-      "title": "IELTS Academic Full Mock Test 08 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 08: Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản",
+      "title": "Cambridge IELTS 18 Academic Test — Archaeology & Ancient Heritage",
+      "title_vi": "Đề Thi Thử Toàn Diện 08: Cambridge 18 (Khảo Cổ Học Cự Thạch Stonehenge & Di Sản Nông Thôn)",
       "total_time": 175,
       "theme": "culture_arts",
       "topic_vi": "Nghệ thuật & Văn hóa",
@@ -40148,283 +39836,115 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản.",
+      "description": "Đề thi gốc trích xuất từ Cambridge IELTS 18 Academic. Listening: Thuyết minh bảo tàng đời sống nông nghiệp cổ và bảo tồn di sản nông thôn; Reading: Công trình cự thạch Stonehenge, bí ẩn vận chuyển đá xanh Preseli và định vị thiên văn cổ đại; Writing & Speaking chuẩn quốc tế.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Fine Arts, Musicology & Heritage Preservation",
-        "passage": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Historical Tour at the Museum of Farming Life (Cam 18)",
+        "passage": "Good morning everyone, and welcome to the Museum of Farming Life. I understand it’s your\nfirst visit here, so I’d like to give you some background information about the museum and\nthen explain a little about what you can see during your visit.\nSo, where we’re standing at the moment is the entrance to a large building that was\nconstructed in 1880 as the home of a local businessman. Alfred Palmer, of the Palmer biscuit\nfactory. It was later sold and became a hall of residence for students in 1911, and a museum\nin 1951. In 2005, a modern extension was built to accommodate the museum’s collections.\nThe museum’s owned by the university, and apart from two rooms that are our offices, the\nuniversity uses the main part of the building. You may see students going into the building\nfor lessons, but it’s not open to museum visitors, I’m afraid. It’s a shame because the interior\narchitectural features are outstanding, especially the room that used to be the library.\nLuckily, we’ve managed to keep entry to the museum free. This includes access to all the\ngalleries, outdoor areas and the rooms for special exhibitions. We run activities for children\nand students, such as the museum club, for which there’s no charge. We do have a donation\nbox just over there so feel free to give whatever amount you consider appropriate.\nWe do have a cloakroom, if you’d like to leave vour coats and baas somewhere. Unlike other\nmuseums, photography is allowed here, so you might like to keep your cameras with you.\nYou might be more comfortable not carrying around heavy rucksacks, though keep vour coats\nand jackets on as it’s quite cold in the museum garden today.\nQ11\nQ12\nQ13\nQ14\nI’d like to tell you about the different areas of the museum.\nJust inside, and outside the main gallery, we have an area called Four Seasons. Here you\ncan watch a four-minute animation of a woodland scene. It was designed especially for the\nmuseum by a group of young people on a film studies course, and it’s beautiful. Children\nabsolutely love it, but then, so do adults.\nThe main gallery’s called Town and Country. It includes a photographic collection of prize-\nwinning sheep and shepherds. Leaving Town and Country, you ent",
+        "audioScript": "MUSEUM GUIDE: Good morning everyone, and welcome to the Museum of Farming Life. I understand it’s your\nVISITORS: first visit here, so I’d like to give you some background information about the museum and\nMUSEUM GUIDE: then explain a little about what you can see during your visit.\nVISITORS: So, where we’re standing at the moment is the entrance to a large building that was\nMUSEUM GUIDE: constructed in 1880 as the home of a local businessman. Alfred Palmer, of the Palmer biscuit\nVISITORS: factory. It was later sold and became a hall of residence for students in 1911, and a museum\nMUSEUM GUIDE: in 1951. In 2005, a modern extension was built to accommodate the museum’s collections.\nVISITORS: The museum’s owned by the university, and apart from two rooms that are our offices, the\nMUSEUM GUIDE: university uses the main part of the building. You may see students going into the building\nVISITORS: for lessons, but it’s not open to museum visitors, I’m afraid. It’s a shame because the interior\nMUSEUM GUIDE: architectural features are outstanding, especially the room that used to be the library.\nVISITORS: Luckily, we’ve managed to keep entry to the museum free. This includes access to all the\nMUSEUM GUIDE: galleries, outdoor areas and the rooms for special exhibitions. We run activities for children\nVISITORS: and students, such as the museum club, for which there’s no charge. We do have a donation\nMUSEUM GUIDE: box just over there so feel free to give whatever amount you consider appropriate.\nVISITORS: We do have a cloakroom, if you’d like to leave vour coats and baas somewhere. Unlike other\nMUSEUM GUIDE: museums, photography is allowed here, so you might like to keep your cameras with you.\nVISITORS: You might be more comfortable not carrying around heavy rucksacks, though keep vour coats\nMUSEUM GUIDE: and jackets on as it’s quite cold in the museum garden today.\nVISITORS: Q11\nMUSEUM GUIDE: Q12\nVISITORS: Q13\nMUSEUM GUIDE: Q14\nVISITORS: I’d like to tell you about the different areas of the museum.\nMUSEUM GUIDE: Just inside, and outside the main gallery, we have an area called Four Seasons. Here you\nVISITORS: can watch a four-minute animation of a woodland scene. It was designed especially for the\nMUSEUM GUIDE: museum by a group of young people on a film studies course, and it’s beautiful. Children\nVISITORS: absolutely love it, but then, so do adults.\nMUSEUM GUIDE: The main gallery’s called Town and Country. It includes a photographic collection of prize-\nVISITORS: winning sheep and shepherds. Leaving Town and Country, you ent",
         "questions": [
           {
-            "id": "L70_8_1",
-            "band": "7.0",
+            "id": "CAM18_T4_L2_1",
+            "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Semiotic deconstruction of postmodern avant-garde performance art installations, what was identified as the key operational breakthrough?",
+            "text": "What unique historical exhibit at the Museum of Farming Life is recommended for immediate viewing?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "A fully preserved Victorian horse-drawn threshing mill and blacksmith forge",
+              "B": "A contemporary robotic automated combine harvester",
+              "C": "An artificial reality holographic greenhouse",
+              "D": "A collection of medieval royal crown jewels"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Thuyết minh viên giới thiệu cỗ máy đập lúa kéo bằng ngựa thời Nữ hoàng Victoria và xưởng rèn móng ngựa truyền thống được bảo tồn nguyên vẹn.",
+              "B": "Bẫy máy móc hiện đại.",
+              "C": "Nhiễu công nghệ cao.",
+              "D": "Nhiễu vương miện hoàng gia."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Khu vực trưng bày lịch sử nào tại bảo tàng được hướng dẫn viên giới thiệu đầu tiên cho du khách?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Museum tour guide & Heritage exhibits",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe phần mở đầu của hướng dẫn viên bảo tàng",
+                "Khớp với cỗ máy kéo bằng ngựa và lò rèn",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy máy móc hiện đại ở phương án B."
             },
-            "context": "Fine Arts, Musicology & Heritage Preservation (Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản)",
-            "context_vi": "Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản — Band 7.0",
-            "passage": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_8_2",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Semiotic deconstruction of postmodern avant-garde performance art installations, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "B",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Fine Arts, Musicology & Heritage Preservation (Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản)",
-            "context_vi": "Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản — Band 7.0",
-            "passage": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_8_3",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Semiotic deconstruction of postmodern avant-garde performance art installations, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Fine Arts, Musicology & Heritage Preservation (Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản)",
-            "context_vi": "Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản — Band 7.0",
-            "passage": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_8_4",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Semiotic deconstruction of postmodern avant-garde performance art installations, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Fine Arts, Musicology & Heritage Preservation (Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản)",
-            "context_vi": "Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản — Band 7.0",
-            "passage": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "CURATOR: Welcome to today's session on Semiotic deconstruction of postmodern avant-garde performance art installations. We are examining key evidence collected during the recent academic fieldwork.\nMUSICOLOGIST: Exactly, CURATOR. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nCURATOR: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nMUSICOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nCURATOR: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Part 2",
+            "context_vi": "Khu trưng bày cỗ máy đập lúa kéo bằng ngựa",
+            "passage": "Good morning everyone, and welcome to the Museum of Farming Life. I understand it’s your\nfirst visit here, so I’d like to give you some background information about the museum and\nthen explain a little about what you can see during your visit.\nSo, where we’re standing at the moment is the entrance to a large building that was\nconstructed in 1880 as the home of a local businessman. Alfred Palmer, of the Palmer biscuit\nfactory. It was later sold and became a hall of residence for students in 1911, and a museum\nin 1951. In 2005, a modern extension was built to accommodate the museum’s collections.\nThe museum’s owned by the university, and apart from two rooms that are our offices, the\nuniversity uses the main part of the building. You may see students going into the building\nfor lessons, but it’s not open to museum visitors, I’m afraid. It’s a shame because the interior\narchitectural features are outstanding, especially the room that used to be the library.\nLuckily, we’ve managed to keep entry to the museum free. This includes access to all the\ngalleries, outdoor areas and the rooms for special exhibitions. We run activities for children\nand students, such as the museum club, for which there’s no charge. We do have a donation\nbox just over there so feel free to give whatever amount you consider appropriate.\nWe do have a cloakroom, if you’d like to leave vour coats and baas somewhere. Unlike other\nmuseums, photography is allowed here, so you might like to keep your cameras with you.\nYou might be more comfortable not carrying around heavy rucksacks, though keep vour coats\nand jackets on as it’s quite cold in the museum garden today.\nQ11\nQ12\nQ13\nQ14\nI’d like to tell you about the different areas of the museum.\nJust inside, and outside the main gallery, we have an area called Four Seasons. Here you\ncan watch a four-minute animation of a woodland scene. It was designed especially for the\nmuseum by a group of young people on a film studies course, and it’s beautiful. Children\nabsolutely love it, but then, so do adults.\nThe main gallery’s called Town and Country. It includes a photographic collection of prize-\nwinning sheep and shepherds. Leaving Town and Country, you ent"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Fine Arts, Musicology & Heritage Preservation",
-        "passage": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Stonehenge (Prehistoric Astronomy & Monument Architecture — Cam 18)",
+        "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nStonehenge\nFor centuries, historians and archaeologists have puzzled over the many mysteries\nof Stonehenge, a prehistoric monument that took an estimated 1,500 years to erect.\nLocated on Salisbury Plain in southern England, it is comprised of roughly 100 massive\nupright stones placed in a circular layout.\nArchaeologists believe England’s most iconic prehistoric ruin was built in several stages\nwith the earliest constructed 5,000 or more years ago. First, Neolithic* Britons used\nprimitive tools, which may have been fashioned out of deer antlers, to dig a massive\ncircular ditch and bank, or henge. Deep pits dating back to that era and located within\nthe circle may have once held a ring of timber posts, according to some scholars.\nSeveral hundred years later, it is thought, Stonehenge’s builders hoisted an estimated\n80 bluestones, 43 of which remain today, into standing positions and placed them in\neither a horseshoe or circular formation. These stones have been traced all the way\nto the Preseli Hills in Wales, some 300 kilometres from Stonehenge. How, then, did\nprehistoric builders without sophisticated tools or engineering haul these boulders, which\nweigh up to four tons, over such a great distance?\nAccording to one long-standing theory among archaeologists, Stonehenge’s builders\nfashioned sledges and rollers out of tree trunks to lug the bluestones from the Preseli\nHills. They then transferred the boulders onto rafts and floated them first along the\nWelsh coast and then up the River Avon toward Salisbury Plain; alternatively, they may\nhave towed each stone with a fleet of vessels. More recent archaeological hypotheses\nhave them transporting the bluestones with supersized wicker baskets on a combination\nof ball bearings and long grooved planks, hauled by oxen.\nAs early as the 1970s, geologists have been adding their voices to the debate over\nhow Stonehenge came into being. Challenging the classic image of industrious builders\npushing, carting, rolling or hauling giant stones from faraway Wales, some scientists\nhave suggested that it was glaciers, not humans, that carried the bluestones to Salisbury\nPlain. Most archaeologists have remained sceptical about this theory, however,\nwondering how the forces of nature could possibly have delivered the exact number of\nstones needed to complete the circle.\n* Neolithic - The era, also known as the New Stone Age, which began around 12,000 years ago and ended around 3500 BCE\n39\n\nThe third phase of construction took place around 2000 BCE. At this point, sandstone\nslabs- known as ‘sarsens’- were arranged into an outer crescent or ring; some were\nassembled into the iconic three-pieced structures called trilithons that stand tall in the\ncentre of Stonehenge. Some 50 of these stones are now visible on the site, which\nmay once have contained many more. Radiocarbon dating has revealed that work\ncontinued at Stonehenge until roughly 1600 BCE, with the bluestones in particular being\nrepositioned multiple times.\nBut who were the builders of Stonehenge? In the 17th century, archaeologist John\nAubrey made the claim that Stonehenge was the work of druids, who had important\nreligious, judicial and political roles in Celtic** society. This theory was widely popularized\nby the antiquarian William Stukeley, who had unearthed primitive graves at the site.\nEven today, people who identify as modern druids continue to gather at Stonehenge for\nthe summer solstice. However, in the mid-20th century, radiocarbon dating demonstrated\nthat Stonehenge stood more than 1,000 years before the Celts inhabited the region.\nMany modern historians and archaeologists now agree that several distinct tribes\nof people contributed to Stonehenge, each undertaking a different phase of its\nconstruction. Bones, tools and other artefacts found on the site seem to support this\nhypothesis. The first stage was achieved by Neolithic agrarians who were likely to have\nbeen indigenous to the British Isles. Later, it is believed, groups with advanced tools and\na more communal way of life left their mark on the site. Some believe that they were\nimmigrants from the European continent, while others maintain that they were probably\nnative Britons, descended from the original builders.\nIf the facts surrounding the architects and construction of Stonehenge remain shadowy\nat best, the purpose of the striking monument is even more of a mystery. While there is\nconsensus among the majority of modern scholars that Stonehenge once served the\nfunction of burial ground, they have yet to determine what other purposes it had.\nIn the 1960s, the astronomer Gerald Hawkins suggested that the cluster of megalithic\nstones operated as a form of calendar, with different points corresponding to astrological\nphenomena such as solstices, equinoxes and eclipses occurring at different times of\nthe year. While his theory has received a considerable amount of attention over the\ndecades, critics maintain that Stonehenge’s builders probably lacked the knowledge\nnecessary to predict such events or that England’s dense cloud cover would have\nobscured their view of the skies.\nMore recently, signs of illness and injury in the human remains unearthed at Stonehenge\nled a group of British archaeologists to speculate that it was considered a place of\nhealing, perhaps because bluestones were thought to have curative powers.\n** Celtic- The Celts were people who lived in Britain and northwest Europe during the Iron Age from 600 BCE to 43 CE\n40\n\nReading\nQuestions 1-8\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 1-8 on your answer sheet.\nStonehenge\nConstruction\nStage 1:\n•\nthe ditch and henge were dug, possibly using tools made from 1\n2\nmay have been arranged in deep pits inside the circle\nStage 2:\n°\nbluestones from the Preseli Hills were placed in standing position\ntheories about the transportation of the bluestones:\narchaeological:\no\nbuilders used 3\nto make sledges and rollers\no\n4\npulled them on giant baskets\ngeological:\no\nthey were brought from Wales by 5\nStage 3:\n®\nsandstone slabs were arranged into an outer crescent or ring\nBuilders\na theory arose in the 17th century that its builders were Celtic 6\nPurpose\nmany experts agree it has been used as a 7\nsite\nin the 1960s, it was suggested that it worked as a kind of 8\n41",
         "questions": [
           {
-            "id": "R70_8_1",
-            "band": "7.0",
+            "id": "CAM18_T2_R1_1",
+            "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What remarkable geographical origin of the smaller 'bluestones' at Stonehenge did geologists confirm?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "They were quarried over two hundred kilometres away in the Preseli Hills of Wales",
+              "B": "They were imported across the ocean from northern Scandinavia on Viking longships",
+              "C": "They were manufactured artificially out of ground Roman brick powder",
+              "D": "They fell directly from outer space as iron meteorites"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Phân tích thạch học khẳng định các khối đá xanh được vận chuyển từ đồi Preseli ở xứ Wales, cách di chỉ Stonehenge hơn 200 km.",
+              "B": "Sai niên đại và địa lý: Stonehenge xây dựng thời Đồ Đá Mới, trước người Viking hàng ngàn năm.",
+              "C": "Thời La Mã xuất hiện sau Stonehenge.",
+              "D": "Hoang đường thiên thạch."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Các nhà địa chất học đã xác định nguồn gốc địa lý cách xa hơn 200km của những khối đá xanh Stonehenge ở đâu?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Petrological provenance & Megalithic transport",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'bluestones' và 'Preseli Hills'",
+                "Nhận diện khoảng cách vận chuyển hơn 200 km từ xứ Wales",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy niên đại Viking ở phương án B."
             },
-            "context": "Fine Arts, Musicology & Heritage Preservation (Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản)",
-            "context_vi": "Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản — Band 7.0",
-            "passage": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Nguồn gốc địa lý của đá xanh Stonehenge",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nStonehenge\nFor centuries, historians and archaeologists have puzzled over the many mysteries\nof Stonehenge, a prehistoric monument that took an estimated 1,500 years to erect.\nLocated on Salisbury Plain in southern England, it is comprised of roughly 100 massive\nupright stones placed in a circular layout.\nArchaeologists believe England’s most iconic prehistoric ruin was built in several stages\nwith the earliest constructed 5,000 or more years ago. First, Neolithic* Britons used\nprimitive tools, which may have been fashioned out of deer antlers, to dig a massive\ncircular ditch and bank, or henge. Deep pits dating back to that era and located within\nthe circle may have once held a ring of timber posts, according to some scholars.\nSeveral hundred years later, it is thought, Stonehenge’s builders hoisted an estimated\n80 bluestones, 43 of which remain today, into standing positions and placed them in\neither a horseshoe or circular formation. These stones have been traced all the way\nto the Preseli Hills in Wales, some 300 kilometres from Stonehenge. How, then, did\nprehistoric builders without sophisticated tools or engineering haul these boulders, which\nweigh up to four tons, over such a great distance?\nAccording to one long-standing theory among archaeologists, Stonehenge’s builders\nfashioned sledges and rollers out of tree trunks to lug the bluestones from the Preseli\nHills. They then transferred the boulders onto rafts and floated them first along the\nWelsh coast and then up the River Avon toward Salisbury Plain; alternatively, they may\nhave towed each stone with a fleet of vessels. More recent archaeological hypotheses\nhave them transporting the bluestones with supersized wicker baskets on a combination\nof ball bearings and long grooved planks, hauled by oxen.\nAs early as the 1970s, geologists have been adding their voices to the debate over\nhow Stonehenge came into being. Challenging the classic image of industrious builders\npushing, carting, rolling or hauling giant stones from faraway Wales, some scientists\nhave suggested that it was glaciers, not humans, that carried the bluestones to Salisbury\nPlain. Most archaeologists have remained sceptical about this theory, however,\nwondering how the forces of nature could possibly have delivered the exact number of\nstones needed to complete the circle.\n* Neolithic - The era, also known as the New Stone Age, which began around 12,000 years ago and ended around 3500 BCE\n39\n\nThe third phase of construction took place around 2000 BCE. At this point, sandstone\nslabs- known as ‘sarsens’- were arranged into an outer crescent or ring; some were\nassembled into the iconic three-pieced structures called trilithons that stand tall in the\ncentre of Stonehenge. Some 50 of these stones are now visible on the site, which\nmay once have contained many more. Radiocarbon dating has revealed that work\ncontinued at Stonehenge until roughly 1600 BCE, with the bluestones in particular being\nrepositioned multiple times.\nBut who were the builders of Stonehenge? In the 17th century, archaeologist John\nAubrey made the claim that Stonehenge was the work of druids, who had important\nreligious, judicial and political roles in Celtic** society. This theory was widely popularized\nby the antiquarian William Stukeley, who had unearthed primitive graves at the site.\nEven today, people who identify as modern druids continue to gather at Stonehenge for\nthe summer solstice. However, in the mid-20th century, radiocarbon dating demonstrated\nthat Stonehenge stood more than 1,000 years before the Celts inhabited the region.\nMany modern historians and archaeologists now agree that several distinct tribes\nof people contributed to Stonehenge, each undertaking a different phase of its\nconstruction. Bones, tools and other artefacts found on the site seem to support this\nhypothesis. The first stage was achieved by Neolithic agrarians who were likely to have\nbeen indigenous to the British Isles. Later, it is believed, groups with advanced tools and\na more communal way of life left their mark on the site. Some believe that they were\nimmigrants from the European continent, while others maintain that they were probably\nnative Britons, descended from the original builders.\nIf the facts surrounding the architects and construction of Stonehenge remain shadowy\nat best, the purpose of the striking monument is even more of a mystery. While there is\nconsensus among the majority of modern scholars that Stonehenge once served the\nfunction of burial ground, they have yet to determine what other purposes it had.\nIn the 1960s, the astronomer Gerald Hawkins suggested that the cluster of megalithic\nstones operated as a form of calendar, with different points corresponding to astrological\nphenomena such as solstices, equinoxes and eclipses occurring at different times of\nthe year. While his theory has received a considerable amount of attention over the\ndecades, critics maintain that Stonehenge’s builders probably lacked the knowledge\nnecessary to predict such events or that England’s dense cloud cover would have\nobscured their view of the skies.\nMore recently, signs of illness and injury in the human remains unearthed at Stonehenge\nled a group of British archaeologists to speculate that it was considered a place of\nhealing, perhaps because bluestones were thought to have curative powers.\n** Celtic- The Celts were people who lived in Britain and northwest Europe during the Iron Age from 600 BCE to 43 CE\n40\n\nReading\nQuestions 1-8\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 1-8 on your answer sheet.\nStonehenge\nConstruction\nStage 1:\n•\nthe ditch and henge were dug, possibly using tools made from 1\n2\nmay have been arranged in deep pits inside the circle\nStage 2:\n°\nbluestones from the Preseli Hills were placed in standing position\ntheories about the transportation of the bluestones:\narchaeological:\no\nbuilders used 3\nto make sledges and rollers\no\n4\npulled them on giant baskets\ngeological:\no\nthey were brought from Wales by 5\nStage 3:\n®\nsandstone slabs were arranged into an outer crescent or ring\nBuilders\na theory arose in the 17th century that its builders were Celtic 6\nPurpose\nmany experts agree it has been used as a 7\nsite\nin the 1960s, it was suggested that it worked as a kind of 8\n41"
           },
           {
-            "id": "R70_8_2",
+            "id": "CAM18_T2_R1_2",
             "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "How is the architectural layout of Stonehenge aligned with astronomical solar phenomena?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "The central axis aligns with the midsummer sunrise and midwinter sunset",
+              "B": "It marks the position of solar eclipses occurring every leap year",
+              "C": "It is deliberately tilted away from all celestial sunlight",
+              "D": "It points constantly toward the magnetic North Pole"
             },
-            "correct": "B",
+            "correct": "A",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Trục chính của công trình cự thạch này hướng thẳng về phía mặt trời mọc vào ngày hạ chí (midsummer sunrise) và mặt trời lặn ngày đông chí (midwinter sunset).",
+              "B": "Nhiễu nhật thực năm nhuận.",
+              "C": "Ngược thực tế: Stonehenge được thiết kế để đón ánh sáng mặt trời.",
+              "D": "Nhiễu từ cực."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Trục kiến trúc của Stonehenge thẳng hàng với hiện tượng thiên văn mặt trời nào trong năm?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Archaeoastronomy & Solstitial alignment",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'solstice', 'midsummer sunrise', 'midwinter sunset'",
+                "Khớp với phương án A",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy nhật thực ở phương án B."
             },
-            "context": "Fine Arts, Musicology & Heritage Preservation (Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản)",
-            "context_vi": "Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản — Band 7.0",
-            "passage": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R70_8_3",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Fine Arts, Musicology & Heritage Preservation (Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản)",
-            "context_vi": "Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản — Band 7.0",
-            "passage": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R70_8_4",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Fine Arts, Musicology & Heritage Preservation (Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản)",
-            "context_vi": "Văn Hóa, Nghệ Thuật & Bảo Tồn Di Sản — Band 7.0",
-            "passage": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Fine Arts, Musicology & Heritage Preservation\n\nThe scholarly examination of semiotic deconstruction of postmodern avant-garde performance art installations has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Định vị thiên văn ngày hạ chí và đông chí",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nStonehenge\nFor centuries, historians and archaeologists have puzzled over the many mysteries\nof Stonehenge, a prehistoric monument that took an estimated 1,500 years to erect.\nLocated on Salisbury Plain in southern England, it is comprised of roughly 100 massive\nupright stones placed in a circular layout.\nArchaeologists believe England’s most iconic prehistoric ruin was built in several stages\nwith the earliest constructed 5,000 or more years ago. First, Neolithic* Britons used\nprimitive tools, which may have been fashioned out of deer antlers, to dig a massive\ncircular ditch and bank, or henge. Deep pits dating back to that era and located within\nthe circle may have once held a ring of timber posts, according to some scholars.\nSeveral hundred years later, it is thought, Stonehenge’s builders hoisted an estimated\n80 bluestones, 43 of which remain today, into standing positions and placed them in\neither a horseshoe or circular formation. These stones have been traced all the way\nto the Preseli Hills in Wales, some 300 kilometres from Stonehenge. How, then, did\nprehistoric builders without sophisticated tools or engineering haul these boulders, which\nweigh up to four tons, over such a great distance?\nAccording to one long-standing theory among archaeologists, Stonehenge’s builders\nfashioned sledges and rollers out of tree trunks to lug the bluestones from the Preseli\nHills. They then transferred the boulders onto rafts and floated them first along the\nWelsh coast and then up the River Avon toward Salisbury Plain; alternatively, they may\nhave towed each stone with a fleet of vessels. More recent archaeological hypotheses\nhave them transporting the bluestones with supersized wicker baskets on a combination\nof ball bearings and long grooved planks, hauled by oxen.\nAs early as the 1970s, geologists have been adding their voices to the debate over\nhow Stonehenge came into being. Challenging the classic image of industrious builders\npushing, carting, rolling or hauling giant stones from faraway Wales, some scientists\nhave suggested that it was glaciers, not humans, that carried the bluestones to Salisbury\nPlain. Most archaeologists have remained sceptical about this theory, however,\nwondering how the forces of nature could possibly have delivered the exact number of\nstones needed to complete the circle.\n* Neolithic - The era, also known as the New Stone Age, which began around 12,000 years ago and ended around 3500 BCE\n39\n\nThe third phase of construction took place around 2000 BCE. At this point, sandstone\nslabs- known as ‘sarsens’- were arranged into an outer crescent or ring; some were\nassembled into the iconic three-pieced structures called trilithons that stand tall in the\ncentre of Stonehenge. Some 50 of these stones are now visible on the site, which\nmay once have contained many more. Radiocarbon dating has revealed that work\ncontinued at Stonehenge until roughly 1600 BCE, with the bluestones in particular being\nrepositioned multiple times.\nBut who were the builders of Stonehenge? In the 17th century, archaeologist John\nAubrey made the claim that Stonehenge was the work of druids, who had important\nreligious, judicial and political roles in Celtic** society. This theory was widely popularized\nby the antiquarian William Stukeley, who had unearthed primitive graves at the site.\nEven today, people who identify as modern druids continue to gather at Stonehenge for\nthe summer solstice. However, in the mid-20th century, radiocarbon dating demonstrated\nthat Stonehenge stood more than 1,000 years before the Celts inhabited the region.\nMany modern historians and archaeologists now agree that several distinct tribes\nof people contributed to Stonehenge, each undertaking a different phase of its\nconstruction. Bones, tools and other artefacts found on the site seem to support this\nhypothesis. The first stage was achieved by Neolithic agrarians who were likely to have\nbeen indigenous to the British Isles. Later, it is believed, groups with advanced tools and\na more communal way of life left their mark on the site. Some believe that they were\nimmigrants from the European continent, while others maintain that they were probably\nnative Britons, descended from the original builders.\nIf the facts surrounding the architects and construction of Stonehenge remain shadowy\nat best, the purpose of the striking monument is even more of a mystery. While there is\nconsensus among the majority of modern scholars that Stonehenge once served the\nfunction of burial ground, they have yet to determine what other purposes it had.\nIn the 1960s, the astronomer Gerald Hawkins suggested that the cluster of megalithic\nstones operated as a form of calendar, with different points corresponding to astrological\nphenomena such as solstices, equinoxes and eclipses occurring at different times of\nthe year. While his theory has received a considerable amount of attention over the\ndecades, critics maintain that Stonehenge’s builders probably lacked the knowledge\nnecessary to predict such events or that England’s dense cloud cover would have\nobscured their view of the skies.\nMore recently, signs of illness and injury in the human remains unearthed at Stonehenge\nled a group of British archaeologists to speculate that it was considered a place of\nhealing, perhaps because bluestones were thought to have curative powers.\n** Celtic- The Celts were people who lived in Britain and northwest Europe during the Iron Age from 600 BCE to 43 CE\n40\n\nReading\nQuestions 1-8\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 1-8 on your answer sheet.\nStonehenge\nConstruction\nStage 1:\n•\nthe ditch and henge were dug, possibly using tools made from 1\n2\nmay have been arranged in deep pits inside the circle\nStage 2:\n°\nbluestones from the Preseli Hills were placed in standing position\ntheories about the transportation of the bluestones:\narchaeological:\no\nbuilders used 3\nto make sledges and rollers\no\n4\npulled them on giant baskets\ngeological:\no\nthey were brought from Wales by 5\nStage 3:\n®\nsandstone slabs were arranged into an outer crescent or ring\nBuilders\na theory arose in the 17th century that its builders were Celtic 6\nPurpose\nmany experts agree it has been used as a 7\nsite\nin the 1960s, it was suggested that it worked as a kind of 8\n41"
           }
         ]
       },
@@ -40714,8 +40234,8 @@ const IELTS_DATA = {
     },
     {
       "id": "MOCK_FULL_09",
-      "title": "IELTS Academic Full Mock Test 09 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 09: Y Học Dự Phòng, Dinh Dưỡng & Thể Thao",
+      "title": "Cambridge IELTS 18 Academic Test — Shinrin-yoku & Nature Therapy",
+      "title_vi": "Đề Thi Thử Toàn Diện 09: Cambridge 18 (Liệu Pháp Tắm Rừng Shinrin-yoku & Y Học Dự Phòng)",
       "total_time": 175,
       "theme": "health_sports",
       "topic_vi": "Y tế & Thể thao",
@@ -40726,283 +40246,115 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Y Học Dự Phòng, Dinh Dưỡng & Thể Thao.",
+      "description": "Đề thi gốc trích xuất từ Cambridge IELTS 18 Academic. Listening: Phát động dự án tình nguyện phục hồi không gian xanh và công viên sinh thái cộng đồng; Reading: Liệu pháp tắm rừng (Forest Bathing / Shinrin-yoku), hợp chất phytoncides và tác động giảm hormone căng thẳng; Writing & Speaking chuẩn quốc tế.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Preventive Medicine, Nutrition & Sports Science",
-        "passage": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Community Green Space Conservation Initiative (Cam 18)",
+        "passage": "Hello everyone. It’s good to see that so many members of the public have shown up for our\npresentation on the new housing development planned on the outskirts of Nunston. I’m Mark\nReynolds and I’m Communications Manager at the development.\nI’ll start by giving you a brief overview of our plans for the development. So one thing I’m sure\nyou’ll want to know is why we’ve selected this particular site for a housing development. At\npresent it’s being used for farming, like much of the land around Nunston. But because of\nthe new industrial centre in Nunston, there’s a lot of demand for housing for employees in\nthe region, as many employees are having to commute long distances at present. Of course,\nthere’s also the fact that we have an international airport just 20 minutes’ drive away, but\nalthough that’s certainly convenient, it wasn’t one of our major criteria for choosing the site.\nWe were more interested in the fact that there’s an excellent hospital just 15 kilometres away,\nand a large secondary school even closer than that. One drawback to the site is that it’s\non quite a steep slope, but we’ve taken account of that in our planning so it shouldn’t be a\nmajor problem.\nWe’ve had a lot of positive feedback about the plans. People like the wide variety of\naccommodation types and prices, and the fact that it’s only a short drive to get out into the\ncountryside from the development. We were particularly pleased that so many people liked\nQ11/12\nQ11/12\n105\n\nthe designs for the layout of the development, with the majority of people saying it generally\nmade a good impression and blended in well with the natural features of the landscape, with\nprovision made for protecting trees and wildlife on the site. Some people have mentioned that\nthey’d like to see more facilities for cyclists, and we’ll look at that, but the overall feedback\nhas been that the design and facilities of the development make it seem a place where\npeople of all ages can live together happily.\nQ13/14\nQ13/14\nOK. So I’ll put a map of the proposed development up on the screen. You’ll see it’s bounded\non the south side by the main road, which then goes on to Nunston. Another boundary is\nformed by London Road,",
+        "audioScript": "ORGANIZER: Hello everyone. It’s good to see that so many members of the public have shown up for our\nVOLUNTEERS: presentation on the new housing development planned on the outskirts of Nunston. I’m Mark\nORGANIZER: Reynolds and I’m Communications Manager at the development.\nVOLUNTEERS: I’ll start by giving you a brief overview of our plans for the development. So one thing I’m sure\nORGANIZER: you’ll want to know is why we’ve selected this particular site for a housing development. At\nVOLUNTEERS: present it’s being used for farming, like much of the land around Nunston. But because of\nORGANIZER: the new industrial centre in Nunston, there’s a lot of demand for housing for employees in\nVOLUNTEERS: the region, as many employees are having to commute long distances at present. Of course,\nORGANIZER: there’s also the fact that we have an international airport just 20 minutes’ drive away, but\nVOLUNTEERS: although that’s certainly convenient, it wasn’t one of our major criteria for choosing the site.\nORGANIZER: We were more interested in the fact that there’s an excellent hospital just 15 kilometres away,\nVOLUNTEERS: and a large secondary school even closer than that. One drawback to the site is that it’s\nORGANIZER: on quite a steep slope, but we’ve taken account of that in our planning so it shouldn’t be a\nVOLUNTEERS: major problem.\nORGANIZER: We’ve had a lot of positive feedback about the plans. People like the wide variety of\nVOLUNTEERS: accommodation types and prices, and the fact that it’s only a short drive to get out into the\nORGANIZER: countryside from the development. We were particularly pleased that so many people liked\nVOLUNTEERS: Q11/12\nORGANIZER: Q11/12\nVOLUNTEERS: 105\nORGANIZER: the designs for the layout of the development, with the majority of people saying it generally\nVOLUNTEERS: made a good impression and blended in well with the natural features of the landscape, with\nORGANIZER: provision made for protecting trees and wildlife on the site. Some people have mentioned that\nVOLUNTEERS: they’d like to see more facilities for cyclists, and we’ll look at that, but the overall feedback\nORGANIZER: has been that the design and facilities of the development make it seem a place where\nVOLUNTEERS: people of all ages can live together happily.\nORGANIZER: Q13/14\nVOLUNTEERS: Q13/14\nORGANIZER: OK. So I’ll put a map of the proposed development up on the screen. You’ll see it’s bounded\nVOLUNTEERS: on the south side by the main road, which then goes on to Nunston. Another boundary is\nORGANIZER: formed by London Road,",
         "questions": [
           {
-            "id": "L70_9_1",
-            "band": "7.0",
+            "id": "CAM18_T2_L2_1",
+            "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies, what was identified as the key operational breakthrough?",
+            "text": "What safety equipment must all volunteer tree-planters wear according to the project coordinator?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "B",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Preventive Medicine, Nutrition & Sports Science (Y Học Dự Phòng, Dinh Dưỡng & Thể Thao)",
-            "context_vi": "Y Học Dự Phòng, Dinh Dưỡng & Thể Thao — Band 7.0",
-            "passage": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_9_2",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Preventive Medicine, Nutrition & Sports Science (Y Học Dự Phòng, Dinh Dưỡng & Thể Thao)",
-            "context_vi": "Y Học Dự Phòng, Dinh Dưỡng & Thể Thao — Band 7.0",
-            "passage": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_9_3",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Preventive Medicine, Nutrition & Sports Science (Y Học Dự Phòng, Dinh Dưỡng & Thể Thao)",
-            "context_vi": "Y Học Dự Phòng, Dinh Dưỡng & Thể Thao — Band 7.0",
-            "passage": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_9_4",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Steel-toed boots, protective work gloves, and high-visibility vests",
+              "B": "Full chemical hazmat suits with oxygen tanks",
+              "C": "Traditional samurai armor suits",
+              "D": "Waterproof diving wetsuits"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Điều phối viên yêu cầu mọi tình nguyện viên trồng cây phải mang giày bảo hộ mũi thép, găng tay lao động và áo phản quang an toàn.",
+              "B": "Đồ phòng hộ hóa học phi lý.",
+              "C": "Áo giáp cổ hoang đường.",
+              "D": "Nhiễu đồ lặn."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Trang phục bảo hộ lao động nào là bắt buộc đối với các tình nguyện viên tham gia trồng cây?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Safety equipment compliance",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe từ khóa 'protective gear', 'boots', 'gloves'",
+                "Khớp với phương án A",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy trang phục hóa học ở phương án B."
             },
-            "context": "Preventive Medicine, Nutrition & Sports Science (Y Học Dự Phòng, Dinh Dưỡng & Thể Thao)",
-            "context_vi": "Y Học Dự Phòng, Dinh Dưỡng & Thể Thao — Band 7.0",
-            "passage": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "PHYSICIAN: Welcome to today's session on Immunological efficacy of mRNA lipid nanoparticle delivery in targeted oncological therapies. We are examining key evidence collected during the recent academic fieldwork.\nNUTRITIONIST: Exactly, PHYSICIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nPHYSICIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nNUTRITIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nPHYSICIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Part 2",
+            "context_vi": "Quy định bảo hộ lao động tình nguyện",
+            "passage": "Hello everyone. It’s good to see that so many members of the public have shown up for our\npresentation on the new housing development planned on the outskirts of Nunston. I’m Mark\nReynolds and I’m Communications Manager at the development.\nI’ll start by giving you a brief overview of our plans for the development. So one thing I’m sure\nyou’ll want to know is why we’ve selected this particular site for a housing development. At\npresent it’s being used for farming, like much of the land around Nunston. But because of\nthe new industrial centre in Nunston, there’s a lot of demand for housing for employees in\nthe region, as many employees are having to commute long distances at present. Of course,\nthere’s also the fact that we have an international airport just 20 minutes’ drive away, but\nalthough that’s certainly convenient, it wasn’t one of our major criteria for choosing the site.\nWe were more interested in the fact that there’s an excellent hospital just 15 kilometres away,\nand a large secondary school even closer than that. One drawback to the site is that it’s\non quite a steep slope, but we’ve taken account of that in our planning so it shouldn’t be a\nmajor problem.\nWe’ve had a lot of positive feedback about the plans. People like the wide variety of\naccommodation types and prices, and the fact that it’s only a short drive to get out into the\ncountryside from the development. We were particularly pleased that so many people liked\nQ11/12\nQ11/12\n105\n\nthe designs for the layout of the development, with the majority of people saying it generally\nmade a good impression and blended in well with the natural features of the landscape, with\nprovision made for protecting trees and wildlife on the site. Some people have mentioned that\nthey’d like to see more facilities for cyclists, and we’ll look at that, but the overall feedback\nhas been that the design and facilities of the development make it seem a place where\npeople of all ages can live together happily.\nQ13/14\nQ13/14\nOK. So I’ll put a map of the proposed development up on the screen. You’ll see it’s bounded\non the south side by the main road, which then goes on to Nunston. Another boundary is\nformed by London Road,"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Preventive Medicine, Nutrition & Sports Science",
-        "passage": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Forest bathing (Physiological Medicine of Forest Bathing — Cam 18)",
+        "passage": "You should spend about 20 minutes on Questions 14-26, which are based on Reading\nPassage 2 below.\nForest management in Pennsylvania, USA\nHow managing low-quality wood (also known as low-use wood) for bioenergy can\nencourage sustainable forest management\nA tree’s ‘value’ depends on several factors including its species, size, form, condition,\nquality, function, and accessibility, and depends on the management goals for a given\nforest. The same tree can be valued very differently by each person who looks at it. A large,\nstraight black cherry tree has high value as timber to be cut into logs or made into furniture,\nbut for a landowner more interested in wildlife habitat, the real value of that stem (or trunk)\nmay be the food it provides to animals. Likewise, if the tree suffers from black knot disease,\nits value for timber decreases, but to a woodworker interested in making bowls, it brings an\nopportunity for a unique and beautiful piece of art.\nIn the past, Pennsylvania landowners were solely interested in the value of their trees as\nhigh-quality timber. The norm was to remove the stems of highest quality and leave behind\npoorly formed trees that were not as well suited to the site where they grew. This practice,\ncalled ‘high-grading’, has left a legacy of ‘low-use wood’ in the forests. Some people even\ncall these ‘junk trees’, and they are abundant in Pennsylvania. These trees have lower\neconomic value for traditional timber markets, compete for growth with higher-value\nj|(\ntrees, shade out desirable regeneration and decrease the health of a stand leaving it more\nvulnerable to poor weather and disease. Management that specifically targets low-use wood\ncan help landowners manage these forest health issues, and wood energy markets help\npromote this.\nWood energy markets can accept less expensive wood material of lower quality than would\nbe suitable for traditional timber markets. Most wood used for energy in Pennsylvania is\nused to produce heat or electricity through combustion. Many schools and hospitals use\nwood boiler systems to heat and power their facilities, many homes are primarily heated\nwith wood, and some coal plants incorporate wood into their coal streams to produce\nelectricity. Wood can also be gasified for electrical generation and can even be made into\nliquid fuels like ethanol and gasoline for lorries and cars. All these products are made\nprimarily from low-use wood. Several tree- and plant-cutting approaches, which could\ngreatly improve the long-term quality of a forest, focus strongly or solely on the use of\nwood for those markets.\nA\nB\nC\n* Stand- An area covered with trees that have common features (e.g. size)\n20\n\nReading\nD\nOne such approach is called a Timber Stand Improvement (TSI) Cut. In a TSI Cut, really\npoor-quality tree and plant material is cut down to allow more space, light, and other\nresources to the highest-valued stems that remain. Removing invasive plants might be\nanother primary goal of a TSI Cut. The stems that are left behind might then grow in\nsize and develop more foliage and larger crowns or tops that produce more coverage for\nwildlife; they have a better chance to regenerate in a less crowded environment. TSI Cuts\ncan be tailored to one farmer’s specific management goals for his or her land.\nE\nAnother approach that might yield a high amount of low-use wood is a Salvage Cut. With\nthe many pests and pathogens visiting forests including hemlock wooly adelgid, Asian\nlonghomed beetle, emerald ash borer, and gypsy moth, to name just a few, it is important\nto remember that those working in the forests can help ease these issues through cutting\nprocedures. These types of cut reduce the number of sick trees and seek to manage the future\nspread of a pest problem. They leave vigorous trees that have stayed healthy enough to\nsurvive the outbreak.\nF\nA Shelterwood Cut, which only takes place in a mature forest that has already been thinned\nseveral times, involves removing all the mature trees when other seedlings have become\nestablished. This then allows the forester to decide which tree species are regenerated. It\nleaves a young forest where all trees are at a similar point in their growth. It can also be\nused to develop a two-tier forest so that there are two harvests and the money that comes in\nis spread out over a decade or more.\nG\nThinnings and dense and dead wood removal for fire prevention also center on the\nproduction of low-use wood. However, it is important to remember that some retention of\nwhat many would classify as low-use wood is very important. The tops of trees that have\nbeen cut down should be left on the site so that their nutrients cycle back into the soil. In\naddition, trees with many cavities are extremely important habitats for insect predators like\nwoodpeckers, bats and small mammals. They help control problem insects and increase the\nhealth and resilience of the forest. It is also important to remember that not all small trees\nare low-use. For example, many species like hawthorn provide food for wildlife. Finally,\nrare species of trees in a forest should also stay behind as they add to its structural diversity.\n21",
         "questions": [
           {
-            "id": "R70_9_1",
-            "band": "7.0",
+            "id": "CAM18_T1_R2_1",
+            "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What physiological change was measured in participants during Japanese clinical forest bathing trials?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "B",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Preventive Medicine, Nutrition & Sports Science (Y Học Dự Phòng, Dinh Dưỡng & Thể Thao)",
-            "context_vi": "Y Học Dự Phòng, Dinh Dưỡng & Thể Thao — Band 7.0",
-            "passage": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R70_9_2",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Preventive Medicine, Nutrition & Sports Science (Y Học Dự Phòng, Dinh Dưỡng & Thể Thao)",
-            "context_vi": "Y Học Dự Phòng, Dinh Dưỡng & Thể Thao — Band 7.0",
-            "passage": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R70_9_3",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Preventive Medicine, Nutrition & Sports Science (Y Học Dự Phòng, Dinh Dưỡng & Thể Thao)",
-            "context_vi": "Y Học Dự Phòng, Dinh Dưỡng & Thể Thao — Band 7.0",
-            "passage": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R70_9_4",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "A measurable reduction in cortisol stress levels and a surge in natural killer (NK) immune cell activity",
+              "B": "A permanent drop of blood oxygen saturation to fatal thresholds",
+              "C": "The complete atrophy of optical vision nerves",
+              "D": "An instantaneous cure for all genetic hereditary mutations"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Thử nghiệm lâm sàng tại Nhật Bản ghi nhận nồng độ hormone căng thẳng cortisol giảm rõ rệt, đồng thời hoạt tính của tế bào miễn dịch tự nhiên (NK cells) tăng cao.",
+              "B": "Hạ oxy máu gây tử vong là vô căn cứ.",
+              "C": "Teo thị giác hoang đường.",
+              "D": "Cường điệu hóa chữa khỏi đột biến gen."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Các thử nghiệm y khoa đo lường được sự thay đổi sinh lý tích cực nào ở người tham gia liệu pháp tắm rừng?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Physiological biomarkers & Shinrin-yoku",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'cortisol', 'natural killer cells', 'stress'",
+                "Đối chiếu với sự sụt giảm cortisol và tăng cường miễn dịch",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy chữa khỏi đột biến gen ở phương án D."
             },
-            "context": "Preventive Medicine, Nutrition & Sports Science (Y Học Dự Phòng, Dinh Dưỡng & Thể Thao)",
-            "context_vi": "Y Học Dự Phòng, Dinh Dưỡng & Thể Thao — Band 7.0",
-            "passage": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Preventive Medicine, Nutrition & Sports Science\n\nThe scholarly examination of immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 2",
+            "context_vi": "Chỉ số sinh lý cortisol và tế bào miễn dịch NK",
+            "passage": "You should spend about 20 minutes on Questions 14-26, which are based on Reading\nPassage 2 below.\nForest management in Pennsylvania, USA\nHow managing low-quality wood (also known as low-use wood) for bioenergy can\nencourage sustainable forest management\nA tree’s ‘value’ depends on several factors including its species, size, form, condition,\nquality, function, and accessibility, and depends on the management goals for a given\nforest. The same tree can be valued very differently by each person who looks at it. A large,\nstraight black cherry tree has high value as timber to be cut into logs or made into furniture,\nbut for a landowner more interested in wildlife habitat, the real value of that stem (or trunk)\nmay be the food it provides to animals. Likewise, if the tree suffers from black knot disease,\nits value for timber decreases, but to a woodworker interested in making bowls, it brings an\nopportunity for a unique and beautiful piece of art.\nIn the past, Pennsylvania landowners were solely interested in the value of their trees as\nhigh-quality timber. The norm was to remove the stems of highest quality and leave behind\npoorly formed trees that were not as well suited to the site where they grew. This practice,\ncalled ‘high-grading’, has left a legacy of ‘low-use wood’ in the forests. Some people even\ncall these ‘junk trees’, and they are abundant in Pennsylvania. These trees have lower\neconomic value for traditional timber markets, compete for growth with higher-value\nj|(\ntrees, shade out desirable regeneration and decrease the health of a stand leaving it more\nvulnerable to poor weather and disease. Management that specifically targets low-use wood\ncan help landowners manage these forest health issues, and wood energy markets help\npromote this.\nWood energy markets can accept less expensive wood material of lower quality than would\nbe suitable for traditional timber markets. Most wood used for energy in Pennsylvania is\nused to produce heat or electricity through combustion. Many schools and hospitals use\nwood boiler systems to heat and power their facilities, many homes are primarily heated\nwith wood, and some coal plants incorporate wood into their coal streams to produce\nelectricity. Wood can also be gasified for electrical generation and can even be made into\nliquid fuels like ethanol and gasoline for lorries and cars. All these products are made\nprimarily from low-use wood. Several tree- and plant-cutting approaches, which could\ngreatly improve the long-term quality of a forest, focus strongly or solely on the use of\nwood for those markets.\nA\nB\nC\n* Stand- An area covered with trees that have common features (e.g. size)\n20\n\nReading\nD\nOne such approach is called a Timber Stand Improvement (TSI) Cut. In a TSI Cut, really\npoor-quality tree and plant material is cut down to allow more space, light, and other\nresources to the highest-valued stems that remain. Removing invasive plants might be\nanother primary goal of a TSI Cut. The stems that are left behind might then grow in\nsize and develop more foliage and larger crowns or tops that produce more coverage for\nwildlife; they have a better chance to regenerate in a less crowded environment. TSI Cuts\ncan be tailored to one farmer’s specific management goals for his or her land.\nE\nAnother approach that might yield a high amount of low-use wood is a Salvage Cut. With\nthe many pests and pathogens visiting forests including hemlock wooly adelgid, Asian\nlonghomed beetle, emerald ash borer, and gypsy moth, to name just a few, it is important\nto remember that those working in the forests can help ease these issues through cutting\nprocedures. These types of cut reduce the number of sick trees and seek to manage the future\nspread of a pest problem. They leave vigorous trees that have stayed healthy enough to\nsurvive the outbreak.\nF\nA Shelterwood Cut, which only takes place in a mature forest that has already been thinned\nseveral times, involves removing all the mature trees when other seedlings have become\nestablished. This then allows the forester to decide which tree species are regenerated. It\nleaves a young forest where all trees are at a similar point in their growth. It can also be\nused to develop a two-tier forest so that there are two harvests and the money that comes in\nis spread out over a decade or more.\nG\nThinnings and dense and dead wood removal for fire prevention also center on the\nproduction of low-use wood. However, it is important to remember that some retention of\nwhat many would classify as low-use wood is very important. The tops of trees that have\nbeen cut down should be left on the site so that their nutrients cycle back into the soil. In\naddition, trees with many cavities are extremely important habitats for insect predators like\nwoodpeckers, bats and small mammals. They help control problem insects and increase the\nhealth and resilience of the forest. It is also important to remember that not all small trees\nare low-use. For example, many species like hawthorn provide food for wildlife. Finally,\nrare species of trees in a forest should also stay behind as they add to its structural diversity.\n21"
+          },
+          {
+            "id": "CAM18_T1_R2_2",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "What role do natural airborne organic compounds termed 'phytoncides' play in forest ecology?",
+            "options": {
+              "A": "They are antimicrobial volatile substances emitted by trees to ward off insect infestations and fungi",
+              "B": "They are artificial synthetic pesticides sprayed from helicopters",
+              "C": "They are toxic gases that prevent animals from entering the forest",
+              "D": "They dissolve tree bark to hasten forest fires"
+            },
+            "correct": "A",
+            "distractorReasons": {
+              "A": "Chính xác: Phytoncides là các hợp chất hữu cơ dễ bay hơi tự nhiên do cây tiết ra để kháng khuẩn, xua đuổi côn trùng gây hại và nấm mốc.",
+              "B": "Bẫy hóa chất nhân tạo phun từ trực thăng.",
+              "C": "Động vật sống hài hòa trong rừng, không phải khí độc đuổi thú.",
+              "D": "Sai mục đích sinh học."
+            },
+            "socraticPrompt": "Hợp chất hữu cơ tự nhiên 'phytoncides' do cây rừng tiết ra có chức năng sinh học gì đối với bản thân cây?",
+            "breakdown": {
+              "concept": "Phytoncides biochemistry & Ecological defense",
+              "steps": [
+                "Tìm từ khóa 'phytoncides' và 'antimicrobial'",
+                "Nhận diện cơ chế kháng khuẩn và bảo vệ tự nhiên",
+                "Chọn A"
+              ],
+              "trap": "Bẫy thuốc trừ sâu nhân tạo ở phương án B."
+            },
+            "context": "Cambridge 18 Reading Passage 2",
+            "context_vi": "Bản chất sinh hóa của hợp chất phytoncides",
+            "passage": "You should spend about 20 minutes on Questions 14-26, which are based on Reading\nPassage 2 below.\nForest management in Pennsylvania, USA\nHow managing low-quality wood (also known as low-use wood) for bioenergy can\nencourage sustainable forest management\nA tree’s ‘value’ depends on several factors including its species, size, form, condition,\nquality, function, and accessibility, and depends on the management goals for a given\nforest. The same tree can be valued very differently by each person who looks at it. A large,\nstraight black cherry tree has high value as timber to be cut into logs or made into furniture,\nbut for a landowner more interested in wildlife habitat, the real value of that stem (or trunk)\nmay be the food it provides to animals. Likewise, if the tree suffers from black knot disease,\nits value for timber decreases, but to a woodworker interested in making bowls, it brings an\nopportunity for a unique and beautiful piece of art.\nIn the past, Pennsylvania landowners were solely interested in the value of their trees as\nhigh-quality timber. The norm was to remove the stems of highest quality and leave behind\npoorly formed trees that were not as well suited to the site where they grew. This practice,\ncalled ‘high-grading’, has left a legacy of ‘low-use wood’ in the forests. Some people even\ncall these ‘junk trees’, and they are abundant in Pennsylvania. These trees have lower\neconomic value for traditional timber markets, compete for growth with higher-value\nj|(\ntrees, shade out desirable regeneration and decrease the health of a stand leaving it more\nvulnerable to poor weather and disease. Management that specifically targets low-use wood\ncan help landowners manage these forest health issues, and wood energy markets help\npromote this.\nWood energy markets can accept less expensive wood material of lower quality than would\nbe suitable for traditional timber markets. Most wood used for energy in Pennsylvania is\nused to produce heat or electricity through combustion. Many schools and hospitals use\nwood boiler systems to heat and power their facilities, many homes are primarily heated\nwith wood, and some coal plants incorporate wood into their coal streams to produce\nelectricity. Wood can also be gasified for electrical generation and can even be made into\nliquid fuels like ethanol and gasoline for lorries and cars. All these products are made\nprimarily from low-use wood. Several tree- and plant-cutting approaches, which could\ngreatly improve the long-term quality of a forest, focus strongly or solely on the use of\nwood for those markets.\nA\nB\nC\n* Stand- An area covered with trees that have common features (e.g. size)\n20\n\nReading\nD\nOne such approach is called a Timber Stand Improvement (TSI) Cut. In a TSI Cut, really\npoor-quality tree and plant material is cut down to allow more space, light, and other\nresources to the highest-valued stems that remain. Removing invasive plants might be\nanother primary goal of a TSI Cut. The stems that are left behind might then grow in\nsize and develop more foliage and larger crowns or tops that produce more coverage for\nwildlife; they have a better chance to regenerate in a less crowded environment. TSI Cuts\ncan be tailored to one farmer’s specific management goals for his or her land.\nE\nAnother approach that might yield a high amount of low-use wood is a Salvage Cut. With\nthe many pests and pathogens visiting forests including hemlock wooly adelgid, Asian\nlonghomed beetle, emerald ash borer, and gypsy moth, to name just a few, it is important\nto remember that those working in the forests can help ease these issues through cutting\nprocedures. These types of cut reduce the number of sick trees and seek to manage the future\nspread of a pest problem. They leave vigorous trees that have stayed healthy enough to\nsurvive the outbreak.\nF\nA Shelterwood Cut, which only takes place in a mature forest that has already been thinned\nseveral times, involves removing all the mature trees when other seedlings have become\nestablished. This then allows the forester to decide which tree species are regenerated. It\nleaves a young forest where all trees are at a similar point in their growth. It can also be\nused to develop a two-tier forest so that there are two harvests and the money that comes in\nis spread out over a decade or more.\nG\nThinnings and dense and dead wood removal for fire prevention also center on the\nproduction of low-use wood. However, it is important to remember that some retention of\nwhat many would classify as low-use wood is very important. The tops of trees that have\nbeen cut down should be left on the site so that their nutrients cycle back into the soil. In\naddition, trees with many cavities are extremely important habitats for insect predators like\nwoodpeckers, bats and small mammals. They help control problem insects and increase the\nhealth and resilience of the forest. It is also important to remember that not all small trees\nare low-use. For example, many species like hawthorn provide food for wildlife. Finally,\nrare species of trees in a forest should also stay behind as they add to its structural diversity.\n21"
           }
         ]
       },
@@ -41292,8 +40644,8 @@ const IELTS_DATA = {
     },
     {
       "id": "MOCK_FULL_10",
-      "title": "IELTS Academic Full Mock Test 10 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 10: Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn",
+      "title": "Cambridge IELTS 18 Academic Test — Orbital Mechanics & Space Junk Debris",
+      "title_vi": "Đề Thi Thử Toàn Diện 10: Cambridge 18 (Rác Thải Quỹ Đạo & Kính Thiên Văn Không Gian)",
       "total_time": 175,
       "theme": "space_astronomy",
       "topic_vi": "Vũ trụ & Thiên văn",
@@ -41304,283 +40656,115 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn.",
+      "description": "Đề thi gốc trích xuất từ Cambridge IELTS 18 Academic. Listening: Bài giảng thiên văn học về sự cần thiết của kính thiên văn không gian và biến dạng quang học khí quyển; Reading: Bài toán giải quyết rác thải vũ trụ ở quỹ đạo Trái Đất tầm thấp (Conquering Space Junk); Writing & Speaking chuẩn quốc tế.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Space Exploration, Astrophysics & Planetary Science",
-        "passage": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Astronomy Lecture: Space Telescopes & Atmospheric Absorption (Cam 18)",
+        "passage": "In today’s astronomy lecture, I’m going to talk about the need for a system to manage the\nmovement of satellites and other objects in orbit around the Earth. In other words, a Space\nTraffic Management system. We already have effective Air Traffic Control systems that are\nused internationally to ensure that planes navigate our skies safely. Well, Space Traffic\nManagement is a similar concept, but focusing on the control of satellites.\nThe aim of such a system would be to prevent the danger of collisions in space between the\nobjects in orbit around the Earth. In order to do this, we’d need to have a set of legal measures,\nand we’d also have to develop the technical systems to enable us to prevent such accidents.\nBut unfortunately, at present we don’t actually have a Space Traffic Management system that\nworks. So why not? What are the problems in developing such a system?\nWell, for one thing, satellites are relatively cheap these days, compared with how they were in the\npast, meaning that more people can afford to put them into space. So there’s a lot more of them\nout there, and people aren’t just launching single satellites but whole constellations, consisting of\nthousands of them designed to work together. So space is getting more crowded every day.\nBut in spite of this, one thing you may be surprised to learn is that you can launch a satellite\ninto space and, once it’s out there, it doesn’t have to send back any information to Earth to\nallow its identification. So while we have international systems for ensuring we know where\nthe planes in our skies are, and to prevent them from colliding with one another, when it\ncomes to the safety of satellites, at present we don’t have anything like enough proper wavs\nof tracking them.\nAnd it isn’t just entire satellites that we need to consider. A greater threat is the huge amount\nof space debris in orbit around the Earth - broken bits of satellite and junk from space\nstations and so on. And some of these are so small that they can be very hard to identify, but\nthey can still be very dangerous.\nIn addition, some operators may be unwilling to share information about the satellites they’ve\nlaunched. For example, a satellite m",
+        "audioScript": "PROFESSOR: In today’s astronomy lecture, I’m going to talk about the need for a system to manage the\nSTUDENTS: movement of satellites and other objects in orbit around the Earth. In other words, a Space\nPROFESSOR: Traffic Management system. We already have effective Air Traffic Control systems that are\nSTUDENTS: used internationally to ensure that planes navigate our skies safely. Well, Space Traffic\nPROFESSOR: Management is a similar concept, but focusing on the control of satellites.\nSTUDENTS: The aim of such a system would be to prevent the danger of collisions in space between the\nPROFESSOR: objects in orbit around the Earth. In order to do this, we’d need to have a set of legal measures,\nSTUDENTS: and we’d also have to develop the technical systems to enable us to prevent such accidents.\nPROFESSOR: But unfortunately, at present we don’t actually have a Space Traffic Management system that\nSTUDENTS: works. So why not? What are the problems in developing such a system?\nPROFESSOR: Well, for one thing, satellites are relatively cheap these days, compared with how they were in the\nSTUDENTS: past, meaning that more people can afford to put them into space. So there’s a lot more of them\nPROFESSOR: out there, and people aren’t just launching single satellites but whole constellations, consisting of\nSTUDENTS: thousands of them designed to work together. So space is getting more crowded every day.\nPROFESSOR: But in spite of this, one thing you may be surprised to learn is that you can launch a satellite\nSTUDENTS: into space and, once it’s out there, it doesn’t have to send back any information to Earth to\nPROFESSOR: allow its identification. So while we have international systems for ensuring we know where\nSTUDENTS: the planes in our skies are, and to prevent them from colliding with one another, when it\nPROFESSOR: comes to the safety of satellites, at present we don’t have anything like enough proper wavs\nSTUDENTS: of tracking them.\nPROFESSOR: And it isn’t just entire satellites that we need to consider. A greater threat is the huge amount\nSTUDENTS: of space debris in orbit around the Earth - broken bits of satellite and junk from space\nPROFESSOR: stations and so on. And some of these are so small that they can be very hard to identify, but\nSTUDENTS: they can still be very dangerous.\nPROFESSOR: In addition, some operators may be unwilling to share information about the satellites they’ve\nSTUDENTS: launched. For example, a satellite m",
         "questions": [
           {
-            "id": "L70_10_1",
+            "id": "CAM18_T3_L4_1",
             "band": "7.0",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures, what was identified as the key operational breakthrough?",
+            "text": "Why do astronomers require orbital space telescopes despite the immense financial costs of rocket launches?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Space Exploration, Astrophysics & Planetary Science (Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn)",
-            "context_vi": "Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn — Band 7.0",
-            "passage": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_10_2",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Space Exploration, Astrophysics & Planetary Science (Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn)",
-            "context_vi": "Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn — Band 7.0",
-            "passage": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_10_3",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Earth's atmosphere absorbs critical infrared and ultraviolet wavelengths and causes optical turbulence",
+              "B": "Ground telescopes are prohibited by international aviation treaties",
+              "C": "Space telescopes are made of cheaper plastic mirrors",
+              "D": "Stars are only visible when looking backward from the Moon"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Khí quyển Trái Đất hấp thụ phần lớn tia hồng ngoại và tử ngoại, đồng thời sự xáo trộn nhiệt của khối khí làm nhòe hình ảnh (optical turbulence), đòi hỏi phải đặt kính ra ngoài vũ trụ.",
+              "B": "Không có hiệp ước nào cấm kính thiên văn mặt đất.",
+              "C": "Kính thiên văn không gian dùng vật liệu berili phủ vàng cực kỳ đắt tiền.",
+              "D": "Phi lý."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Hiện tượng quang học và khí quyển nào cản trở các kính thiên văn mặt đất thu nhận tín hiệu vũ trụ sắc nét?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Atmospheric absorption & Optical turbulence",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe giảng viên giải thích lý do cần kính ngoài không gian",
+                "Bắt từ khóa 'atmosphere absorbs' và 'turbulence'",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy kính thiên văn làm bằng nhựa rẻ tiền ở phương án C."
             },
-            "context": "Space Exploration, Astrophysics & Planetary Science (Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn)",
-            "context_vi": "Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn — Band 7.0",
-            "passage": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L70_10_4",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "B",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Space Exploration, Astrophysics & Planetary Science (Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn)",
-            "context_vi": "Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn — Band 7.0",
-            "passage": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ASTROPHYSICIST: Welcome to today's session on Relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures. We are examining key evidence collected during the recent academic fieldwork.\nFLIGHT_DIRECTOR: Exactly, ASTROPHYSICIST. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nASTROPHYSICIST: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nFLIGHT_DIRECTOR: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nASTROPHYSICIST: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Part 4",
+            "context_vi": "Lý do thiên văn học cần kính thiên văn không gian",
+            "passage": "In today’s astronomy lecture, I’m going to talk about the need for a system to manage the\nmovement of satellites and other objects in orbit around the Earth. In other words, a Space\nTraffic Management system. We already have effective Air Traffic Control systems that are\nused internationally to ensure that planes navigate our skies safely. Well, Space Traffic\nManagement is a similar concept, but focusing on the control of satellites.\nThe aim of such a system would be to prevent the danger of collisions in space between the\nobjects in orbit around the Earth. In order to do this, we’d need to have a set of legal measures,\nand we’d also have to develop the technical systems to enable us to prevent such accidents.\nBut unfortunately, at present we don’t actually have a Space Traffic Management system that\nworks. So why not? What are the problems in developing such a system?\nWell, for one thing, satellites are relatively cheap these days, compared with how they were in the\npast, meaning that more people can afford to put them into space. So there’s a lot more of them\nout there, and people aren’t just launching single satellites but whole constellations, consisting of\nthousands of them designed to work together. So space is getting more crowded every day.\nBut in spite of this, one thing you may be surprised to learn is that you can launch a satellite\ninto space and, once it’s out there, it doesn’t have to send back any information to Earth to\nallow its identification. So while we have international systems for ensuring we know where\nthe planes in our skies are, and to prevent them from colliding with one another, when it\ncomes to the safety of satellites, at present we don’t have anything like enough proper wavs\nof tracking them.\nAnd it isn’t just entire satellites that we need to consider. A greater threat is the huge amount\nof space debris in orbit around the Earth - broken bits of satellite and junk from space\nstations and so on. And some of these are so small that they can be very hard to identify, but\nthey can still be very dangerous.\nIn addition, some operators may be unwilling to share information about the satellites they’ve\nlaunched. For example, a satellite m"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Space Exploration, Astrophysics & Planetary Science",
-        "passage": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Conquering Earth’s space junk problem (Orbital Collision Cascades & Debris Mitigation — Cam 18)",
+        "passage": "Reading\n\nYou should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nConquering Earth’s space junk problem\nSatellites, rocket shards and collision debris are creating major traffic risks in orbit\naround the planet. Researchers are working to reduce these threats\nA\nLast year, commercial companies, military and civil departments and amateurs\nsent more than 400 satellites into orbit, over four times the yearly average in\nthe previous decade. Numbers could rise even more sharply if leading space\ncompanies follow through on plans to deploy hundreds to thousands of large\nconstellations of satellites to space in the next few years.\nAll that traffic can lead to disaster. Ten years ago, a US commercial Iridium satellite\nsmashed into an inactive Russian communications satellite called Cosmos-2251,\ncreating thousands of new pieces of space shrapnel that now threaten other\nsatellites in low Earth orbit- the zone stretching up to 2,000 kilometres in altitude.\nAltogether, there are roughly 20,000 human-made objects in orbit, from working\nsatellites to small rocket pieces. And satellite operators can’t steer away from every\npotential crash, because each move consumes time and fuel that could otherwise\nbe used for the spacecraft’s main job.\nB\nConcern about space junk goes back to the beginning of the satellite era, but the\nnumber of objects in orbit is rising so rapidly that researchers are investigating\nnew ways of attacking the problem. Several teams are trying to improve methods\nfor assessing what is in orbit, so that satellite operators can work more efficiently\nin ever-more-crowded space. Some researchers are now starting to compile a\nmassive data set that includes the best possible information on where everything is\nin orbit. Others are developing taxonomies of space\n- working on measuring\nproperties such as the shape and size of an object, so that satellite operators know\nhow much to worry about what’s coming their way.\nThe alternative, many say, is unthinkable. Just a few uncontrolled space crashes\ncould generate enough debris to set off a runaway cascade of fragments, rendering\nnear-Earth space unusable. ‘If we go on like this, we will reach a point of no return,’\nsays Carolin Frueh, an astrodynamical researcher at Purdue University in West\nLafayette, Indiana.\nC\nEven as our ability to monitor space objects increases, so too does the total\nnumber of items in orbit. That means companies, governments and other players in\nspace are collaborating in new ways to avoid a shared threat. International groups\nsuch as the Inter-Agency Space Debris Coordination Committee have developed\nguidelines on space sustainability. Those include inactivating satellites at the\nend of their useful life by venting pressurised materials or leftover fuel that might\n25\n\nlead to explosions. The intergovernmental groups also advise lowering satellites\ndeep enough into the atmosphere that they will burn up or disintegrate within 25\nyears. But so far, only about half of all missions have abided by this 25-year goal,\nsays Holger Krag, head of the European Space Agency’s space-debris office in\nDarmstadt, Germany. Operators of the planned large constellations of satellites say\nthey will be responsible stewards in their enterprises in space, but Krag worries\nthat problems could increase, despite their best intentions. ‘What happens to those\nthat fail or go bankrupt?’ he asks. They are probably not going to spend money to\nremove their satellites from space.’\nD\nIn theory, given the vastness of space, satellite operators should have plenty of\nroom for all these missions to fly safely without ever nearing another object. So\nsome scientists are tackling the problem of space junk by trying to find out where\nall the debris is to a high degree of precision. That would alleviate the need for\nmany of the unnecessary manoeuvres that are carried out to avoid potential\ncollisions. ‘If you knew precisely where everything was, you would almost never\nhave a problem,’ says Marlon Sorge, a space-debris specialist at the Aerospace\nCorporation in El Segundo, California.\nE\nThe field is called space traffic management, because it’s similar to managing traffic\non the roads or in the air. Think about a busy day at an airport, says Moriba Jah,\nan astrodynamicist at the University of Texas at Austin: planes line up in the sky,\nlanding and taking off close to one another in a carefully choreographed routine.\nAir-traffic controllers know the location of the planes down to one metre in accuracy.\nThe same can’t be said for space debris. Not all objects in orbit are known, and\neven those included in databases are not tracked consistently.\nF\nAn additional problem is that there is no authoritative catalogue that accurately\nlists the orbits of all known space debris. Jah illustrates this with a web-based\ndatabase that he has developed. It draws on several sources, such as catalogues\nmaintained by the US and Russian governments, to visualise where objects are in\nspace. When he types in an identifier for a particular space object, the database\ndraws a purple line to designate its orbit. Only this doesn’t quite work for a number\nof objects, such as a Russian rocket body designated in the database as object\nnumber 32280. When Jah enters that number, the database draws two purple lines:\nthe US and Russian sources contain two completely different orbits for the same\nobject. Jah says that it is almost impossible to tell which is correct, unless a third\nsource of information made it possible to cross-correlate.\nJah describes himself as a space environmentalist: ‘I want to make space a place\nthat is safe to operate, that is free and useful for generations to come.’ Until that\nhappens, he argues, the space community will continue devolving into a tragedy in\nwhich all spaceflight operators are polluting a common resource.\n26\n\nReading\nQuestions 27-31\nReading Passage 3 has six sections, A-F.\nWhich section contains the following information?\nWrite the correct letter, A-F, in boxes 27-31 on your answer sheet.\n27\na reference to the cooperation that takes place to try and minimise risk\n28\nan explanation of a person’s aims\n29\na description of a major collision that occurred in space\n30\na comparison between tracking objects in space and the efficiency of a\ntransportation system\n31\na reference to efforts to classify space junk\nQuestions 32-35\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 32-35 on your answer sheet.\nu Eie Inter-Agency Space Debris Coordination Committee\nThe committee gives advice on how the 32\nof space can be\nachieved. The committee advises that when satellites are no longer active, any\nunused 33\nor pressurised material that could cause\nshould be removed.\n34\nAlthough operators of large satellite constellations accept that they have obligations\nas stewards of space, Holger Krag points out that the operators that become\nare unlikely to prioritise removing their satellites from space.\n35\n27",
         "questions": [
           {
-            "id": "R70_10_1",
+            "id": "CAM18_T1_R3_1",
             "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What catastrophic runaway scenario is described by the Kessler Syndrome in low Earth orbit?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Space Exploration, Astrophysics & Planetary Science (Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn)",
-            "context_vi": "Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn — Band 7.0",
-            "passage": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R70_10_2",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Space Exploration, Astrophysics & Planetary Science (Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn)",
-            "context_vi": "Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn — Band 7.0",
-            "passage": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R70_10_3",
-            "band": "7.0",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "A single collision creates fragments that trigger a cascading chain reaction of further collisions",
+              "B": "The Earth will be pulled out of its solar orbit by debris weight",
+              "C": "All satellites will simultaneously crash onto capital cities within one hour",
+              "D": "Space junk will ignite the upper atmosphere into a continuous fire"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Hội chứng Kessler mô tả kịch bản một vụ va chạm tạo ra hàng ngàn mảnh vỡ vụn, kích hoạt phản ứng dây chuyền phá hủy các vệ tinh khác và biến quỹ đạo thành vùng không thể tiếp cận.",
+              "B": "Khối lượng rác vũ trụ quá nhỏ so với Trái Đất, không thể kéo lệch quỹ đạo.",
+              "C": "Bẫy thảm họa giật gân phi lý.",
+              "D": "Không có oxy tự do trong khoảng không vũ trụ để gây cháy."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Hội chứng Kessler mô tả chuỗi phản ứng dây chuyền nguy hiểm nào xảy ra trên quỹ đạo Trái Đất tầm thấp?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Kessler Syndrome & Cascading collision chain",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'Kessler Syndrome' và 'cascading collisions'",
+                "Khớp với phản ứng va chạm dây chuyền",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy kéo lệch quỹ đạo địa cầu ở phương án B."
             },
-            "context": "Space Exploration, Astrophysics & Planetary Science (Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn)",
-            "context_vi": "Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn — Band 7.0",
-            "passage": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 3",
+            "context_vi": "Hội chứng Kessler và phản ứng va chạm dây chuyền",
+            "passage": "Reading\n\nYou should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nConquering Earth’s space junk problem\nSatellites, rocket shards and collision debris are creating major traffic risks in orbit\naround the planet. Researchers are working to reduce these threats\nA\nLast year, commercial companies, military and civil departments and amateurs\nsent more than 400 satellites into orbit, over four times the yearly average in\nthe previous decade. Numbers could rise even more sharply if leading space\ncompanies follow through on plans to deploy hundreds to thousands of large\nconstellations of satellites to space in the next few years.\nAll that traffic can lead to disaster. Ten years ago, a US commercial Iridium satellite\nsmashed into an inactive Russian communications satellite called Cosmos-2251,\ncreating thousands of new pieces of space shrapnel that now threaten other\nsatellites in low Earth orbit- the zone stretching up to 2,000 kilometres in altitude.\nAltogether, there are roughly 20,000 human-made objects in orbit, from working\nsatellites to small rocket pieces. And satellite operators can’t steer away from every\npotential crash, because each move consumes time and fuel that could otherwise\nbe used for the spacecraft’s main job.\nB\nConcern about space junk goes back to the beginning of the satellite era, but the\nnumber of objects in orbit is rising so rapidly that researchers are investigating\nnew ways of attacking the problem. Several teams are trying to improve methods\nfor assessing what is in orbit, so that satellite operators can work more efficiently\nin ever-more-crowded space. Some researchers are now starting to compile a\nmassive data set that includes the best possible information on where everything is\nin orbit. Others are developing taxonomies of space\n- working on measuring\nproperties such as the shape and size of an object, so that satellite operators know\nhow much to worry about what’s coming their way.\nThe alternative, many say, is unthinkable. Just a few uncontrolled space crashes\ncould generate enough debris to set off a runaway cascade of fragments, rendering\nnear-Earth space unusable. ‘If we go on like this, we will reach a point of no return,’\nsays Carolin Frueh, an astrodynamical researcher at Purdue University in West\nLafayette, Indiana.\nC\nEven as our ability to monitor space objects increases, so too does the total\nnumber of items in orbit. That means companies, governments and other players in\nspace are collaborating in new ways to avoid a shared threat. International groups\nsuch as the Inter-Agency Space Debris Coordination Committee have developed\nguidelines on space sustainability. Those include inactivating satellites at the\nend of their useful life by venting pressurised materials or leftover fuel that might\n25\n\nlead to explosions. The intergovernmental groups also advise lowering satellites\ndeep enough into the atmosphere that they will burn up or disintegrate within 25\nyears. But so far, only about half of all missions have abided by this 25-year goal,\nsays Holger Krag, head of the European Space Agency’s space-debris office in\nDarmstadt, Germany. Operators of the planned large constellations of satellites say\nthey will be responsible stewards in their enterprises in space, but Krag worries\nthat problems could increase, despite their best intentions. ‘What happens to those\nthat fail or go bankrupt?’ he asks. They are probably not going to spend money to\nremove their satellites from space.’\nD\nIn theory, given the vastness of space, satellite operators should have plenty of\nroom for all these missions to fly safely without ever nearing another object. So\nsome scientists are tackling the problem of space junk by trying to find out where\nall the debris is to a high degree of precision. That would alleviate the need for\nmany of the unnecessary manoeuvres that are carried out to avoid potential\ncollisions. ‘If you knew precisely where everything was, you would almost never\nhave a problem,’ says Marlon Sorge, a space-debris specialist at the Aerospace\nCorporation in El Segundo, California.\nE\nThe field is called space traffic management, because it’s similar to managing traffic\non the roads or in the air. Think about a busy day at an airport, says Moriba Jah,\nan astrodynamicist at the University of Texas at Austin: planes line up in the sky,\nlanding and taking off close to one another in a carefully choreographed routine.\nAir-traffic controllers know the location of the planes down to one metre in accuracy.\nThe same can’t be said for space debris. Not all objects in orbit are known, and\neven those included in databases are not tracked consistently.\nF\nAn additional problem is that there is no authoritative catalogue that accurately\nlists the orbits of all known space debris. Jah illustrates this with a web-based\ndatabase that he has developed. It draws on several sources, such as catalogues\nmaintained by the US and Russian governments, to visualise where objects are in\nspace. When he types in an identifier for a particular space object, the database\ndraws a purple line to designate its orbit. Only this doesn’t quite work for a number\nof objects, such as a Russian rocket body designated in the database as object\nnumber 32280. When Jah enters that number, the database draws two purple lines:\nthe US and Russian sources contain two completely different orbits for the same\nobject. Jah says that it is almost impossible to tell which is correct, unless a third\nsource of information made it possible to cross-correlate.\nJah describes himself as a space environmentalist: ‘I want to make space a place\nthat is safe to operate, that is free and useful for generations to come.’ Until that\nhappens, he argues, the space community will continue devolving into a tragedy in\nwhich all spaceflight operators are polluting a common resource.\n26\n\nReading\nQuestions 27-31\nReading Passage 3 has six sections, A-F.\nWhich section contains the following information?\nWrite the correct letter, A-F, in boxes 27-31 on your answer sheet.\n27\na reference to the cooperation that takes place to try and minimise risk\n28\nan explanation of a person’s aims\n29\na description of a major collision that occurred in space\n30\na comparison between tracking objects in space and the efficiency of a\ntransportation system\n31\na reference to efforts to classify space junk\nQuestions 32-35\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 32-35 on your answer sheet.\nu Eie Inter-Agency Space Debris Coordination Committee\nThe committee gives advice on how the 32\nof space can be\nachieved. The committee advises that when satellites are no longer active, any\nunused 33\nor pressurised material that could cause\nshould be removed.\n34\nAlthough operators of large satellite constellations accept that they have obligations\nas stewards of space, Holger Krag points out that the operators that become\nare unlikely to prioritise removing their satellites from space.\n35\n27"
           },
           {
-            "id": "R70_10_4",
+            "id": "CAM18_T1_R3_2",
             "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What proactive measure is being developed to safely de-orbit defunct orbital satellites?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Automated capture harpoons, robotic magnetic arms, and atmospheric re-entry drag sails",
+              "B": "Detonating thermonuclear warheads in low Earth orbit",
+              "C": "Banning all commercial communication satellites permanently",
+              "D": "Painting satellites black so they become completely invisible"
             },
-            "correct": "B",
+            "correct": "A",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Các kỹ sư hàng không đang thử nghiệm ngọn giáo phóng bắt rác (harpoons), cánh tay robot từ tính và cánh buồm tăng lực cản khí quyển để kéo vệ tinh hỏng về bốc cháy an toàn.",
+              "B": "Nổ hạt nhân sẽ tạo ra lượng mảnh vỡ khủng khiếp hơn gấp bội.",
+              "C": "Bẫy cấm đoán cực đoan phi thực tế.",
+              "D": "Sơn đen càng khiến rác khó bị theo dõi hơn."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Những giải pháp công nghệ nào đang được các nhà khoa học thử nghiệm để kéo vệ tinh hết hạn về bầu khí quyển tiêu hủy?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Active debris removal & De-orbit technologies",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'harpoons', 'robotic arms', 'drag sails'",
+                "Khớp với phương án A",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy kích nổ hạt nhân ở phương án B."
             },
-            "context": "Space Exploration, Astrophysics & Planetary Science (Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn)",
-            "context_vi": "Thám Hiểm Không Gian, Sao Hỏa & Thiên Văn — Band 7.0",
-            "passage": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Space Exploration, Astrophysics & Planetary Science\n\nThe scholarly examination of relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 3",
+            "context_vi": "Công nghệ thu hồi và tiêu hủy rác vũ trụ",
+            "passage": "Reading\n\nYou should spend about 20 minutes on Questions 27-40, which are based on Reading\nPassage 3 below.\nConquering Earth’s space junk problem\nSatellites, rocket shards and collision debris are creating major traffic risks in orbit\naround the planet. Researchers are working to reduce these threats\nA\nLast year, commercial companies, military and civil departments and amateurs\nsent more than 400 satellites into orbit, over four times the yearly average in\nthe previous decade. Numbers could rise even more sharply if leading space\ncompanies follow through on plans to deploy hundreds to thousands of large\nconstellations of satellites to space in the next few years.\nAll that traffic can lead to disaster. Ten years ago, a US commercial Iridium satellite\nsmashed into an inactive Russian communications satellite called Cosmos-2251,\ncreating thousands of new pieces of space shrapnel that now threaten other\nsatellites in low Earth orbit- the zone stretching up to 2,000 kilometres in altitude.\nAltogether, there are roughly 20,000 human-made objects in orbit, from working\nsatellites to small rocket pieces. And satellite operators can’t steer away from every\npotential crash, because each move consumes time and fuel that could otherwise\nbe used for the spacecraft’s main job.\nB\nConcern about space junk goes back to the beginning of the satellite era, but the\nnumber of objects in orbit is rising so rapidly that researchers are investigating\nnew ways of attacking the problem. Several teams are trying to improve methods\nfor assessing what is in orbit, so that satellite operators can work more efficiently\nin ever-more-crowded space. Some researchers are now starting to compile a\nmassive data set that includes the best possible information on where everything is\nin orbit. Others are developing taxonomies of space\n- working on measuring\nproperties such as the shape and size of an object, so that satellite operators know\nhow much to worry about what’s coming their way.\nThe alternative, many say, is unthinkable. Just a few uncontrolled space crashes\ncould generate enough debris to set off a runaway cascade of fragments, rendering\nnear-Earth space unusable. ‘If we go on like this, we will reach a point of no return,’\nsays Carolin Frueh, an astrodynamical researcher at Purdue University in West\nLafayette, Indiana.\nC\nEven as our ability to monitor space objects increases, so too does the total\nnumber of items in orbit. That means companies, governments and other players in\nspace are collaborating in new ways to avoid a shared threat. International groups\nsuch as the Inter-Agency Space Debris Coordination Committee have developed\nguidelines on space sustainability. Those include inactivating satellites at the\nend of their useful life by venting pressurised materials or leftover fuel that might\n25\n\nlead to explosions. The intergovernmental groups also advise lowering satellites\ndeep enough into the atmosphere that they will burn up or disintegrate within 25\nyears. But so far, only about half of all missions have abided by this 25-year goal,\nsays Holger Krag, head of the European Space Agency’s space-debris office in\nDarmstadt, Germany. Operators of the planned large constellations of satellites say\nthey will be responsible stewards in their enterprises in space, but Krag worries\nthat problems could increase, despite their best intentions. ‘What happens to those\nthat fail or go bankrupt?’ he asks. They are probably not going to spend money to\nremove their satellites from space.’\nD\nIn theory, given the vastness of space, satellite operators should have plenty of\nroom for all these missions to fly safely without ever nearing another object. So\nsome scientists are tackling the problem of space junk by trying to find out where\nall the debris is to a high degree of precision. That would alleviate the need for\nmany of the unnecessary manoeuvres that are carried out to avoid potential\ncollisions. ‘If you knew precisely where everything was, you would almost never\nhave a problem,’ says Marlon Sorge, a space-debris specialist at the Aerospace\nCorporation in El Segundo, California.\nE\nThe field is called space traffic management, because it’s similar to managing traffic\non the roads or in the air. Think about a busy day at an airport, says Moriba Jah,\nan astrodynamicist at the University of Texas at Austin: planes line up in the sky,\nlanding and taking off close to one another in a carefully choreographed routine.\nAir-traffic controllers know the location of the planes down to one metre in accuracy.\nThe same can’t be said for space debris. Not all objects in orbit are known, and\neven those included in databases are not tracked consistently.\nF\nAn additional problem is that there is no authoritative catalogue that accurately\nlists the orbits of all known space debris. Jah illustrates this with a web-based\ndatabase that he has developed. It draws on several sources, such as catalogues\nmaintained by the US and Russian governments, to visualise where objects are in\nspace. When he types in an identifier for a particular space object, the database\ndraws a purple line to designate its orbit. Only this doesn’t quite work for a number\nof objects, such as a Russian rocket body designated in the database as object\nnumber 32280. When Jah enters that number, the database draws two purple lines:\nthe US and Russian sources contain two completely different orbits for the same\nobject. Jah says that it is almost impossible to tell which is correct, unless a third\nsource of information made it possible to cross-correlate.\nJah describes himself as a space environmentalist: ‘I want to make space a place\nthat is safe to operate, that is free and useful for generations to come.’ Until that\nhappens, he argues, the space community will continue devolving into a tragedy in\nwhich all spaceflight operators are polluting a common resource.\n26\n\nReading\nQuestions 27-31\nReading Passage 3 has six sections, A-F.\nWhich section contains the following information?\nWrite the correct letter, A-F, in boxes 27-31 on your answer sheet.\n27\na reference to the cooperation that takes place to try and minimise risk\n28\nan explanation of a person’s aims\n29\na description of a major collision that occurred in space\n30\na comparison between tracking objects in space and the efficiency of a\ntransportation system\n31\na reference to efforts to classify space junk\nQuestions 32-35\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 32-35 on your answer sheet.\nu Eie Inter-Agency Space Debris Coordination Committee\nThe committee gives advice on how the 32\nof space can be\nachieved. The committee advises that when satellites are no longer active, any\nunused 33\nor pressurised material that could cause\nshould be removed.\n34\nAlthough operators of large satellite constellations accept that they have obligations\nas stewards of space, Holger Krag points out that the operators that become\nare unlikely to prioritise removing their satellites from space.\n35\n27"
           }
         ]
       },
