@@ -3292,11 +3292,15 @@
             let html = '';
             mocks.forEach((m, idx) => {
                 const mockNum = (idx + 1).toString().padStart(2, '0');
+                const isCam18 = idx < 4;
                 html += `
-                    <div class="card" style="display:flex; flex-direction:column; justify-content:space-between; border:1px solid var(--border-subtle); transition:var(--transition-smooth);">
+                    <div class="card" style="display:flex; flex-direction:column; justify-content:space-between; border:1px solid ${isCam18 ? '#93c5fd' : 'var(--border-subtle)'}; background:${isCam18 ? 'linear-gradient(180deg, #ffffff 0%, #f0f7ff 100%)' : 'var(--surface)'}; transition:var(--transition-smooth); box-shadow:${isCam18 ? '0 4px 12px rgba(37,99,235,0.08)' : 'none'};">
                         <div>
-                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem;">
-                                <span class="badge-pill badge-blue">Full Mock ${mockNum}</span>
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem; flex-wrap:wrap; gap:0.4rem;">
+                                <div style="display:flex; gap:0.4rem; align-items:center;">
+                                    <span class="badge-pill badge-blue">Full Mock ${mockNum}</span>
+                                    ${isCam18 ? '<span class="badge-pill" style="background:#1e3a8a; color:#fff; font-weight:700;">★ Cambridge 18 Gốc</span>' : ''}
+                                </div>
                                 <span class="badge-pill badge-green">Target Band ${m.target_band || '6.5'}</span>
                             </div>
                             <h4 style="font-size:1.1rem; color:var(--ink); margin-bottom:0.4rem; line-height:1.4;">${m.title_vi || m.title}</h4>

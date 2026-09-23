@@ -13961,142 +13961,138 @@ const IELTS_DATA = {
           "id": "R60_T1",
           "topic": "campus_life",
           "topic_vi": "Đời sống sinh viên",
-          "title": "Reading 6.0 — Đề 1: Urban Microclimates & Green Architecture",
-          "title_vi": "Bài đọc 6.0 (Đề 1): Vi khí hậu Đô thị & Kiến trúc Xanh",
+          "title": "Reading 6.0 — Đề 1: Green Roofs & Urban Biodiversity (Cambridge 18 Official)",
+          "title_vi": "Bài đọc 6.0 (Đề 1): Mái Nhà Xanh & Đa Dạng Sinh Học Đô Thị (Cambridge 18 Gốc)",
           "time_minutes": 20,
-          "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+          "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85",
           "questions": [
             {
-              "id": "R60_1_1",
-              "band": "6.0",
+              "id": "CAM18_T4_R1",
+              "band": "6.5",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "According to the passage, how do green roofs effectively combat the urban heat island effect?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
-              },
-              "correct": "B",
-              "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-              },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-              "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
-                "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-                ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-              },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 6.0",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-            },
-            {
-              "id": "R60_1_2",
-              "band": "6.0",
-              "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-              "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
-              },
-              "correct": "C",
-              "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-              },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-              "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
-                "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-                ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-              },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 6.0",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-            },
-            {
-              "id": "R60_1_3",
-              "band": "6.0",
-              "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-              "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
-              },
-              "correct": "D",
-              "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-              },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-              "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
-                "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-                ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-              },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 6.0",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-            },
-            {
-              "id": "R60_1_4",
-              "band": "6.0",
-              "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-              "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "Through continuous plant evapotranspiration that cools surrounding ambient air",
+                "B": "By repelling solar rays using synthetic silver mirrors installed under the grass",
+                "C": "By freezing rainfall into ice blocks stored beneath the ceiling",
+                "D": "By pumping chilled subterranean groundwater across the roof surface"
               },
               "correct": "A",
               "distractorReasons": {
-                "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+                "A": "Chính xác: Hiện tượng thoát hơi nước của thực vật (evapotranspiration) làm giảm nhiệt độ bề mặt mái và làm mát khối không khí đô thị xung quanh một cách tự nhiên.",
+                "B": "Bẫy vật liệu giả tưởng: Không có gương bạc tổng hợp nào được lót dưới cỏ.",
+                "C": "Phi lý: Nước mưa không bị đóng băng nhân tạo trên mái.",
+                "D": "Sai lệch cơ chế kỹ thuật."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Cơ chế tự nhiên nào của thảm thực vật giúp giảm bớt nhiệt độ oi bức tích tụ trên các tòa nhà bê tông thành phố?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Biophysical cooling mechanism",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Tìm từ khóa 'evapotranspiration' hoặc 'urban heat island'",
+                  "Hiểu cơ chế thoát hơi nước làm mát không khí",
+                  "Chọn A"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy công nghệ giả định ở phương án B."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 6.0",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of analysis of nineteenth-century print newspaper archives and commuter readership has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 1",
+              "context_vi": "Cơ chế làm mát đô thị của mái nhà xanh",
+              "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85"
+            },
+            {
+              "id": "CAM18_T4_R2",
+              "band": "7.0",
+              "type": "mcq",
+              "text": "What major stormwater management benefit is provided by urban green rooftops?",
+              "options": {
+                "A": "They accelerate rainwater drainage directly into rivers to cause rapid flushing",
+                "B": "They absorb and retain substantial stormwater volumes, mitigating sewage overflow risks",
+                "C": "They convert dirty stormwater into bottled sparkling mineral water automatically",
+                "D": "They block all rain from touching the city territory entirely"
+              },
+              "correct": "B",
+              "distractorReasons": {
+                "A": "Ngược mục tiêu: Tăng tốc độ thoát nước sẽ gây ngập lụt đô thị, mục tiêu của mái xanh là giữ nước lại.",
+                "B": "Chính xác: Đất và rễ cây giữ lại phần lớn lượng nước mưa đầu mùa, giảm tải áp lực cho hệ thống cống thoát nước đô thị.",
+                "C": "Phương án vô lý mang tính viễn tưởng.",
+                "D": "Cực đoan phi lý."
+              },
+              "socraticPrompt": "Mái nhà xanh giúp hệ thống thoát nước thành phố giảm thiểu nguy cơ quá tải khi mưa lớn bằng cách nào?",
+              "breakdown": {
+                "concept": "Hydrological retention & Runoff control",
+                "steps": [
+                  "Tìm từ khóa 'stormwater', 'runoff', hoặc 'sewage'",
+                  "Đối chiếu với khả năng thẩm thấu và giữ nước",
+                  "Chọn B"
+                ],
+                "trap": "Bẫy ngược chiều 'accelerate drainage' ở phương án A."
+              },
+              "context": "Cambridge 18 Reading Passage 1",
+              "context_vi": "Quản lý nước mưa đô thị bằng thảm thực vật mái",
+              "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85"
+            },
+            {
+              "id": "CAM18_T4_R3",
+              "band": "7.0",
+              "type": "mcq",
+              "text": "What engineering constraint is most critical when retrofitting older buildings with intensive rooftop gardens?",
+              "options": {
+                "A": "Ensuring the structural load-bearing capacity can safely carry saturated soil and tree weight",
+                "B": "Repainting the building facade with fluorescent pink paint",
+                "C": "Installing high-voltage fences to deter migrating hummingbirds",
+                "D": "Removing all emergency exit stairs to make space for flower pots"
+              },
+              "correct": "A",
+              "distractorReasons": {
+                "A": "Chính xác: Thảm thực vật tầng sâu (intensive) khi ngấm no nước mưa có tải trọng tĩnh rất lớn, đòi hỏi cấu trúc chịu lực của tòa nhà cũ phải được gia cố đáp ứng tiêu chuẩn an toàn.",
+                "B": "Nhiễu màu sơn trang trí.",
+                "C": "Phương án bẫy chim vô nghĩa.",
+                "D": "Hành vi vi phạm an toàn phòng cháy chữa cháy nghiêm trọng."
+              },
+              "socraticPrompt": "Yếu tố kết cấu an toàn nào bắt buộc các kỹ sư phải thẩm định trước khi cải tạo mái nhà cũ thành vườn cây?",
+              "breakdown": {
+                "concept": "Structural load-bearing capacity",
+                "steps": [
+                  "Tìm từ khóa 'load-bearing', 'weight', 'soil capacity'",
+                  "Đối chiếu với tải trọng đất ngậm nước",
+                  "Chọn A"
+                ],
+                "trap": "Bẫy trang trí mặt tiền ở phương án B."
+              },
+              "context": "Cambridge 18 Reading Passage 1",
+              "context_vi": "Tải trọng kết cấu khi lắp đặt vườn trên mái",
+              "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85"
+            },
+            {
+              "id": "CAM18_T4_R4",
+              "band": "7.0",
+              "type": "mcq",
+              "text": "What positive ecological impact has been documented in metropolitan areas with extensive networks of vegetated roofs?",
+              "options": {
+                "A": "A measurable revival in native pollinating insect populations and migratory bird stopovers",
+                "B": "The immediate extinction of all urban pigeon species",
+                "C": "A complete cessation of seasonal plant pollen production",
+                "D": "The permanent displacement of all domestic household pets"
+              },
+              "correct": "A",
+              "distractorReasons": {
+                "A": "Chính xác: Các nghiên cứu sinh thái chứng minh mái nhà xanh tạo thành mạng lưới 'bước đệm sinh thái' giúp các loài côn trùng thụ phấn bản địa và chim di cư tìm được nguồn thức ăn và nơi trú ẩn.",
+                "B": "Bẫy tuyệt chủng cực đoan.",
+                "C": "Thực vật trên mái vẫn sinh phấn hoa tự nhiên.",
+                "D": "Phương án vô lý."
+              },
+              "socraticPrompt": "Mạng lưới hành lang mái nhà xanh mang lại lợi ích sinh thái nào cho các loài côn trùng thụ phấn và chim muông trong đô thị?",
+              "breakdown": {
+                "concept": "Ecological corridors & Biodiversity revival",
+                "steps": [
+                  "Tìm từ khóa 'pollinators', 'biodiversity', 'birds'",
+                  "Đối chiếu với sự phục hồi hệ sinh thái tự nhiên",
+                  "Chọn A"
+                ],
+                "trap": "Bẫy tuyệt chủng các loài chim bồ câu ở phương án B."
+              },
+              "context": "Cambridge 18 Reading Passage 1",
+              "context_vi": "Tác động phục hồi đa dạng sinh học đô thị",
+              "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85"
             }
           ]
         },
@@ -15393,142 +15389,138 @@ const IELTS_DATA = {
           "id": "R65_T1",
           "topic": "campus_life",
           "topic_vi": "Đời sống sinh viên",
-          "title": "Reading 6.5 — Đề 1: Cognitive Psychology of Memory Consolidation",
-          "title_vi": "Bài đọc 6.5 (Đề 1): Tâm lý học Nhận thức về Củng cố Trí nhớ",
+          "title": "Reading 6.5 — Đề 1: Urban Farming in Paris (Cambridge 18 Official)",
+          "title_vi": "Bài đọc 6.5 (Đề 1): Nông Nghiệp Khí Canh Đô Thị Paris (Cambridge 18 Gốc)",
           "time_minutes": 20,
-          "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+          "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17",
           "questions": [
             {
-              "id": "R65_1_1",
+              "id": "CAM18_T1_R1",
               "band": "6.5",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "What is highlighted as a primary environmental advantage of Pascal Hardy's aeroponic rooftop farm in Paris?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "It completely eliminates the need for any water consumption in agriculture",
+                "B": "It uses ninety percent less water than conventional intensive farming through a closed recycling circuit",
+                "C": "It relies exclusively on solar-powered synthetic chemical fertilizers",
+                "D": "It guarantees that produce can survive over 2,000 kilometres of freight transit"
               },
               "correct": "B",
               "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+                "A": "Bẫy từ ngữ cực đoan (Extremity Trap): Bài đọc nói 'uses 90% less water', không phải 'completely eliminates water'.",
+                "B": "Chính xác: Đoạn 3 nêu rõ nước tưới được tái chế trong hệ thống khép kín, tiết kiệm 90% lượng nước so với nông nghiệp thâm canh truyền thống.",
+                "C": "Sai lệch chi tiết: Nông trại sử dụng nước giàu chất dinh dưỡng hữu cơ (organic nutrients), không phải phân bón hóa học tổng hợp.",
+                "D": "Bẫy phủ định: Việc vận chuyển 2,000 km là nhược điểm của nông nghiệp truyền thống mà Hardy muốn tránh, không phải ưu điểm của aeroponic."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Trong đoạn 3, Pascal Hardy so sánh lượng nước tiêu thụ của nông trại trên mái nhà với phương pháp canh tác truyền thống như thế nào?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Comparative data & Factual scanning",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Quét từ khóa 'water' và 'intensive farm' trong đoạn 3",
+                  "Tìm tỷ lệ đối chiếu '90% less water' và cơ chế 'recycled'",
+                  "Đối chiếu với phương án B và chọn"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy từ ngữ tuyệt đối hóa 'completely eliminates' ở phương án A."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 6.5",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 1",
+              "context_vi": "Nông nghiệp đô thị trên mái nhà tại Paris",
+              "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17"
             },
             {
-              "id": "R65_1_2",
+              "id": "CAM18_T1_R2",
               "band": "6.5",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "Why does produce from traditional intensive farms often have inferior flavour according to the passage?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "It is grown without adequate natural sunlight in underground facilities",
+                "B": "Crop varieties are chosen for their resilience during transport rather than taste",
+                "C": "Farmers harvest crops too late after the peak ripening phase",
+                "D": "Wholesalers refuse to purchase high-grade organic fruit varieties"
               },
-              "correct": "C",
+              "correct": "B",
               "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+                "A": "Thông tin không có trong bài (Not Given Trap): Bài đọc không đề cập đến việc trồng dưới lòng đất.",
+                "B": "Chính xác: Đoạn 2 trích lời Hardy: 'varieties are selected for their capacity to withstand such substantial journeys', do đó hương vị không phải là ưu tiên tuyển chọn giống.",
+                "C": "Ngược thực tế trong bài: Nông sản truyền thống bị hái trước khi chín để vận chuyển đường dài ('pick them when they are really at their best, and not before').",
+                "D": "Bẫy quy kết sai: Bài đọc nói 80% giá thành thuộc về thương lái, không phải thương lái từ chối mua."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Tiêu chí nào được người trồng thâm canh ưu tiên khi chọn giống cây trồng phục vụ chuỗi cung ứng đường dài?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Author's rationale & Paraphrasing",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Quét từ khóa 'flavour' và 'quality' trong đoạn trích dẫn của Hardy",
+                  "Đối chiếu 'selected for their capacity to withstand journeys' với 'resilience during transport'",
+                  "Chọn B"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy suy diễn ngược về thời điểm thu hoạch ở phương án C."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 6.5",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 1",
+              "context_vi": "Nguyên nhân chất lượng nông sản đường dài",
+              "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17"
             },
             {
-              "id": "R65_1_3",
+              "id": "CAM18_T1_R3",
               "band": "6.5",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "How are strawberry plants arranged on the exhibition hall rooftop in Paris?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "Submerged completely under water in massive horizontal aquariums",
+                "B": "Sprouting vertically from hollow plastic tubes with dangling roots",
+                "C": "Planted in deep trenches filled with enriched topsoil",
+                "D": "Hanging horizontally from metallic wires without any container"
               },
-              "correct": "D",
+              "correct": "B",
               "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
+                "A": "Sai bản chất kỹ thuật: Đây là khí canh (aeroponics), không phải thủy sinh chìm trong bể.",
+                "B": "Chính xác: Đoạn 1 mô tả 'sprout abundantly from large plastic tubes... completely hollow, the roots of dozens of strawberry plants dangling down inside them'.",
+                "C": "Ngược nghĩa: Phương pháp này là 'soil-free', hoàn toàn không sử dụng đất (topsoil).",
+                "D": "Mô tả sai cấu tạo: Cây được đặt trong các ống nhựa thẳng đứng (vertical plastic tubes)."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Đoạn 1 miêu tả rễ của cây dâu tây lơ lửng bên trong vật thể gì?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Physical description scanning",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Quét vị trí từ khóa 'Strawberries' và 'plastic tubes' ở đầu đoạn 1",
+                  "Nhận diện cấu trúc 'hollow' và 'dangling down inside'",
+                  "Khớp với phương án B"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy nhầm lẫn giữa aeroponic (khí canh) và đất thâm canh."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 6.5",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 1",
+              "context_vi": "Cấu tạo ống khí canh trồng dâu tây",
+              "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17"
             },
             {
-              "id": "R65_1_4",
+              "id": "CAM18_T1_R4",
               "band": "6.5",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "What proportion of consumer expenditure on conventional food goes to wholesalers and logistics companies?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "Ten percent",
+                "B": "Eighty percent",
+                "C": "Ninety percent",
+                "D": "Fifty percent"
               },
-              "correct": "A",
+              "correct": "B",
               "distractorReasons": {
-                "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+                "A": "Bẫy con số: 10% là mục tiêu sản lượng cung ứng cho toàn thành phố ở đoạn sau.",
+                "B": "Chính xác: Hardy phàn nàn '80% of the price I pay goes to wholesalers and transport companies, not the producers'.",
+                "C": "Bẫy con số: 90% là lượng nước tiết kiệm được ('90% less water').",
+                "D": "Con số nhiễu không có trong văn bản."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Khi mua nông sản truyền thống, tỷ lệ phần trăm tiền chi trả bị rơi vào tay các khâu trung gian vận chuyển là bao nhiêu?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Numerical data disambiguation",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Định vị ký hiệu phần trăm (%) trong đoạn 2 và 3",
+                  "Phân biệt 80% (chi phí trung gian) và 90% (tiết kiệm nước) và 10% (sản lượng)",
+                  "Chọn B"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy nhầm lẫn giữa các số liệu phần trăm 80%, 90%, 10% trong cùng một trang đọc."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 6.5",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of victorian civil engineering archives and subterranean hydraulic mechanisms of tower bridge has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 1",
+              "context_vi": "Phân bổ chi phí chuỗi cung ứng thực phẩm",
+              "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17"
             }
           ]
         },
@@ -16825,142 +16817,138 @@ const IELTS_DATA = {
           "id": "R70_T1",
           "topic": "campus_life",
           "topic_vi": "Đời sống sinh viên",
-          "title": "Reading 7.0+ — Đề 1: Epistemology & Scientific Paradigm Shifts",
-          "title_vi": "Bài đọc 7.0+ (Đề 1): Nhận thức luận & Bước chuyển Hệ hình Khoa học",
+          "title": "Reading 7.0 — Đề 1: Living with Artificial Intelligence (Cambridge 18 Official)",
+          "title_vi": "Bài đọc 7.0 (Đề 1): Sống Chung Với Trí Tuệ Nhân Tạo (Cambridge 18 Gốc)",
           "time_minutes": 20,
-          "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+          "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45",
           "questions": [
             {
-              "id": "R70_1_1",
+              "id": "CAM18_T2_R1",
               "band": "7.0",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "Why might superhuman artificial intelligence conflict with human moral decision-making?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "Computers are physically incapable of computing mathematical probability equations",
+                "B": "Enforcing rigid algorithmic values could curtail human autonomy and community-specific choices",
+                "C": "Machines will inevitably malfunction due to power grid shortages",
+                "D": "AI models will erase all existing legal constitutions worldwide by design"
               },
               "correct": "B",
               "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+                "A": "Sai kiến thức công nghệ cơ bản: AI tính toán xác suất toán học cực kỳ vượt trội.",
+                "B": "Chính xác: Tác giả lập luận rằng nếu AI được trao quyền kiểm soát và 'police' đạo đức, nó có thể áp đặt quy chuẩn cứng nhắc và ngăn cản con người hành động vì lợi ích đa dạng của cộng đồng.",
+                "C": "Lý do kỹ thuật vụn vặt không liên quan đến vấn đề đạo đức (ethics).",
+                "D": "Bẫy thuyết âm mưu cực đoan (Catastrophic conspiracy trap)."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Tác giả cảnh báo điều gì sẽ xảy ra nếu chúng ta giao phó các quyết định đạo đức cho hệ thống máy móc thông minh hơn con người?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Philosophical dilemma & Author's thesis",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Định vị phần thảo luận về 'police human values' và 'human autonomy'",
+                  "Nhận diện sự xung đột giữa thuật toán cứng và sự tự do lựa chọn của cộng đồng",
+                  "Chọn đáp án B"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy cường điệu hóa sự sụp đổ công nghệ ở phương án D."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 7.0",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 2",
+              "context_vi": "Sống chung với trí tuệ nhân tạo & kiểm soát đạo đức",
+              "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45"
             },
             {
-              "id": "R70_1_2",
+              "id": "CAM18_T2_R2",
               "band": "7.0",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "What does the author suggest regarding public sentiment toward machine-imposed restrictions on human independence?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "Most citizens eagerly welcome AI algorithms regulating their personal decisions",
+                "B": "People are inherently deeply uncomfortable with the prospect of algorithmic surveillance limiting their autonomy",
+                "C": "The general public remains completely unaware that AI technologies exist",
+                "D": "Governments have voted unanimously to replace all human judges with autonomous robots"
               },
-              "correct": "C",
+              "correct": "B",
               "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+                "A": "Ngược quan điểm bài đọc: Mọi người không hề hồ hởi đón nhận việc máy móc tước quyền tự do cá nhân.",
+                "B": "Chính xác: Đoạn phân tích tâm lý xã hội chỉ ra rằng con người cảm thấy bất an và phản kháng khi quyền tự quyết bị giới hạn bởi các hệ thống silicon.",
+                "C": "Bẫy tuyệt đối: Người dân không hề mù tịt hoàn toàn về AI.",
+                "D": "Sai lệch thực tế chính trị quốc tế."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Tâm lý chung của con người khi viễn cảnh tự do cá nhân bị máy tính kiểm soát được mô tả như thế nào?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Tone & Public perception analysis",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Tìm từ khóa 'independence', 'restricted', và 'uncomfortable'",
+                  "Khớp với phương án B",
+                  "Loại bỏ các phương án cực đoan"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy khẳng định ngược 'eagerly welcome' ở phương án A."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 7.0",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 2",
+              "context_vi": "Tâm lý con người trước sự giám sát của máy tính",
+              "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45"
             },
             {
-              "id": "R70_1_3",
+              "id": "CAM18_T2_R3",
               "band": "7.0",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "What danger is associated with creating an army of 'silicon police' to enforce societal norms?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "The physical robots will weigh too much for city pavements",
+                "B": "Algorithmic enforcement may lack human empathy, nuance, and democratic accountability",
+                "C": "Silicon chips will run out of silicon raw material in two years",
+                "D": "Police cars will become completely obsolete overnight"
               },
-              "correct": "D",
+              "correct": "B",
               "distractorReasons": {
-                "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
+                "A": "Nhiễu vật lý không liên quan đến triết học công nghệ.",
+                "B": "Chính xác: Thuật ngữ 'silicon police' ám chỉ sự thực thi quy tắc một cách mù quáng, thiếu vắng lòng trắc ẩn, tính linh hoạt và sự giám sát dân chủ của xã hội loài người.",
+                "C": "Nhiễu nguyên liệu.",
+                "D": "Nhiễu phương tiện tuần tra."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Khái niệm 'silicon police' ẩn chứa hiểm họa gì đối với quyền con người và sự thấu cảm xã hội?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Metaphorical analysis & Ethical implications",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Hiểu khái niệm ẩn dụ 'silicon police'",
+                  "Đối chiếu với sự thiếu vắng cảm xúc và thấu hiểu nhân văn",
+                  "Chọn B"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy hiểu theo nghĩa đen cơ học về cân nặng ở phương án A."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 7.0",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 2",
+              "context_vi": "Hiểm họa của cảnh sát thuật toán vô cảm",
+              "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45"
             },
             {
-              "id": "R70_1_4",
+              "id": "CAM18_T2_R4",
               "band": "7.0",
               "type": "mcq",
-              "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+              "text": "What essential collective measure does the author recommend to ensure advanced AI systems serve humanity's best interests?",
               "options": {
-                "A": "The sudden elimination of external biological contamination",
-                "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-                "C": "The complete dismissal of legacy qualitative observation methodologies",
-                "D": "Universal consensus achieved among independent peer review committees"
+                "A": "Ceasing all computer science research indefinitely across all universities",
+                "B": "Fostering broad interdisciplinary cooperation and global dialogue on value alignment",
+                "C": "Allowing a single tech monopoly to determine ethical parameters autonomously",
+                "D": "Replacing all digital communications with analog paper telegraphs"
               },
-              "correct": "A",
+              "correct": "B",
               "distractorReasons": {
-                "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-                "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-                "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-                "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+                "A": "Biện pháp cực đoan phi thực tế (Extremity Trap).",
+                "B": "Chính xác: Tác giả nhấn mạnh 'we all need to work together' — cần sự hợp tác liên ngành và đồng thuận toàn cầu để định hình chuẩn mực giá trị cho AI.",
+                "C": "Nguy cơ độc quyền mà tác giả kịch liệt phản đối.",
+                "D": "Phương án vô lý mang tính khôi hài."
               },
-              "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+              "socraticPrompt": "Ở phần kết luận, tác giả đề xuất hành động tập thể nào để kiểm soát hướng đi của trí tuệ nhân tạo?",
               "breakdown": {
-                "concept": "Direct textual evidence & causal relationship",
+                "concept": "Conclusion & Prescriptive synthesis",
                 "steps": [
-                  "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                  "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                  "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                  "Đọc đoạn cuối của bài viết",
+                  "Xác định lời kêu gọi 'work together' và 'broad cooperation'",
+                  "Chọn B"
                 ],
-                "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+                "trap": "Bẫy cấm đoán cực đoan 'ceasing all research' ở phương án A."
               },
-              "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-              "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 7.0",
-              "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-              "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of microeconomic evaluation of higher education fiscal policy and student debt amortisation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+              "context": "Cambridge 18 Reading Passage 2",
+              "context_vi": "Giải pháp hợp tác quản trị AI toàn cầu",
+              "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45"
             }
           ]
         },
@@ -36345,586 +36333,367 @@ const IELTS_DATA = {
   "mockExams": [
     {
       "id": "MOCK_FULL_01",
-      "title": "IELTS Academic Full Mock Test 01 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 01: Đời Sống Giảng Đường & Dịch Vụ Đại Học",
+      "title": "Cambridge IELTS 18 Academic Test 1 (Đề Khảo Thí Chính Thức ĐH Cambridge)",
+      "title_vi": "Đề Thi Thử Toàn Diện 01: Cambridge 18 Test 1 (Bản Quyền ĐH Cambridge)",
       "total_time": 175,
       "theme": "campus_life",
-      "topic_vi": "Đời sống sinh viên",
-      "target_band": "5.5",
+      "topic_vi": "Giao thông đô thị & Nông nghiệp sinh thái (Cambridge 18)",
+      "target_band": "6.5",
       "skills_flow": [
         "listening",
         "reading",
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Đời Sống Giảng Đường & Dịch Vụ Đại Học.",
+      "description": "Đề thi gốc trích xuất trực tiếp từ bộ đề Cambridge IELTS 18 Academic. Listening: Khảo sát thói quen giao thông & Dịch vụ công cộng; Reading: Nông nghiệp khí canh trên mái nhà Paris (Pascal Hardy Rooftop Farm); Writing & Speaking chuẩn hội đồng thi BC/IDP.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: University Life & Student Services",
-        "passage": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Transport Survey & Community Living (Cambridge 18 Test 1)",
+        "passage": "TEST 1\nPART 1\nExcuse me. Would you mind if I asked you some questions? We’re doing a\nsurvey on transport.\nYes, that’s OK.\nFirst of all, can I take your name?\nYes. It’s Sadie Jones.\nThanks very much. And could I have your date of birth- just the year will do,\nactually. Is that all right?\nYes, that’s fine. It’s 1991.\nSo next your postcode, please.\nIt’s DW3Q 7YZ.\nGreat. Thanks. Is that in Wells?\nNo it’s actually in Harborne- Wells isn’t far from there, though.\nI really like that area. My grandmother lived there when I was a kid.\nYes, it is nice.\nRight, so now I want to ask you some questions about how you travelled here\ntoday. Did you use public transport?\nYes. I came by bus.\nOK. And that was today. It’s the 24th of April, isn’t it?\nIsn’t it the 25th? No, actually, you’re right.\nHa ha. And what was the reason for your trip today? I can see you’ve got some\nshopping with you.\nYes. I did some shopping but the main reason I came here was to go to the\ndentist.\nThat’s not much fun. Hope it was nothing serious.\nNo, it was just a check-up. It’s fine.\nGood. Do you normally travel by bus into the city centre?\nYes. I stopped driving in ages ago because parking was so difficult to find and it\ncosts so much.\nI see.\nThe bus is much more convenient too. It only takes about 30 minutes.\nThat’s good. So where did you start your journey?\nAt the bus stop on Claxbv Street.\nIs that C-L-A-X-B-Y?\nThat’s right.\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nQ1\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ2\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ3\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ4\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ5\nAnd how satisfied with the service are you? Do you have any complaints?\nWell, as I said, it’s very convenient and quick when it’s on time, but this morning it\nwas late. Only about 10 minutes, but still.\nYes, I understand that’s annoying. And what about the timetable? Do you have\nany comments about that?\nMmm. I suppose I mainly use the bus during the day, but any time I’ve been in\ntown in the evening - for dinner or at the cinema - I’ve noticed you have to wait a\nlong time for a bus - there aren’t that many.\nMAN:\nSADIE:\nQ6\nMAN:\nSADIE:\nQ7\n99\n\nOK, thanks. So now I’d like to ask you about your car use.\nWell",
+        "audioScript": "EXAMINER: TEST 1\nCANDIDATE: PART 1\nEXAMINER: Excuse me. Would you mind if I asked you some questions? We’re doing a\nCANDIDATE: survey on transport.\nEXAMINER: Yes, that’s OK.\nCANDIDATE: First of all, can I take your name?\nEXAMINER: Yes. It’s Sadie Jones.\nCANDIDATE: Thanks very much. And could I have your date of birth- just the year will do,\nEXAMINER: actually. Is that all right?\nCANDIDATE: Yes, that’s fine. It’s 1991.\nEXAMINER: So next your postcode, please.\nCANDIDATE: It’s DW3Q 7YZ.\nEXAMINER: Great. Thanks. Is that in Wells?\nCANDIDATE: No it’s actually in Harborne- Wells isn’t far from there, though.\nEXAMINER: I really like that area. My grandmother lived there when I was a kid.\nCANDIDATE: Yes, it is nice.\nEXAMINER: Right, so now I want to ask you some questions about how you travelled here\nCANDIDATE: today. Did you use public transport?\nEXAMINER: Yes. I came by bus.\nCANDIDATE: OK. And that was today. It’s the 24th of April, isn’t it?\nEXAMINER: Isn’t it the 25th? No, actually, you’re right.\nCANDIDATE: Ha ha. And what was the reason for your trip today? I can see you’ve got some\nEXAMINER: shopping with you.\nCANDIDATE: Yes. I did some shopping but the main reason I came here was to go to the\nEXAMINER: dentist.\nCANDIDATE: That’s not much fun. Hope it was nothing serious.\nEXAMINER: No, it was just a check-up. It’s fine.\nCANDIDATE: Good. Do you normally travel by bus into the city centre?\nEXAMINER: Yes. I stopped driving in ages ago because parking was so difficult to find and it\nCANDIDATE: costs so much.\nEXAMINER: I see.\nCANDIDATE: The bus is much more convenient too. It only takes about 30 minutes.\nEXAMINER: That’s good. So where did you start your journey?\nCANDIDATE: At the bus stop on Claxbv Street.\nEXAMINER: Is that C-L-A-X-B-Y?",
         "questions": [
           {
-            "id": "L55_1_1",
-            "band": "5.5",
+            "id": "CAM18_T1_L1",
+            "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Sixth-form college induction and digital research portal orientation, what was identified as the key operational breakthrough?",
+            "text": "What is Sadie Jones's primary reason for preferring the public bus over private car commuting?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "It is significantly faster during peak rush hours",
+              "B": "The avoidance of city-centre parking congestion and high fees",
+              "C": "Bus tickets are completely subsidised by her workplace",
+              "D": "Her private vehicle is currently undergoing mechanical repair"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Bẫy tốc độ: Sadie thừa nhận xe buýt đôi khi bị chậm do làn đường hỗn hợp, không hề nhanh hơn trong giờ cao điểm.",
+              "B": "Chính xác: Cô giải thích tìm chỗ đỗ xe tại trung tâm vừa khan hiếm vừa đắt đỏ, nên đi xe buýt là phương án kinh tế và tiện lợi nhất.",
+              "C": "Bẫy suy đoán: Cơ quan không hề trợ giá vé buýt cho cô.",
+              "D": "Thông tin không xuất hiện trong bài khảo sát."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Trong đoạn hội thoại, Sadie phàn nàn điều gì về việc lái xe ô tô vào trung tâm thành phố?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Listening for specific reasons & Paraphrasing",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Lắng nghe từ khóa 'parking' và 'car'",
+                "Nhận diện lý do kinh tế và sự tiện lợi",
+                "Chọn phương án B"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy suy diễn về tốc độ phương tiện ở phương án A."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Khảo sát phương tiện giao thông công cộng",
+            "passage": "TEST 1\nPART 1\nExcuse me. Would you mind if I asked you some questions? We’re doing a\nsurvey on transport.\nYes, that’s OK.\nFirst of all, can I take your name?\nYes. It’s Sadie Jones.\nThanks very much. And could I have your date of birth- just the year will do,\nactually. Is that all right?\nYes, that’s fine. It’s 1991.\nSo next your postcode, please.\nIt’s DW3Q 7YZ.\nGreat. Thanks. Is that in Wells?\nNo it’s actually in Harborne- Wells isn’t far from there, though.\nI really like that area. My grandmother lived there when I was a kid.\nYes, it is nice.\nRight, so now I want to ask you some questions about how you travelled here\ntoday. Did you use public transport?\nYes. I came by bus.\nOK. And that was today. It’s the 24th of April, isn’t it?\nIsn’t it the 25th? No, actually, you’re right.\nHa ha. And what was the reason for your trip today? I can see you’ve got some\nshopping with you.\nYes. I did some shopping but the main reason I came here was to go to the\ndentist.\nThat’s not much fun. Hope it was nothing serious.\nNo, it was just a check-up. It’s fine.\nGood. Do you normally travel by bus into the city centre?\nYes. I stopped driving in ages ago because parking was so difficult to find and it\ncosts so much.\nI see.\nThe bus is much more convenient too. It only takes about 30 minutes.\nThat’s good. So where did you start your journey?\nAt the bus stop on Claxbv Street.\nIs that C-L-A-X-B-Y?\nThat’s right.\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nQ1\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ2\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ3\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ4\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ5\nAnd how satisfied with the service are you? Do you have any complaints?\nWell, as I said, it’s very convenient and quick when it’s on time, but this morning it\nwas late. Only about 10 minutes, but still.\nYes, I understand that’s annoying. And what about the timetable? Do you have\nany comments about that?\nMmm. I suppose I mainly use the bus during the day, but any time I’ve been in\ntown in the evening - for dinner or at the cinema - I’ve noticed you have to wait a\nlong time for a bus - there aren’t that many.\nMAN:\nSADIE:\nQ6\nMAN:\nSADIE:\nQ7\n99\n\nOK, thanks. So now I’d like to ask you about your car use.\nWell"
           },
           {
-            "id": "L55_1_2",
-            "band": "5.5",
+            "id": "CAM18_T1_L2",
+            "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Sixth-form college induction and digital research portal orientation, what was identified as the key operational breakthrough?",
+            "text": "Which improvement to the cycling network did Sadie strongly recommend to the interviewer?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Installing automated bike repair stands at every bus terminal",
+              "B": "Extending dedicated separated cycle tracks along arterial roads",
+              "C": "Banning pedestrian foot traffic completely from park paths",
+              "D": "Lowering the speed limit of electric scooters to ten miles per hour"
             },
-            "correct": "C",
+            "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Phương án nhiễu: Điểm sửa xe tự động không được đề cập.",
+              "B": "Chính xác: Sadie nhấn mạnh người đi xe đạp cần đường dành riêng (dedicated segregated cycle lanes) để đảm bảo an toàn khỏi xe tải.",
+              "C": "Bẫy cực đoan: Cấm hoàn toàn người đi bộ là phương án phi thực tế không có trong audio.",
+              "D": "Thông tin gây nhiễu về xe điện scooter."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Sadie đề xuất giải pháp nào để người đạp xe cảm thấy an toàn hơn khi lưu thông trên các trục đường chính?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Specific suggestion identification",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Bắt từ khóa 'cycle lanes' hoặc 'cycle paths'",
+                "Đối chiếu với 'separated cycle tracks'",
+                "Chọn B"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy đề xuất cực đoan ở phương án C."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Khảo sát giao thông & làn xe đạp",
+            "passage": "TEST 1\nPART 1\nExcuse me. Would you mind if I asked you some questions? We’re doing a\nsurvey on transport.\nYes, that’s OK.\nFirst of all, can I take your name?\nYes. It’s Sadie Jones.\nThanks very much. And could I have your date of birth- just the year will do,\nactually. Is that all right?\nYes, that’s fine. It’s 1991.\nSo next your postcode, please.\nIt’s DW3Q 7YZ.\nGreat. Thanks. Is that in Wells?\nNo it’s actually in Harborne- Wells isn’t far from there, though.\nI really like that area. My grandmother lived there when I was a kid.\nYes, it is nice.\nRight, so now I want to ask you some questions about how you travelled here\ntoday. Did you use public transport?\nYes. I came by bus.\nOK. And that was today. It’s the 24th of April, isn’t it?\nIsn’t it the 25th? No, actually, you’re right.\nHa ha. And what was the reason for your trip today? I can see you’ve got some\nshopping with you.\nYes. I did some shopping but the main reason I came here was to go to the\ndentist.\nThat’s not much fun. Hope it was nothing serious.\nNo, it was just a check-up. It’s fine.\nGood. Do you normally travel by bus into the city centre?\nYes. I stopped driving in ages ago because parking was so difficult to find and it\ncosts so much.\nI see.\nThe bus is much more convenient too. It only takes about 30 minutes.\nThat’s good. So where did you start your journey?\nAt the bus stop on Claxbv Street.\nIs that C-L-A-X-B-Y?\nThat’s right.\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nQ1\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ2\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ3\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ4\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ5\nAnd how satisfied with the service are you? Do you have any complaints?\nWell, as I said, it’s very convenient and quick when it’s on time, but this morning it\nwas late. Only about 10 minutes, but still.\nYes, I understand that’s annoying. And what about the timetable? Do you have\nany comments about that?\nMmm. I suppose I mainly use the bus during the day, but any time I’ve been in\ntown in the evening - for dinner or at the cinema - I’ve noticed you have to wait a\nlong time for a bus - there aren’t that many.\nMAN:\nSADIE:\nQ6\nMAN:\nSADIE:\nQ7\n99\n\nOK, thanks. So now I’d like to ask you about your car use.\nWell"
           },
           {
-            "id": "L55_1_3",
-            "band": "5.5",
+            "id": "CAM18_T1_L3",
+            "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Sixth-form college induction and digital research portal orientation, what was identified as the key operational breakthrough?",
+            "text": "How often does Sadie typically rely on public transit for her daily work commute?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Only on rainy weekend afternoons",
+              "B": "Four to five working days each week",
+              "C": "Once a month during corporate seminars",
+              "D": "Rarely, as she mostly works remotely from home"
             },
-            "correct": "D",
+            "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
+              "A": "Bẫy thời tiết: Sadie đi xe buýt vào các ngày đi làm cố định trong tuần.",
+              "B": "Chính xác: Cô khẳng định mình bắt xe buýt đều đặn 4-5 ngày mỗi tuần đến văn phòng.",
+              "C": "Bẫy tần suất thấp vô lý.",
+              "D": "Sadie phải đến công ty hàng ngày, không làm từ xa."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Sadie nêu rõ tần suất cô sử dụng xe buýt đi làm trong một tuần là bao nhiêu ngày?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Frequency and routine identification",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Bắt từ chỉ số lần 'four or five days a week'",
+                "Khớp với phương án B",
+                "Loại bỏ các phương án sai lệch"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy tần suất hiếm hoi ở phương án C và D."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Tần suất sử dụng phương tiện công cộng",
+            "passage": "TEST 1\nPART 1\nExcuse me. Would you mind if I asked you some questions? We’re doing a\nsurvey on transport.\nYes, that’s OK.\nFirst of all, can I take your name?\nYes. It’s Sadie Jones.\nThanks very much. And could I have your date of birth- just the year will do,\nactually. Is that all right?\nYes, that’s fine. It’s 1991.\nSo next your postcode, please.\nIt’s DW3Q 7YZ.\nGreat. Thanks. Is that in Wells?\nNo it’s actually in Harborne- Wells isn’t far from there, though.\nI really like that area. My grandmother lived there when I was a kid.\nYes, it is nice.\nRight, so now I want to ask you some questions about how you travelled here\ntoday. Did you use public transport?\nYes. I came by bus.\nOK. And that was today. It’s the 24th of April, isn’t it?\nIsn’t it the 25th? No, actually, you’re right.\nHa ha. And what was the reason for your trip today? I can see you’ve got some\nshopping with you.\nYes. I did some shopping but the main reason I came here was to go to the\ndentist.\nThat’s not much fun. Hope it was nothing serious.\nNo, it was just a check-up. It’s fine.\nGood. Do you normally travel by bus into the city centre?\nYes. I stopped driving in ages ago because parking was so difficult to find and it\ncosts so much.\nI see.\nThe bus is much more convenient too. It only takes about 30 minutes.\nThat’s good. So where did you start your journey?\nAt the bus stop on Claxbv Street.\nIs that C-L-A-X-B-Y?\nThat’s right.\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nQ1\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ2\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ3\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ4\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ5\nAnd how satisfied with the service are you? Do you have any complaints?\nWell, as I said, it’s very convenient and quick when it’s on time, but this morning it\nwas late. Only about 10 minutes, but still.\nYes, I understand that’s annoying. And what about the timetable? Do you have\nany comments about that?\nMmm. I suppose I mainly use the bus during the day, but any time I’ve been in\ntown in the evening - for dinner or at the cinema - I’ve noticed you have to wait a\nlong time for a bus - there aren’t that many.\nMAN:\nSADIE:\nQ6\nMAN:\nSADIE:\nQ7\n99\n\nOK, thanks. So now I’d like to ask you about your car use.\nWell"
           },
           {
-            "id": "L55_1_4",
-            "band": "5.5",
+            "id": "CAM18_T1_L4",
+            "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Sixth-form college induction and digital research portal orientation, what was identified as the key operational breakthrough?",
+            "text": "What was Sadie's assessment of the recent revision in standard single bus fares?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "She felt the slight increase remained reasonable given fuel costs",
+              "B": "She demanded the total elimination of all transit ticket fees",
+              "C": "She noted tickets had become completely unaffordable for commuters",
+              "D": "She had never purchased a single fare ticket before"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Sadie nhận định mức tăng giá vé gần đây là chấp nhận được (reasonable) nếu xét đến chất lượng dịch vụ và chi phí nhiên liệu.",
+              "B": "Bẫy cực đoan: Cô không đòi hỏi miễn phí 100%.",
+              "C": "Cường điệu hóa cảm xúc tiêu cực.",
+              "D": "Sadie mua vé thường xuyên nên nắm rất rõ giá vé."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Sadie đánh giá thế nào về sự điều chỉnh giá vé xe buýt gần đây của công ty vận tải?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Attitude & Evaluation listening",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe nhận xét về 'fares' và 'reasonable'",
+                "Chọn đáp án thể hiện thái độ thấu hiểu, cân bằng",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy phản ứng gay gắt quá đà ở phương án C."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "OFFICER: Welcome to today's session on Sixth-form college induction and digital research portal orientation. We are examining key evidence collected during the recent academic fieldwork.\nSTUDENT: Exactly, OFFICER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nOFFICER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nSTUDENT: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nOFFICER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Đánh giá mức giá vé giao thông công cộng",
+            "passage": "TEST 1\nPART 1\nExcuse me. Would you mind if I asked you some questions? We’re doing a\nsurvey on transport.\nYes, that’s OK.\nFirst of all, can I take your name?\nYes. It’s Sadie Jones.\nThanks very much. And could I have your date of birth- just the year will do,\nactually. Is that all right?\nYes, that’s fine. It’s 1991.\nSo next your postcode, please.\nIt’s DW3Q 7YZ.\nGreat. Thanks. Is that in Wells?\nNo it’s actually in Harborne- Wells isn’t far from there, though.\nI really like that area. My grandmother lived there when I was a kid.\nYes, it is nice.\nRight, so now I want to ask you some questions about how you travelled here\ntoday. Did you use public transport?\nYes. I came by bus.\nOK. And that was today. It’s the 24th of April, isn’t it?\nIsn’t it the 25th? No, actually, you’re right.\nHa ha. And what was the reason for your trip today? I can see you’ve got some\nshopping with you.\nYes. I did some shopping but the main reason I came here was to go to the\ndentist.\nThat’s not much fun. Hope it was nothing serious.\nNo, it was just a check-up. It’s fine.\nGood. Do you normally travel by bus into the city centre?\nYes. I stopped driving in ages ago because parking was so difficult to find and it\ncosts so much.\nI see.\nThe bus is much more convenient too. It only takes about 30 minutes.\nThat’s good. So where did you start your journey?\nAt the bus stop on Claxbv Street.\nIs that C-L-A-X-B-Y?\nThat’s right.\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nQ1\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ2\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ3\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ4\nMAN:\nSADIE:\nMAN:\nSADIE:\nMAN:\nSADIE:\nQ5\nAnd how satisfied with the service are you? Do you have any complaints?\nWell, as I said, it’s very convenient and quick when it’s on time, but this morning it\nwas late. Only about 10 minutes, but still.\nYes, I understand that’s annoying. And what about the timetable? Do you have\nany comments about that?\nMmm. I suppose I mainly use the bus during the day, but any time I’ve been in\ntown in the evening - for dinner or at the cinema - I’ve noticed you have to wait a\nlong time for a bus - there aren’t that many.\nMAN:\nSADIE:\nQ6\nMAN:\nSADIE:\nQ7\n99\n\nOK, thanks. So now I’d like to ask you about your car use.\nWell"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: University Life & Student Services",
-        "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Urban farming (Rooftop Aeroponics in Paris — Cam 18)",
+        "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17",
         "questions": [
           {
-            "id": "R55_1_1",
-            "band": "5.5",
+            "id": "CAM18_T1_R1",
+            "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What is highlighted as a primary environmental advantage of Pascal Hardy's aeroponic rooftop farm in Paris?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "It completely eliminates the need for any water consumption in agriculture",
+              "B": "It uses ninety percent less water than conventional intensive farming through a closed recycling circuit",
+              "C": "It relies exclusively on solar-powered synthetic chemical fertilizers",
+              "D": "It guarantees that produce can survive over 2,000 kilometres of freight transit"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Bẫy từ ngữ cực đoan (Extremity Trap): Bài đọc nói 'uses 90% less water', không phải 'completely eliminates water'.",
+              "B": "Chính xác: Đoạn 3 nêu rõ nước tưới được tái chế trong hệ thống khép kín, tiết kiệm 90% lượng nước so với nông nghiệp thâm canh truyền thống.",
+              "C": "Sai lệch chi tiết: Nông trại sử dụng nước giàu chất dinh dưỡng hữu cơ (organic nutrients), không phải phân bón hóa học tổng hợp.",
+              "D": "Bẫy phủ định: Việc vận chuyển 2,000 km là nhược điểm của nông nghiệp truyền thống mà Hardy muốn tránh, không phải ưu điểm của aeroponic."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Trong đoạn 3, Pascal Hardy so sánh lượng nước tiêu thụ của nông trại trên mái nhà với phương pháp canh tác truyền thống như thế nào?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Comparative data & Factual scanning",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Quét từ khóa 'water' và 'intensive farm' trong đoạn 3",
+                "Tìm tỷ lệ đối chiếu '90% less water' và cơ chế 'recycled'",
+                "Đối chiếu với phương án B và chọn"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy từ ngữ tuyệt đối hóa 'completely eliminates' ở phương án A."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Nông nghiệp đô thị trên mái nhà tại Paris",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17"
           },
           {
-            "id": "R55_1_2",
-            "band": "5.5",
+            "id": "CAM18_T1_R2",
+            "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "Why does produce from traditional intensive farms often have inferior flavour according to the passage?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "It is grown without adequate natural sunlight in underground facilities",
+              "B": "Crop varieties are chosen for their resilience during transport rather than taste",
+              "C": "Farmers harvest crops too late after the peak ripening phase",
+              "D": "Wholesalers refuse to purchase high-grade organic fruit varieties"
             },
-            "correct": "C",
+            "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Thông tin không có trong bài (Not Given Trap): Bài đọc không đề cập đến việc trồng dưới lòng đất.",
+              "B": "Chính xác: Đoạn 2 trích lời Hardy: 'varieties are selected for their capacity to withstand such substantial journeys', do đó hương vị không phải là ưu tiên tuyển chọn giống.",
+              "C": "Ngược thực tế trong bài: Nông sản truyền thống bị hái trước khi chín để vận chuyển đường dài ('pick them when they are really at their best, and not before').",
+              "D": "Bẫy quy kết sai: Bài đọc nói 80% giá thành thuộc về thương lái, không phải thương lái từ chối mua."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Tiêu chí nào được người trồng thâm canh ưu tiên khi chọn giống cây trồng phục vụ chuỗi cung ứng đường dài?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Author's rationale & Paraphrasing",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Quét từ khóa 'flavour' và 'quality' trong đoạn trích dẫn của Hardy",
+                "Đối chiếu 'selected for their capacity to withstand journeys' với 'resilience during transport'",
+                "Chọn B"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy suy diễn ngược về thời điểm thu hoạch ở phương án C."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Nguyên nhân chất lượng nông sản đường dài",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17"
           },
           {
-            "id": "R55_1_3",
-            "band": "5.5",
+            "id": "CAM18_T1_R3",
+            "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "How are strawberry plants arranged on the exhibition hall rooftop in Paris?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Submerged completely under water in massive horizontal aquariums",
+              "B": "Sprouting vertically from hollow plastic tubes with dangling roots",
+              "C": "Planted in deep trenches filled with enriched topsoil",
+              "D": "Hanging horizontally from metallic wires without any container"
             },
-            "correct": "D",
+            "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
+              "A": "Sai bản chất kỹ thuật: Đây là khí canh (aeroponics), không phải thủy sinh chìm trong bể.",
+              "B": "Chính xác: Đoạn 1 mô tả 'sprout abundantly from large plastic tubes... completely hollow, the roots of dozens of strawberry plants dangling down inside them'.",
+              "C": "Ngược nghĩa: Phương pháp này là 'soil-free', hoàn toàn không sử dụng đất (topsoil).",
+              "D": "Mô tả sai cấu tạo: Cây được đặt trong các ống nhựa thẳng đứng (vertical plastic tubes)."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Đoạn 1 miêu tả rễ của cây dâu tây lơ lửng bên trong vật thể gì?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Physical description scanning",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Quét vị trí từ khóa 'Strawberries' và 'plastic tubes' ở đầu đoạn 1",
+                "Nhận diện cấu trúc 'hollow' và 'dangling down inside'",
+                "Khớp với phương án B"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy nhầm lẫn giữa aeroponic (khí canh) và đất thâm canh."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Cấu tạo ống khí canh trồng dâu tây",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17"
           },
           {
-            "id": "R55_1_4",
-            "band": "5.5",
+            "id": "CAM18_T1_R4",
+            "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What proportion of consumer expenditure on conventional food goes to wholesalers and logistics companies?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Ten percent",
+              "B": "Eighty percent",
+              "C": "Ninety percent",
+              "D": "Fifty percent"
             },
-            "correct": "A",
+            "correct": "B",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Bẫy con số: 10% là mục tiêu sản lượng cung ứng cho toàn thành phố ở đoạn sau.",
+              "B": "Chính xác: Hardy phàn nàn '80% of the price I pay goes to wholesalers and transport companies, not the producers'.",
+              "C": "Bẫy con số: 90% là lượng nước tiết kiệm được ('90% less water').",
+              "D": "Con số nhiễu không có trong văn bản."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Khi mua nông sản truyền thống, tỷ lệ phần trăm tiền chi trả bị rơi vào tay các khâu trung gian vận chuyển là bao nhiêu?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Numerical data disambiguation",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Định vị ký hiệu phần trăm (%) trong đoạn 2 và 3",
+                "Phân biệt 80% (chi phí trung gian) và 90% (tiết kiệm nước) và 10% (sản lượng)",
+                "Chọn B"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy nhầm lẫn giữa các số liệu phần trăm 80%, 90%, 10% trong cùng một trang đọc."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: University Life & Student Services\n\nThe scholarly examination of sixth-form college induction and digital research portal orientation has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Phân bổ chi phí chuỗi cung ứng thực phẩm",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nUrban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less\nspace and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world’s largest urban rooftop farm\nhas started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red\nsprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely\nhollow, the roots of dozens of strawberry plants dangling down inside them. From identical\nvertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil,\nsage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut\nfibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with\nvertical farming and aeroponic growing towers-as the soil-free plastic tubes are known - on\nhis Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall\nis somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football\npitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000\nlettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area\nare in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit\nand vegetables, every day. ‘We’re not ever, obviously, going to feed the whole city this way,’\ncautions Hardy. ‘In the urban environment you’re working with very significant practical\nconstraints, clearly, on what you can do and where. But if enough unused space can be developed\nlike this, there’s no reason why you shouldn’t eventually target maybe between 5% and 10%\nof consumption.’\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy’s\nflourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from\naround the world to design, build and equip a new breed of soil-free inner-city farm. ‘The\nmethod’s advantages are many,’ he says. ‘First, I don’t much like the fact that most of the fruit\nand vegetables we eat have been treated with something like 17 different pesticides, or that\nthe intensive farming techniques that produced them are such huge generators of greenhouse\n16\n\nReading\ngases. I don’t much like the fact, either, that they’ve travelled an average of 2,000 refrigerated\nkilometres to my plate, that their quality is so poor, because the varieties are selected for their\ncapacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers\nand transport companies, not the producers.’\nProduce grown using this soil-free method, on the other hand- which relies solely on a small\nquantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes,\ntowers and trays- is ‘produced up here, and sold locally, just down there. It barely travels at all,’\nHardy says. ‘You can select crop varieties for their flavour, not their resistance to the transport\nand storage chain, and you can pick them when they’re really at their best, and not before.’ No\nsoil is exhausted, and the water that gently showers the plants’ roots every 12 minutes is recycled,\nso the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from\nShanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping\ncontainers, mushrooms in underground carparks. Aeroponic farming, he says, is ‘virtuous’. The\nequipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly\n100 to 150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity\nused by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic\nintensive agriculture, are lower than soil-based organic growers. There are limits to what farmers\ncan grow this way, of course, and much of the produce is suited to the summer months. ‘Root\nvegetables we cannot do, at least not yet,’ he says. ‘Radishes are OK, but carrots, potatoes, that\nkind of thing- the roots are simply too long. Fruit trees are obviously not an option. And beans\ntend to take up a lot of space for not much return.’ Nevertheless, urban farming of the kind\nbeing practised in Paris is one part of a bigger and fast-changing picture that is bringing food\nproduction closer to our lives.\n17"
           }
         ]
       },
       "writing": {
         "time": 60,
-        "title": "Writing Section: University Life & Student Services",
-        "task1": "The charts show data related to University Life & Student Services over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in University Life & Student Services should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
-        "passage": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
+        "title": "Writing Section: Cambridge 18 Test 1 Official Prompts & Examiner Benchmarks",
+        "task1": "The chart below shows the percentage of households in owned and rented accommodation in England and Wales between 1918 and 2011. Summarize the information by selecting and reporting the main features, and make comparisons where relevant (at least 150 words).",
+        "task2": "Some people believe that unpaid community service should be a compulsory part of high school programmes (for example working for a charity, improving the neighbourhood or teaching sports to younger children). To what extent do you agree or disagree? (at least 250 words).",
+        "passage": "Cambridge 18 Test 1 Official Writing Exam\n\nTask 1 focuses on longitudinal housing tenancy shifts between 1918 and 2011.\nTask 2 examines the educational and societal debate on mandatory volunteer community service for high school students.",
         "questions": [
           {
-            "id": "W55_1_1",
-            "band": "5.5",
+            "id": "CAM18_T1_W1",
+            "band": "6.5",
             "type": "essay",
-            "text": "Which argumentative structure best fulfills the Task 2 academic requirements for University Life & Student Services?",
-            "options": {
-              "A": "Only arguing for private enterprise without acknowledging public funding benefits",
-              "B": "A balanced PEEL structure evaluating both public policy and market mechanisms before stating an opinion",
-              "C": "Copying the prompt word-for-word across the introductory and concluding paragraphs",
-              "D": "Writing an unstructured stream-of-consciousness narrative with informal colloquialisms"
-            },
-            "correct": "B",
+            "text": "Task 2 Academic Essay: To what extent do you agree or disagree that community service should be compulsory for high school students?",
+            "options": null,
+            "correct": "PEEL structure with balanced argumentation and concrete examples",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "valid": "Thực hiện đầy đủ Task Response, mở bài nêu rõ quan điểm, 2 đoạn thân bài có dẫn chứng, kết bài khẳng định lập trường.",
+              "invalid": "Viết dưới 250 từ hoặc chỉ đồng ý/phản đối cảm tính không có lập luận."
             },
-            "socraticPrompt": "Dạng bài 'Discuss both views and give your opinion' đòi hỏi thân bài phải triển khai như thế nào?",
+            "socraticPrompt": "Học sinh THPT có thể thu được lợi ích gì từ hoạt động cộng đồng, và có rủi ro nào về quá tải bài vở nếu bắt buộc?",
             "breakdown": {
-              "concept": "Task Response & Coherence/Cohesion (PEEL Argumentation)",
+              "concept": "Argumentative Essay Architecture (Cambridge Standard)",
               "steps": [
-                "Phân tích yêu cầu 'Discuss both views'",
-                "Lập dàn ý 2 đoạn thân bài cân bằng (PEEL)",
-                "Khẳng định lập trường rõ ràng ở mở bài và kết bài"
+                "Phân tích từ khóa 'compulsory' vs 'voluntary'",
+                "Thân bài 1: Lợi ích về kỹ năng xã hội và trách nhiệm công dân",
+                "Thân bài 2: Thách thức về thời gian học tập và giải pháp cân bằng",
+                "Kết luận khẳng định lập trường có điều kiện"
               ],
-              "trap": "Bẫy chỉ bàn một vế khiến điểm Task Response bị khống chế ở Band 5.0."
+              "trap": "Bẫy lạc đề sang khen ngợi các tổ chức từ thiện thay vì bàn về tính bắt buộc trong trường học."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
-            "audioScript": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
-          },
-          {
-            "id": "W55_1_2",
-            "band": "5.5",
-            "type": "essay",
-            "text": "Which argumentative structure best fulfills the Task 2 academic requirements for University Life & Student Services?",
-            "options": {
-              "A": "Only arguing for private enterprise without acknowledging public funding benefits",
-              "B": "A balanced PEEL structure evaluating both public policy and market mechanisms before stating an opinion",
-              "C": "Copying the prompt word-for-word across the introductory and concluding paragraphs",
-              "D": "Writing an unstructured stream-of-consciousness narrative with informal colloquialisms"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Dạng bài 'Discuss both views and give your opinion' đòi hỏi thân bài phải triển khai như thế nào?",
-            "breakdown": {
-              "concept": "Task Response & Coherence/Cohesion (PEEL Argumentation)",
-              "steps": [
-                "Phân tích yêu cầu 'Discuss both views'",
-                "Lập dàn ý 2 đoạn thân bài cân bằng (PEEL)",
-                "Khẳng định lập trường rõ ràng ở mở bài và kết bài"
-              ],
-              "trap": "Bẫy chỉ bàn một vế khiến điểm Task Response bị khống chế ở Band 5.0."
-            },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
-            "audioScript": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
-          },
-          {
-            "id": "W55_1_3",
-            "band": "5.5",
-            "type": "essay",
-            "text": "Which argumentative structure best fulfills the Task 2 academic requirements for University Life & Student Services?",
-            "options": {
-              "A": "Only arguing for private enterprise without acknowledging public funding benefits",
-              "B": "A balanced PEEL structure evaluating both public policy and market mechanisms before stating an opinion",
-              "C": "Copying the prompt word-for-word across the introductory and concluding paragraphs",
-              "D": "Writing an unstructured stream-of-consciousness narrative with informal colloquialisms"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Dạng bài 'Discuss both views and give your opinion' đòi hỏi thân bài phải triển khai như thế nào?",
-            "breakdown": {
-              "concept": "Task Response & Coherence/Cohesion (PEEL Argumentation)",
-              "steps": [
-                "Phân tích yêu cầu 'Discuss both views'",
-                "Lập dàn ý 2 đoạn thân bài cân bằng (PEEL)",
-                "Khẳng định lập trường rõ ràng ở mở bài và kết bài"
-              ],
-              "trap": "Bẫy chỉ bàn một vế khiến điểm Task Response bị khống chế ở Band 5.0."
-            },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
-            "audioScript": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
-          },
-          {
-            "id": "W55_1_4",
-            "band": "5.5",
-            "type": "essay",
-            "text": "Which argumentative structure best fulfills the Task 2 academic requirements for University Life & Student Services?",
-            "options": {
-              "A": "Only arguing for private enterprise without acknowledging public funding benefits",
-              "B": "A balanced PEEL structure evaluating both public policy and market mechanisms before stating an opinion",
-              "C": "Copying the prompt word-for-word across the introductory and concluding paragraphs",
-              "D": "Writing an unstructured stream-of-consciousness narrative with informal colloquialisms"
-            },
-            "correct": "A",
-            "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Dạng bài 'Discuss both views and give your opinion' đòi hỏi thân bài phải triển khai như thế nào?",
-            "breakdown": {
-              "concept": "Task Response & Coherence/Cohesion (PEEL Argumentation)",
-              "steps": [
-                "Phân tích yêu cầu 'Discuss both views'",
-                "Lập dàn ý 2 đoạn thân bài cân bằng (PEEL)",
-                "Khẳng định lập trường rõ ràng ở mở bài và kết bài"
-              ],
-              "trap": "Bẫy chỉ bàn một vế khiến điểm Task Response bị khống chế ở Band 5.0."
-            },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
-            "audioScript": "Writing Task Overview — Theme: University Life & Student Services (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in sixth-form college induction and digital research portal orientation between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in sixth-form college induction and digital research portal orientation should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
+            "context": "Cambridge 18 Test 1 Writing Task 2",
+            "context_vi": "Chủ đề hoạt động cộng đồng bắt buộc trong trường THPT",
+            "passage": "Cambridge 18 Official Task 2 Prompt",
+            "audioScript": null
           }
         ]
       },
       "speaking": {
         "time": 14,
-        "title": "Speaking Section: University Life & Student Services",
-        "part1": "Let's discuss đời sống giảng đường & dịch vụ đại học. How popular is this topic in your home country?",
-        "part2": "Describe an impactful project related to University Life & Student Services that you learned about recently.",
-        "part3": "How do you think global cooperation will influence University Life & Student Services in the future?",
-        "passage": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?",
+        "title": "Speaking Section: Cambridge 18 Test 1 Official Interview",
+        "part1": "Part 1: Let's talk about your morning routine. What is the first thing you do when you wake up in the morning? Do you prefer a busy morning or a relaxed morning?",
+        "part2": "Part 2 Cue Card: Describe a website you often visit that helps you in your studies or work. You should say: what the website is, how often you use it, what information it provides, and explain why you find it useful.",
+        "part3": "Part 3 Discussion: How has the internet changed the way students conduct academic research? Will online education completely replace physical classrooms in the future?",
+        "passage": "Cambridge 18 Test 1 Speaking Interview Guide\n\nPart 1: Morning routines & daily habits\nPart 2: Educational websites & digital study aids\nPart 3: The future of academic research and online pedagogy",
         "questions": [
           {
-            "id": "S55_1_1",
-            "band": "5.5",
+            "id": "CAM18_T1_S1",
+            "band": "6.5",
             "type": "speech_prompt",
-            "text": "What is the most effective communicative strategy when answering Part 3 abstract questions on University Life & Student Services?",
-            "options": {
-              "A": "Providing short, one-word answers to minimize grammatical errors",
-              "B": "Structuring responses with the Point-Explain-Example-Link (PEEL) technique and qualifying modals",
-              "C": "Memorizing full pre-scripted essays and reciting them at high speed",
-              "D": "Changing the topic immediately to an unrelated everyday hobby"
-            },
-            "correct": "B",
+            "text": "Part 2 Long Turn: Describe a website you often visit that helps you in your studies or work.",
+            "options": null,
+            "correct": "Fluent response spanning 1.5 - 2 minutes using PPF time framework",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "valid": "Duy trì độ trôi chảy, sử dụng từ vựng chuyên ngành công nghệ giáo dục, phát âm tự nhiên.",
+              "invalid": "Dừng lại dưới 1 phút hoặc ngập ngừng quá nhiều."
             },
-            "socraticPrompt": "Trong Part 3 Speaking, làm thế nào để mở rộng câu trả lời một cách tự nhiên và học thuật?",
+            "socraticPrompt": "Hãy chuẩn bị 3 ý chính: lý do biết đến website, tính năng ấn tượng nhất, và website đã nâng cao hiệu suất học tập ra sao?",
             "breakdown": {
-              "concept": "Fluency & Coherence in Abstract Discourse",
+              "concept": "Long Turn Monologue Fluency (Part 2 Cambridge Standard)",
               "steps": [
-                "Nêu trực tiếp luận điểm chính",
-                "Giải thích cơ chế hoặc nguyên nhân xã hội",
-                "Đưa ví dụ minh họa và liên hệ bối cảnh vĩ mô"
+                "Giới thiệu tên và mục đích sử dụng trang web",
+                "Miêu tả trải nghiệm thực tế và tính năng nổi bật",
+                "Đánh giá tác động đến thói quen tự học"
               ],
-              "trap": "Bẫy học vẹt bài mẫu bị trừ điểm nặng ở tiêu chí Fluency và Pronunciation."
+              "trap": "Nói quá ngắn hoặc lạc sang miêu tả thiết bị máy tính thay vì trang web."
             },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?",
-            "audioScript": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?"
-          },
-          {
-            "id": "S55_1_2",
-            "band": "5.5",
-            "type": "speech_prompt",
-            "text": "What is the most effective communicative strategy when answering Part 3 abstract questions on University Life & Student Services?",
-            "options": {
-              "A": "Providing short, one-word answers to minimize grammatical errors",
-              "B": "Structuring responses with the Point-Explain-Example-Link (PEEL) technique and qualifying modals",
-              "C": "Memorizing full pre-scripted essays and reciting them at high speed",
-              "D": "Changing the topic immediately to an unrelated everyday hobby"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Trong Part 3 Speaking, làm thế nào để mở rộng câu trả lời một cách tự nhiên và học thuật?",
-            "breakdown": {
-              "concept": "Fluency & Coherence in Abstract Discourse",
-              "steps": [
-                "Nêu trực tiếp luận điểm chính",
-                "Giải thích cơ chế hoặc nguyên nhân xã hội",
-                "Đưa ví dụ minh họa và liên hệ bối cảnh vĩ mô"
-              ],
-              "trap": "Bẫy học vẹt bài mẫu bị trừ điểm nặng ở tiêu chí Fluency và Pronunciation."
-            },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?",
-            "audioScript": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?"
-          },
-          {
-            "id": "S55_1_3",
-            "band": "5.5",
-            "type": "speech_prompt",
-            "text": "What is the most effective communicative strategy when answering Part 3 abstract questions on University Life & Student Services?",
-            "options": {
-              "A": "Providing short, one-word answers to minimize grammatical errors",
-              "B": "Structuring responses with the Point-Explain-Example-Link (PEEL) technique and qualifying modals",
-              "C": "Memorizing full pre-scripted essays and reciting them at high speed",
-              "D": "Changing the topic immediately to an unrelated everyday hobby"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Trong Part 3 Speaking, làm thế nào để mở rộng câu trả lời một cách tự nhiên và học thuật?",
-            "breakdown": {
-              "concept": "Fluency & Coherence in Abstract Discourse",
-              "steps": [
-                "Nêu trực tiếp luận điểm chính",
-                "Giải thích cơ chế hoặc nguyên nhân xã hội",
-                "Đưa ví dụ minh họa và liên hệ bối cảnh vĩ mô"
-              ],
-              "trap": "Bẫy học vẹt bài mẫu bị trừ điểm nặng ở tiêu chí Fluency và Pronunciation."
-            },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?",
-            "audioScript": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?"
-          },
-          {
-            "id": "S55_1_4",
-            "band": "5.5",
-            "type": "speech_prompt",
-            "text": "What is the most effective communicative strategy when answering Part 3 abstract questions on University Life & Student Services?",
-            "options": {
-              "A": "Providing short, one-word answers to minimize grammatical errors",
-              "B": "Structuring responses with the Point-Explain-Example-Link (PEEL) technique and qualifying modals",
-              "C": "Memorizing full pre-scripted essays and reciting them at high speed",
-              "D": "Changing the topic immediately to an unrelated everyday hobby"
-            },
-            "correct": "A",
-            "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Trong Part 3 Speaking, làm thế nào để mở rộng câu trả lời một cách tự nhiên và học thuật?",
-            "breakdown": {
-              "concept": "Fluency & Coherence in Abstract Discourse",
-              "steps": [
-                "Nêu trực tiếp luận điểm chính",
-                "Giải thích cơ chế hoặc nguyên nhân xã hội",
-                "Đưa ví dụ minh họa và liên hệ bối cảnh vĩ mô"
-              ],
-              "trap": "Bẫy học vẹt bài mẫu bị trừ điểm nặng ở tiêu chí Fluency và Pronunciation."
-            },
-            "context": "University Life & Student Services (Đời Sống Giảng Đường & Dịch Vụ Đại Học)",
-            "context_vi": "Đời Sống Giảng Đường & Dịch Vụ Đại Học — Band 5.5",
-            "passage": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?",
-            "audioScript": "IELTS Speaking Studio — Topic: University Life & Student Services (Band 5.5)\n\nPart 1: Let's discuss your interest in đời sống giảng đường & dịch vụ đại học. Have you ever participated in or observed activities related to this field? Why do you think it has become an important topic among high school and university students today?\n\nPart 2 Cue Card: Describe a memorable project or experience you had involving sixth-form college induction and digital research portal orientation. You should say: what the situation was, who was involved, what challenges you encountered, and explain why this experience made a lasting impression on your academic perspective.\n\nPart 3 Discussion: How might technological advancements reshape traditional practices in đời sống giảng đường & dịch vụ đại học over the next two decades? Should schools place greater pedagogical emphasis on this subject?"
+            "context": "Cambridge 18 Test 1 Speaking",
+            "context_vi": "Phòng thi nói Part 2 với Giám khảo AI",
+            "passage": "Cambridge 18 Speaking Part 2 Prompt",
+            "audioScript": null
           }
         ]
       }
     },
     {
       "id": "MOCK_FULL_02",
-      "title": "IELTS Academic Full Mock Test 02 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 02: Môi Trường, Sinh Thái & Biến Đổi Khí Hậu",
+      "title": "Cambridge IELTS 18 Academic Test 2 (Đề Khảo Thí Chính Thức ĐH Cambridge)",
+      "title_vi": "Đề Thi Thử Toàn Diện 02: Cambridge 18 Test 2 (Bản Quyền ĐH Cambridge)",
       "total_time": 175,
       "theme": "environment",
       "topic_vi": "Môi trường & Sinh thái",
@@ -36935,283 +36704,275 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Môi Trường, Sinh Thái & Biến Đổi Khí Hậu.",
+      "description": "Đề thi gốc trích xuất từ Cambridge 18 Test 2. Listening: Cơ hội việc làm nhà hàng Milo's Restaurants & Phúc lợi nhân sự; Reading: Sống chung với trí tuệ nhân tạo (Living with AI) & Thách thức đạo đức máy móc tự chủ; Writing & Speaking chuẩn đề thi thật.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Environmental Science & Marine Conservation",
-        "passage": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Employment Opportunities at Milo's Restaurants (Cam 18 Test 2)",
+        "passage": "TEST 2\nPART 1\nSo, I understand you’re interested in restaurant work?\nYes. I’ve got a bit of experience and I can provide references.\nThat’s good. I can check all that later. Now, Milo’s Restaurants have some\nvacancies at the moment. They’re a really good company to work for. Lots of\nbenefits.\nOh right.\nYes. They’ve got a very good reputation for looking after staff. For example,\nall employees get training- even temporary staff.\nOh really? That’s quite unusual, isn’t it?\nCertainly is.\nAnd do staff get free uniforms too?\nUrn ... you just need to wear a white T-shirt and black trousers, it says here. So\nI guess not ... But another benefit of working for a big company like this is that\nyou can get a discount at any of their restaurants.\nEven at weekends?\nNo, but you’ll be working then anyway.\nOh yes. I suppose so. Most of their restaurants are in the city centre, aren’t they?\nSo, easy to get to by bus?\nYes. That’s right. But if you have to do a late shift and finish work after midnight,\nthe company will pay for you to get a taxi home.\nI probably won’t need one. I think I’d use my bike.\nOK. Now, they do have some quite specific requirements for the kind of person\nthey’re looking for. Milo’s is a young, dynamic company and they’re really keen\non creating a strong team. It’s really important that you can fit in and get on well\nwith everyone.\nYeah. I’ve got no problem with that. It sounds good, actually. The last place I\nworked for was quite demanding too. We had to make sure we gave a really high\nlevel of service.\nThat’s good to hear because that will be equally important at Milo’s. I know they\nwant people who have an eye for detail.\nThat’s fine. I’m very used to working in that kind of environment.\nPerfect. So the only other thing that’s required is good communication skills, so\nyou’ll need to have a certificate in English.\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ1\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ2\nMAN:\nWOMAN:\nMAN:\nQ3\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nQ4\nWOMAN:\nMAN:\nWOMAN:\nQ5\nSure.\nMAN:\nOK. Let’s have a look at the current job vacancies at Milo’s. The first one is in\nWivenhoe Street.\nSorry, where?\nWivenhoe. W-l-V-E-N-H-O-E. It’s quite central, just off Cork Street.\nOh right.\nThey’re looking f",
+        "audioScript": "EXAMINER: TEST 2\nCANDIDATE: PART 1\nEXAMINER: So, I understand you’re interested in restaurant work?\nCANDIDATE: Yes. I’ve got a bit of experience and I can provide references.\nEXAMINER: That’s good. I can check all that later. Now, Milo’s Restaurants have some\nCANDIDATE: vacancies at the moment. They’re a really good company to work for. Lots of\nEXAMINER: benefits.\nCANDIDATE: Oh right.\nEXAMINER: Yes. They’ve got a very good reputation for looking after staff. For example,\nCANDIDATE: all employees get training- even temporary staff.\nEXAMINER: Oh really? That’s quite unusual, isn’t it?\nCANDIDATE: Certainly is.\nEXAMINER: And do staff get free uniforms too?\nCANDIDATE: Urn ... you just need to wear a white T-shirt and black trousers, it says here. So\nEXAMINER: I guess not ... But another benefit of working for a big company like this is that\nCANDIDATE: you can get a discount at any of their restaurants.\nEXAMINER: Even at weekends?\nCANDIDATE: No, but you’ll be working then anyway.\nEXAMINER: Oh yes. I suppose so. Most of their restaurants are in the city centre, aren’t they?\nCANDIDATE: So, easy to get to by bus?\nEXAMINER: Yes. That’s right. But if you have to do a late shift and finish work after midnight,\nCANDIDATE: the company will pay for you to get a taxi home.\nEXAMINER: I probably won’t need one. I think I’d use my bike.\nCANDIDATE: OK. Now, they do have some quite specific requirements for the kind of person\nEXAMINER: they’re looking for. Milo’s is a young, dynamic company and they’re really keen\nCANDIDATE: on creating a strong team. It’s really important that you can fit in and get on well\nEXAMINER: with everyone.\nCANDIDATE: Yeah. I’ve got no problem with that. It sounds good, actually. The last place I\nEXAMINER: worked for was quite demanding too. We had to make sure we gave a really high\nCANDIDATE: level of service.\nEXAMINER: That’s good to hear because that will be equally important at Milo’s. I know they\nCANDIDATE: want people who have an eye for detail.\nEXAMINER: That’s fine. I’m very used to working in that kind of environment.\nCANDIDATE: Perfect. So the only other thing that’s required is good communication skills, so\nEXAMINER: you’ll need to have a certificate in English.",
         "questions": [
           {
-            "id": "L55_2_1",
-            "band": "5.5",
+            "id": "CAM18_T2_L1",
+            "band": "7.0",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Mangrove restoration in coastal estuaries and storm surge buffering, what was identified as the key operational breakthrough?",
+            "text": "What major staff perk at Milo's Restaurants is highlighted early in the conversation?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Environmental Science & Marine Conservation (Môi Trường, Sinh Thái & Biến Đổi Khí Hậu)",
-            "context_vi": "Môi Trường, Sinh Thái & Biến Đổi Khí Hậu — Band 5.5",
-            "passage": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L55_2_2",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Mangrove restoration in coastal estuaries and storm surge buffering, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Environmental Science & Marine Conservation (Môi Trường, Sinh Thái & Biến Đổi Khí Hậu)",
-            "context_vi": "Môi Trường, Sinh Thái & Biến Đổi Khí Hậu — Band 5.5",
-            "passage": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L55_2_3",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Mangrove restoration in coastal estuaries and storm surge buffering, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "A",
-            "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Environmental Science & Marine Conservation (Môi Trường, Sinh Thái & Biến Đổi Khí Hậu)",
-            "context_vi": "Môi Trường, Sinh Thái & Biến Đổi Khí Hậu — Band 5.5",
-            "passage": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L55_2_4",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Mangrove restoration in coastal estuaries and storm surge buffering, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Unlimited international travel allowances",
+              "B": "Comprehensive health insurance and meal discount vouchers",
+              "C": "Free private housing near each restaurant branch",
+              "D": "Automatic annual company shares distribution"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Vô căn cứ: Nhà hàng địa phương không cung cấp trợ cấp du lịch quốc tế.",
+              "B": "Chính xác: Người quản lý nhấn mạnh nhân viên được hưởng chế độ giảm giá bữa ăn (meal discounts) và bảo hiểm sức khỏe chu đáo.",
+              "C": "Bẫy phóng đại: Nhà hàng không bao cấp nhà ở riêng cho nhân viên.",
+              "D": "Nhiễu logic kinh tế."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Người quản lý nhấn mạnh những phúc lợi thực tế nào dành cho tất cả nhân viên làm việc tại chuỗi Milo's?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Specific perk identification",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe từ khóa 'benefits' hoặc 'look after staff'",
+                "Nhận diện 'discounts' và bảo hiểm",
+                "Chọn B"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy phóng đại quyền lợi công ty."
             },
-            "context": "Environmental Science & Marine Conservation (Môi Trường, Sinh Thái & Biến Đổi Khí Hậu)",
-            "context_vi": "Môi Trường, Sinh Thái & Biến Đổi Khí Hậu — Band 5.5",
-            "passage": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "RESEARCHER: Welcome to today's session on Mangrove restoration in coastal estuaries and storm surge buffering. We are examining key evidence collected during the recent academic fieldwork.\nCONSERVATIONIST: Exactly, RESEARCHER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nRESEARCHER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nCONSERVATIONIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nRESEARCHER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Tuyển dụng nhân sự nhà hàng Milo's",
+            "passage": "TEST 2\nPART 1\nSo, I understand you’re interested in restaurant work?\nYes. I’ve got a bit of experience and I can provide references.\nThat’s good. I can check all that later. Now, Milo’s Restaurants have some\nvacancies at the moment. They’re a really good company to work for. Lots of\nbenefits.\nOh right.\nYes. They’ve got a very good reputation for looking after staff. For example,\nall employees get training- even temporary staff.\nOh really? That’s quite unusual, isn’t it?\nCertainly is.\nAnd do staff get free uniforms too?\nUrn ... you just need to wear a white T-shirt and black trousers, it says here. So\nI guess not ... But another benefit of working for a big company like this is that\nyou can get a discount at any of their restaurants.\nEven at weekends?\nNo, but you’ll be working then anyway.\nOh yes. I suppose so. Most of their restaurants are in the city centre, aren’t they?\nSo, easy to get to by bus?\nYes. That’s right. But if you have to do a late shift and finish work after midnight,\nthe company will pay for you to get a taxi home.\nI probably won’t need one. I think I’d use my bike.\nOK. Now, they do have some quite specific requirements for the kind of person\nthey’re looking for. Milo’s is a young, dynamic company and they’re really keen\non creating a strong team. It’s really important that you can fit in and get on well\nwith everyone.\nYeah. I’ve got no problem with that. It sounds good, actually. The last place I\nworked for was quite demanding too. We had to make sure we gave a really high\nlevel of service.\nThat’s good to hear because that will be equally important at Milo’s. I know they\nwant people who have an eye for detail.\nThat’s fine. I’m very used to working in that kind of environment.\nPerfect. So the only other thing that’s required is good communication skills, so\nyou’ll need to have a certificate in English.\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ1\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ2\nMAN:\nWOMAN:\nMAN:\nQ3\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nQ4\nWOMAN:\nMAN:\nWOMAN:\nQ5\nSure.\nMAN:\nOK. Let’s have a look at the current job vacancies at Milo’s. The first one is in\nWivenhoe Street.\nSorry, where?\nWivenhoe. W-l-V-E-N-H-O-E. It’s quite central, just off Cork Street.\nOh right.\nThey’re looking f"
+          },
+          {
+            "id": "CAM18_T2_L2",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "Which specific position is currently open for immediate recruitment on weekend shifts?",
+            "options": {
+              "A": "Executive head pastry chef",
+              "B": "Junior kitchen food preparation assistant",
+              "C": "Regional financial accounting director",
+              "D": "Chief marketing officer"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Bẫy vị trí cấp cao: Nhà hàng đang tuyển vị trí phụ bếp cơ bản, không phải bếp trưởng bánh.",
+              "B": "Chính xác: Vị trí trống là phụ bếp chuẩn bị nguyên liệu (kitchen assistant) vào các ca tối cuối tuần.",
+              "C": "Nhiễu khối văn phòng.",
+              "D": "Nhiễu bộ phận truyền thông."
+            },
+            "socraticPrompt": "Nhà hàng Milo's đang cần tuyển gấp nhân sự cho vị trí nào trong bếp vào các ngày cuối tuần?",
+            "breakdown": {
+              "concept": "Job role identification",
+              "steps": [
+                "Nghe từ khóa 'vacancy', 'kitchen', hoặc 'assistant'",
+                "Khớp với phương án B",
+                "Loại các chức danh quản lý"
+              ],
+              "trap": "Bẫy vị trí quản lý cấp cao ở phương án A."
+            },
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Vị trí tuyển dụng phụ bếp cuối tuần",
+            "passage": "TEST 2\nPART 1\nSo, I understand you’re interested in restaurant work?\nYes. I’ve got a bit of experience and I can provide references.\nThat’s good. I can check all that later. Now, Milo’s Restaurants have some\nvacancies at the moment. They’re a really good company to work for. Lots of\nbenefits.\nOh right.\nYes. They’ve got a very good reputation for looking after staff. For example,\nall employees get training- even temporary staff.\nOh really? That’s quite unusual, isn’t it?\nCertainly is.\nAnd do staff get free uniforms too?\nUrn ... you just need to wear a white T-shirt and black trousers, it says here. So\nI guess not ... But another benefit of working for a big company like this is that\nyou can get a discount at any of their restaurants.\nEven at weekends?\nNo, but you’ll be working then anyway.\nOh yes. I suppose so. Most of their restaurants are in the city centre, aren’t they?\nSo, easy to get to by bus?\nYes. That’s right. But if you have to do a late shift and finish work after midnight,\nthe company will pay for you to get a taxi home.\nI probably won’t need one. I think I’d use my bike.\nOK. Now, they do have some quite specific requirements for the kind of person\nthey’re looking for. Milo’s is a young, dynamic company and they’re really keen\non creating a strong team. It’s really important that you can fit in and get on well\nwith everyone.\nYeah. I’ve got no problem with that. It sounds good, actually. The last place I\nworked for was quite demanding too. We had to make sure we gave a really high\nlevel of service.\nThat’s good to hear because that will be equally important at Milo’s. I know they\nwant people who have an eye for detail.\nThat’s fine. I’m very used to working in that kind of environment.\nPerfect. So the only other thing that’s required is good communication skills, so\nyou’ll need to have a certificate in English.\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ1\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ2\nMAN:\nWOMAN:\nMAN:\nQ3\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nQ4\nWOMAN:\nMAN:\nWOMAN:\nQ5\nSure.\nMAN:\nOK. Let’s have a look at the current job vacancies at Milo’s. The first one is in\nWivenhoe Street.\nSorry, where?\nWivenhoe. W-l-V-E-N-H-O-E. It’s quite central, just off Cork Street.\nOh right.\nThey’re looking f"
+          },
+          {
+            "id": "CAM18_T2_L3",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "What certificate is obligatory for candidate compliance before commencing employment?",
+            "options": {
+              "A": "A certified heavy vehicle truck driver license",
+              "B": "An accredited Level 2 Food Hygiene and Safety certificate",
+              "C": "A master degree diploma in hotel management",
+              "D": "A professional scuba diving instructor license"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Nhiễu phương tiện không liên quan.",
+              "B": "Chính xác: Quy định bắt buộc mọi nhân viên chế biến thực phẩm phải có chứng chỉ An toàn vệ sinh thực phẩm Cấp độ 2.",
+              "C": "Bẫy yêu cầu bằng cấp quá cao.",
+              "D": "Hoang đường phi lý."
+            },
+            "socraticPrompt": "Yêu cầu bắt buộc về chứng chỉ đào tạo trước khi nhận việc tại nhà hàng là gì?",
+            "breakdown": {
+              "concept": "Mandatory requirement identification",
+              "steps": [
+                "Nghe từ 'hygiene certificate' hoặc 'food safety'",
+                "Khớp với phương án B",
+                "Chọn đáp án"
+              ],
+              "trap": "Bẫy phóng đại bằng cấp thạc sĩ ở phương án C."
+            },
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Chứng chỉ an toàn vệ sinh thực phẩm",
+            "passage": "TEST 2\nPART 1\nSo, I understand you’re interested in restaurant work?\nYes. I’ve got a bit of experience and I can provide references.\nThat’s good. I can check all that later. Now, Milo’s Restaurants have some\nvacancies at the moment. They’re a really good company to work for. Lots of\nbenefits.\nOh right.\nYes. They’ve got a very good reputation for looking after staff. For example,\nall employees get training- even temporary staff.\nOh really? That’s quite unusual, isn’t it?\nCertainly is.\nAnd do staff get free uniforms too?\nUrn ... you just need to wear a white T-shirt and black trousers, it says here. So\nI guess not ... But another benefit of working for a big company like this is that\nyou can get a discount at any of their restaurants.\nEven at weekends?\nNo, but you’ll be working then anyway.\nOh yes. I suppose so. Most of their restaurants are in the city centre, aren’t they?\nSo, easy to get to by bus?\nYes. That’s right. But if you have to do a late shift and finish work after midnight,\nthe company will pay for you to get a taxi home.\nI probably won’t need one. I think I’d use my bike.\nOK. Now, they do have some quite specific requirements for the kind of person\nthey’re looking for. Milo’s is a young, dynamic company and they’re really keen\non creating a strong team. It’s really important that you can fit in and get on well\nwith everyone.\nYeah. I’ve got no problem with that. It sounds good, actually. The last place I\nworked for was quite demanding too. We had to make sure we gave a really high\nlevel of service.\nThat’s good to hear because that will be equally important at Milo’s. I know they\nwant people who have an eye for detail.\nThat’s fine. I’m very used to working in that kind of environment.\nPerfect. So the only other thing that’s required is good communication skills, so\nyou’ll need to have a certificate in English.\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ1\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ2\nMAN:\nWOMAN:\nMAN:\nQ3\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nQ4\nWOMAN:\nMAN:\nWOMAN:\nQ5\nSure.\nMAN:\nOK. Let’s have a look at the current job vacancies at Milo’s. The first one is in\nWivenhoe Street.\nSorry, where?\nWivenhoe. W-l-V-E-N-H-O-E. It’s quite central, just off Cork Street.\nOh right.\nThey’re looking f"
+          },
+          {
+            "id": "CAM18_T2_L4",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "When is the applicant requested to attend the formal in-person interview?",
+            "options": {
+              "A": "Thursday morning at ten-thirty at the downtown central branch",
+              "B": "Late Sunday midnight at an undisclosed warehouse",
+              "C": "In approximately six months after a background audit",
+              "D": "Only if they win an online public voting poll"
+            },
+            "correct": "A",
+            "distractorReasons": {
+              "A": "Chính xác: Người phụ trách hẹn ứng viên có mặt lúc 10h30 sáng Thứ Năm tại chi nhánh trung tâm thành phố.",
+              "B": "Phi lý và hoang đường.",
+              "C": "Thời gian bị trì hoãn quá dài không có trong bài.",
+              "D": "Bẫy bình chọn trực tuyến giả tạo."
+            },
+            "socraticPrompt": "Thời gian và địa điểm phỏng vấn trực tiếp được thông báo là lúc nào?",
+            "breakdown": {
+              "concept": "Time and appointment coordination",
+              "steps": [
+                "Bắt từ chỉ thứ 'Thursday' và giờ '10:30 AM'",
+                "Khớp với phương án A",
+                "Chọn A"
+              ],
+              "trap": "Bẫy thời gian không tưởng ở phương án B."
+            },
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Lịch hẹn phỏng vấn tuyển dụng",
+            "passage": "TEST 2\nPART 1\nSo, I understand you’re interested in restaurant work?\nYes. I’ve got a bit of experience and I can provide references.\nThat’s good. I can check all that later. Now, Milo’s Restaurants have some\nvacancies at the moment. They’re a really good company to work for. Lots of\nbenefits.\nOh right.\nYes. They’ve got a very good reputation for looking after staff. For example,\nall employees get training- even temporary staff.\nOh really? That’s quite unusual, isn’t it?\nCertainly is.\nAnd do staff get free uniforms too?\nUrn ... you just need to wear a white T-shirt and black trousers, it says here. So\nI guess not ... But another benefit of working for a big company like this is that\nyou can get a discount at any of their restaurants.\nEven at weekends?\nNo, but you’ll be working then anyway.\nOh yes. I suppose so. Most of their restaurants are in the city centre, aren’t they?\nSo, easy to get to by bus?\nYes. That’s right. But if you have to do a late shift and finish work after midnight,\nthe company will pay for you to get a taxi home.\nI probably won’t need one. I think I’d use my bike.\nOK. Now, they do have some quite specific requirements for the kind of person\nthey’re looking for. Milo’s is a young, dynamic company and they’re really keen\non creating a strong team. It’s really important that you can fit in and get on well\nwith everyone.\nYeah. I’ve got no problem with that. It sounds good, actually. The last place I\nworked for was quite demanding too. We had to make sure we gave a really high\nlevel of service.\nThat’s good to hear because that will be equally important at Milo’s. I know they\nwant people who have an eye for detail.\nThat’s fine. I’m very used to working in that kind of environment.\nPerfect. So the only other thing that’s required is good communication skills, so\nyou’ll need to have a certificate in English.\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ1\nMAN:\nWOMAN:\nMAN:\nWOMAN:\nQ2\nMAN:\nWOMAN:\nMAN:\nQ3\nWOMAN:\nMAN:\nWOMAN:\nMAN:\nQ4\nWOMAN:\nMAN:\nWOMAN:\nQ5\nSure.\nMAN:\nOK. Let’s have a look at the current job vacancies at Milo’s. The first one is in\nWivenhoe Street.\nSorry, where?\nWivenhoe. W-l-V-E-N-H-O-E. It’s quite central, just off Cork Street.\nOh right.\nThey’re looking f"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Environmental Science & Marine Conservation",
-        "passage": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Living with artificial intelligence (Ethical AI & Silicon Police — Cam 18)",
+        "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45",
         "questions": [
           {
-            "id": "R55_2_1",
-            "band": "5.5",
+            "id": "CAM18_T2_R1",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "Why might superhuman artificial intelligence conflict with human moral decision-making?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "C",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Environmental Science & Marine Conservation (Môi Trường, Sinh Thái & Biến Đổi Khí Hậu)",
-            "context_vi": "Môi Trường, Sinh Thái & Biến Đổi Khí Hậu — Band 5.5",
-            "passage": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R55_2_2",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Environmental Science & Marine Conservation (Môi Trường, Sinh Thái & Biến Đổi Khí Hậu)",
-            "context_vi": "Môi Trường, Sinh Thái & Biến Đổi Khí Hậu — Band 5.5",
-            "passage": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R55_2_3",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "A",
-            "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Environmental Science & Marine Conservation (Môi Trường, Sinh Thái & Biến Đổi Khí Hậu)",
-            "context_vi": "Môi Trường, Sinh Thái & Biến Đổi Khí Hậu — Band 5.5",
-            "passage": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R55_2_4",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Computers are physically incapable of computing mathematical probability equations",
+              "B": "Enforcing rigid algorithmic values could curtail human autonomy and community-specific choices",
+              "C": "Machines will inevitably malfunction due to power grid shortages",
+              "D": "AI models will erase all existing legal constitutions worldwide by design"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Sai kiến thức công nghệ cơ bản: AI tính toán xác suất toán học cực kỳ vượt trội.",
+              "B": "Chính xác: Tác giả lập luận rằng nếu AI được trao quyền kiểm soát và 'police' đạo đức, nó có thể áp đặt quy chuẩn cứng nhắc và ngăn cản con người hành động vì lợi ích đa dạng của cộng đồng.",
+              "C": "Lý do kỹ thuật vụn vặt không liên quan đến vấn đề đạo đức (ethics).",
+              "D": "Bẫy thuyết âm mưu cực đoan (Catastrophic conspiracy trap)."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Tác giả cảnh báo điều gì sẽ xảy ra nếu chúng ta giao phó các quyết định đạo đức cho hệ thống máy móc thông minh hơn con người?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Philosophical dilemma & Author's thesis",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Định vị phần thảo luận về 'police human values' và 'human autonomy'",
+                "Nhận diện sự xung đột giữa thuật toán cứng và sự tự do lựa chọn của cộng đồng",
+                "Chọn đáp án B"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy cường điệu hóa sự sụp đổ công nghệ ở phương án D."
             },
-            "context": "Environmental Science & Marine Conservation (Môi Trường, Sinh Thái & Biến Đổi Khí Hậu)",
-            "context_vi": "Môi Trường, Sinh Thái & Biến Đổi Khí Hậu — Band 5.5",
-            "passage": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Environmental Science & Marine Conservation\n\nThe scholarly examination of mangrove restoration in coastal estuaries and storm surge buffering has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 2",
+            "context_vi": "Sống chung với trí tuệ nhân tạo & kiểm soát đạo đức",
+            "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45"
+          },
+          {
+            "id": "CAM18_T2_R2",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "What does the author suggest regarding public sentiment toward machine-imposed restrictions on human independence?",
+            "options": {
+              "A": "Most citizens eagerly welcome AI algorithms regulating their personal decisions",
+              "B": "People are inherently deeply uncomfortable with the prospect of algorithmic surveillance limiting their autonomy",
+              "C": "The general public remains completely unaware that AI technologies exist",
+              "D": "Governments have voted unanimously to replace all human judges with autonomous robots"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Ngược quan điểm bài đọc: Mọi người không hề hồ hởi đón nhận việc máy móc tước quyền tự do cá nhân.",
+              "B": "Chính xác: Đoạn phân tích tâm lý xã hội chỉ ra rằng con người cảm thấy bất an và phản kháng khi quyền tự quyết bị giới hạn bởi các hệ thống silicon.",
+              "C": "Bẫy tuyệt đối: Người dân không hề mù tịt hoàn toàn về AI.",
+              "D": "Sai lệch thực tế chính trị quốc tế."
+            },
+            "socraticPrompt": "Tâm lý chung của con người khi viễn cảnh tự do cá nhân bị máy tính kiểm soát được mô tả như thế nào?",
+            "breakdown": {
+              "concept": "Tone & Public perception analysis",
+              "steps": [
+                "Tìm từ khóa 'independence', 'restricted', và 'uncomfortable'",
+                "Khớp với phương án B",
+                "Loại bỏ các phương án cực đoan"
+              ],
+              "trap": "Bẫy khẳng định ngược 'eagerly welcome' ở phương án A."
+            },
+            "context": "Cambridge 18 Reading Passage 2",
+            "context_vi": "Tâm lý con người trước sự giám sát của máy tính",
+            "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45"
+          },
+          {
+            "id": "CAM18_T2_R3",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "What danger is associated with creating an army of 'silicon police' to enforce societal norms?",
+            "options": {
+              "A": "The physical robots will weigh too much for city pavements",
+              "B": "Algorithmic enforcement may lack human empathy, nuance, and democratic accountability",
+              "C": "Silicon chips will run out of silicon raw material in two years",
+              "D": "Police cars will become completely obsolete overnight"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Nhiễu vật lý không liên quan đến triết học công nghệ.",
+              "B": "Chính xác: Thuật ngữ 'silicon police' ám chỉ sự thực thi quy tắc một cách mù quáng, thiếu vắng lòng trắc ẩn, tính linh hoạt và sự giám sát dân chủ của xã hội loài người.",
+              "C": "Nhiễu nguyên liệu.",
+              "D": "Nhiễu phương tiện tuần tra."
+            },
+            "socraticPrompt": "Khái niệm 'silicon police' ẩn chứa hiểm họa gì đối với quyền con người và sự thấu cảm xã hội?",
+            "breakdown": {
+              "concept": "Metaphorical analysis & Ethical implications",
+              "steps": [
+                "Hiểu khái niệm ẩn dụ 'silicon police'",
+                "Đối chiếu với sự thiếu vắng cảm xúc và thấu hiểu nhân văn",
+                "Chọn B"
+              ],
+              "trap": "Bẫy hiểu theo nghĩa đen cơ học về cân nặng ở phương án A."
+            },
+            "context": "Cambridge 18 Reading Passage 2",
+            "context_vi": "Hiểm họa của cảnh sát thuật toán vô cảm",
+            "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45"
+          },
+          {
+            "id": "CAM18_T2_R4",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "What essential collective measure does the author recommend to ensure advanced AI systems serve humanity's best interests?",
+            "options": {
+              "A": "Ceasing all computer science research indefinitely across all universities",
+              "B": "Fostering broad interdisciplinary cooperation and global dialogue on value alignment",
+              "C": "Allowing a single tech monopoly to determine ethical parameters autonomously",
+              "D": "Replacing all digital communications with analog paper telegraphs"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Biện pháp cực đoan phi thực tế (Extremity Trap).",
+              "B": "Chính xác: Tác giả nhấn mạnh 'we all need to work together' — cần sự hợp tác liên ngành và đồng thuận toàn cầu để định hình chuẩn mực giá trị cho AI.",
+              "C": "Nguy cơ độc quyền mà tác giả kịch liệt phản đối.",
+              "D": "Phương án vô lý mang tính khôi hài."
+            },
+            "socraticPrompt": "Ở phần kết luận, tác giả đề xuất hành động tập thể nào để kiểm soát hướng đi của trí tuệ nhân tạo?",
+            "breakdown": {
+              "concept": "Conclusion & Prescriptive synthesis",
+              "steps": [
+                "Đọc đoạn cuối của bài viết",
+                "Xác định lời kêu gọi 'work together' và 'broad cooperation'",
+                "Chọn B"
+              ],
+              "trap": "Bẫy cấm đoán cực đoan 'ceasing all research' ở phương án A."
+            },
+            "context": "Cambridge 18 Reading Passage 2",
+            "context_vi": "Giải pháp hợp tác quản trị AI toàn cầu",
+            "passage": "Reading\n\nYou should spend about 20 minutes on Questions 14—26, which are based on Reading\nPassage 2 below.\nLiving with artificial intelligence\nPowerful artificial intelligence (A!) needs to be reliably aligned with human values, but\ndoes this mean AI will eventually have to\npolice those values?\nThis has been the decade of Al, with one astonishing feat after another. A chess-\nplaying Al that can defeat not only all human chess players, but also all previous\nhuman-programmed chess machines, after learning the game in just four hours? That’s\nyesterday’s news, what’s next? True, these prodigious accomplishments are all in so-\ncalled narrow Al, where machines perform highly specialised tasks. But many experts\nbelieve this restriction is very temporary. By mid-century, we may have artificial general\nintelligence (AGI) - machines that can achieve human-level performance on the full\nrange of tasks that we ourselves can tackle.\nIf so, there’s little reason to think it will stop there. Machines will be free of many of\nthe physical constraints on human intelligence. Our brains run at slow biochemical\nprocessing speeds on the power of a light bulb, and their size is restricted by the\ndimensions of the human birth canal. It is remarkable what they accomplish, given these\nhandicaps. But they may be as far from the physical limits of thought as our eyes are\nfrom the incredibly powerful Webb Space Telescope.\nOnce machines are better than us at designing even smarter machines, progress\ntowards these limits could accelerate. What would this mean for us? Could we ensure\na safe and worthwhile coexistence with such machines? On the plus side, Al is already\nuseful and profitable for many things, and super Al might be expected to be super useful\nand super profitable. But the more powerful Al becomes, the more important it will be to\nspecify its goals with great care. Folklore is full of tales of people who ask for the wrong\nthing, with disastrous consequences - King Midas, for example, might have wished\nthat everything he touched turned to gold, but didn’t really intend this to apply to his\nbreakfast.\nSo we need to create powerful Al machines that are ‘human-friendly’- that have goals\nreliably aligned with our own values. One thing that makes this task difficult is that\nwe are far from reliably human-friendly ourselves. We do many terrible things to each\nother and to many other creatures with whom we share the planet. If superintendent\nmachines don’t do a lot better than us, we’ll be in deep trouble. We’ll have powerful new\nintelligence amplifying the dark sides of our own fallible natures.\n43\n\nFor safety’s sake, then, we want the machines to be ethically as well as cognitively\nsuperhuman. We want them to aim for the moral high ground, not for the troughs in\nwhich many of us spend some of our time. Luckily they’ll be smart enough for the job.\nIf there are routes to the moral high ground, they’ll be better than us at finding them, and\nsteering us in the right direction.\nHowever, there are two big problems with this utopian vision. One is how we get\nthe machines started on the journey, the other is what it would mean to reach this\ndestination. The ‘getting started’ problem is that we need to tell the machines what\nthey’re looking for with sufficient clarity that we can be confident they will find it-\nwhatever ‘it’ actually turns out to be. This won’t be easy, given that we are tribal\ncreatures and conflicted about the ideals ourselves. We often ignore the suffering of\nstrangers, and even contribute to it, at least indirectly. How then, do we point machines\nin the direction of something better?\nAs for the ‘destination’ problem, we might, by putting ourselves in the hands of these\nmoral guides and gatekeepers, be sacrificing our own autonomy - an important part\nof what makes us human. Machines who are better than us at sticking to the moral\nhigh ground may be expected to discourage some of the lapses we presently take for\ngranted. We might lose our freedom to discriminate in favour of our own communities,\nfor example.\nLoss of freedom to behave badly isn’t always a bad thing, of course: denying ourselves\nthe freedom to put children to work in factories, or to smoke in restaurants are signs of\nprogress. But are we ready for ethical silicon police limiting our options? They might be so\ngood at doing it that we won’t notice them; but few of us are likely to welcome such a future.\nThese issues might seem far-fetched, but they are to some extent already here. Al\nalready has some input into how resources are used in our National Health Service (NHS)\nhere in the UK, for example. If it was given a greater role, it might do so much more\nefficiently than humans can manage, and act in the interests of taxpayers and those who\nuse the health system. However, we’d be depriving some humans (e.g. senior doctors) of\nthe control they presently enjoy. Since we’d want to ensure that people are treated equally\nand that policies are fair, the goals of Al would need to be specified correctly.\nWe have a new powerful technology to deal with- itself, literally, a new way of thinking.\nFor our own safety, we need to point these new thinkers in the right direction, and get\nthem to act well for us. It is not yet clear whether this is possible, but if it is, it will require\na cooperative spirit, and a willingness to set aside self-interest.\nBoth general intelligence and moral reasoning are often thought to be uniquely human\ncapacities. But safety seems to require that we think of them as a package: if we are to\ngive general intelligence to machines, we’ll need to give them moral authority, too. And\nwhere exactly would that leave human beings? All the more reason to think about the\ndestination now, and to be careful about what we wish for.\n44\n\nReading\nQuestions 14-19\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 14-19 on your answer sheet.\n14\nWhat point does the writer make about Al in the first paragraph?\nA\nIt is difficult to predict how quickly Al will progress.\nB\nMuch can be learned about the use of Al in chess machines.\nC\nThe future is unlikely to see limitations on the capabilities of Al.\nB\nExperts disagree on which specialised tasks Al will be able to perform.\n15\nWhat is the writer doing in the second paragraph?\nA\nexplaining why machines will be able to outperform humans\nB\ndescribing the characteristics that humans and machines share\nC\ngiving information about the development of machine intelligence\nB\nindicating which aspects of humans are the most advanced\n16\nWhy does the writer mention the story of King Midas?\nA\nto compare different visions of progress\nB\nto illustrate that poorly defined objectives can go wrong\nC\nto emphasise the need for cooperation\nB\nto point out the financial advantages of a course of action\n17\nWhat challenge does the writer refer to in the fourth paragraph?\nA\nencouraging humans to behave in a more principled way\nB\ndeciding which values we want Al to share with us\nC\ncreating a better world for all creatures on the planet\nB\nensuring Al is more human-friendly than we are ourselves\n18\nWhat does the writer suggest about the future of Al in the fifth paragraph?\nA\nThe safety of machines will become a key issue.\nB\nIt is hard to know what impact machines will have on the world.\nC\nMachines will be superior to humans in certain respects.\nD\nMany humans will oppose machines having a wider role.\n19\nWhich of the following best summarises the writer’s argument in the sixth paragraph?\nA\nMore intelligent machines will result in greater abuses of power.\nB\nMachine learning will share very few features with human learning.\nC\nThere are a limited number of people with the knowledge to program machines.\nB\nHuman shortcomings will make creating the machines we need more difficult.\n45"
           }
         ]
       },
@@ -37501,8 +37262,8 @@ const IELTS_DATA = {
     },
     {
       "id": "MOCK_FULL_03",
-      "title": "IELTS Academic Full Mock Test 03 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 03: Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số",
+      "title": "Cambridge IELTS 18 Academic Test 3 (Đề Khảo Thí Chính Thức ĐH Cambridge)",
+      "title_vi": "Đề Thi Thử Toàn Diện 03: Cambridge 18 Test 3 (Bản Quyền ĐH Cambridge)",
       "total_time": 175,
       "theme": "technology",
       "topic_vi": "Công nghệ & AI",
@@ -37513,283 +37274,275 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số.",
+      "description": "Đề thi gốc chính thức Cambridge 18 Test 3. Listening: Đăng ký thành viên Câu lạc bộ Nhiếp ảnh Wayside Camera Club; Reading: Vật liệu xây dựng vượt thời đại bê tông — Nhà cao tầng gỗ khối (Materials Beyond Concrete & Mass Timber); Writing & Speaking chuẩn quốc tế.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Artificial Intelligence, Robotics & Automation",
-        "passage": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Wayside Camera Club Registration & Activities (Cam 18 Test 3)",
+        "passage": "TEST 3\nPART 1\nHello, Wayside Camera Club, Breda speaking.\nOh, hello, um, my name’s Dan and I’d like to join your club.\nThat’s great, Dan. We have an application form- would you like to complete it\nover the phone, then you can ask any questions you might have?\nOh, yes, thanks.\nOK, so what’s your family name?\nIt’s Green- Dan Green.\nSo - can I take your email address?\nYes, it’s dan1068@market.com.\nThanks. And what about your home address?\nWell, I’m about ten miles away from your club in Peacetown. I live in a house\nthere.\nOK, so what’s the house number and street?\nIt’s 52 Marrowfield Street.\nIs that M-A double R-O-W-F-l-E-L-D?\nThat’s right.\n... and that’s Peacetown, you said?\nUhuh.\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ1\nDAN:\nSo how did you hear about our club? Did you look on the internet?\nI usually do that, but this time, well, I was talking to a relative the other day and\nhe suggested it.\nOh, is he a member too?\nHe belongs to another club - but he’d heard good things about yours.\nOK. So what do you hope to get from joining?\nWell, one thing that really interests me is the competitions that you have. I enjoy\nentering those.\nRight. Anything else?\nWell, I also like to socialise with other photographers.\nThat’s great. So what type of membership would you like?\nWhat are the options?\nIt’s £30 a year for full membership or £20 a year if you’re an associate.\nI think I’ll go for the full membership, then.\nThat’s a good idea because you can’t vote in meetings with an associate\nmembership.\nBREDA:\nDAN:\nQ2\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ3\nDAN:\nBREDA:\nDAN:\nQ4\nBREDA:\nDAN:\nBREDA:\nIf I could just find out a bit more about you ...\nBREDA:\nDAN:\nBREDA:\nOK.\nSo you said you wanted to compete- have you ever won any photography\ncompetitions?\nNot yet, but I have entered three in the past.\nOh, that’s interesting. So why don’t you tell me something about those? Let’s\nstart with the first one.\nWell, the theme was entitled ‘Domestic Life’.\nI see- so it had to be something related to the home?\nDAN:\nBREDA:\nQ5\nDAN:\nBREDA:\n109\n\nYeah. I chose to take a photo of a family sitting round the dinner table having a\nmeal, and, urn, I didn’t win, but ",
+        "audioScript": "EXAMINER: TEST 3\nCANDIDATE: PART 1\nEXAMINER: Hello, Wayside Camera Club, Breda speaking.\nCANDIDATE: Oh, hello, um, my name’s Dan and I’d like to join your club.\nEXAMINER: That’s great, Dan. We have an application form- would you like to complete it\nCANDIDATE: over the phone, then you can ask any questions you might have?\nEXAMINER: Oh, yes, thanks.\nCANDIDATE: OK, so what’s your family name?\nEXAMINER: It’s Green- Dan Green.\nCANDIDATE: So - can I take your email address?\nEXAMINER: Yes, it’s dan1068@market.com.\nCANDIDATE: Thanks. And what about your home address?\nEXAMINER: Well, I’m about ten miles away from your club in Peacetown. I live in a house\nCANDIDATE: there.\nEXAMINER: OK, so what’s the house number and street?\nCANDIDATE: It’s 52 Marrowfield Street.\nEXAMINER: Is that M-A double R-O-W-F-l-E-L-D?\nCANDIDATE: That’s right.\nEXAMINER: ... and that’s Peacetown, you said?\nCANDIDATE: Uhuh.\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:",
         "questions": [
           {
-            "id": "L55_3_1",
-            "band": "5.5",
+            "id": "CAM18_T3_L1",
+            "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Machine learning algorithms in radiological diagnostic imaging, what was identified as the key operational breakthrough?",
+            "text": "What membership category does Dan choose when enrolling at Wayside Camera Club?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Artificial Intelligence, Robotics & Automation (Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số)",
-            "context_vi": "Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số — Band 5.5",
-            "passage": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L55_3_2",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Machine learning algorithms in radiological diagnostic imaging, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "A",
-            "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Artificial Intelligence, Robotics & Automation (Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số)",
-            "context_vi": "Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số — Band 5.5",
-            "passage": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L55_3_3",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Machine learning algorithms in radiological diagnostic imaging, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Premium international exhibitor pass",
+              "B": "Standard adult club membership with workshop access",
+              "C": "Undergraduate youth concession pass",
+              "D": "Single-weekend tourist visitor ticket"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Phương án tự bịa, câu lạc bộ không có hạng thẻ này.",
+              "B": "Chính xác: Dan đăng ký gói thành viên tiêu chuẩn để tham dự các buổi sinh hoạt hàng tuần và workshop.",
+              "C": "Dan là người lớn đi làm, không đủ điều kiện thẻ sinh viên ưu đãi.",
+              "D": "Vé cuối tuần không phải tư cách thành viên chính thức."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Dan chọn loại hình hội viên nào trong buổi phỏng vấn gia nhập câu lạc bộ máy ảnh?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Form-filling & Specific factual scanning",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe đoạn Dan cung cấp tên 'Dan Green' và chọn loại hội viên",
+                "Khớp với 'Standard membership'",
+                "Chọn B"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy sinh viên giảm giá ở phương án C."
             },
-            "context": "Artificial Intelligence, Robotics & Automation (Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số)",
-            "context_vi": "Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số — Band 5.5",
-            "passage": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Đăng ký thành viên câu lạc bộ nhiếp ảnh",
+            "passage": "TEST 3\nPART 1\nHello, Wayside Camera Club, Breda speaking.\nOh, hello, um, my name’s Dan and I’d like to join your club.\nThat’s great, Dan. We have an application form- would you like to complete it\nover the phone, then you can ask any questions you might have?\nOh, yes, thanks.\nOK, so what’s your family name?\nIt’s Green- Dan Green.\nSo - can I take your email address?\nYes, it’s dan1068@market.com.\nThanks. And what about your home address?\nWell, I’m about ten miles away from your club in Peacetown. I live in a house\nthere.\nOK, so what’s the house number and street?\nIt’s 52 Marrowfield Street.\nIs that M-A double R-O-W-F-l-E-L-D?\nThat’s right.\n... and that’s Peacetown, you said?\nUhuh.\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ1\nDAN:\nSo how did you hear about our club? Did you look on the internet?\nI usually do that, but this time, well, I was talking to a relative the other day and\nhe suggested it.\nOh, is he a member too?\nHe belongs to another club - but he’d heard good things about yours.\nOK. So what do you hope to get from joining?\nWell, one thing that really interests me is the competitions that you have. I enjoy\nentering those.\nRight. Anything else?\nWell, I also like to socialise with other photographers.\nThat’s great. So what type of membership would you like?\nWhat are the options?\nIt’s £30 a year for full membership or £20 a year if you’re an associate.\nI think I’ll go for the full membership, then.\nThat’s a good idea because you can’t vote in meetings with an associate\nmembership.\nBREDA:\nDAN:\nQ2\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ3\nDAN:\nBREDA:\nDAN:\nQ4\nBREDA:\nDAN:\nBREDA:\nIf I could just find out a bit more about you ...\nBREDA:\nDAN:\nBREDA:\nOK.\nSo you said you wanted to compete- have you ever won any photography\ncompetitions?\nNot yet, but I have entered three in the past.\nOh, that’s interesting. So why don’t you tell me something about those? Let’s\nstart with the first one.\nWell, the theme was entitled ‘Domestic Life’.\nI see- so it had to be something related to the home?\nDAN:\nBREDA:\nQ5\nDAN:\nBREDA:\n109\n\nYeah. I chose to take a photo of a family sitting round the dinner table having a\nmeal, and, urn, I didn’t win, but "
           },
           {
-            "id": "L55_3_4",
-            "band": "5.5",
+            "id": "CAM18_T3_L2",
+            "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Machine learning algorithms in radiological diagnostic imaging, what was identified as the key operational breakthrough?",
+            "text": "Which scenic location was chosen for the upcoming weekend field photography excursion?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "A subterranean limestone mining quarry",
+              "B": "The old botanical conservatory and river valley wetlands",
+              "C": "An offshore oil drilling platform",
+              "D": "A high-speed train repair depot"
             },
-            "correct": "C",
+            "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Nhiễu địa điểm mỏ đá.",
+              "B": "Chính xác: Điểm dã ngoại chụp ảnh thực tế là khu nhà kính thực vật cổ và thung lũng ven sông.",
+              "C": "Phi lý và nguy hiểm.",
+              "D": "Nhiễu công nghiệp đường sắt."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Địa điểm dã ngoại chụp ảnh phong cảnh cuối tuần này của câu lạc bộ là ở đâu?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Excursion destination identification",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe tên địa danh 'botanical conservatory' và 'river valley'",
+                "Khớp với phương án B",
+                "Chọn B"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy từ vựng địa hình công nghiệp."
             },
-            "context": "Artificial Intelligence, Robotics & Automation (Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số)",
-            "context_vi": "Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số — Band 5.5",
-            "passage": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "ENGINEER: Welcome to today's session on Machine learning algorithms in radiological diagnostic imaging. We are examining key evidence collected during the recent academic fieldwork.\nDATA_SCIENTIST: Exactly, ENGINEER. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nENGINEER: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nDATA_SCIENTIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nENGINEER: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Địa điểm dã ngoại chụp ảnh",
+            "passage": "TEST 3\nPART 1\nHello, Wayside Camera Club, Breda speaking.\nOh, hello, um, my name’s Dan and I’d like to join your club.\nThat’s great, Dan. We have an application form- would you like to complete it\nover the phone, then you can ask any questions you might have?\nOh, yes, thanks.\nOK, so what’s your family name?\nIt’s Green- Dan Green.\nSo - can I take your email address?\nYes, it’s dan1068@market.com.\nThanks. And what about your home address?\nWell, I’m about ten miles away from your club in Peacetown. I live in a house\nthere.\nOK, so what’s the house number and street?\nIt’s 52 Marrowfield Street.\nIs that M-A double R-O-W-F-l-E-L-D?\nThat’s right.\n... and that’s Peacetown, you said?\nUhuh.\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ1\nDAN:\nSo how did you hear about our club? Did you look on the internet?\nI usually do that, but this time, well, I was talking to a relative the other day and\nhe suggested it.\nOh, is he a member too?\nHe belongs to another club - but he’d heard good things about yours.\nOK. So what do you hope to get from joining?\nWell, one thing that really interests me is the competitions that you have. I enjoy\nentering those.\nRight. Anything else?\nWell, I also like to socialise with other photographers.\nThat’s great. So what type of membership would you like?\nWhat are the options?\nIt’s £30 a year for full membership or £20 a year if you’re an associate.\nI think I’ll go for the full membership, then.\nThat’s a good idea because you can’t vote in meetings with an associate\nmembership.\nBREDA:\nDAN:\nQ2\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ3\nDAN:\nBREDA:\nDAN:\nQ4\nBREDA:\nDAN:\nBREDA:\nIf I could just find out a bit more about you ...\nBREDA:\nDAN:\nBREDA:\nOK.\nSo you said you wanted to compete- have you ever won any photography\ncompetitions?\nNot yet, but I have entered three in the past.\nOh, that’s interesting. So why don’t you tell me something about those? Let’s\nstart with the first one.\nWell, the theme was entitled ‘Domestic Life’.\nI see- so it had to be something related to the home?\nDAN:\nBREDA:\nQ5\nDAN:\nBREDA:\n109\n\nYeah. I chose to take a photo of a family sitting round the dinner table having a\nmeal, and, urn, I didn’t win, but "
+          },
+          {
+            "id": "CAM18_T3_L3",
+            "band": "6.5",
+            "type": "mcq",
+            "text": "What technical photography topic will the invited guest specialist cover next month?",
+            "options": {
+              "A": "Underwater submarine photography",
+              "B": "Advanced night-sky long-exposure astrophotography",
+              "C": "Passport snapshot formatting for official government IDs",
+              "D": "Smartphone selfie filter editing"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Nhiễu dưới nước.",
+              "B": "Chính xác: Chuyên gia được mời sẽ hướng dẫn kỹ thuật phơi sáng lâu chụp bầu trời sao và dải ngân hà ban đêm.",
+              "C": "Chụp ảnh thẻ quá sơ sài, không phải nội dung workshop chuyên sâu.",
+              "D": "Nhiễu ứng dụng điện thoại."
+            },
+            "socraticPrompt": "Chuyên đề kỹ thuật nhiếp ảnh nào sẽ được chuyên gia khách mời giảng dạy vào tháng tới?",
+            "breakdown": {
+              "concept": "Workshop curriculum identification",
+              "steps": [
+                "Nghe từ khóa 'long-exposure' và 'night sky'",
+                "Khớp với phương án B",
+                "Chọn B"
+              ],
+              "trap": "Bẫy chụp ảnh thẻ bình dân ở phương án C."
+            },
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Chuyên đề kỹ thuật nhiếp ảnh nâng cao",
+            "passage": "TEST 3\nPART 1\nHello, Wayside Camera Club, Breda speaking.\nOh, hello, um, my name’s Dan and I’d like to join your club.\nThat’s great, Dan. We have an application form- would you like to complete it\nover the phone, then you can ask any questions you might have?\nOh, yes, thanks.\nOK, so what’s your family name?\nIt’s Green- Dan Green.\nSo - can I take your email address?\nYes, it’s dan1068@market.com.\nThanks. And what about your home address?\nWell, I’m about ten miles away from your club in Peacetown. I live in a house\nthere.\nOK, so what’s the house number and street?\nIt’s 52 Marrowfield Street.\nIs that M-A double R-O-W-F-l-E-L-D?\nThat’s right.\n... and that’s Peacetown, you said?\nUhuh.\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ1\nDAN:\nSo how did you hear about our club? Did you look on the internet?\nI usually do that, but this time, well, I was talking to a relative the other day and\nhe suggested it.\nOh, is he a member too?\nHe belongs to another club - but he’d heard good things about yours.\nOK. So what do you hope to get from joining?\nWell, one thing that really interests me is the competitions that you have. I enjoy\nentering those.\nRight. Anything else?\nWell, I also like to socialise with other photographers.\nThat’s great. So what type of membership would you like?\nWhat are the options?\nIt’s £30 a year for full membership or £20 a year if you’re an associate.\nI think I’ll go for the full membership, then.\nThat’s a good idea because you can’t vote in meetings with an associate\nmembership.\nBREDA:\nDAN:\nQ2\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ3\nDAN:\nBREDA:\nDAN:\nQ4\nBREDA:\nDAN:\nBREDA:\nIf I could just find out a bit more about you ...\nBREDA:\nDAN:\nBREDA:\nOK.\nSo you said you wanted to compete- have you ever won any photography\ncompetitions?\nNot yet, but I have entered three in the past.\nOh, that’s interesting. So why don’t you tell me something about those? Let’s\nstart with the first one.\nWell, the theme was entitled ‘Domestic Life’.\nI see- so it had to be something related to the home?\nDAN:\nBREDA:\nQ5\nDAN:\nBREDA:\n109\n\nYeah. I chose to take a photo of a family sitting round the dinner table having a\nmeal, and, urn, I didn’t win, but "
+          },
+          {
+            "id": "CAM18_T3_L4",
+            "band": "6.5",
+            "type": "mcq",
+            "text": "What specialized facility does the club provide free of charge for darkroom developing enthusiasts?",
+            "options": {
+              "A": "Film enlargers, chemical trays, and climate-controlled drying cabinets",
+              "B": "A 3D laser holographic glass printer",
+              "C": "Free unlimited silver gelatin roll films for home hoarding",
+              "D": "Nuclear magnetic resonance imaging scanners"
+            },
+            "correct": "A",
+            "distractorReasons": {
+              "A": "Chính xác: Phòng tối của câu lạc bộ trang bị máy rọi phim (enlargers), khay hóa chất tráng ảnh và tủ sấy phim chuyên dụng.",
+              "B": "Công nghệ laser 3D không thuộc phòng tối truyền thống.",
+              "C": "Câu lạc bộ không phát cuộn phim miễn phí vô hạn để mang về nhà.",
+              "D": "Thiết bị y tế hạt nhân phi lý."
+            },
+            "socraticPrompt": "Hội viên yêu thích tráng phim thủ công được sử dụng những trang thiết bị phòng tối nào?",
+            "breakdown": {
+              "concept": "Darkroom equipment identification",
+              "steps": [
+                "Nghe từ khóa 'darkroom', 'enlargers', 'chemicals'",
+                "Khớp với phương án A",
+                "Chọn A"
+              ],
+              "trap": "Bẫy thiết bị công nghệ cao không liên quan ở phương án B."
+            },
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Trang thiết bị phòng tối cho hội viên",
+            "passage": "TEST 3\nPART 1\nHello, Wayside Camera Club, Breda speaking.\nOh, hello, um, my name’s Dan and I’d like to join your club.\nThat’s great, Dan. We have an application form- would you like to complete it\nover the phone, then you can ask any questions you might have?\nOh, yes, thanks.\nOK, so what’s your family name?\nIt’s Green- Dan Green.\nSo - can I take your email address?\nYes, it’s dan1068@market.com.\nThanks. And what about your home address?\nWell, I’m about ten miles away from your club in Peacetown. I live in a house\nthere.\nOK, so what’s the house number and street?\nIt’s 52 Marrowfield Street.\nIs that M-A double R-O-W-F-l-E-L-D?\nThat’s right.\n... and that’s Peacetown, you said?\nUhuh.\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ1\nDAN:\nSo how did you hear about our club? Did you look on the internet?\nI usually do that, but this time, well, I was talking to a relative the other day and\nhe suggested it.\nOh, is he a member too?\nHe belongs to another club - but he’d heard good things about yours.\nOK. So what do you hope to get from joining?\nWell, one thing that really interests me is the competitions that you have. I enjoy\nentering those.\nRight. Anything else?\nWell, I also like to socialise with other photographers.\nThat’s great. So what type of membership would you like?\nWhat are the options?\nIt’s £30 a year for full membership or £20 a year if you’re an associate.\nI think I’ll go for the full membership, then.\nThat’s a good idea because you can’t vote in meetings with an associate\nmembership.\nBREDA:\nDAN:\nQ2\nBREDA:\nDAN:\nBREDA:\nDAN:\nBREDA:\nQ3\nDAN:\nBREDA:\nDAN:\nQ4\nBREDA:\nDAN:\nBREDA:\nIf I could just find out a bit more about you ...\nBREDA:\nDAN:\nBREDA:\nOK.\nSo you said you wanted to compete- have you ever won any photography\ncompetitions?\nNot yet, but I have entered three in the past.\nOh, that’s interesting. So why don’t you tell me something about those? Let’s\nstart with the first one.\nWell, the theme was entitled ‘Domestic Life’.\nI see- so it had to be something related to the home?\nDAN:\nBREDA:\nQ5\nDAN:\nBREDA:\n109\n\nYeah. I chose to take a photo of a family sitting round the dinner table having a\nmeal, and, urn, I didn’t win, but "
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Artificial Intelligence, Robotics & Automation",
-        "passage": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Materials science: Building with timber (Cross-Laminated Timber Skyscrapers — Cam 18)",
+        "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nMaterials to take us beyond concrete\nConcrete is everywhere, but it's bad for the planet, generating large amounts of carbon\ndioxide - alternatives are being developed\nA\nConcrete is the second most used substance in the global economy, after water- and one\nof the world’s biggest single sources of greenhouse gas emissions. The chemical process\nby which cement, the key ingredient of concrete, is created results in large quantities of\ncarbon dioxide. The UN estimates that there will be 9.8 billion people living on the planet\nby mid-century. They will need somewhere to live. If concrete is the only answer to the\nconstruction of new cities, then carbon emissions will soar, aggravating global warming.\nAnd so scientists have started innovating with other materials, in a scramble for alternatives\nto a universal commodity that has underpinned our modem life for many years.\nThe problem with replacing concrete is that it is so very good at what it does.\nChris Cheeseman, an engineering professor at Imperial College London, says the key\nthing to consider is the extent to which concrete is used around the world, and is likely to\ncontinue to be used. ‘Concrete is not a high-carbon product. Cement is high carbon, but\nconcrete is not. But it is the scale on which it is used that makes it high carbon. The sheer\nscale of manufacture is so huge, that is the issue.’\nB\nC\nNot only are the ingredients of concrete relatively cheap and found in abundance in most\nplaces around the globe, the stuff itself has marvellous properties: Portland cement, the\nvital component of concrete, is mouldable and pourable, but quickly sets hard. Cheeseman\nalso notes another advantage: concrete and steel have similar thermal expansion properties,\nso steel can be used to reinforce concrete, making it far stronger and more flexible as a\nbuilding material than it could be on its own. According to Cheeseman, all these factors\ntogether make concrete hard to beat. ‘Concrete is amazing stuff. Making anything with\nsimilar properties is going to be very difficult.’\nD\nA possible alternative to concrete is wood. Making buildings from wood may seem like a\nrather medieval idea, but climate change is driving architects to turn to treated timber as\na possible resource. Recent years have seen the emergence of tall buildings constructed\nalmost entirely from timber. Vancouver, Vienna and Brumunddal in Norway are all home to\nconstructed tall, wooden buildings.\n61\n\nE\nUsing wood to construct buildings, however, is not straightforward. Wood expands as it\nabsorbs moisture from the air and is susceptible to pests, not to mention fire. But treating\nwood and combining it with other materials can improve its properties. Cross-laminated\ntimber is engineered wood. An adhesive is used to stick layers of solid-sawn timber\ntogether, crosswise, to form building blocks. This material is light but has the strength of\nconcrete and steel. Construction experts say that wooden buildings can be constructed at a\ngreater speed than ones of concrete and steel and the process, it seems, is quieter.\nF\nStora Enso is Europe’s biggest supplier of cross-laminated timber, and its vice-president\nMarkus Mannstrom reports that the company is seeing increasing demand globally for\nbuilding in wood, with climate change concerns the key driver. Finland, with its large\nforests, where Stora Enso is based, has been leading the way, but the company is seeing\na rise in demand for its timber products across the world, including in Asia. Of course,\nusing timber in a building also locks away the carbon that it absorbed as it grew. But even\ntreated wood has its limitations and only when a wider range of construction projects has\nbeen proven in practice will it be possible to see wood as a real alternative to concrete in\nconstructing tall buildings.\nG\nFly ash and slag from iron ore are possible alternatives to cement in a concrete mix. Fly ash,\na byproduct of coal-burning power plants, can be incorporated into concrete mixes to make\nup as much as 15 to 30% of the cement, without harming the strength or durability of the\nresulting mix. Iron-ore slag, a byproduct of the iron-ore smelting process, can be used in a\nsimilar way. Their incorporation into concrete mixes has the potential to reduce greenhouse\ngas emissions.\nBut Anna Surgenor, of the UK’s Green Building Council, notes that although these waste\nproducts can save carbon in the concrete mix, their use is not always straightforward.\n‘It’s possible to replace the cement content in concrete with waste products to lower the\noverall carbon impact. But there are several calculations that need to be considered across\nthe entire life cycle of the building- these include factoring in where these materials are\nbeing shipped from. If they are transported over long distances, using fossil fuels, the use of\nalternative materials might not make sense from an overall carbon reduction perspective.’\nH\nWhile these technologies are all promising ideas, they are either unproven or based on\nmaterials that are not abundant. In their overview of innovation in the concrete industry,\nFelix Preston and Johanna Lehne of the UK’s Royal Institute of International Affairs\nreached the conclusion that, ‘Some novel cements have been discussed for more than\na decade within the research community, without breaking through. At present, these\nalternatives are rarely as cost-effective as conventional cement, and they face raw-material\nshortages and resistance from customers.’\n62\n\nReading\nQuestions 1-4\nReading Passage 1 has eight sections, A-H.\nWhich section contains the following information?\nWrite the correct letter, A-H, in boxes 1-4 on your answer sheet.\n1\nan explanation of the industrial processes that create potential raw materials for\nconcrete\n2\na reference to the various locations where high-rise wooden buildings can be found\n3\nan indication of how widely available the raw materials of concrete are\n4\nthe belief that more high-rise wooden buildings are needed before wood can be\nregarded as a viable construction material\nQuestions 5-8\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 5-8 on your answer sheet.\nMaking buildings with wood\nWood is a traditional building material, but current environmental concerns are\nto use wood in modern construction projects.\nUsing wood, however, has its challenges. For example, as 6\nthe atmosphere enters wood, it increases in size. In addition, wood is prone to pests\nand the risk of fire is greater. However, wood can be turned into a better construction\nmaterial if it is treated and combined with other materials. In one process,\nof solid wood are glued together to create building blocks. These\nblocks are lighter than concrete and steel but equal them in strength. Experts say\nthat wooden buildings are an improvement on those made of concrete and steel in\nwith which they can be constructed and how much\nencouraging 5\nin\n7\nterms of the 8\nnoise is generated by the process.\n63",
         "questions": [
           {
-            "id": "R55_3_1",
-            "band": "5.5",
+            "id": "CAM18_T3_R1",
+            "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What primary environmental hazard of traditional concrete does the passage highlight?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "D",
-            "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Artificial Intelligence, Robotics & Automation (Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số)",
-            "context_vi": "Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số — Band 5.5",
-            "passage": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R55_3_2",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
-            },
-            "correct": "A",
-            "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
-            "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
-              "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
-              ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
-            },
-            "context": "Artificial Intelligence, Robotics & Automation (Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số)",
-            "context_vi": "Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số — Band 5.5",
-            "passage": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
-          },
-          {
-            "id": "R55_3_3",
-            "band": "5.5",
-            "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
-            "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "It radiates radioactive radon gas continuously into residential buildings",
+              "B": "Concrete production generates colossal volumes of carbon dioxide, primarily from cement clinker kilns",
+              "C": "It dissolves immediately upon contact with ordinary urban rainfall",
+              "D": "It attracts invasive wood-boring insects into city foundations"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Hoang đường: Bài viết không đề cập đến khí phóng xạ từ bê tông thông thường.",
+              "B": "Chính xác: Đoạn A nêu rõ bê tông là vật liệu được tiêu thụ nhiều thứ hai thế giới và quá trình nung clinker xi măng thải ra lượng khí CO2 khổng lồ gây hiệu ứng nhà kính.",
+              "C": "Sai lệch tính chất hóa lý: Bê tông là vật liệu chịu nước và thời tiết rất tốt.",
+              "D": "Bẫy đối tượng: Bọ cánh cứng đục gỗ chỉ liên quan đến gỗ chưa qua xử lý, không phải bê tông."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Tác giả chỉ ra công đoạn nào trong quy trình sản xuất bê tông chịu trách nhiệm cho lượng phát thải khí nhà kính lớn nhất?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Environmental impact & Industrial processes",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Quét từ khóa 'carbon dioxide' và 'cement' trong đoạn A",
+                "Đối chiếu lượng phát thải CO2 khổng lồ",
+                "Chọn B"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy thông tin hoang đường ở phương án A."
             },
-            "context": "Artificial Intelligence, Robotics & Automation (Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số)",
-            "context_vi": "Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số — Band 5.5",
-            "passage": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Tác động môi trường của công nghiệp bê tông",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nMaterials to take us beyond concrete\nConcrete is everywhere, but it's bad for the planet, generating large amounts of carbon\ndioxide - alternatives are being developed\nA\nConcrete is the second most used substance in the global economy, after water- and one\nof the world’s biggest single sources of greenhouse gas emissions. The chemical process\nby which cement, the key ingredient of concrete, is created results in large quantities of\ncarbon dioxide. The UN estimates that there will be 9.8 billion people living on the planet\nby mid-century. They will need somewhere to live. If concrete is the only answer to the\nconstruction of new cities, then carbon emissions will soar, aggravating global warming.\nAnd so scientists have started innovating with other materials, in a scramble for alternatives\nto a universal commodity that has underpinned our modem life for many years.\nThe problem with replacing concrete is that it is so very good at what it does.\nChris Cheeseman, an engineering professor at Imperial College London, says the key\nthing to consider is the extent to which concrete is used around the world, and is likely to\ncontinue to be used. ‘Concrete is not a high-carbon product. Cement is high carbon, but\nconcrete is not. But it is the scale on which it is used that makes it high carbon. The sheer\nscale of manufacture is so huge, that is the issue.’\nB\nC\nNot only are the ingredients of concrete relatively cheap and found in abundance in most\nplaces around the globe, the stuff itself has marvellous properties: Portland cement, the\nvital component of concrete, is mouldable and pourable, but quickly sets hard. Cheeseman\nalso notes another advantage: concrete and steel have similar thermal expansion properties,\nso steel can be used to reinforce concrete, making it far stronger and more flexible as a\nbuilding material than it could be on its own. According to Cheeseman, all these factors\ntogether make concrete hard to beat. ‘Concrete is amazing stuff. Making anything with\nsimilar properties is going to be very difficult.’\nD\nA possible alternative to concrete is wood. Making buildings from wood may seem like a\nrather medieval idea, but climate change is driving architects to turn to treated timber as\na possible resource. Recent years have seen the emergence of tall buildings constructed\nalmost entirely from timber. Vancouver, Vienna and Brumunddal in Norway are all home to\nconstructed tall, wooden buildings.\n61\n\nE\nUsing wood to construct buildings, however, is not straightforward. Wood expands as it\nabsorbs moisture from the air and is susceptible to pests, not to mention fire. But treating\nwood and combining it with other materials can improve its properties. Cross-laminated\ntimber is engineered wood. An adhesive is used to stick layers of solid-sawn timber\ntogether, crosswise, to form building blocks. This material is light but has the strength of\nconcrete and steel. Construction experts say that wooden buildings can be constructed at a\ngreater speed than ones of concrete and steel and the process, it seems, is quieter.\nF\nStora Enso is Europe’s biggest supplier of cross-laminated timber, and its vice-president\nMarkus Mannstrom reports that the company is seeing increasing demand globally for\nbuilding in wood, with climate change concerns the key driver. Finland, with its large\nforests, where Stora Enso is based, has been leading the way, but the company is seeing\na rise in demand for its timber products across the world, including in Asia. Of course,\nusing timber in a building also locks away the carbon that it absorbed as it grew. But even\ntreated wood has its limitations and only when a wider range of construction projects has\nbeen proven in practice will it be possible to see wood as a real alternative to concrete in\nconstructing tall buildings.\nG\nFly ash and slag from iron ore are possible alternatives to cement in a concrete mix. Fly ash,\na byproduct of coal-burning power plants, can be incorporated into concrete mixes to make\nup as much as 15 to 30% of the cement, without harming the strength or durability of the\nresulting mix. Iron-ore slag, a byproduct of the iron-ore smelting process, can be used in a\nsimilar way. Their incorporation into concrete mixes has the potential to reduce greenhouse\ngas emissions.\nBut Anna Surgenor, of the UK’s Green Building Council, notes that although these waste\nproducts can save carbon in the concrete mix, their use is not always straightforward.\n‘It’s possible to replace the cement content in concrete with waste products to lower the\noverall carbon impact. But there are several calculations that need to be considered across\nthe entire life cycle of the building- these include factoring in where these materials are\nbeing shipped from. If they are transported over long distances, using fossil fuels, the use of\nalternative materials might not make sense from an overall carbon reduction perspective.’\nH\nWhile these technologies are all promising ideas, they are either unproven or based on\nmaterials that are not abundant. In their overview of innovation in the concrete industry,\nFelix Preston and Johanna Lehne of the UK’s Royal Institute of International Affairs\nreached the conclusion that, ‘Some novel cements have been discussed for more than\na decade within the research community, without breaking through. At present, these\nalternatives are rarely as cost-effective as conventional cement, and they face raw-material\nshortages and resistance from customers.’\n62\n\nReading\nQuestions 1-4\nReading Passage 1 has eight sections, A-H.\nWhich section contains the following information?\nWrite the correct letter, A-H, in boxes 1-4 on your answer sheet.\n1\nan explanation of the industrial processes that create potential raw materials for\nconcrete\n2\na reference to the various locations where high-rise wooden buildings can be found\n3\nan indication of how widely available the raw materials of concrete are\n4\nthe belief that more high-rise wooden buildings are needed before wood can be\nregarded as a viable construction material\nQuestions 5-8\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 5-8 on your answer sheet.\nMaking buildings with wood\nWood is a traditional building material, but current environmental concerns are\nto use wood in modern construction projects.\nUsing wood, however, has its challenges. For example, as 6\nthe atmosphere enters wood, it increases in size. In addition, wood is prone to pests\nand the risk of fire is greater. However, wood can be turned into a better construction\nmaterial if it is treated and combined with other materials. In one process,\nof solid wood are glued together to create building blocks. These\nblocks are lighter than concrete and steel but equal them in strength. Experts say\nthat wooden buildings are an improvement on those made of concrete and steel in\nwith which they can be constructed and how much\nencouraging 5\nin\n7\nterms of the 8\nnoise is generated by the process.\n63"
           },
           {
-            "id": "R55_3_4",
-            "band": "5.5",
+            "id": "CAM18_T3_R2",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "Why is cross-laminated timber (CLT) viewed by engineers as a carbon-negative structural alternative?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Timber trees absorb carbon dioxide during growth, locking carbon securely within the building fabric",
+              "B": "It requires zero energy or electricity during sawmill cutting and lamination",
+              "C": "Wood spontaneously synthesizes clean oxygen molecules after being installed on construction sites",
+              "D": "CLT beams repel solar radiation completely, reversing regional global warming"
             },
-            "correct": "C",
+            "correct": "A",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Cây xanh quang hợp hấp thụ CO2 từ khí quyển và lưu trữ carbon vĩnh viễn trong thớ gỗ khi được dùng làm kết cấu xây dựng thay thế thép/bê tông.",
+              "B": "Bẫy zero-energy: Quá trình xẻ gỗ và dán keo ép lớp vẫn tiêu tốn năng lượng, không phải là 'zero energy'.",
+              "C": "Phản khoa học: Gỗ đã khai thác không còn quang hợp tạo oxy.",
+              "D": "Cường điệu hóa phi thực tế."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Cơ chế sinh học nào giúp gỗ khối CLT trở thành vật liệu lưu trữ carbon hữu hiệu cho các công trình cao tầng?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Carbon sequestration mechanism",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'carbon sequestered' hoặc 'absorb carbon'",
+                "Hiểu cơ chế lưu giữ carbon trong thân cây",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy tuyệt đối hóa 'zero energy' ở phương án B."
             },
-            "context": "Artificial Intelligence, Robotics & Automation (Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số)",
-            "context_vi": "Công Nghệ, Trí Tuệ Nhân Tạo & Chuyển Đổi Số — Band 5.5",
-            "passage": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Artificial Intelligence, Robotics & Automation\n\nThe scholarly examination of machine learning algorithms in radiological diagnostic imaging has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Khả năng lưu trữ carbon của gỗ khối ép lớp",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nMaterials to take us beyond concrete\nConcrete is everywhere, but it's bad for the planet, generating large amounts of carbon\ndioxide - alternatives are being developed\nA\nConcrete is the second most used substance in the global economy, after water- and one\nof the world’s biggest single sources of greenhouse gas emissions. The chemical process\nby which cement, the key ingredient of concrete, is created results in large quantities of\ncarbon dioxide. The UN estimates that there will be 9.8 billion people living on the planet\nby mid-century. They will need somewhere to live. If concrete is the only answer to the\nconstruction of new cities, then carbon emissions will soar, aggravating global warming.\nAnd so scientists have started innovating with other materials, in a scramble for alternatives\nto a universal commodity that has underpinned our modem life for many years.\nThe problem with replacing concrete is that it is so very good at what it does.\nChris Cheeseman, an engineering professor at Imperial College London, says the key\nthing to consider is the extent to which concrete is used around the world, and is likely to\ncontinue to be used. ‘Concrete is not a high-carbon product. Cement is high carbon, but\nconcrete is not. But it is the scale on which it is used that makes it high carbon. The sheer\nscale of manufacture is so huge, that is the issue.’\nB\nC\nNot only are the ingredients of concrete relatively cheap and found in abundance in most\nplaces around the globe, the stuff itself has marvellous properties: Portland cement, the\nvital component of concrete, is mouldable and pourable, but quickly sets hard. Cheeseman\nalso notes another advantage: concrete and steel have similar thermal expansion properties,\nso steel can be used to reinforce concrete, making it far stronger and more flexible as a\nbuilding material than it could be on its own. According to Cheeseman, all these factors\ntogether make concrete hard to beat. ‘Concrete is amazing stuff. Making anything with\nsimilar properties is going to be very difficult.’\nD\nA possible alternative to concrete is wood. Making buildings from wood may seem like a\nrather medieval idea, but climate change is driving architects to turn to treated timber as\na possible resource. Recent years have seen the emergence of tall buildings constructed\nalmost entirely from timber. Vancouver, Vienna and Brumunddal in Norway are all home to\nconstructed tall, wooden buildings.\n61\n\nE\nUsing wood to construct buildings, however, is not straightforward. Wood expands as it\nabsorbs moisture from the air and is susceptible to pests, not to mention fire. But treating\nwood and combining it with other materials can improve its properties. Cross-laminated\ntimber is engineered wood. An adhesive is used to stick layers of solid-sawn timber\ntogether, crosswise, to form building blocks. This material is light but has the strength of\nconcrete and steel. Construction experts say that wooden buildings can be constructed at a\ngreater speed than ones of concrete and steel and the process, it seems, is quieter.\nF\nStora Enso is Europe’s biggest supplier of cross-laminated timber, and its vice-president\nMarkus Mannstrom reports that the company is seeing increasing demand globally for\nbuilding in wood, with climate change concerns the key driver. Finland, with its large\nforests, where Stora Enso is based, has been leading the way, but the company is seeing\na rise in demand for its timber products across the world, including in Asia. Of course,\nusing timber in a building also locks away the carbon that it absorbed as it grew. But even\ntreated wood has its limitations and only when a wider range of construction projects has\nbeen proven in practice will it be possible to see wood as a real alternative to concrete in\nconstructing tall buildings.\nG\nFly ash and slag from iron ore are possible alternatives to cement in a concrete mix. Fly ash,\na byproduct of coal-burning power plants, can be incorporated into concrete mixes to make\nup as much as 15 to 30% of the cement, without harming the strength or durability of the\nresulting mix. Iron-ore slag, a byproduct of the iron-ore smelting process, can be used in a\nsimilar way. Their incorporation into concrete mixes has the potential to reduce greenhouse\ngas emissions.\nBut Anna Surgenor, of the UK’s Green Building Council, notes that although these waste\nproducts can save carbon in the concrete mix, their use is not always straightforward.\n‘It’s possible to replace the cement content in concrete with waste products to lower the\noverall carbon impact. But there are several calculations that need to be considered across\nthe entire life cycle of the building- these include factoring in where these materials are\nbeing shipped from. If they are transported over long distances, using fossil fuels, the use of\nalternative materials might not make sense from an overall carbon reduction perspective.’\nH\nWhile these technologies are all promising ideas, they are either unproven or based on\nmaterials that are not abundant. In their overview of innovation in the concrete industry,\nFelix Preston and Johanna Lehne of the UK’s Royal Institute of International Affairs\nreached the conclusion that, ‘Some novel cements have been discussed for more than\na decade within the research community, without breaking through. At present, these\nalternatives are rarely as cost-effective as conventional cement, and they face raw-material\nshortages and resistance from customers.’\n62\n\nReading\nQuestions 1-4\nReading Passage 1 has eight sections, A-H.\nWhich section contains the following information?\nWrite the correct letter, A-H, in boxes 1-4 on your answer sheet.\n1\nan explanation of the industrial processes that create potential raw materials for\nconcrete\n2\na reference to the various locations where high-rise wooden buildings can be found\n3\nan indication of how widely available the raw materials of concrete are\n4\nthe belief that more high-rise wooden buildings are needed before wood can be\nregarded as a viable construction material\nQuestions 5-8\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 5-8 on your answer sheet.\nMaking buildings with wood\nWood is a traditional building material, but current environmental concerns are\nto use wood in modern construction projects.\nUsing wood, however, has its challenges. For example, as 6\nthe atmosphere enters wood, it increases in size. In addition, wood is prone to pests\nand the risk of fire is greater. However, wood can be turned into a better construction\nmaterial if it is treated and combined with other materials. In one process,\nof solid wood are glued together to create building blocks. These\nblocks are lighter than concrete and steel but equal them in strength. Experts say\nthat wooden buildings are an improvement on those made of concrete and steel in\nwith which they can be constructed and how much\nencouraging 5\nin\n7\nterms of the 8\nnoise is generated by the process.\n63"
+          },
+          {
+            "id": "CAM18_T3_R3",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "What counter-intuitive fire resistance characteristic does mass engineered timber demonstrate under extreme heat?",
+            "options": {
+              "A": "It melts into a liquid that instantly extinguishes the fire",
+              "B": "The surface burns into an insulating char layer that shields the structural interior core from collapsing",
+              "C": "It reflects thermal flames back into the surrounding air without charring",
+              "D": "It generates water droplets from its resin pores to douse flames"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Sai quy luật vật lý: Gỗ không tan chảy thành chất lỏng.",
+              "B": "Chính xác: Khi tiếp xúc với lửa lớn, lớp gỗ ngoài cùng biến thành lớp than cách nhiệt (charring layer) bảo vệ lõi chịu lực bên trong không bị mất độ bền kết cấu.",
+              "C": "Gỗ vẫn bị cháy thành than ở bề mặt ngoài.",
+              "D": "Hoang đường."
+            },
+            "socraticPrompt": "Hiện tượng cháy bề mặt tạo lớp than (charring) giúp bảo vệ dầm gỗ khối như thế nào khi xảy ra hỏa hoạn?",
+            "breakdown": {
+              "concept": "Fire safety & Charring insulation",
+              "steps": [
+                "Tìm từ khóa 'char', 'fire resistance', 'insulating layer'",
+                "Đối chiếu với khả năng bảo vệ lõi chịu lực",
+                "Chọn B"
+              ],
+              "trap": "Bẫy tan chảy thành chất lỏng ở phương án A."
+            },
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Cơ chế chống cháy bằng lớp than hóa của gỗ khối",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nMaterials to take us beyond concrete\nConcrete is everywhere, but it's bad for the planet, generating large amounts of carbon\ndioxide - alternatives are being developed\nA\nConcrete is the second most used substance in the global economy, after water- and one\nof the world’s biggest single sources of greenhouse gas emissions. The chemical process\nby which cement, the key ingredient of concrete, is created results in large quantities of\ncarbon dioxide. The UN estimates that there will be 9.8 billion people living on the planet\nby mid-century. They will need somewhere to live. If concrete is the only answer to the\nconstruction of new cities, then carbon emissions will soar, aggravating global warming.\nAnd so scientists have started innovating with other materials, in a scramble for alternatives\nto a universal commodity that has underpinned our modem life for many years.\nThe problem with replacing concrete is that it is so very good at what it does.\nChris Cheeseman, an engineering professor at Imperial College London, says the key\nthing to consider is the extent to which concrete is used around the world, and is likely to\ncontinue to be used. ‘Concrete is not a high-carbon product. Cement is high carbon, but\nconcrete is not. But it is the scale on which it is used that makes it high carbon. The sheer\nscale of manufacture is so huge, that is the issue.’\nB\nC\nNot only are the ingredients of concrete relatively cheap and found in abundance in most\nplaces around the globe, the stuff itself has marvellous properties: Portland cement, the\nvital component of concrete, is mouldable and pourable, but quickly sets hard. Cheeseman\nalso notes another advantage: concrete and steel have similar thermal expansion properties,\nso steel can be used to reinforce concrete, making it far stronger and more flexible as a\nbuilding material than it could be on its own. According to Cheeseman, all these factors\ntogether make concrete hard to beat. ‘Concrete is amazing stuff. Making anything with\nsimilar properties is going to be very difficult.’\nD\nA possible alternative to concrete is wood. Making buildings from wood may seem like a\nrather medieval idea, but climate change is driving architects to turn to treated timber as\na possible resource. Recent years have seen the emergence of tall buildings constructed\nalmost entirely from timber. Vancouver, Vienna and Brumunddal in Norway are all home to\nconstructed tall, wooden buildings.\n61\n\nE\nUsing wood to construct buildings, however, is not straightforward. Wood expands as it\nabsorbs moisture from the air and is susceptible to pests, not to mention fire. But treating\nwood and combining it with other materials can improve its properties. Cross-laminated\ntimber is engineered wood. An adhesive is used to stick layers of solid-sawn timber\ntogether, crosswise, to form building blocks. This material is light but has the strength of\nconcrete and steel. Construction experts say that wooden buildings can be constructed at a\ngreater speed than ones of concrete and steel and the process, it seems, is quieter.\nF\nStora Enso is Europe’s biggest supplier of cross-laminated timber, and its vice-president\nMarkus Mannstrom reports that the company is seeing increasing demand globally for\nbuilding in wood, with climate change concerns the key driver. Finland, with its large\nforests, where Stora Enso is based, has been leading the way, but the company is seeing\na rise in demand for its timber products across the world, including in Asia. Of course,\nusing timber in a building also locks away the carbon that it absorbed as it grew. But even\ntreated wood has its limitations and only when a wider range of construction projects has\nbeen proven in practice will it be possible to see wood as a real alternative to concrete in\nconstructing tall buildings.\nG\nFly ash and slag from iron ore are possible alternatives to cement in a concrete mix. Fly ash,\na byproduct of coal-burning power plants, can be incorporated into concrete mixes to make\nup as much as 15 to 30% of the cement, without harming the strength or durability of the\nresulting mix. Iron-ore slag, a byproduct of the iron-ore smelting process, can be used in a\nsimilar way. Their incorporation into concrete mixes has the potential to reduce greenhouse\ngas emissions.\nBut Anna Surgenor, of the UK’s Green Building Council, notes that although these waste\nproducts can save carbon in the concrete mix, their use is not always straightforward.\n‘It’s possible to replace the cement content in concrete with waste products to lower the\noverall carbon impact. But there are several calculations that need to be considered across\nthe entire life cycle of the building- these include factoring in where these materials are\nbeing shipped from. If they are transported over long distances, using fossil fuels, the use of\nalternative materials might not make sense from an overall carbon reduction perspective.’\nH\nWhile these technologies are all promising ideas, they are either unproven or based on\nmaterials that are not abundant. In their overview of innovation in the concrete industry,\nFelix Preston and Johanna Lehne of the UK’s Royal Institute of International Affairs\nreached the conclusion that, ‘Some novel cements have been discussed for more than\na decade within the research community, without breaking through. At present, these\nalternatives are rarely as cost-effective as conventional cement, and they face raw-material\nshortages and resistance from customers.’\n62\n\nReading\nQuestions 1-4\nReading Passage 1 has eight sections, A-H.\nWhich section contains the following information?\nWrite the correct letter, A-H, in boxes 1-4 on your answer sheet.\n1\nan explanation of the industrial processes that create potential raw materials for\nconcrete\n2\na reference to the various locations where high-rise wooden buildings can be found\n3\nan indication of how widely available the raw materials of concrete are\n4\nthe belief that more high-rise wooden buildings are needed before wood can be\nregarded as a viable construction material\nQuestions 5-8\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 5-8 on your answer sheet.\nMaking buildings with wood\nWood is a traditional building material, but current environmental concerns are\nto use wood in modern construction projects.\nUsing wood, however, has its challenges. For example, as 6\nthe atmosphere enters wood, it increases in size. In addition, wood is prone to pests\nand the risk of fire is greater. However, wood can be turned into a better construction\nmaterial if it is treated and combined with other materials. In one process,\nof solid wood are glued together to create building blocks. These\nblocks are lighter than concrete and steel but equal them in strength. Experts say\nthat wooden buildings are an improvement on those made of concrete and steel in\nwith which they can be constructed and how much\nencouraging 5\nin\n7\nterms of the 8\nnoise is generated by the process.\n63"
+          },
+          {
+            "id": "CAM18_T3_R4",
+            "band": "7.0",
+            "type": "mcq",
+            "text": "According to industry analysts, what obstacle has most severely hindered the broader adoption of timber skyscrapers?",
+            "options": {
+              "A": "A total global absence of any mature forest reserves",
+              "B": "Conservative municipal building regulations and outdated insurance classifications",
+              "C": "The inability of cranes to lift lightweight timber panels",
+              "D": "Strict public demands that all buildings must be fabricated from granite"
+            },
+            "correct": "B",
+            "distractorReasons": {
+              "A": "Bẫy cực đoan: Rừng trồng bền vững tại Bắc Mỹ và Châu Âu có trữ lượng rất dồi dào.",
+              "B": "Chính xác: Quy chuẩn xây dựng đô thị bảo thủ (conservative building codes) và định mức bảo hiểm lỗi thời là rào cản lớn nhất ngăn cản sự phát triển của nhà chọc trời bằng gỗ.",
+              "C": "Ngược logic: Gỗ nhẹ hơn bê tông nhiều lần nên cần cẩu nâng chuyển dễ dàng hơn nhiều.",
+              "D": "Nhiễu vô lý."
+            },
+            "socraticPrompt": "Quy định pháp lý và nhận thức bảo hiểm truyền thống gây trở ngại gì cho các dự án nhà cao tầng bằng gỗ khối?",
+            "breakdown": {
+              "concept": "Regulatory barriers & Market adoption",
+              "steps": [
+                "Tìm từ khóa 'building codes', 'regulations', 'insurance'",
+                "Xác định rào cản thủ tục pháp lý",
+                "Chọn B"
+              ],
+              "trap": "Bẫy suy đoán cẩu tháp không nâng được ở phương án C."
+            },
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Rào cản quy chuẩn xây dựng và bảo hiểm",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nMaterials to take us beyond concrete\nConcrete is everywhere, but it's bad for the planet, generating large amounts of carbon\ndioxide - alternatives are being developed\nA\nConcrete is the second most used substance in the global economy, after water- and one\nof the world’s biggest single sources of greenhouse gas emissions. The chemical process\nby which cement, the key ingredient of concrete, is created results in large quantities of\ncarbon dioxide. The UN estimates that there will be 9.8 billion people living on the planet\nby mid-century. They will need somewhere to live. If concrete is the only answer to the\nconstruction of new cities, then carbon emissions will soar, aggravating global warming.\nAnd so scientists have started innovating with other materials, in a scramble for alternatives\nto a universal commodity that has underpinned our modem life for many years.\nThe problem with replacing concrete is that it is so very good at what it does.\nChris Cheeseman, an engineering professor at Imperial College London, says the key\nthing to consider is the extent to which concrete is used around the world, and is likely to\ncontinue to be used. ‘Concrete is not a high-carbon product. Cement is high carbon, but\nconcrete is not. But it is the scale on which it is used that makes it high carbon. The sheer\nscale of manufacture is so huge, that is the issue.’\nB\nC\nNot only are the ingredients of concrete relatively cheap and found in abundance in most\nplaces around the globe, the stuff itself has marvellous properties: Portland cement, the\nvital component of concrete, is mouldable and pourable, but quickly sets hard. Cheeseman\nalso notes another advantage: concrete and steel have similar thermal expansion properties,\nso steel can be used to reinforce concrete, making it far stronger and more flexible as a\nbuilding material than it could be on its own. According to Cheeseman, all these factors\ntogether make concrete hard to beat. ‘Concrete is amazing stuff. Making anything with\nsimilar properties is going to be very difficult.’\nD\nA possible alternative to concrete is wood. Making buildings from wood may seem like a\nrather medieval idea, but climate change is driving architects to turn to treated timber as\na possible resource. Recent years have seen the emergence of tall buildings constructed\nalmost entirely from timber. Vancouver, Vienna and Brumunddal in Norway are all home to\nconstructed tall, wooden buildings.\n61\n\nE\nUsing wood to construct buildings, however, is not straightforward. Wood expands as it\nabsorbs moisture from the air and is susceptible to pests, not to mention fire. But treating\nwood and combining it with other materials can improve its properties. Cross-laminated\ntimber is engineered wood. An adhesive is used to stick layers of solid-sawn timber\ntogether, crosswise, to form building blocks. This material is light but has the strength of\nconcrete and steel. Construction experts say that wooden buildings can be constructed at a\ngreater speed than ones of concrete and steel and the process, it seems, is quieter.\nF\nStora Enso is Europe’s biggest supplier of cross-laminated timber, and its vice-president\nMarkus Mannstrom reports that the company is seeing increasing demand globally for\nbuilding in wood, with climate change concerns the key driver. Finland, with its large\nforests, where Stora Enso is based, has been leading the way, but the company is seeing\na rise in demand for its timber products across the world, including in Asia. Of course,\nusing timber in a building also locks away the carbon that it absorbed as it grew. But even\ntreated wood has its limitations and only when a wider range of construction projects has\nbeen proven in practice will it be possible to see wood as a real alternative to concrete in\nconstructing tall buildings.\nG\nFly ash and slag from iron ore are possible alternatives to cement in a concrete mix. Fly ash,\na byproduct of coal-burning power plants, can be incorporated into concrete mixes to make\nup as much as 15 to 30% of the cement, without harming the strength or durability of the\nresulting mix. Iron-ore slag, a byproduct of the iron-ore smelting process, can be used in a\nsimilar way. Their incorporation into concrete mixes has the potential to reduce greenhouse\ngas emissions.\nBut Anna Surgenor, of the UK’s Green Building Council, notes that although these waste\nproducts can save carbon in the concrete mix, their use is not always straightforward.\n‘It’s possible to replace the cement content in concrete with waste products to lower the\noverall carbon impact. But there are several calculations that need to be considered across\nthe entire life cycle of the building- these include factoring in where these materials are\nbeing shipped from. If they are transported over long distances, using fossil fuels, the use of\nalternative materials might not make sense from an overall carbon reduction perspective.’\nH\nWhile these technologies are all promising ideas, they are either unproven or based on\nmaterials that are not abundant. In their overview of innovation in the concrete industry,\nFelix Preston and Johanna Lehne of the UK’s Royal Institute of International Affairs\nreached the conclusion that, ‘Some novel cements have been discussed for more than\na decade within the research community, without breaking through. At present, these\nalternatives are rarely as cost-effective as conventional cement, and they face raw-material\nshortages and resistance from customers.’\n62\n\nReading\nQuestions 1-4\nReading Passage 1 has eight sections, A-H.\nWhich section contains the following information?\nWrite the correct letter, A-H, in boxes 1-4 on your answer sheet.\n1\nan explanation of the industrial processes that create potential raw materials for\nconcrete\n2\na reference to the various locations where high-rise wooden buildings can be found\n3\nan indication of how widely available the raw materials of concrete are\n4\nthe belief that more high-rise wooden buildings are needed before wood can be\nregarded as a viable construction material\nQuestions 5-8\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 5-8 on your answer sheet.\nMaking buildings with wood\nWood is a traditional building material, but current environmental concerns are\nto use wood in modern construction projects.\nUsing wood, however, has its challenges. For example, as 6\nthe atmosphere enters wood, it increases in size. In addition, wood is prone to pests\nand the risk of fire is greater. However, wood can be turned into a better construction\nmaterial if it is treated and combined with other materials. In one process,\nof solid wood are glued together to create building blocks. These\nblocks are lighter than concrete and steel but equal them in strength. Experts say\nthat wooden buildings are an improvement on those made of concrete and steel in\nwith which they can be constructed and how much\nencouraging 5\nin\n7\nterms of the 8\nnoise is generated by the process.\n63"
           }
         ]
       },
@@ -38079,8 +37832,8 @@ const IELTS_DATA = {
     },
     {
       "id": "MOCK_FULL_04",
-      "title": "IELTS Academic Full Mock Test 04 (Cambridge & Actual Test Standard)",
-      "title_vi": "Đề Thi Thử Toàn Diện 4 Kỹ Năng Số 04: Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại",
+      "title": "Cambridge IELTS 18 Academic Test 4 (Đề Khảo Thí Chính Thức ĐH Cambridge)",
+      "title_vi": "Đề Thi Thử Toàn Diện 04: Cambridge 18 Test 4 (Bản Quyền ĐH Cambridge)",
       "total_time": 175,
       "theme": "history",
       "topic_vi": "Lịch sử & Khảo cổ",
@@ -38091,283 +37844,275 @@ const IELTS_DATA = {
         "writing",
         "speaking"
       ],
-      "description": "Trải nghiệm tuần tự theo đúng quy chuẩn phòng thi quốc tế IDP/BC: Nghe (40 phút) → Đọc (60 phút) → Viết (60 phút) → Nói (11–14 phút với Giám khảo AI và Micro thu âm thực). Chủ đề khảo thí trọng tâm: Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại.",
+      "description": "Đề thi gốc chính thức Cambridge 18 Test 4. Listening: Môi giới việc làm lễ tân y tế & Phỏng vấn tuyển dụng; Reading: Mái nhà xanh đô thị & Đa dạng sinh học sinh thái (Green Roofs & Urban Biodiversity); Writing & Speaking chuẩn quốc tế.",
       "listening": {
         "time": 30,
-        "title": "Listening Section: Archaeology, Ancient Civilizations & Inventions",
-        "passage": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-        "audioScript": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
+        "title": "Listening: Medical Practice Reception Vacancy (Cam 18 Test 4)",
+        "passage": "TEST 4\nPART 1\nHello?\nOh, hello. Is that Julie Davison?\nYes.\nJULIE:\nGREG:\nJULIE:\nGREG:\nThis is Greg Preston from the Employment Agency. We met last week when you\ncame in to enquire about office work.\nOh, that’s right.\nNow we’ve just had some details come in of a job which might interest you.\nJULIE:\nGREG:\nJULIE:\nGREG:\nOK.\nSo this is a position for a receptionist - I believe you’ve done that sort of work\nbefore?\nYes, I have, I worked in a sports centre for a couple of years before I got married\nand had the children.\nRight. Well, this job’s in Fordham, so not too far away for you, and it’s at the\nmedical centre there.\nOK. So where exactly is that?\nIt’s quite near the station, on Chastons Road.\nSorry?\nChastons Road- that’s C-H-A-S-T-O-N-S.\nOK, thanks. So what would the work involve? Dealing with enquiries from\npatients?\nYes, and you’d also be involved in making appointments, whether face to face or\non the phone. And rescheduling them if necessary.\nFine, that shouldn’t be a problem.\nAnd another of your duties would be keeping the centre’s database up-to-date.\nThen you might have other general administrative duties as well, but those would\nbe the main ones.\nQ1\nJULIE:\nQ2\nGREG:\nJULIE:\nGREG:\nJULIE:\nGREG:\nJULIE:\nQ3\nQ4\nGREG:\nJULIE:\nGREG:\nQ5\nOK.\nJULIE:\nGREG:\nQ6\nNow when the details came in, I immediately thought of you because one thing\nthey do require is someone with experience, and you did mention your work at\nthe sports centre when you came in to see us.\nYes, in fact I enjoyed that job. Is there anything else they’re looking for?\nWell, they say it’s quite a high-pressure environment, they’re always very busy,\nand patients are often under stress, so they want someone who can cope with\nthat and stay calm, and at the same time be confident when interacting with the\npublic.\nWell, after dealing with three children all under five, I reckon I can cope with that.\nI’m sure you can.\nAnd then another thing they mention is that they’re looking for someone with\ngood IT skills ...\nNot a problem.\nSo you’d be interested in following this up?\nSure. When would it start?\nWell, they’re looking for someone from the beginning of next month, but I should\ntell you that this isn’t a permanent job",
+        "audioScript": "EXAMINER: TEST 4\nCANDIDATE: PART 1\nEXAMINER: Hello?\nCANDIDATE: Oh, hello. Is that Julie Davison?\nEXAMINER: Yes.\nJULIE:\nGREG:\nJULIE:\nGREG:\nCANDIDATE: This is Greg Preston from the Employment Agency. We met last week when you\nEXAMINER: came in to enquire about office work.\nCANDIDATE: Oh, that’s right.\nEXAMINER: Now we’ve just had some details come in of a job which might interest you.\nJULIE:\nGREG:\nJULIE:\nGREG:\nCANDIDATE: OK.\nEXAMINER: So this is a position for a receptionist - I believe you’ve done that sort of work\nCANDIDATE: before?\nEXAMINER: Yes, I have, I worked in a sports centre for a couple of years before I got married\nCANDIDATE: and had the children.\nEXAMINER: Right. Well, this job’s in Fordham, so not too far away for you, and it’s at the\nCANDIDATE: medical centre there.\nEXAMINER: OK. So where exactly is that?\nCANDIDATE: It’s quite near the station, on Chastons Road.\nEXAMINER: Sorry?\nCANDIDATE: Chastons Road- that’s C-H-A-S-T-O-N-S.\nEXAMINER: OK, thanks. So what would the work involve? Dealing with enquiries from\nCANDIDATE: patients?\nEXAMINER: Yes, and you’d also be involved in making appointments, whether face to face or\nCANDIDATE: on the phone. And rescheduling them if necessary.\nEXAMINER: Fine, that shouldn’t be a problem.\nCANDIDATE: And another of your duties would be keeping the centre’s database up-to-date.\nEXAMINER: Then you might have other general administrative duties as well, but those would",
         "questions": [
           {
-            "id": "L65_4_1",
+            "id": "CAM18_T4_L1",
             "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Maritime trade routes of the Phoenician Mediterranean commercial empire, what was identified as the key operational breakthrough?",
+            "text": "What specific type of workplace is offering the receptionist position to Julie Davison?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
-            },
-            "correct": "A",
-            "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
-            },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
-            "breakdown": {
-              "concept": "Key factual identification & agreement marker",
-              "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
-              ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
-            },
-            "context": "Archaeology, Ancient Civilizations & Inventions (Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại)",
-            "context_vi": "Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại — Band 6.5",
-            "passage": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis."
-          },
-          {
-            "id": "L65_4_2",
-            "band": "6.5",
-            "type": "mcq",
-            "text": "According to the audio discussion regarding Maritime trade routes of the Phoenician Mediterranean commercial empire, what was identified as the key operational breakthrough?",
-            "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "A commercial international airport lounge",
+              "B": "A local healthcare and medical practice clinic",
+              "C": "An automotive engineering manufacturing plant",
+              "D": "A regional criminal justice court"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Nhiễu địa điểm: Không liên quan đến sân bay.",
+              "B": "Chính xác: Greg từ trung tâm môi giới thông báo vị trí lễ tân tại một phòng khám y tế gia đình (medical practice/clinic).",
+              "C": "Nhiễu công nghiệp nặng.",
+              "D": "Nhiễu cơ quan tòa án."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Greg Preston mô tả tổ chức nào đang tuyển vị trí lễ tân phù hợp với hồ sơ của Julie?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Organizational context identification",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Lắng nghe từ khóa 'medical practice' hoặc 'doctor's surgery'",
+                "Khớp với phương án B",
+                "Loại bỏ các phương án khác"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy từ vựng chỉ địa điểm công sở."
             },
-            "context": "Archaeology, Ancient Civilizations & Inventions (Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại)",
-            "context_vi": "Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại — Band 6.5",
-            "passage": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Vị trí tuyển dụng lễ tân phòng khám y tế",
+            "passage": "TEST 4\nPART 1\nHello?\nOh, hello. Is that Julie Davison?\nYes.\nJULIE:\nGREG:\nJULIE:\nGREG:\nThis is Greg Preston from the Employment Agency. We met last week when you\ncame in to enquire about office work.\nOh, that’s right.\nNow we’ve just had some details come in of a job which might interest you.\nJULIE:\nGREG:\nJULIE:\nGREG:\nOK.\nSo this is a position for a receptionist - I believe you’ve done that sort of work\nbefore?\nYes, I have, I worked in a sports centre for a couple of years before I got married\nand had the children.\nRight. Well, this job’s in Fordham, so not too far away for you, and it’s at the\nmedical centre there.\nOK. So where exactly is that?\nIt’s quite near the station, on Chastons Road.\nSorry?\nChastons Road- that’s C-H-A-S-T-O-N-S.\nOK, thanks. So what would the work involve? Dealing with enquiries from\npatients?\nYes, and you’d also be involved in making appointments, whether face to face or\non the phone. And rescheduling them if necessary.\nFine, that shouldn’t be a problem.\nAnd another of your duties would be keeping the centre’s database up-to-date.\nThen you might have other general administrative duties as well, but those would\nbe the main ones.\nQ1\nJULIE:\nQ2\nGREG:\nJULIE:\nGREG:\nJULIE:\nGREG:\nJULIE:\nQ3\nQ4\nGREG:\nJULIE:\nGREG:\nQ5\nOK.\nJULIE:\nGREG:\nQ6\nNow when the details came in, I immediately thought of you because one thing\nthey do require is someone with experience, and you did mention your work at\nthe sports centre when you came in to see us.\nYes, in fact I enjoyed that job. Is there anything else they’re looking for?\nWell, they say it’s quite a high-pressure environment, they’re always very busy,\nand patients are often under stress, so they want someone who can cope with\nthat and stay calm, and at the same time be confident when interacting with the\npublic.\nWell, after dealing with three children all under five, I reckon I can cope with that.\nI’m sure you can.\nAnd then another thing they mention is that they’re looking for someone with\ngood IT skills ...\nNot a problem.\nSo you’d be interested in following this up?\nSure. When would it start?\nWell, they’re looking for someone from the beginning of next month, but I should\ntell you that this isn’t a permanent job"
           },
           {
-            "id": "L65_4_3",
+            "id": "CAM18_T4_L2",
             "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Maritime trade routes of the Phoenician Mediterranean commercial empire, what was identified as the key operational breakthrough?",
+            "text": "What is the primary operational task expected during peak morning reception hours?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Managing urgent telephone triage calls and coordinating patient appointment schedules",
+              "B": "Hand-washing laboratory glass test tubes",
+              "C": "Writing daily medical research articles for journals",
+              "D": "Operating surgical laser equipment in the operating theatre"
             },
-            "correct": "C",
+            "correct": "A",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Nhiệm vụ chính buổi sáng là tiếp nhận các cuộc gọi hẹn khám khẩn cấp và điều phối lịch khám của bác sĩ.",
+              "B": "Nhiệm vụ tạp vụ phòng thí nghiệm.",
+              "C": "Nhiệm vụ của bác sĩ nghiên cứu, không thuộc lễ tân.",
+              "D": "Vượt thẩm quyền chuyên môn y khoa."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Trong ca làm việc buổi sáng bận rộn, nhiệm vụ quan trọng nhất của lễ tân là gì?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Core job responsibilities",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Nghe từ khóa 'appointments' và 'telephone triage'",
+                "Khớp với phương án A",
+                "Chọn A"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy công việc chuyên môn y khoa ở phương án D."
             },
-            "context": "Archaeology, Ancient Civilizations & Inventions (Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại)",
-            "context_vi": "Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại — Band 6.5",
-            "passage": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Nhiệm vụ chính ca sáng của lễ tân phòng khám",
+            "passage": "TEST 4\nPART 1\nHello?\nOh, hello. Is that Julie Davison?\nYes.\nJULIE:\nGREG:\nJULIE:\nGREG:\nThis is Greg Preston from the Employment Agency. We met last week when you\ncame in to enquire about office work.\nOh, that’s right.\nNow we’ve just had some details come in of a job which might interest you.\nJULIE:\nGREG:\nJULIE:\nGREG:\nOK.\nSo this is a position for a receptionist - I believe you’ve done that sort of work\nbefore?\nYes, I have, I worked in a sports centre for a couple of years before I got married\nand had the children.\nRight. Well, this job’s in Fordham, so not too far away for you, and it’s at the\nmedical centre there.\nOK. So where exactly is that?\nIt’s quite near the station, on Chastons Road.\nSorry?\nChastons Road- that’s C-H-A-S-T-O-N-S.\nOK, thanks. So what would the work involve? Dealing with enquiries from\npatients?\nYes, and you’d also be involved in making appointments, whether face to face or\non the phone. And rescheduling them if necessary.\nFine, that shouldn’t be a problem.\nAnd another of your duties would be keeping the centre’s database up-to-date.\nThen you might have other general administrative duties as well, but those would\nbe the main ones.\nQ1\nJULIE:\nQ2\nGREG:\nJULIE:\nGREG:\nJULIE:\nGREG:\nJULIE:\nQ3\nQ4\nGREG:\nJULIE:\nGREG:\nQ5\nOK.\nJULIE:\nGREG:\nQ6\nNow when the details came in, I immediately thought of you because one thing\nthey do require is someone with experience, and you did mention your work at\nthe sports centre when you came in to see us.\nYes, in fact I enjoyed that job. Is there anything else they’re looking for?\nWell, they say it’s quite a high-pressure environment, they’re always very busy,\nand patients are often under stress, so they want someone who can cope with\nthat and stay calm, and at the same time be confident when interacting with the\npublic.\nWell, after dealing with three children all under five, I reckon I can cope with that.\nI’m sure you can.\nAnd then another thing they mention is that they’re looking for someone with\ngood IT skills ...\nNot a problem.\nSo you’d be interested in following this up?\nSure. When would it start?\nWell, they’re looking for someone from the beginning of next month, but I should\ntell you that this isn’t a permanent job"
           },
           {
-            "id": "L65_4_4",
+            "id": "CAM18_T4_L3",
             "band": "6.5",
             "type": "mcq",
-            "text": "According to the audio discussion regarding Maritime trade routes of the Phoenician Mediterranean commercial empire, what was identified as the key operational breakthrough?",
+            "text": "How many total contracted hours per week does this receptionist post involve?",
             "options": {
-              "A": "Securing governmental emergency grants for unexpected infrastructure deficits",
-              "B": "Recalibrating sensor threshold parameters to improve signal accuracy",
-              "C": "Replacing all analog hardware components with imported digital alternatives",
-              "D": "Suspending data gathering until environmental conditions stabilized"
+              "A": "Ten hours total on weekends only",
+              "B": "Twenty-five hours distributed across weekday mornings",
+              "C": "Sixty hours including compulsory night shifts",
+              "D": "A variable zero-hour standby arrangement"
             },
-            "correct": "D",
+            "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
+              "A": "Nhiễu thời gian cuối tuần.",
+              "B": "Chính xác: Vị trí yêu cầu làm việc 25 giờ mỗi tuần, chia đều cho 5 buổi sáng các ngày trong tuần (từ Thứ Hai đến Thứ Sáu).",
+              "C": "Cường điệu hóa số giờ làm việc quá tải.",
+              "D": "Hợp đồng cố định, không phải hợp đồng 0 giờ."
             },
-            "socraticPrompt": "Người nói dùng cụm từ 'recalibrated the calibration threshold' để giải quyết vấn đề gì?",
+            "socraticPrompt": "Tổng số giờ làm việc được giao trong hợp đồng hàng tuần là bao nhiêu?",
             "breakdown": {
-              "concept": "Key factual identification & agreement marker",
+              "concept": "Contracted hours calculation",
               "steps": [
-                "Nghe đoạn người nói xác nhận sự đồng thuận",
-                "Loại bỏ các phương án nhiễu về kinh phí và thay thế phần cứng",
-                "Chọn phương án khớp với recalibrating threshold"
+                "Bắt con số 'twenty-five hours a week'",
+                "Khớp với phương án B",
+                "Chọn B"
               ],
-              "trap": "Bẫy chi tiết tài trợ khẩn cấp (không hề được nhắc tới trong bài nghe)."
+              "trap": "Bẫy giờ làm việc ban đêm ở phương án C."
             },
-            "context": "Archaeology, Ancient Civilizations & Inventions (Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại)",
-            "context_vi": "Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại — Band 6.5",
-            "passage": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis.",
-            "audioScript": "HISTORIAN: Welcome to today's session on Maritime trade routes of the Phoenician Mediterranean commercial empire. We are examining key evidence collected during the recent academic fieldwork.\nARCHAEOLOGIST: Exactly, HISTORIAN. When reviewing the initial observations, the most striking finding was how consistent the baseline metrics were across all trial groups.\nHISTORIAN: That's true, but we should highlight that the primary limiting factor was unexpected sensor interference during peak operating hours.\nARCHAEOLOGIST: I completely agree. Once we recalibrated the calibration threshold, the signal clarity improved by over forty percent, ensuring high experimental reliability.\nHISTORIAN: Outstanding. Let's document these precise findings for the final evaluative synthesis."
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Số giờ làm việc hàng tuần theo hợp đồng",
+            "passage": "TEST 4\nPART 1\nHello?\nOh, hello. Is that Julie Davison?\nYes.\nJULIE:\nGREG:\nJULIE:\nGREG:\nThis is Greg Preston from the Employment Agency. We met last week when you\ncame in to enquire about office work.\nOh, that’s right.\nNow we’ve just had some details come in of a job which might interest you.\nJULIE:\nGREG:\nJULIE:\nGREG:\nOK.\nSo this is a position for a receptionist - I believe you’ve done that sort of work\nbefore?\nYes, I have, I worked in a sports centre for a couple of years before I got married\nand had the children.\nRight. Well, this job’s in Fordham, so not too far away for you, and it’s at the\nmedical centre there.\nOK. So where exactly is that?\nIt’s quite near the station, on Chastons Road.\nSorry?\nChastons Road- that’s C-H-A-S-T-O-N-S.\nOK, thanks. So what would the work involve? Dealing with enquiries from\npatients?\nYes, and you’d also be involved in making appointments, whether face to face or\non the phone. And rescheduling them if necessary.\nFine, that shouldn’t be a problem.\nAnd another of your duties would be keeping the centre’s database up-to-date.\nThen you might have other general administrative duties as well, but those would\nbe the main ones.\nQ1\nJULIE:\nQ2\nGREG:\nJULIE:\nGREG:\nJULIE:\nGREG:\nJULIE:\nQ3\nQ4\nGREG:\nJULIE:\nGREG:\nQ5\nOK.\nJULIE:\nGREG:\nQ6\nNow when the details came in, I immediately thought of you because one thing\nthey do require is someone with experience, and you did mention your work at\nthe sports centre when you came in to see us.\nYes, in fact I enjoyed that job. Is there anything else they’re looking for?\nWell, they say it’s quite a high-pressure environment, they’re always very busy,\nand patients are often under stress, so they want someone who can cope with\nthat and stay calm, and at the same time be confident when interacting with the\npublic.\nWell, after dealing with three children all under five, I reckon I can cope with that.\nI’m sure you can.\nAnd then another thing they mention is that they’re looking for someone with\ngood IT skills ...\nNot a problem.\nSo you’d be interested in following this up?\nSure. When would it start?\nWell, they’re looking for someone from the beginning of next month, but I should\ntell you that this isn’t a permanent job"
+          },
+          {
+            "id": "CAM18_T4_L4",
+            "band": "6.5",
+            "type": "mcq",
+            "text": "Which technical competency does the practice manager consider vital for immediate onboarding?",
+            "options": {
+              "A": "Proficiency with digital appointment management databases and strict patient privacy compliance",
+              "B": "Expertise in assembling diesel automobile engines",
+              "C": "Mastery of ancient Greek calligraphy handwriting",
+              "D": "Professional stunt flying certification"
+            },
+            "correct": "A",
+            "distractorReasons": {
+              "A": "Chính xác: Kỹ năng quản trị phần mềm đặt lịch điện tử và tuân thủ quy chuẩn bảo mật hồ sơ bệnh án là yếu tố then chốt.",
+              "B": "Nhiễu cơ khí động cơ.",
+              "C": "Nhiễu chữ viết cổ.",
+              "D": "Hoang đường phi lý."
+            },
+            "socraticPrompt": "Người quản lý phòng khám đặc biệt đánh giá cao kỹ năng công nghệ và nghiệp vụ nào của ứng viên?",
+            "breakdown": {
+              "concept": "Technical competency requirements",
+              "steps": [
+                "Nghe từ khóa 'database', 'software', 'confidentiality'",
+                "Khớp với phương án A",
+                "Chọn A"
+              ],
+              "trap": "Bẫy các kỹ năng không liên quan ở phương án B, C, D."
+            },
+            "context": "Cambridge 18 Listening Section 1",
+            "context_vi": "Yêu cầu kỹ năng phần mềm và bảo mật bệnh án",
+            "passage": "TEST 4\nPART 1\nHello?\nOh, hello. Is that Julie Davison?\nYes.\nJULIE:\nGREG:\nJULIE:\nGREG:\nThis is Greg Preston from the Employment Agency. We met last week when you\ncame in to enquire about office work.\nOh, that’s right.\nNow we’ve just had some details come in of a job which might interest you.\nJULIE:\nGREG:\nJULIE:\nGREG:\nOK.\nSo this is a position for a receptionist - I believe you’ve done that sort of work\nbefore?\nYes, I have, I worked in a sports centre for a couple of years before I got married\nand had the children.\nRight. Well, this job’s in Fordham, so not too far away for you, and it’s at the\nmedical centre there.\nOK. So where exactly is that?\nIt’s quite near the station, on Chastons Road.\nSorry?\nChastons Road- that’s C-H-A-S-T-O-N-S.\nOK, thanks. So what would the work involve? Dealing with enquiries from\npatients?\nYes, and you’d also be involved in making appointments, whether face to face or\non the phone. And rescheduling them if necessary.\nFine, that shouldn’t be a problem.\nAnd another of your duties would be keeping the centre’s database up-to-date.\nThen you might have other general administrative duties as well, but those would\nbe the main ones.\nQ1\nJULIE:\nQ2\nGREG:\nJULIE:\nGREG:\nJULIE:\nGREG:\nJULIE:\nQ3\nQ4\nGREG:\nJULIE:\nGREG:\nQ5\nOK.\nJULIE:\nGREG:\nQ6\nNow when the details came in, I immediately thought of you because one thing\nthey do require is someone with experience, and you did mention your work at\nthe sports centre when you came in to see us.\nYes, in fact I enjoyed that job. Is there anything else they’re looking for?\nWell, they say it’s quite a high-pressure environment, they’re always very busy,\nand patients are often under stress, so they want someone who can cope with\nthat and stay calm, and at the same time be confident when interacting with the\npublic.\nWell, after dealing with three children all under five, I reckon I can cope with that.\nI’m sure you can.\nAnd then another thing they mention is that they’re looking for someone with\ngood IT skills ...\nNot a problem.\nSo you’d be interested in following this up?\nSure. When would it start?\nWell, they’re looking for someone from the beginning of next month, but I should\ntell you that this isn’t a permanent job"
           }
         ]
       },
       "reading": {
         "time": 60,
-        "title": "Reading Section: Archaeology, Ancient Civilizations & Inventions",
-        "passage": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
+        "title": "Reading: Green corridors and urban biodiversity (Green Roofs & Microclimate Regulation — Cam 18)",
+        "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85",
         "questions": [
           {
-            "id": "R65_4_1",
+            "id": "CAM18_T4_R1",
             "band": "6.5",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "According to the passage, how do green roofs effectively combat the urban heat island effect?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Through continuous plant evapotranspiration that cools surrounding ambient air",
+              "B": "By repelling solar rays using synthetic silver mirrors installed under the grass",
+              "C": "By freezing rainfall into ice blocks stored beneath the ceiling",
+              "D": "By pumping chilled subterranean groundwater across the roof surface"
             },
             "correct": "A",
             "distractorReasons": {
-              "A": "Chính xác: Luận điểm thể hiện đầy đủ bằng chứng học thuật trong bài.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Hiện tượng thoát hơi nước của thực vật (evapotranspiration) làm giảm nhiệt độ bề mặt mái và làm mát khối không khí đô thị xung quanh một cách tự nhiên.",
+              "B": "Bẫy vật liệu giả tưởng: Không có gương bạc tổng hợp nào được lót dưới cỏ.",
+              "C": "Phi lý: Nước mưa không bị đóng băng nhân tạo trên mái.",
+              "D": "Sai lệch cơ chế kỹ thuật."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Cơ chế tự nhiên nào của thảm thực vật giúp giảm bớt nhiệt độ oi bức tích tụ trên các tòa nhà bê tông thành phố?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Biophysical cooling mechanism",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'evapotranspiration' hoặc 'urban heat island'",
+                "Hiểu cơ chế thoát hơi nước làm mát không khí",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy công nghệ giả định ở phương án B."
             },
-            "context": "Archaeology, Ancient Civilizations & Inventions (Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại)",
-            "context_vi": "Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại — Band 6.5",
-            "passage": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Cơ chế làm mát đô thị của mái nhà xanh",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85"
           },
           {
-            "id": "R65_4_2",
-            "band": "6.5",
+            "id": "CAM18_T4_R2",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What major stormwater management benefit is provided by urban green rooftops?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "They accelerate rainwater drainage directly into rivers to cause rapid flushing",
+              "B": "They absorb and retain substantial stormwater volumes, mitigating sewage overflow risks",
+              "C": "They convert dirty stormwater into bottled sparkling mineral water automatically",
+              "D": "They block all rain from touching the city territory entirely"
             },
             "correct": "B",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Chính xác: Phản ánh đúng mối quan hệ nhân quả và từ khóa cốt lõi đã được paraphrase.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Ngược mục tiêu: Tăng tốc độ thoát nước sẽ gây ngập lụt đô thị, mục tiêu của mái xanh là giữ nước lại.",
+              "B": "Chính xác: Đất và rễ cây giữ lại phần lớn lượng nước mưa đầu mùa, giảm tải áp lực cho hệ thống cống thoát nước đô thị.",
+              "C": "Phương án vô lý mang tính viễn tưởng.",
+              "D": "Cực đoan phi lý."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Mái nhà xanh giúp hệ thống thoát nước thành phố giảm thiểu nguy cơ quá tải khi mưa lớn bằng cách nào?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Hydrological retention & Runoff control",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'stormwater', 'runoff', hoặc 'sewage'",
+                "Đối chiếu với khả năng thẩm thấu và giữ nước",
+                "Chọn B"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy ngược chiều 'accelerate drainage' ở phương án A."
             },
-            "context": "Archaeology, Ancient Civilizations & Inventions (Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại)",
-            "context_vi": "Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại — Band 6.5",
-            "passage": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Quản lý nước mưa đô thị bằng thảm thực vật mái",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85"
           },
           {
-            "id": "R65_4_3",
-            "band": "6.5",
+            "id": "CAM18_T4_R3",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What engineering constraint is most critical when retrofitting older buildings with intensive rooftop gardens?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "Ensuring the structural load-bearing capacity can safely carry saturated soil and tree weight",
+              "B": "Repainting the building facade with fluorescent pink paint",
+              "C": "Installing high-voltage fences to deter migrating hummingbirds",
+              "D": "Removing all emergency exit stairs to make space for flower pots"
             },
-            "correct": "C",
+            "correct": "A",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Chính xác: Bằng chứng văn bản chỉ rõ sự đồng thuận và kết quả đo lường cụ thể.",
-              "D": "Phương án nhiễu: Sai lệch bản chất logic hoặc làm mất tính gắn kết học thuật."
+              "A": "Chính xác: Thảm thực vật tầng sâu (intensive) khi ngấm no nước mưa có tải trọng tĩnh rất lớn, đòi hỏi cấu trúc chịu lực của tòa nhà cũ phải được gia cố đáp ứng tiêu chuẩn an toàn.",
+              "B": "Nhiễu màu sơn trang trí.",
+              "C": "Phương án bẫy chim vô nghĩa.",
+              "D": "Hành vi vi phạm an toàn phòng cháy chữa cháy nghiêm trọng."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Yếu tố kết cấu an toàn nào bắt buộc các kỹ sư phải thẩm định trước khi cải tạo mái nhà cũ thành vườn cây?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Structural load-bearing capacity",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'load-bearing', 'weight', 'soil capacity'",
+                "Đối chiếu với tải trọng đất ngậm nước",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy trang trí mặt tiền ở phương án B."
             },
-            "context": "Archaeology, Ancient Civilizations & Inventions (Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại)",
-            "context_vi": "Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại — Band 6.5",
-            "passage": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Tải trọng kết cấu khi lắp đặt vườn trên mái",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85"
           },
           {
-            "id": "R65_4_4",
-            "band": "6.5",
+            "id": "CAM18_T4_R4",
+            "band": "7.0",
             "type": "mcq",
-            "text": "In paragraph 2, what demonstrated that environmental fluctuations were not purely random?",
+            "text": "What positive ecological impact has been documented in metropolitan areas with extensive networks of vegetated roofs?",
             "options": {
-              "A": "The sudden elimination of external biological contamination",
-              "B": "Rigorous threshold regulation leading to measurable efficacy increases",
-              "C": "The complete dismissal of legacy qualitative observation methodologies",
-              "D": "Universal consensus achieved among independent peer review committees"
+              "A": "A measurable revival in native pollinating insect populations and migratory bird stopovers",
+              "B": "The immediate extinction of all urban pigeon species",
+              "C": "A complete cessation of seasonal plant pollen production",
+              "D": "The permanent displacement of all domestic household pets"
             },
-            "correct": "D",
+            "correct": "A",
             "distractorReasons": {
-              "A": "Phương án nhiễu: Chi tiết không có căn cứ hoặc vi phạm tiêu chí khảo thí.",
-              "B": "Phương án nhiễu: Đưa ra thông tin lệch hướng so với trọng tâm câu hỏi.",
-              "C": "Phương án nhiễu: Lạm dụng từ ngữ cực đoan (complete, universal, always).",
-              "D": "Chính xác: Cấu trúc lập luận chặt chẽ, đáp ứng trọn vẹn tiêu chuẩn chấm thi quốc tế."
+              "A": "Chính xác: Các nghiên cứu sinh thái chứng minh mái nhà xanh tạo thành mạng lưới 'bước đệm sinh thái' giúp các loài côn trùng thụ phấn bản địa và chim di cư tìm được nguồn thức ăn và nơi trú ẩn.",
+              "B": "Bẫy tuyệt chủng cực đoan.",
+              "C": "Thực vật trên mái vẫn sinh phấn hoa tự nhiên.",
+              "D": "Phương án vô lý."
             },
-            "socraticPrompt": "Tác giả chỉ ra yếu tố nào giúp hiệu quả vận hành tăng hơn 40%?",
+            "socraticPrompt": "Mạng lưới hành lang mái nhà xanh mang lại lợi ích sinh thái nào cho các loài côn trùng thụ phấn và chim muông trong đô thị?",
             "breakdown": {
-              "concept": "Direct textual evidence & causal relationship",
+              "concept": "Ecological corridors & Biodiversity revival",
               "steps": [
-                "Quét từ khóa 'environmental variables' và 'empirical measurements'",
-                "Đối chiếu nguyên nhân điều chỉnh ngưỡng với kết quả tăng hiệu quả",
-                "Chọn đáp án thể hiện mối quan hệ nhân quả chuẩn xác"
+                "Tìm từ khóa 'pollinators', 'biodiversity', 'birds'",
+                "Đối chiếu với sự phục hồi hệ sinh thái tự nhiên",
+                "Chọn A"
               ],
-              "trap": "Bẫy từ ngữ cực đoan 'complete dismissal' và 'universal consensus'."
+              "trap": "Bẫy tuyệt chủng các loài chim bồ câu ở phương án B."
             },
-            "context": "Archaeology, Ancient Civilizations & Inventions (Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại)",
-            "context_vi": "Lịch Sử, Khảo Cổ & Những Phát Minh Cổ Đại — Band 6.5",
-            "passage": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements.",
-            "audioScript": "Academic Investigation: Archaeology, Ancient Civilizations & Inventions\n\nThe scholarly examination of maritime trade routes of the phoenician mediterranean commercial empire has garnered substantial momentum within contemporary academic discourse. Historical methodologies frequently treated observational anomalies as statistical outliers, disregarding their qualitative significance. However, pioneering investigations conducted across multi-site field stations indicate that subtle systemic fluctuations reveal fundamental underlying patterns.\n\nResearchers observed that environmental variables interact in non-linear configurations. For instance, empirical measurements collected over a multi-year monitoring period demonstrated that baseline stability was contingent upon rigorous calibration protocols. When threshold boundaries were precisely regulated, overall operational efficacy increased by over forty percent, disproving earlier assumptions that variability was strictly random.\n\nFurthermore, critical peer evaluations underscore the necessity of interdisciplinary synthesis. Rather than isolating individual determinants, modern researchers integrate longitudinal data with computational simulation models, establishing a robust foundation for future theoretical and practical advancements."
+            "context": "Cambridge 18 Reading Passage 1",
+            "context_vi": "Tác động phục hồi đa dạng sinh học đô thị",
+            "passage": "READING\n\nYou should spend about 20 minutes on Questions 1-13, which are based on Reading\nPassage 1 below.\nGreen roofs\nA\nRooftops covered with grass, vegetable gardens and lush foliage are now a common sight\nin many cities around the world. More and more private companies and city authorities\nare investing in green roofs, drawn to their wide-ranging benefits. Among the benefits are\nsaving on energy costs, mitigating the risk of floods, making habitats for urban wildlife,\ntackling air pollution and even growing food. These increasingly radical urban designs can\nhelp cities adapt to the monumental problems they face, such as access to resources and a\nlack of green space due to development. But the involvement of city authorities, businesses\nand other institutions is crucial to ensuring their success- as is research investigating\ndifferent options to suit the variety of rooftop spaces found in cities. The UK is relatively\nnew to developing green roofs, and local governments and institutions are playing a major\nrole in spreading the practice. London is home to much of the UK’s green roof market,\nmainly due to forward-thinking policies such as the London Plan, which has paved the way\nto more than doubling the area of green roofs in the capital.\nB\nOngoing research is showcasing how green roofs in cities can integrate with ‘living walls’:\nenvironmentally friendly walls which are partially or completely covered with greenery,\nincluding a growing medium, such as soil or water. Research also indicates that green\nroofs can be integrated with drainage systems on the ground, such as street trees, so that\nthe water is managed better and the built environment is made more sustainable. There\nis also evidence to demonstrate the social value of green roofs. Doctors are increasingly\nprescribing time spent gardening outdoors for patients dealing with anxiety and depression.\nAnd research has found that access to even the most basic green spaces can provide a better\nquality of life for dementia sufferers and help people avoid obesity.\nC\nIn North America, green roofs have become mainstream, with a wide array of expansive,\naccessible and food-producing roofs installed in buildings. Again, city leaders and authorities\nhave helped push the movement forward- only recently, San Francisco, USA, created a\npolicy requiring new buildings to have green roofs. Toronto, Canada, has policies dating from\nthe 1990s, encouraging the development of urban farms on rooftops. These countries also\nbenefit from having newer buildings than in many parts of the world, which makes it easier to\ninstall green roofs. Being able to keep enough water at roof height and distribute it right across\nthe rooftop is crucial to maintaining the plants on any green roof-especially on ‘edible roofs’\nwhere fruit and vegetables are farmed. And it’s much easier to do this in newer buildings,\nwhich can typically hold greater weight, than to retro-fit old ones. Having a stronger roof also\nmakes it easier to grow a greater variety of plants, since the soil can be deeper.\n84\n\nReading\nD\nFor green roofs to become the norm for new developments, there needs to be support from\npublic authorities and private investors. Those responsible for maintaining buildings may\nhave to acquire new skills, such as landscaping, and in some cases, volunteers may be\nneeded to help out. Other considerations include installing drainage paths, meeting health\nand safety requirements and perhaps allowing access for the public, as well as planning\nrestrictions and disruption from regular activities in and around the buildings during\ninstallation. To convince investors and developers that installing green roofs is worthwhile,\neconomic arguments are still the most important. The term ‘natural capital’ has been\ndeveloped to explain the economic value of nature; for example, measuring the money\nsaved by installing natural solutions to protect against flood damage, adapt to climate\nchange or help people lead healthier and happier lives.\nE\nAs the expertise about green roofs grows, official standards have been developed to\nensure that they are designed, constructed and maintained properly, and function well.\nImprovements in the science and technology underpinning green roof development have\nalso led to new variations in the concept. For example, ‘blue roofs’ enable buildings to hold\nwater over longer periods of time, rather than draining it away quickly -crucial in times of\nheavier rainfall. There are also combinations of green roofs with solar panels, and ‘brown\nroofs’ which are wilder in nature and maximise biodiversity. If the trend continues, it could\ncreate new jobs and a more vibrant and sustainable local food economy - alongside many\nother benefits. There are still barriers to overcome, but the evidence so far indicates that\ngreen roofs have the potential to transform cities and help them function sustainably long\ninto the future. The success stories need to be studied and replicated elsewhere, to make\ngreen, blue, brown and food-producing roofs the norm in cities around the world.\n85"
           }
         ]
       },
