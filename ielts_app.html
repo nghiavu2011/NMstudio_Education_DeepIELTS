@@ -3736,6 +3736,299 @@
             render6LayerFeedback(correctCount, total, results, state.exam.timeSpent);
         }
 
+        // ====================================================
+        // OFFICIAL 4-PILLAR SCORING RUBRICS (CAMBRIDGE / BC / IDP)
+        // ====================================================
+        function evaluateWritingOfficial(text, prompt, targetBand = "6.5") {
+            const words = text.trim() ? text.trim().split(/\s+/).filter(Boolean).length : 0;
+            const paragraphs = text.split(/\n\s*\n+/).filter(p => p.trim().length > 0);
+            const lower = text.toLowerCase();
+
+            // 1. Task Response (TA/TR)
+            let ta = 5.0;
+            if (words >= 250) ta = 7.0;
+            else if (words >= 200) ta = 6.5;
+            else if (words >= 150) ta = 6.0;
+            else if (words >= 100) ta = 5.5;
+
+            const hasOverviewOrThesis = /(in conclusion|to conclude|overall|in summary|i believe|in my opinion|this essay argues|it is evident)/i.test(text);
+            if (hasOverviewOrThesis && ta < 8.0 && words >= 250) ta = Math.min(7.5, ta + 0.5);
+
+            // 2. Coherence & Cohesion (CC)
+            const cohesiveDevices = [
+                'furthermore', 'moreover', 'consequently', 'as a result', 'in contrast', 
+                'conversely', 'on the one hand', 'on the other hand', 'for instance', 
+                'for example', 'in particular', 'nevertheless', 'nonetheless', 'subsequently',
+                'in addition', 'firstly', 'secondly', 'finally', 'whereas', 'while'
+            ];
+            let ccCount = 0;
+            cohesiveDevices.forEach(d => { if (lower.includes(d)) ccCount++; });
+
+            let cc = 5.0;
+            if (paragraphs.length >= 3 && ccCount >= 4) cc = 7.0;
+            else if (paragraphs.length >= 2 && ccCount >= 2) cc = 6.5;
+            else if (paragraphs.length >= 2 && ccCount >= 1) cc = 6.0;
+            else if (paragraphs.length >= 1) cc = 5.5;
+
+            // 3. Lexical Resource (LR)
+            const academicWords = [
+                'significant', 'substantial', 'demographic', 'proportion', 'fluctuate',
+                'implication', 'perspective', 'empirical', 'sustainable', 'infrastructure',
+                'predominant', 'phenomenon', 'accelerate', 'diminish', 'allocate',
+                'fundamental', 'deteriorate', 'comprehensive', 'adversely', 'alleviate'
+            ];
+            let lrCount = 0;
+            academicWords.forEach(w => { if (lower.includes(w)) lrCount++; });
+
+            let lr = 5.5;
+            if (lrCount >= 3 && words >= 200) lr = 7.0;
+            else if (lrCount >= 2 && words >= 150) lr = 6.5;
+            else if (lrCount >= 1 || words >= 100) lr = 6.0;
+
+            // 4. Grammatical Range & Accuracy (GRA)
+            const complexMarkers = ['although', 'even though', 'despite', 'whereas', 'which', 'who', 'whom', 'whose', 'in order to', 'provided that', 'if', 'unless'];
+            let complexCount = 0;
+            complexMarkers.forEach(m => { if (lower.includes(m)) complexCount++; });
+            const passiveCount = (text.match(/\b(is|are|was|were|been|being)\s+([a-z]+ed|[a-z]+en)\b/gi) || []).length;
+
+            let gra = 5.5;
+            if (complexCount >= 3 && passiveCount >= 1) gra = 7.0;
+            else if (complexCount >= 2 || passiveCount >= 1) gra = 6.5;
+            else if (complexCount >= 1) gra = 6.0;
+
+            const rawAvg = (ta + cc + lr + gra) / 4;
+            const overallBand = (Math.round(rawAvg * 2) / 2).toFixed(1);
+
+            return {
+                words,
+                paragraphsCount: paragraphs.length,
+                scores: { ta, cc, lr, gra, overall: overallBand },
+                feedback: {
+                    ta: words >= 250 
+                        ? "✅ Độ dài đạt chuẩn khảo thí (≥250 từ). Bài viết có mở - thân - kết và thể hiện quan điểm rõ ràng."
+                        : `⚠️ Độ dài (${words} từ) chưa đạt chuẩn khuyến nghị (tối thiểu 250 từ cho Task 2). Cần bổ sung ví dụ và giải thích sâu hơn để đạt tối đa điểm Task Response.`,
+                    cc: paragraphs.length >= 3 && ccCount >= 3
+                        ? "✅ Bố cục đoạn mạch lạc, các ý được kết nối tự nhiên bằng hệ thống từ nối học thuật đa dạng."
+                        : "⚠️ Cần chú ý phân đoạn rõ rệt (Mở bài - 2 Thân bài - Kết bài) và lồng ghép từ nối chuyển đoạn tự nhiên hơn.",
+                    lr: lrCount >= 2
+                        ? "✅ Vốn từ vựng học thuật phong phú, sử dụng đúng ngữ cảnh và có kết hợp từ (collocations) chuẩn mực."
+                        : "💡 Gợi ý nâng cấp từ vựng: Thay thế các từ quen thuộc bằng cụm từ C1/C2 (ví dụ: 'big change' → 'substantial transformation', 'good idea' → 'viable approach').",
+                    gra: complexCount >= 2
+                        ? "✅ Sử dụng linh hoạt các câu phức chứa mệnh đề quan hệ và cấu trúc bị động học thuật."
+                        : "💡 Gợi ý ngữ pháp: Bổ sung câu điều kiện loại 2/3 hoặc mệnh đề nhượng bộ (Although / Whereas) để nâng band Grammatical Range lên 7.0+."
+                }
+            };
+        }
+
+        function evaluateSpeakingOfficial(transcript, durationSeconds = 90, targetBand = "6.5") {
+            const words = transcript.trim() ? transcript.trim().split(/\s+/).filter(Boolean).length : 0;
+            const lower = transcript.toLowerCase();
+            const wpm = durationSeconds > 0 ? Math.round((words / durationSeconds) * 60) : 110;
+
+            // 1. Fluency & Coherence (FC)
+            let fc = 5.5;
+            if (words >= 120 && wpm >= 90 && wpm <= 160) fc = 7.0;
+            else if (words >= 80) fc = 6.5;
+            else if (words >= 40) fc = 6.0;
+
+            const discourseMarkers = ['well', 'actually', 'honestly', 'to be frank', 'from my perspective', 'as a matter of fact', 'moving on to', 'in addition'];
+            let dmCount = 0;
+            discourseMarkers.forEach(d => { if (lower.includes(d)) dmCount++; });
+            if (dmCount >= 2 && fc < 8.0) fc = Math.min(7.5, fc + 0.5);
+
+            // 2. Lexical Resource (LR)
+            const topicPhrases = ['profound', 'captivating', 'perspective', 'unconventional', 'fascinating', 'uplift', 'indispensable', 'vital', 'crucial', 'tangible'];
+            let lrCount = 0;
+            topicPhrases.forEach(p => { if (lower.includes(p)) lrCount++; });
+
+            let lr = 5.5;
+            if (lrCount >= 2 && words >= 80) lr = 7.0;
+            else if (lrCount >= 1 || words >= 60) lr = 6.5;
+            else if (words >= 30) lr = 6.0;
+
+            // 3. Grammatical Range & Accuracy (GRA)
+            const complexWords = ['because', 'although', 'which', 'who', 'when', 'if', 'while', 'since'];
+            let complexCount = 0;
+            complexWords.forEach(w => { if (lower.includes(w)) complexCount++; });
+
+            let gra = 5.5;
+            if (complexCount >= 3 && words >= 80) gra = 7.0;
+            else if (complexCount >= 2 || words >= 50) gra = 6.5;
+            else if (complexCount >= 1) gra = 6.0;
+
+            // 4. Pronunciation (PR)
+            let pr = 6.5;
+            if (wpm >= 110 && wpm <= 145 && words >= 80) pr = 7.0;
+            else if (wpm < 80 || wpm > 170) pr = 6.0;
+
+            const rawAvg = (fc + lr + gra + pr) / 4;
+            const overallBand = (Math.round(rawAvg * 2) / 2).toFixed(1);
+
+            return {
+                words,
+                wpm,
+                scores: { fc, lr, gra, pr, overall: overallBand },
+                feedback: {
+                    fc: `✅ Tốc độ nói ước tính: ${wpm} từ/phút (chuẩn quốc tế: 110–140 WPM). ${words >= 80 ? 'Duy trì luồng nói trôi chảy và tự nhiên.' : 'Nên kéo dài bài nói tối thiểu 1.5–2 phút.'}`,
+                    lr: lrCount >= 1 ? "✅ Có sử dụng từ vựng miêu tả sinh động và diễn đạt ý tưởng mạch lạc." : "💡 Gợi ý: Bổ sung thêm các thành ngữ tự nhiên (idiomatic expressions) như 'a double-edged sword', 'down the line'.",
+                    gra: complexCount >= 2 ? "✅ Kết hợp tốt giữa câu đơn và câu phức có liên từ phụ thuộc." : "💡 Gợi ý: Hãy thử dùng mệnh đề quan hệ (which / who) để nối các câu ngắn thành câu phức học thuật.",
+                    pr: `✅ Nhịp điệu và phân đoạn ngữ điệu tương đối tự nhiên. Hãy chú ý nhấn đúng trọng âm từ (word stress) ở các từ đa âm tiết.`
+                }
+            };
+        }
+
+        function buildOfficialWritingRubricCard(rubric, modelAnswer, lexicalBooster) {
+            const s = rubric.scores;
+            const f = rubric.feedback;
+            return `
+                <div class="card" style="border:2px solid var(--primary); background:linear-gradient(180deg, #f8fafc 0%, #eff6ff 100%); margin-bottom:1.5rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; border-bottom:1px solid var(--border-subtle); padding-bottom:0.75rem; margin-bottom:1rem;">
+                        <div>
+                            <span class="badge-pill" style="background:#1e3a8a; color:#fff; font-weight:700;">★ Official Cambridge / BC / IDP Rubric</span>
+                            <h3 style="font-size:1.25rem; color:var(--ink); margin-top:0.35rem; font-weight:800;">Chẩn Đoán 4 Tiêu Chí Chấm Điểm Viết Học Thuật (IELTS Writing)</h3>
+                        </div>
+                        <div style="text-align:right;">
+                            <div style="font-size:0.8rem; color:var(--ink-muted);">Ước Tính Điểm Bài Viết</div>
+                            <div style="font-size:1.6rem; font-weight:900; color:var(--primary);">Band ${s.overall}</div>
+                        </div>
+                    </div>
+
+                    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; margin-bottom:1.25rem;">
+                        <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                                <strong style="color:var(--primary); font-size:0.92rem;">🎯 1. Task Response (TA/TR)</strong>
+                                <span class="badge-pill badge-blue">Band ${s.ta.toFixed(1)}</span>
+                            </div>
+                            <div style="background:var(--surface-muted); height:6px; border-radius:3px; margin-bottom:0.6rem; overflow:hidden;">
+                                <div style="background:var(--primary); height:100%; width:${(s.ta / 9) * 100}%;"></div>
+                            </div>
+                            <p style="font-size:0.82rem; color:var(--ink); line-height:1.5; margin:0;">${f.ta}</p>
+                        </div>
+
+                        <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                                <strong style="color:var(--primary); font-size:0.92rem;">🧩 2. Coherence & Cohesion (CC)</strong>
+                                <span class="badge-pill badge-blue">Band ${s.cc.toFixed(1)}</span>
+                            </div>
+                            <div style="background:var(--surface-muted); height:6px; border-radius:3px; margin-bottom:0.6rem; overflow:hidden;">
+                                <div style="background:var(--primary); height:100%; width:${(s.cc / 9) * 100}%;"></div>
+                            </div>
+                            <p style="font-size:0.82rem; color:var(--ink); line-height:1.5; margin:0;">${f.cc}</p>
+                        </div>
+
+                        <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                                <strong style="color:var(--primary); font-size:0.92rem;">📚 3. Lexical Resource (LR)</strong>
+                                <span class="badge-pill badge-blue">Band ${s.lr.toFixed(1)}</span>
+                            </div>
+                            <div style="background:var(--surface-muted); height:6px; border-radius:3px; margin-bottom:0.6rem; overflow:hidden;">
+                                <div style="background:var(--primary); height:100%; width:${(s.lr / 9) * 100}%;"></div>
+                            </div>
+                            <p style="font-size:0.82rem; color:var(--ink); line-height:1.5; margin:0;">${f.lr}</p>
+                        </div>
+
+                        <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                                <strong style="color:var(--primary); font-size:0.92rem;">⚙️ 4. Grammatical Range (GRA)</strong>
+                                <span class="badge-pill badge-blue">Band ${s.gra.toFixed(1)}</span>
+                            </div>
+                            <div style="background:var(--surface-muted); height:6px; border-radius:3px; margin-bottom:0.6rem; overflow:hidden;">
+                                <div style="background:var(--primary); height:100%; width:${(s.gra / 9) * 100}%;"></div>
+                            </div>
+                            <p style="font-size:0.82rem; color:var(--ink); line-height:1.5; margin:0;">${f.gra}</p>
+                        </div>
+                    </div>
+
+                    ${modelAnswer ? `
+                    <details style="background:#fff; border-radius:var(--radius-md); border:1px solid var(--border-subtle); padding:0.85rem; margin-top:0.75rem;">
+                        <summary style="font-weight:700; color:var(--primary); cursor:pointer; font-size:0.92rem;">📖 Xem Bài Viết Mẫu Chuẩn Khảo Thí Band 8.5+ (Model Exemplar)</summary>
+                        <div style="font-size:0.88rem; line-height:1.65; color:var(--ink); margin-top:0.75rem; white-space:pre-wrap; border-top:1px dashed var(--border-subtle); padding-top:0.75rem;">${escapeHtml(modelAnswer)}</div>
+                        ${lexicalBooster && lexicalBooster.length ? `
+                        <div style="margin-top:0.75rem; padding-top:0.6rem; border-top:1px solid var(--border-subtle);">
+                            <strong style="font-size:0.85rem; color:var(--primary);">💎 Lexical Booster (Cụm từ đắt giá cần học):</strong>
+                            <ul style="margin:0.35rem 0 0 1.25rem; font-size:0.82rem; color:var(--ink-muted);">
+                                ${lexicalBooster.map(b => `<li>${escapeHtml(b)}</li>`).join('')}
+                            </ul>
+                        </div>
+                        ` : ''}
+                    </details>
+                    ` : ''}
+                </div>
+            `;
+        }
+
+        function buildOfficialSpeakingRubricCard(rubric, modelResponse) {
+            const s = rubric.scores;
+            const f = rubric.feedback;
+            return `
+                <div class="card" style="border:2px solid var(--primary); background:linear-gradient(180deg, #f8fafc 0%, #eff6ff 100%); margin-bottom:1.5rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; border-bottom:1px solid var(--border-subtle); padding-bottom:0.75rem; margin-bottom:1rem;">
+                        <div>
+                            <span class="badge-pill" style="background:#1e3a8a; color:#fff; font-weight:700;">★ Official Cambridge / BC / IDP Rubric</span>
+                            <h3 style="font-size:1.25rem; color:var(--ink); margin-top:0.35rem; font-weight:800;">Chẩn Đoán 4 Tiêu Chí Chấm Điểm Nói (IELTS Speaking)</h3>
+                        </div>
+                        <div style="text-align:right;">
+                            <div style="font-size:0.8rem; color:var(--ink-muted);">Ước Tính Điểm Bài Nói</div>
+                            <div style="font-size:1.6rem; font-weight:900; color:var(--primary);">Band ${s.overall}</div>
+                        </div>
+                    </div>
+
+                    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; margin-bottom:1.25rem;">
+                        <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                                <strong style="color:var(--primary); font-size:0.92rem;">🗣️ 1. Fluency & Coherence (FC)</strong>
+                                <span class="badge-pill badge-blue">Band ${s.fc.toFixed(1)}</span>
+                            </div>
+                            <div style="background:var(--surface-muted); height:6px; border-radius:3px; margin-bottom:0.6rem; overflow:hidden;">
+                                <div style="background:var(--primary); height:100%; width:${(s.fc / 9) * 100}%;"></div>
+                            </div>
+                            <p style="font-size:0.82rem; color:var(--ink); line-height:1.5; margin:0;">${f.fc}</p>
+                        </div>
+
+                        <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                                <strong style="color:var(--primary); font-size:0.92rem;">📖 2. Lexical Resource (LR)</strong>
+                                <span class="badge-pill badge-blue">Band ${s.lr.toFixed(1)}</span>
+                            </div>
+                            <div style="background:var(--surface-muted); height:6px; border-radius:3px; margin-bottom:0.6rem; overflow:hidden;">
+                                <div style="background:var(--primary); height:100%; width:${(s.lr / 9) * 100}%;"></div>
+                            </div>
+                            <p style="font-size:0.82rem; color:var(--ink); line-height:1.5; margin:0;">${f.lr}</p>
+                        </div>
+
+                        <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                                <strong style="color:var(--primary); font-size:0.92rem;">⚖️ 3. Grammatical Range (GRA)</strong>
+                                <span class="badge-pill badge-blue">Band ${s.gra.toFixed(1)}</span>
+                            </div>
+                            <div style="background:var(--surface-muted); height:6px; border-radius:3px; margin-bottom:0.6rem; overflow:hidden;">
+                                <div style="background:var(--primary); height:100%; width:${(s.gra / 9) * 100}%;"></div>
+                            </div>
+                            <p style="font-size:0.82rem; color:var(--ink); line-height:1.5; margin:0;">${f.gra}</p>
+                        </div>
+
+                        <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                                <strong style="color:var(--primary); font-size:0.92rem;">🎙️ 4. Pronunciation (PR)</strong>
+                                <span class="badge-pill badge-blue">Band ${s.pr.toFixed(1)}</span>
+                            </div>
+                            <div style="background:var(--surface-muted); height:6px; border-radius:3px; margin-bottom:0.6rem; overflow:hidden;">
+                                <div style="background:var(--primary); height:100%; width:${(s.pr / 9) * 100}%;"></div>
+                            </div>
+                            <p style="font-size:0.82rem; color:var(--ink); line-height:1.5; margin:0;">${f.pr}</p>
+                        </div>
+                    </div>
+
+                    ${modelResponse ? `
+                    <details style="background:#fff; border-radius:var(--radius-md); border:1px solid var(--border-subtle); padding:0.85rem; margin-top:0.75rem;">
+                        <summary style="font-weight:700; color:var(--primary); cursor:pointer; font-size:0.92rem;">🗣️ Xem Bài Nói Mẫu Xuất Sắc Band 8.5+ (Model Response)</summary>
+                        <div style="font-size:0.88rem; line-height:1.65; color:var(--ink); margin-top:0.75rem; white-space:pre-wrap; border-top:1px dashed var(--border-subtle); padding-top:0.75rem;">${escapeHtml(modelResponse)}</div>
+                    </details>
+                    ` : ''}
+                </div>
+            `;
+        }
+
         function render6LayerFeedback(score, total, results, timeSpent) {
             document.getElementById('res-score').innerText = `${score}/${total}`;
             const pct = (score / total) * 100;
@@ -3754,6 +4047,32 @@
             if (!container) return;
 
             let html = '';
+
+            // Check if this is an authentic Writing or Speaking exam
+            const isWritingSkill = state.exam.skill === 'writing' || results.some(r => r.q.type === 'essay');
+            const isSpeakingSkill = state.exam.skill === 'speaking' || results.some(r => r.q.type === 'speech' || r.q.type === 'speech_prompt');
+
+            if (isWritingSkill) {
+                const essayRes = results.find(r => r.q.type === 'essay') || results[0];
+                const essayText = essayRes?.userAns || '';
+                const rubric = evaluateWritingOfficial(essayText, state.exam.passage || '', state.exam.band || '6.5');
+                document.getElementById('res-band').innerText = `Band ${rubric.scores.overall}`;
+                
+                const currMock = (IELTS_DATA.mockExams || []).find(m => m.id === state.exam.id);
+                const modelAns = currMock?.writing?.modelAnswer || state.exam.modelAnswer || '';
+                const booster = currMock?.writing?.lexicalBooster || state.exam.lexicalBooster || [];
+                html += buildOfficialWritingRubricCard(rubric, modelAns, booster);
+            } else if (isSpeakingSkill) {
+                const speechRes = results.find(r => r.q.type === 'speech' || r.q.type === 'speech_prompt') || results[0];
+                const speechText = speechRes?.userAns || '';
+                const rubric = evaluateSpeakingOfficial(speechText, timeSpent, state.exam.band || '6.5');
+                document.getElementById('res-band').innerText = `Band ${rubric.scores.overall}`;
+
+                const currMock = (IELTS_DATA.mockExams || []).find(m => m.id === state.exam.id);
+                const modelResp = currMock?.speaking?.modelResponse || state.exam.modelResponse || '';
+                html += buildOfficialSpeakingRubricCard(rubric, modelResp);
+            }
+
             results.forEach((r, idx) => {
                 const q = r.q;
                 const qNum = idx + 1;

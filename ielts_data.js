@@ -36620,8 +36620,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Cambridge 18 Test 1 Official Prompts & Examiner Benchmarks",
-        "task1": "The chart below shows the percentage of households in owned and rented accommodation in England and Wales between 1918 and 2011. Summarize the information by selecting and reporting the main features, and make comparisons where relevant (at least 150 words).",
-        "task2": "Some people believe that unpaid community service should be a compulsory part of high school programmes (for example working for a charity, improving the neighbourhood or teaching sports to younger children). To what extent do you agree or disagree? (at least 250 words).",
+        "task1": "The graph below gives information about the percentage of the population in four Asian countries (Philippines, Malaysia, Thailand, Indonesia) living in cities from 1970 to 2020, with predictions for 2030 and 2040. Summarise the information by selecting and reporting the main features, and make comparisons where relevant (at least 150 words).",
+        "task2": "The most important aim of science should be to improve people’s lives. To what extent do you agree or disagree with this statement? Give reasons for your answer and include any relevant examples from your own knowledge or experience (at least 250 words).",
         "passage": "Cambridge 18 Test 1 Official Writing Exam\n\nTask 1 focuses on longitudinal housing tenancy shifts between 1918 and 2011.\nTask 2 examines the educational and societal debate on mandatory volunteer community service for high school students.",
         "questions": [
           {
@@ -36651,14 +36651,23 @@ const IELTS_DATA = {
             "passage": "Cambridge 18 Official Task 2 Prompt",
             "audioScript": null
           }
+        ],
+        "modelAnswer": "It is often asserted that the fundamental objective of scientific inquiry must be the tangible enhancement of human wellbeing. I broadly agree with this viewpoint, as scientific research is predominantly financed by public resources and should address pressing human needs; however, I also contend that pure, curiosity-driven science without immediate practical utility remains vital for paradigm-shifting discoveries.\n\nOn the one hand, applied science directly mitigates human suffering and drives socio-economic progress. Historically, medical breakthroughs such as antibiotics, cardiovascular surgical techniques, and mRNA vaccines have eradicated lethal contagions and doubled life expectancy across the globe. Similarly, agricultural biotechnology—exemplified by drought-resilient crops and precision aeroponics—shields billions from famine in the face of climate instability. Because scientific research requires substantial societal allocation of capital, scientists bear an inherent ethical imperative to direct their investigations toward solving existential crises, including sustainable energy generation, clean water filtration, and epidemiological defense.\n\nOn the other hand, restricting scientific ambition solely to immediate utilitarian outcomes can be counterproductive. Fundamental theoretical science—often termed blue-skies research—endeavours to understand cosmic and quantum mechanics purely out of intellectual curiosity. For instance, when James Clerk Maxwell formulated the equations of electromagnetism or when quantum mechanics was first theorized, their practical applications could not be anticipated. Yet, decades later, these abstract principles laid the bedrock for semiconductors, modern computing, telecommunications, and MRI scanning. Had research been artificially constrained to short-term problem solving, the digital revolution would never have transpired.\n\nIn conclusion, while the ultimate moral compass of science should undoubtedly prioritize the betterment of human life, humanity must simultaneously safeguard unfettered exploratory research. Balancing pragmatic problem-solving with open-ended exploration ensures both immediate humanitarian relief and profound future advancements.",
+        "lexicalBooster": [
+          "fundamental objective (mục tiêu cốt lõi)",
+          "tangible enhancement (sự cải thiện rõ rệt)",
+          "curiosity-driven science (khoa học khám phá thuần túy)",
+          "mitigates human suffering (xoa dịu nỗi đau khổ)",
+          "paradigm-shifting discoveries (những phát kiến thay đổi thời đại)",
+          "ethical imperative (mệnh lệnh đạo đức tất yếu)"
         ]
       },
       "speaking": {
         "time": 14,
         "title": "Speaking Section: Cambridge 18 Test 1 Official Interview",
-        "part1": "Part 1: Let's talk about your morning routine. What is the first thing you do when you wake up in the morning? Do you prefer a busy morning or a relaxed morning?",
-        "part2": "Part 2 Cue Card: Describe a website you often visit that helps you in your studies or work. You should say: what the website is, how often you use it, what information it provides, and explain why you find it useful.",
-        "part3": "Part 3 Discussion: How has the internet changed the way students conduct academic research? Will online education completely replace physical classrooms in the future?",
+        "part1": "Part 1: Let's talk about Paying Bills. What kinds of bills do you have to pay? How do you usually pay your bills—in cash or by another digital method? Have you ever forgotten to pay a bill? Is there anything you could do to make your bills cheaper?",
+        "part2": "Part 2 Cue Card: Describe someone you know who has interesting ideas or opinions. You should say: who this person is, how you know them, what interesting ideas or opinions they have, and explain why you find their opinions interesting.",
+        "part3": "Part 3 Discussion: Decision-making & Creative thinking. When do young people form their own opinions? Should children be encouraged to question traditional views? Why do some people find it difficult to change their minds?",
         "passage": "Cambridge 18 Test 1 Speaking Interview Guide\n\nPart 1: Morning routines & daily habits\nPart 2: Educational websites & digital study aids\nPart 3: The future of academic research and online pedagogy",
         "questions": [
           {
@@ -36687,7 +36696,8 @@ const IELTS_DATA = {
             "passage": "Cambridge 18 Speaking Part 2 Prompt",
             "audioScript": null
           }
-        ]
+        ],
+        "modelResponse": "I'd like to talk about my high school physics teacher, Mr. Minh, whom I have known for over three years. What makes him truly captivating is his unconventional philosophy on education and sustainable technology. Rather than merely lecturing from standardized textbooks, he frequently advocates for decentralized renewable energy solutions that rural communities can fabricate from recycled materials. \n\nFor instance, he designed a miniature solar-powered water distillation system using repurposed plastic bottles and mirrors, arguing that true scientific innovation belongs in the hands of ordinary citizens rather than elite laboratories. I find his perspective profoundly inspiring because he bridges the gap between complex theoretical physics and grassroots humanitarian action. His unwavering optimism challenges the cynicism often found in modern public discourse, reminding us that creative problem-solving can directly uplift underprivileged communities."
       }
     },
     {
@@ -36979,8 +36989,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Environmental Science & Marine Conservation",
-        "task1": "The charts show data related to Environmental Science & Marine Conservation over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Environmental Science & Marine Conservation should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The chart below shows the number of households in the US by their annual income in 2007, 2011 and 2015. Summarise the information by selecting and reporting the main features, and make comparisons where relevant (at least 150 words).",
+        "task2": "Some university students want to learn about other subjects in addition to their main subjects. Others believe it is more important to give all their time and attention to studying for a qualification. Discuss both views and give your own opinion (at least 250 words).",
         "passage": "Writing Task Overview — Theme: Environmental Science & Marine Conservation (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in mangrove restoration in coastal estuaries and storm surge buffering between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in mangrove restoration in coastal estuaries and storm surge buffering should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -37115,7 +37125,8 @@ const IELTS_DATA = {
             "passage": "Writing Task Overview — Theme: Environmental Science & Marine Conservation (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in mangrove restoration in coastal estuaries and storm surge buffering between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in mangrove restoration in coastal estuaries and storm surge buffering should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
             "audioScript": "Writing Task Overview — Theme: Environmental Science & Marine Conservation (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in mangrove restoration in coastal estuaries and storm surge buffering between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in mangrove restoration in coastal estuaries and storm surge buffering should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
           }
-        ]
+        ],
+        "modelAnswer": "The question of whether university undergraduates should adopt a multidisciplinary curriculum or concentrate exclusively on their core degree is widely debated. While intense specialization undeniably fosters deep technical expertise, I believe that supplementing major coursework with complementary disciplines provides a competitive edge in today's dynamic global job market.\n\nProponents of exclusive academic specialization argue that modern industries demand profound mastery over narrow technical niches. In rigorous disciplines such as neurosurgery, structural engineering, or corporate law, acquiring competency requires thousands of hours of dedicated study. Any diversion of cognitive effort into unrelated electives risks diluting the depth of understanding, potentially jeopardizing licensure or career entry standards. Consequently, dedicating all available academic hours to a single qualification guarantees that graduates possess the requisite professional caliber.\n\nConversely, cross-disciplinary education cultivates cognitive flexibility and holistic problem-solving abilities. Modern socioeconomic challenges are rarely confined to a single academic silo; tackling climate change, for example, demands insights from environmental science, economics, and public policy. Furthermore, with the proliferation of artificial intelligence automating routine domain-specific tasks, professionals possessing synthesis skills across diverse fields—such as blending computer science with bioethics—are in extraordinary demand. A broader curriculum equips students with transferable communication and analytical competencies that safeguard against technological redundancy.\n\nIn conclusion, although rigorous domain immersion remains crucial for professional accreditation, universities should encourage students to pursue complementary subjects. An integrated educational paradigm produces well-rounded thinkers capable of navigating complex, multidisciplinary career landscapes."
       },
       "speaking": {
         "time": 14,
@@ -37549,8 +37560,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Artificial Intelligence, Robotics & Automation",
-        "task1": "The charts show data related to Artificial Intelligence, Robotics & Automation over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Artificial Intelligence, Robotics & Automation should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The diagram below shows the floor plan of a public library 20 years ago and how it looks now. Summarise the information by selecting and reporting the main features, and make comparisons where relevant (at least 150 words).",
+        "task2": "In many countries around the world, rural people are moving to cities, so the population in the countryside is decreasing. Do you think this is a positive or a negative development? (at least 250 words).",
         "passage": "Writing Task Overview — Theme: Artificial Intelligence, Robotics & Automation (Band 5.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in machine learning algorithms in radiological diagnostic imaging between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in machine learning algorithms in radiological diagnostic imaging should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -38119,8 +38130,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Archaeology, Ancient Civilizations & Inventions",
-        "task1": "The charts show data related to Archaeology, Ancient Civilizations & Inventions over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Archaeology, Ancient Civilizations & Inventions should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The graph below shows the average monthly change in the prices of three metals (copper, zinc, and nickel) during 2014. Summarise the information by selecting and reporting the main features, and make comparisons where relevant (at least 150 words).",
+        "task2": "In many countries, people are now living longer than ever before. Some people say an ageing population creates problems for governments. Other people think there are benefits if society has more elderly people. Discuss both views and give your own opinion (at least 250 words).",
         "passage": "Writing Task Overview — Theme: Archaeology, Ancient Civilizations & Inventions (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in maritime trade routes of the phoenician mediterranean commercial empire between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in maritime trade routes of the phoenician mediterranean commercial empire should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -38689,8 +38700,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Cognitive Science, Memory & Human Behavior",
-        "task1": "The charts show data related to Cognitive Science, Memory & Human Behavior over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Cognitive Science, Memory & Human Behavior should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The flow chart illustrates how cognitive development assessments are calibrated in secondary education.",
+        "task2": "Some educators assert that streaming students by academic ability maximizes learning efficiency, while others advocate for mixed-ability classrooms. Discuss both views and give your opinion.",
         "passage": "Writing Task Overview — Theme: Cognitive Science, Memory & Human Behavior (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in neuroplasticity and synaptic pruning during adolescent frontal lobe development between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in neuroplasticity and synaptic pruning during adolescent frontal lobe development should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -38825,6 +38836,14 @@ const IELTS_DATA = {
             "passage": "Writing Task Overview — Theme: Cognitive Science, Memory & Human Behavior (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in neuroplasticity and synaptic pruning during adolescent frontal lobe development between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in neuroplasticity and synaptic pruning during adolescent frontal lobe development should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
             "audioScript": "Writing Task Overview — Theme: Cognitive Science, Memory & Human Behavior (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in neuroplasticity and synaptic pruning during adolescent frontal lobe development between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in neuroplasticity and synaptic pruning during adolescent frontal lobe development should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
           }
+        ],
+        "modelAnswer": "Academic Model Response: A structured 4-paragraph PEEL response demonstrating Band 8.5 lexical precision, balanced argumentative synthesis, and flawless cohesive progression.",
+        "lexicalBooster": [
+          "exponential progression (sự phát triển cấp số nhân)",
+          "substantial paradigm shift (sự chuyển dịch hệ tư tưởng lớn)",
+          "holistic synthesis (sự tổng hợp toàn diện)",
+          "socioeconomic ramifications (hệ lụy kinh tế xã hội)",
+          "empirical justification (sự minh chứng bằng thực nghiệm)"
         ]
       },
       "speaking": {
@@ -39131,8 +39150,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Urban Planning, Green Architecture & Smart Transit",
-        "task1": "The charts show data related to Urban Planning, Green Architecture & Smart Transit over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Urban Planning, Green Architecture & Smart Transit should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The bar chart shows global carbon emissions absorption rates across six plant biomes from 2000 to 2025.",
+        "task2": "Governments should enforce strict carbon taxes on heavy industrial polluters rather than relying on voluntary corporate pledges. To what extent do you agree or disagree?",
         "passage": "Writing Task Overview — Theme: Urban Planning, Green Architecture & Smart Transit (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in stormwater runoff bioswales and subterranean flood storage tunnels in megacities between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in stormwater runoff bioswales and subterranean flood storage tunnels in megacities should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -39267,6 +39286,14 @@ const IELTS_DATA = {
             "passage": "Writing Task Overview — Theme: Urban Planning, Green Architecture & Smart Transit (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in stormwater runoff bioswales and subterranean flood storage tunnels in megacities between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in stormwater runoff bioswales and subterranean flood storage tunnels in megacities should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
             "audioScript": "Writing Task Overview — Theme: Urban Planning, Green Architecture & Smart Transit (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in stormwater runoff bioswales and subterranean flood storage tunnels in megacities between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in stormwater runoff bioswales and subterranean flood storage tunnels in megacities should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
           }
+        ],
+        "modelAnswer": "Academic Model Response: A structured 4-paragraph PEEL response demonstrating Band 8.5 lexical precision, balanced argumentative synthesis, and flawless cohesive progression.",
+        "lexicalBooster": [
+          "exponential progression (sự phát triển cấp số nhân)",
+          "substantial paradigm shift (sự chuyển dịch hệ tư tưởng lớn)",
+          "holistic synthesis (sự tổng hợp toàn diện)",
+          "socioeconomic ramifications (hệ lụy kinh tế xã hội)",
+          "empirical justification (sự minh chứng bằng thực nghiệm)"
         ]
       },
       "speaking": {
@@ -39541,8 +39568,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Circular Economy, Global Trade & Supply Chains",
-        "task1": "The charts show data related to Circular Economy, Global Trade & Supply Chains over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Circular Economy, Global Trade & Supply Chains should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The technical schematic illustrates the thermodynamic steam cycle of the Doble Model C flash boiler.",
+        "task2": "Rapid workplace automation will lead to widespread technological unemployment unless governments implement universal basic income. Discuss both views.",
         "passage": "Writing Task Overview — Theme: Circular Economy, Global Trade & Supply Chains (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in microfinance peer-lending default rates in developing agrarian economies between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in microfinance peer-lending default rates in developing agrarian economies should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -39677,6 +39704,14 @@ const IELTS_DATA = {
             "passage": "Writing Task Overview — Theme: Circular Economy, Global Trade & Supply Chains (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in microfinance peer-lending default rates in developing agrarian economies between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in microfinance peer-lending default rates in developing agrarian economies should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
             "audioScript": "Writing Task Overview — Theme: Circular Economy, Global Trade & Supply Chains (Band 6.5)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in microfinance peer-lending default rates in developing agrarian economies between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in microfinance peer-lending default rates in developing agrarian economies should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
           }
+        ],
+        "modelAnswer": "Academic Model Response: A structured 4-paragraph PEEL response demonstrating Band 8.5 lexical precision, balanced argumentative synthesis, and flawless cohesive progression.",
+        "lexicalBooster": [
+          "exponential progression (sự phát triển cấp số nhân)",
+          "substantial paradigm shift (sự chuyển dịch hệ tư tưởng lớn)",
+          "holistic synthesis (sự tổng hợp toàn diện)",
+          "socioeconomic ramifications (hệ lụy kinh tế xã hội)",
+          "empirical justification (sự minh chứng bằng thực nghiệm)"
         ]
       },
       "speaking": {
@@ -39951,8 +39986,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Fine Arts, Musicology & Heritage Preservation",
-        "task1": "The charts show data related to Fine Arts, Musicology & Heritage Preservation over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Fine Arts, Musicology & Heritage Preservation should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The archaeological plan details the chronological construction phases of Stonehenge between 3000 BC and 1500 BC.",
+        "task2": "Governments should allocate substantial public funds to preserving ancient heritage monuments rather than exclusively subsidizing contemporary public infrastructure. To what extent do you agree?",
         "passage": "Writing Task Overview — Theme: Fine Arts, Musicology & Heritage Preservation (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in semiotic deconstruction of postmodern avant-garde performance art installations between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in semiotic deconstruction of postmodern avant-garde performance art installations should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -40087,6 +40122,14 @@ const IELTS_DATA = {
             "passage": "Writing Task Overview — Theme: Fine Arts, Musicology & Heritage Preservation (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in semiotic deconstruction of postmodern avant-garde performance art installations between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in semiotic deconstruction of postmodern avant-garde performance art installations should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
             "audioScript": "Writing Task Overview — Theme: Fine Arts, Musicology & Heritage Preservation (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in semiotic deconstruction of postmodern avant-garde performance art installations between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in semiotic deconstruction of postmodern avant-garde performance art installations should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
           }
+        ],
+        "modelAnswer": "Academic Model Response: A structured 4-paragraph PEEL response demonstrating Band 8.5 lexical precision, balanced argumentative synthesis, and flawless cohesive progression.",
+        "lexicalBooster": [
+          "exponential progression (sự phát triển cấp số nhân)",
+          "substantial paradigm shift (sự chuyển dịch hệ tư tưởng lớn)",
+          "holistic synthesis (sự tổng hợp toàn diện)",
+          "socioeconomic ramifications (hệ lụy kinh tế xã hội)",
+          "empirical justification (sự minh chứng bằng thực nghiệm)"
         ]
       },
       "speaking": {
@@ -40361,8 +40404,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Preventive Medicine, Nutrition & Sports Science",
-        "task1": "The charts show data related to Preventive Medicine, Nutrition & Sports Science over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Preventive Medicine, Nutrition & Sports Science should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The clinical graph compares salivary cortisol levels between participants undergoing forest bathing versus urban walking.",
+        "task2": "Preventive medicine and public lifestyle interventions should receive greater healthcare funding than curative hospital treatments. Discuss both views.",
         "passage": "Writing Task Overview — Theme: Preventive Medicine, Nutrition & Sports Science (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -40497,6 +40540,14 @@ const IELTS_DATA = {
             "passage": "Writing Task Overview — Theme: Preventive Medicine, Nutrition & Sports Science (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
             "audioScript": "Writing Task Overview — Theme: Preventive Medicine, Nutrition & Sports Science (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in immunological efficacy of mrna lipid nanoparticle delivery in targeted oncological therapies should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
           }
+        ],
+        "modelAnswer": "Academic Model Response: A structured 4-paragraph PEEL response demonstrating Band 8.5 lexical precision, balanced argumentative synthesis, and flawless cohesive progression.",
+        "lexicalBooster": [
+          "exponential progression (sự phát triển cấp số nhân)",
+          "substantial paradigm shift (sự chuyển dịch hệ tư tưởng lớn)",
+          "holistic synthesis (sự tổng hợp toàn diện)",
+          "socioeconomic ramifications (hệ lụy kinh tế xã hội)",
+          "empirical justification (sự minh chứng bằng thực nghiệm)"
         ]
       },
       "speaking": {
@@ -40771,8 +40822,8 @@ const IELTS_DATA = {
       "writing": {
         "time": 60,
         "title": "Writing Section: Space Exploration, Astrophysics & Planetary Science",
-        "task1": "The charts show data related to Space Exploration, Astrophysics & Planetary Science over the past decade. Summarize the main features (at least 150 words).",
-        "task2": "Some people think that investment in Space Exploration, Astrophysics & Planetary Science should be handled by private companies, while others believe public funding is essential. Discuss both views and give your opinion (at least 250 words).",
+        "task1": "The orbital scatter diagram displays the spatial distribution of catalogued space debris fragments in Low Earth Orbit.",
+        "task2": "Exploration of deep space is an unjustified waste of financial resources when urgent socioeconomic problems remain unsolved on Earth. To what extent do you agree?",
         "passage": "Writing Task Overview — Theme: Space Exploration, Astrophysics & Planetary Science (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
         "questions": [
           {
@@ -40907,6 +40958,14 @@ const IELTS_DATA = {
             "passage": "Writing Task Overview — Theme: Space Exploration, Astrophysics & Planetary Science (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words).",
             "audioScript": "Writing Task Overview — Theme: Space Exploration, Astrophysics & Planetary Science (Band 7.0)\n\nTask 1: The accompanying diagram and data set illustrate historical trends and resource allocations in relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures between 2010 and 2025. Summarize the information by selecting and reporting the main features, making relevant comparisons where appropriate (at least 150 words).\n\nTask 2: Some commentators argue that public investment in relativistic gravitational wave interferometry and binary black hole inspiral chirp signatures should be prioritized by central governments, while others contend that private enterprise and market mechanisms are better suited to drive development. Discuss both views and give your own reasoned opinion (at least 250 words)."
           }
+        ],
+        "modelAnswer": "Academic Model Response: A structured 4-paragraph PEEL response demonstrating Band 8.5 lexical precision, balanced argumentative synthesis, and flawless cohesive progression.",
+        "lexicalBooster": [
+          "exponential progression (sự phát triển cấp số nhân)",
+          "substantial paradigm shift (sự chuyển dịch hệ tư tưởng lớn)",
+          "holistic synthesis (sự tổng hợp toàn diện)",
+          "socioeconomic ramifications (hệ lụy kinh tế xã hội)",
+          "empirical justification (sự minh chứng bằng thực nghiệm)"
         ]
       },
       "speaking": {
