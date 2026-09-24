@@ -1405,6 +1405,41 @@
                 </div>
                 <div id="ppp-lessons-container" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;"></div>
             </div>
+
+            <div id="learn-tab-playbook" style="display:none;">
+                <div style="background:linear-gradient(135deg, rgba(37,99,235,0.06), rgba(139,92,246,0.06)); border:1px solid var(--primary-border); border-radius:var(--radius-lg); padding:1.25rem 1.5rem; margin-bottom:1.5rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+                    <div>
+                        <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
+                            <span class="badge-pill badge-purple" style="font-weight:800;">REASONING COACH</span>
+                            <span style="font-size:0.82rem; color:var(--ink-muted);">Huy Forum Heuristics & Deep IELTS Design</span>
+                        </div>
+                        <h3 style="font-size:1.2rem; font-weight:800; color:var(--ink); margin:0;">Cẩm Nang Chiến Lược Ra Quyết Định Chuyên Gia</h3>
+                        <p style="color:var(--ink-muted); font-size:0.85rem; margin:0.25rem 0 0; max-width:600px;">
+                            Không học vẹt bài mẫu. Học cách tư duy và đưa ra quyết định xử lý tình huống chính xác của thí sinh Band 8.0–9.0.
+                        </p>
+                    </div>
+                    <div style="display:flex; gap:0.5rem;">
+                        <button type="button" class="btn-primary" onclick="openRandomStrategyCard()" style="font-size:0.85rem; padding:0.5rem 1rem;">🎲 Luyện 1 Chiến Lược Ngẫu Nhiên</button>
+                    </div>
+                </div>
+
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap; gap:0.75rem;">
+                    <div style="display:flex; gap:0.4rem; flex-wrap:wrap;" id="playbook-filter-chips">
+                        <button type="button" class="btn-outline-sm active" id="pb-chip-all" onclick="filterPlaybookCategory('all')">Tất Cả</button>
+                        <button type="button" class="btn-outline-sm" id="pb-chip-writing_task_1" onclick="filterPlaybookCategory('writing_task_1')">✍️ Writing Task 1</button>
+                        <button type="button" class="btn-outline-sm" id="pb-chip-writing_task_2" onclick="filterPlaybookCategory('writing_task_2')">📝 Writing Task 2</button>
+                        <button type="button" class="btn-outline-sm" id="pb-chip-reading" onclick="filterPlaybookCategory('reading')">📖 Reading</button>
+                        <button type="button" class="btn-outline-sm" id="pb-chip-listening" onclick="filterPlaybookCategory('listening')">🎧 Listening</button>
+                        <button type="button" class="btn-outline-sm" id="pb-chip-speaking" onclick="filterPlaybookCategory('speaking')">🗣️ Nói (Speaking)</button>
+                        <button type="button" class="btn-outline-sm" id="pb-chip-language_control" onclick="filterPlaybookCategory('language_control')">🔤 Language Control</button>
+                    </div>
+                    <div style="position:relative; width:100%; max-width:280px;">
+                        <input type="text" id="playbook-search-input" placeholder="🔍 Tìm chiến lược / mã lỗi..." oninput="handlePlaybookSearch(this.value)" style="width:100%; padding:0.45rem 0.85rem; border:1px solid var(--border-subtle); border-radius:var(--radius-md); font-size:0.85rem; background:var(--surface-card); color:var(--ink);">
+                    </div>
+                </div>
+
+                <div id="playbook-cards-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;"></div>
+            </div>
         </section>
 
         <!-- VIEW 4: UNIFIED REVIEW CENTER -->
