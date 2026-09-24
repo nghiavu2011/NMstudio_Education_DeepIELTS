@@ -41111,5 +41111,268 @@ const IELTS_DATA = {
         ]
       }
     }
+  ],
+  "diagnosticQuestions": [
+    {
+      "id": "DIAG_Q1",
+      "skill": "reading",
+      "band": "4.5",
+      "type": "mcq",
+      "title": "Kỹ năng Đọc: Quét Dữ Liệu Thực Tế (Literal Scanning)",
+      "passage": "The public library was established in 1924 with an initial collection of 3,500 volumes. Following a major renovation in 1985, the library expanded its archives to house over 45,000 reference books and 12,000 digital audio recordings.",
+      "text": "According to the passage, how many reference books did the library hold after the 1985 renovation?",
+      "options": {
+        "A": "3,500 reference books",
+        "B": "12,000 reference books",
+        "C": "Over 45,000 reference books",
+        "D": "57,000 reference books"
+      },
+      "correct": "C",
+      "distractorReasons": {
+        "A": "Bẫy dữ liệu quá khứ: 3,500 là số lượng sách ban đầu khi thành lập năm 1924.",
+        "B": "Bẫy danh mục: 12,000 là số lượng băng ghi âm kỹ thuật số (audio recordings), không phải sách tra cứu.",
+        "C": "Chính xác: Bài đọc nêu rõ thư viện mở rộng để chứa 'over 45,000 reference books' sau năm 1985.",
+        "D": "Bẫy cộng gộp số học không có trong văn bản (45,000 + 12,000)."
+      },
+      "socraticPrompt": "Đoạn văn phân biệt số lượng sách tra cứu (reference books) và các bản ghi âm kỹ thuật số (audio recordings) như thế nào?",
+      "breakdown": {
+        "concept": "Scanning for specific numerical data & category matching",
+        "steps": [
+          "Định vị mốc thời gian 1985",
+          "Tìm từ khóa 'reference books'",
+          "Đối chiếu con số 'over 45,000'"
+        ],
+        "trap": "Bẫy nhầm lẫn giữa số sách tra cứu và số lượng bản ghi âm."
+      },
+      "discriminatorMetric": "Kiểm tra năng lực nhận diện thông tin cụ thể cấp độ A2-B1."
+    },
+    {
+      "id": "DIAG_Q2",
+      "skill": "listening",
+      "band": "5.0",
+      "type": "mcq",
+      "title": "Kỹ năng Nghe: Lọc Nhiễu Thông Tin Hành Chính (Distractor Filtering)",
+      "audioScript": "OFFICER: Good morning, City Transit Enquiries. How can I help you?\nCALLER: Hello, I'd like to book a monthly commuter pass for route 42.\nOFFICER: Certainly. That's usually £65 per month, but starting next Monday our seasonal concession lowers it to £52. Since you're booking today, I can apply the £52 rate directly.\nCALLER: That's wonderful, thank you!",
+      "text": "How much will the commuter pass cost the caller today?",
+      "options": {
+        "A": "£65",
+        "B": "£52",
+        "C": "£42",
+        "D": "£117"
+      },
+      "correct": "B",
+      "distractorReasons": {
+        "A": "Bẫy giá gốc (Original Price Trap): £65 là mức giá thông thường trước khi áp dụng ưu đãi.",
+        "B": "Chính xác: Nhân viên khẳng định áp dụng trực tiếp mức giá ưu đãi mùa là £52 ngay hôm nay.",
+        "C": "Bẫy số tuyến xe buýt: 42 là số hiệu tuyến xe (route 42), không phải số tiền.",
+        "D": "Bẫy cộng dồn hai mức giá."
+      },
+      "socraticPrompt": "Nhân viên phòng vé đã đồng ý áp dụng mức giá nào cho người gọi ngay trong ngày hôm nay?",
+      "breakdown": {
+        "concept": "Listening for price corrections and concessions",
+        "steps": [
+          "Bắt số tiền £65",
+          "Lắng nghe từ nối chuyển hướng 'but'",
+          "Ghi nhận mức giá chốt £52"
+        ],
+        "trap": "Bẫy chọn ngay con số đầu tiên (£65) khi chưa nghe hết câu điều chỉnh."
+      },
+      "discriminatorMetric": "Kiểm tra phản xạ nghe lọc bẫy điều chỉnh thông tin (self-correction)."
+    },
+    {
+      "id": "DIAG_Q3",
+      "skill": "reading",
+      "band": "5.5",
+      "type": "mcq",
+      "title": "Kỹ năng Đọc: Nhận Diện Paraphrase & Từ Đồng Nghĩa (Lexical Paraphrase)",
+      "passage": "Traditional agricultural techniques in arid regions often deplete subterranean aquifers at an alarming rate. In contrast, modern subsurface drip irrigation administers moisture directly to root zones, drastically curbing evaporative water loss.",
+      "text": "What major advantage of subsurface drip irrigation is emphasized in the text?",
+      "options": {
+        "A": "It completely halts all subterranean aquifer extraction permanently",
+        "B": "It significantly reduces water waste caused by evaporation",
+        "C": "It increases the temperature of regional crop soil",
+        "D": "It requires zero financial investment for rural farmers"
+      },
+      "correct": "B",
+      "distractorReasons": {
+        "A": "Bẫy từ ngữ cực đoan (Extremity Trap): Bài đọc không nói hệ thống này vĩnh viễn chấm dứt khai thác nước ngầm.",
+        "B": "Chính xác: 'drastically curbing evaporative water loss' được paraphrase thành 'significantly reduces water waste caused by evaporation'.",
+        "C": "Thông tin không có trong bài (Not Given).",
+        "D": "Bẫy miễn phí không có căn cứ."
+      },
+      "socraticPrompt": "Cụm từ 'drastically curbing evaporative water loss' trong bài đọc đồng nghĩa với phương án nào?",
+      "breakdown": {
+        "concept": "Academic Paraphrasing: curbing loss = reducing waste",
+        "steps": [
+          "Xác định từ khóa 'subsurface drip irrigation'",
+          "Tìm động từ 'curbing' và danh từ 'loss'",
+          "Khớp với phương án B"
+        ],
+        "trap": "Bẫy từ ngữ tuyệt đối hóa 'completely halts' ở phương án A."
+      },
+      "discriminatorMetric": "Kiểm tra năng lực giải mã cụm từ đồng nghĩa học thuật C1/B2."
+    },
+    {
+      "id": "DIAG_Q4",
+      "skill": "grammar",
+      "band": "6.0",
+      "type": "mcq",
+      "title": "Ngữ Pháp: Cấu Trúc Câu Phức & Mệnh Đề Nhượng Bộ (Complex Architecture)",
+      "text": "Choose the grammatically correct sentence that demonstrates sophisticated academic syntax:",
+      "options": {
+        "A": "Although the government invested heavily in public transit, but traffic congestion continued to worsen.",
+        "B": "Despite heavy public investment in municipal transit systems, traffic congestion continued to deteriorate.",
+        "C": "Because traffic congestion deteriorated, therefore municipal transit received heavy funding.",
+        "D": "In spite of traffic congestion deteriorated, public transit received heavy investment."
+      },
+      "correct": "B",
+      "distractorReasons": {
+        "A": "Lỗi ngữ pháp kép (Double Conjunction): Trong tiếng Anh không dùng đồng thời 'Although' và 'but'.",
+        "B": "Chính xác: 'Despite' đi kèm với cụm danh từ (noun phrase) 'heavy public investment...', tạo nên cấu trúc nhượng bộ học thuật chuẩn mực.",
+        "C": "Lỗi ngữ pháp kép: Không dùng đồng thời 'Because' và 'therefore'.",
+        "D": "Lỗi từ loại: 'In spite of' phải đi với danh từ hoặc V-ing, không đi trực tiếp với mệnh đề S+V."
+      },
+      "socraticPrompt": "Sau giới từ 'Despite' hoặc 'In spite of' cần sử dụng cấu trúc ngữ pháp nào?",
+      "breakdown": {
+        "concept": "Concessive clauses & Prepositional phrases (Despite + Noun Phrase)",
+        "steps": [
+          "Loại các câu mắc lỗi liên từ kép (Although... but / Because... therefore)",
+          "Kiểm tra cấu trúc sau 'Despite'",
+          "Chọn B"
+        ],
+        "trap": "Thói quen dịch nguyên văn từ tiếng Việt ('Mặc dù... nhưng...')."
+      },
+      "discriminatorMetric": "Kiểm tra độ chính xác ngữ pháp và khả năng tránh lỗi sai kinh điển của học sinh Việt Nam."
+    },
+    {
+      "id": "DIAG_Q5",
+      "skill": "listening",
+      "band": "6.5",
+      "type": "mcq",
+      "title": "Kỹ năng Nghe: Nhận Diện Thái Độ & Quan Điểm Học Thuật (Speaker Stance)",
+      "audioScript": "TUTOR: So, what's your take on Dr. Aris's proposal for mandatory renewable subsidies?\nSTUDENT: Well, initially it sounds plausible on paper. But when you examine the fiscal strain on local municipal budgets, it becomes evident that a blanket mandate is far too rigid to be workable across differing economic regions.",
+      "text": "What is the student's overall attitude toward Dr. Aris's proposal?",
+      "options": {
+        "A": "Unreservedly enthusiastic and supportive of immediate implementation",
+        "B": "Skeptical regarding its practical feasibility across diverse regions",
+        "C": "Completely indifferent because it does not affect university funding",
+        "D": "Furious that municipal budgets were completely dismissed"
+      },
+      "correct": "B",
+      "distractorReasons": {
+        "A": "Ngược quan điểm: Sinh viên chỉ khen 'plausible on paper' ở đầu, nhưng vế sau bác bỏ tính khả thi thực tế.",
+        "B": "Chính xác: Sinh viên bày tỏ sự hoài nghi (skeptical) vì chính sách áp đặt đồng loạt quá cứng nhắc ('far too rigid to be workable').",
+        "C": "Thông tin không phản ánh thái độ học thuật của sinh viên.",
+        "D": "Cường điệu hóa cảm xúc giận dữ tiêu cực."
+      },
+      "socraticPrompt": "Sau từ 'But', sinh viên đưa ra đánh giá gì về tính khả thi của chính sách khi áp dụng vào thực tế ngân sách địa phương?",
+      "breakdown": {
+        "concept": "Identifying nuanced academic skepticism & concession",
+        "steps": [
+          "Bắt tín hiệu nhượng bộ ban đầu 'plausible on paper'",
+          "Lắng nghe lập luận đảo chiều 'But when you examine... far too rigid'",
+          "Khớp với 'Skeptical'"
+        ],
+        "trap": "Bẫy ngộ nhận thái độ tích cực do chỉ nghe câu mở đầu."
+      },
+      "discriminatorMetric": "Kiểm tra năng lực bắt sắc thái hoài nghi học thuật (academic skepticism)."
+    },
+    {
+      "id": "DIAG_Q6",
+      "skill": "reading",
+      "band": "7.0",
+      "type": "mcq",
+      "title": "Kỹ năng Đọc: Suy Luận Logic Ẩn Dụ (Implicit Deductive Inference)",
+      "passage": "Proponents of algorithmic governance argue that autonomous systems eliminate human bias in judiciary sentencing. Yet, critics observe that machine learning models inevitably codify historical discrimination, merely clothing ancient societal prejudices in the unassailable guise of mathematical objectivity.",
+      "text": "What fundamental warning does the author convey regarding algorithmic sentencing?",
+      "options": {
+        "A": "Computers make deliberate conscious efforts to harm marginalized demographics",
+        "B": "Mathematical algorithms can disguise and perpetuate pre-existing human prejudices",
+        "C": "Judicial sentencing should be replaced entirely by random lottery draws",
+        "D": "Ancient historical laws are legally superior to modern constitutions"
+      },
+      "correct": "B",
+      "distractorReasons": {
+        "A": "Gán ghép ý thức con người cho máy móc (AI không có 'conscious efforts').",
+        "B": "Chính xác: Tác giả cảnh báo thuật toán mã hóa định kiến quá khứ và che đậy chúng dưới vỏ bọc khách quan toán học ('clothing ancient prejudices in the guise of mathematical objectivity').",
+        "C": "Phương án vô lý mang tính châm biếm.",
+        "D": "Lạc đề sang so sánh luật cổ đại."
+      },
+      "socraticPrompt": "Tác giả sử dụng hình ảnh ẩn dụ 'clothing ancient societal prejudices in the unassailable guise of mathematical objectivity' để cảnh báo điều gì?",
+      "breakdown": {
+        "concept": "Metaphorical deconstruction & Ideological critique",
+        "steps": [
+          "Phân tích nghĩa bóng của 'codify historical discrimination' và 'unassailable guise'",
+          "Nhận diện rủi ro công nghệ hóa định kiến cũ",
+          "Chọn B"
+        ],
+        "trap": "Bẫy hiểu sai nghĩa đen về ý thức thù ghét của máy tính ở phương án A."
+      },
+      "discriminatorMetric": "Kiểm tra năng lực suy luận tầng nghĩa sâu của văn bản học thuật Band 7.0+."
+    },
+    {
+      "id": "DIAG_Q7",
+      "skill": "lexical",
+      "band": "7.5",
+      "type": "mcq",
+      "title": "Từ Vựng Học Thuật: Collocation Nâng Cao & Ngữ Cảnh C1/C2 (Academic Register)",
+      "text": "Select the sentence with the most precise academic collocation and formal register:",
+      "options": {
+        "A": "The new financial regulations did a big blow to the domestic stock market.",
+        "B": "The implementation of stringent monetary policies dealt a severe blow to speculative asset trading.",
+        "C": "The government made a heavy hit against speculative traders using strict rules.",
+        "D": "Strict monetary policies gave a massive hurt to speculative financial markets."
+      },
+      "correct": "B",
+      "distractorReasons": {
+        "A": "Lỗi kết hợp từ informal: 'did a big blow' là văn phong khẩu ngữ thiếu tự nhiên.",
+        "B": "Chính xác: Cụm 'dealt a severe blow to' (giáng một đòn nặng nề lên...) là collocation học thuật chuẩn xác ở trình độ C1/C2.",
+        "C": "'made a heavy hit' là cách diễn đạt tự dịch thô, không chuẩn học thuật.",
+        "D": "'gave a massive hurt' là lỗi diễn đạt phi tự nhiên."
+      },
+      "socraticPrompt": "Cụm động từ kết hợp (collocation) chuẩn xác của danh từ 'blow' trong văn cảnh học thuật trang trọng là gì?",
+      "breakdown": {
+        "concept": "Formal C1/C2 Collocations: deal a severe blow to",
+        "steps": [
+          "Xem xét các động từ đi với 'blow'",
+          "Nhận diện thành ngữ học thuật 'deal a severe blow to'",
+          "Chọn B"
+        ],
+        "trap": "Bẫy dùng các động từ thông tục như 'do', 'make', 'give'."
+      },
+      "discriminatorMetric": "Kiểm tra độ nhạy bén với phong cách học thuật cao cấp Band 7.5 - 8.0."
+    },
+    {
+      "id": "DIAG_Q8",
+      "skill": "writing_speaking",
+      "band": "8.0",
+      "type": "mcq",
+      "title": "Kỹ năng Viết & Nói: Phát Triển Luận Điểm Phản Biện (Thesis Counter-Argument)",
+      "text": "Which thesis statement best demonstrates high-band critical thinking for a Task 2 essay on whether space exploration funding should be diverted to poverty relief?",
+      "options": {
+        "A": "I agree completely that space is useless and all money must go to poor people immediately.",
+        "B": "Space research and poverty are both important and governments should spend money on everything equally.",
+        "C": "While mitigating acute domestic poverty demands urgent fiscal prioritization, sustained investment in space science yields catalytic technological dividends that ultimately enhance global human welfare.",
+        "D": "Nobody knows whether space exploration is good or bad because scientists have differing personal opinions."
+      },
+      "correct": "C",
+      "distractorReasons": {
+        "A": "Bẫy cảm tính, thiếu tính khách quan và từ vựng sơ sài (Band 5.0).",
+        "B": "Bẫy lập trường ba phải, không có sự phân hóa hay đào sâu lập luận (Band 5.5).",
+        "C": "Chính xác: Thể hiện tư duy phản biện sắc bén (Band 8.0+), cấu trúc nhượng bộ phức ('While mitigating acute poverty... sustained investment yields catalytic dividends...') với vốn từ C2 vượt trội.",
+        "D": "Né tránh câu hỏi và lập luận ngụy biện."
+      },
+      "socraticPrompt": "Một câu chủ đề (thesis statement) xuất sắc ở Band 8.0+ cần kết hợp giữa giải quyết thực tế cấp bách và tầm nhìn dài hạn như thế nào?",
+      "breakdown": {
+        "concept": "Nuanced Academic Thesis & Concessive Argumentation",
+        "steps": [
+          "Tìm phương án có cấu trúc nhượng bộ chặt chẽ",
+          "Đánh giá tính thuyết phục của luận điểm đa chiều",
+          "Chọn C"
+        ],
+        "trap": "Bẫy khẳng định tuyệt đối một chiều hoặc lập trường mờ nhạt."
+      },
+      "discriminatorMetric": "Kiểm tra năng lực tư duy lập luận bậc cao và cấu trúc câu Band 8.0+."
+    }
   ]
 };

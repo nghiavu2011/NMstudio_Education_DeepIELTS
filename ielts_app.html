@@ -1865,7 +1865,17 @@
                 queue: [],
                 currentIndex: 0,
                 sessionCount: 0
-            }
+            },
+
+            // Diagnostic Assessment State
+            diagnostic: {
+                currentIdx: 0,
+                answers: {},
+                timeSpent: 0,
+                timerInterval: null,
+                finished: false
+            },
+            diagnosticResult: getStorageJSON('diagnosticResult', null)
         };
 
         // ====================================================
@@ -1962,6 +1972,16 @@
                 if (state.exam.mediaRecorder && state.exam.isRecording) {
                     state.exam.mediaRecorder.stop();
                 }
+            }
+
+            // Clean up running diagnostic resources if leaving diagnostic
+            if (state.currentRoute === 'diagnostic' && route !== 'diagnostic') {
+                if (state.diagnostic && state.diagnostic.timerInterval) {
+                    clearInterval(state.diagnostic.timerInterval);
+                    state.diagnostic.timerInterval = null;
+                }
+                stopListeningAudio(true);
+                safeSpeechCancel();
             }
 
             // Sync hash in browser URL bar
@@ -2740,8 +2760,9 @@
             const targetBandElem = document.getElementById('today-target-band');
             if (targetBandElem) targetBandElem.innerText = `Band ${state.targetBand}`;
 
-            // Check if new user without data
-            const hasHistory = (state.progress.examsTaken > 0) || (state.progress.exercises > 0);
+            // Check if user has diagnostic result or exam history
+            const hasDiag = state.diagnosticResult && state.diagnosticResult.estimatedBand;
+            const hasHistory = (state.progress.examsTaken > 0) || (state.progress.exercises > 0) || hasDiag;
 
             if (!hasHistory) {
                 // Empty State
@@ -2752,7 +2773,7 @@
                             Chưa Đủ Dữ Liệu Để Xây Lộ Trình
                         </h3>
                         <p style="color:var(--ink-muted); max-width:540px; margin:0 auto 1.75rem; font-size:0.95rem; line-height:1.6;">
-                            Hãy hoàn thành bài đánh giá đầu vào 10 phút để DeepTutor xác định điểm mạnh, điểm yếu và đề xuất lộ trình ôn luyện chuẩn xác nhất cho bạn.
+                            Hãy hoàn thành bài chẩn đoán năng lực 8 câu (10 phút) để DeepTutor đo đạc trình độ thực tế (Band 4.5 - 8.0) và tự động kiến tạo lộ trình nâng Band có chủ đích cho bạn.
                         </p>
                         <button type="button" class="btn-primary" onclick="startDiagnostic()" style="font-size:1.05rem; padding:0.85rem 2rem;">
                             Bắt Đầu Chẩn Đoán Đầu Vào (10 Phút) →
@@ -2760,6 +2781,22 @@
                     </div>
                 `;
             } else {
+                let diagBannerHtml = '';
+                if (hasDiag) {
+                    const bList = state.diagnosticResult.bottlenecks || [];
+                    const topB = bList.length > 0 ? bList[0] : 'Bẫy suy diễn & đảo ý trong hội thoại';
+                    diagBannerHtml = `
+                        <div style="background: linear-gradient(135deg, rgba(37,99,235,0.06), rgba(13,148,136,0.06)); border: 1.5px solid var(--primary-border); border-radius: var(--radius-lg); padding: 1.15rem 1.4rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.85rem;">
+                            <div>
+                                <div style="font-size:0.75rem; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.2rem;">🎯 Lộ Trình Nâng Band Có Chủ Đích (Đã Chẩn Đoán)</div>
+                                <div style="font-size:1.05rem; font-weight:800; color:var(--ink);">Nền tảng: <span style="color:var(--primary); font-weight:900;">Band ${state.diagnosticResult.estimatedBand}</span> ➔ Mục Tiêu: <span style="color:var(--success); font-weight:900;">Band ${state.diagnosticResult.targetBand}</span></div>
+                                <div style="font-size:0.82rem; color:var(--ink-muted); margin-top:0.25rem;">Nút thắt trọng tâm: <strong style="color:var(--ink);">${topB}</strong></div>
+                            </div>
+                            <button type="button" class="btn-outline-sm" onclick="startDiagnostic()" style="font-weight:700; font-size:0.82rem;">Chẩn Đoán Lại ↺</button>
+                        </div>
+                    `;
+                }
+
                 // Dominant Today's Plan Card
                 const activities = [
                     { id: 1, name: 'Luyện Đọc: Paraphrase & Inference', duration: '10 phút', type: 'reading', tag: 'Reading' },
@@ -2784,6 +2821,7 @@
                 });
 
                 planContainer.innerHTML = `
+                    ${diagBannerHtml}
                     <div class="today-plan-card">
                         <div class="plan-header">
                             <div class="plan-title-box">
@@ -4146,60 +4184,356 @@
         }
 
         // ====================================================
-        // ONBOARDING DIAGNOSTIC ASSESSMENT
+        // ONBOARDING CALIBRATED DIAGNOSTIC ASSESSMENT ENGINE
         // ====================================================
         function startDiagnostic() {
+            state.diagnostic = {
+                currentIdx: 0,
+                answers: {},
+                timeSpent: 0,
+                timerInterval: null,
+                finished: false
+            };
+            if (state.diagnostic.timerInterval) clearInterval(state.diagnostic.timerInterval);
+            state.diagnostic.timerInterval = setInterval(() => {
+                state.diagnostic.timeSpent++;
+                const timerElem = document.getElementById('diag-timer-display');
+                if (timerElem) {
+                    const m = Math.floor(state.diagnostic.timeSpent / 60);
+                    const s = state.diagnostic.timeSpent % 60;
+                    timerElem.innerText = `${m}:${s < 10 ? '0' : ''}${s}`;
+                }
+            }, 1000);
+
             routeTo('diagnostic');
-            renderDiagnosticTest();
+            renderDiagnosticQuestion();
         }
 
-        function renderDiagnosticTest() {
+        function renderDiagnosticQuestion() {
             const container = document.getElementById('diag-question-container');
             if (!container) return;
 
-            container.innerHTML = `
-                <div style="margin-bottom:1.5rem;">
-                    <div style="font-size:0.85rem; color:var(--primary); font-weight:700; margin-bottom:0.25rem;">Câu hỏi 1 / 3 • Reading Comprehension</div>
-                    <h3 style="font-size:1.15rem; margin-bottom:0.75rem;">Đọc đoạn văn ngắn sau:</h3>
-                    <div style="background:var(--surface-muted); padding:1rem; border-radius:var(--radius-md); font-family:var(--font-reading); font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">
-                        "Although urban green roofs require substantial initial investment, municipal data indicates they reduce summer building cooling costs by up to 30% and absorb over 70% of stormwater runoff."
-                    </div>
-                    <div style="font-weight:700; margin-bottom:0.75rem;">Theo đoạn văn trên, lợi ích kinh tế trực tiếp của mái nhà xanh là gì?</div>
-                    <div style="display:flex; flex-direction:column; gap:0.5rem;" id="diag-options">
-                        <label style="display:flex; align-items:center; gap:0.75rem; padding:0.65rem 1rem; border:1px solid var(--border-subtle); border-radius:var(--radius-md); cursor:pointer;">
-                            <input type="radio" name="diag_q1" value="A">
-                            <span>A. Tăng giá trị thẩm mỹ cho các tòa nhà chọc trời</span>
-                        </label>
-                        <label style="display:flex; align-items:center; gap:0.75rem; padding:0.65rem 1rem; border:1px solid var(--border-subtle); border-radius:var(--radius-md); cursor:pointer;">
-                            <input type="radio" name="diag_q1" value="B">
-                            <span>B. Giảm tới 30% chi phí làm mát tòa nhà vào mùa hè</span>
-                        </label>
-                        <label style="display:flex; align-items:center; gap:0.75rem; padding:0.65rem 1rem; border:1px solid var(--border-subtle); border-radius:var(--radius-md); cursor:pointer;">
-                            <input type="radio" name="diag_q1" value="C">
-                            <span>C. Hoàn toàn miễn phí chi phí lắp đặt ban đầu</span>
-                        </label>
-                    </div>
-                </div>
-                <button type="button" class="btn-primary" style="width:100%;" onclick="submitDiagnostic()">
-                    Hoàn Thành Đánh Giá & Xem Lộ Trình →
-                </button>
-            `;
-        }
-
-        function submitDiagnostic() {
-            const selected = document.querySelector('input[name="diag_q1"]:checked');
-            if (!selected) {
-                alert('Vui lòng chọn một phương án để hoàn tất đánh giá.');
+            const qs = IELTS_DATA.diagnosticQuestions || [];
+            if (qs.length === 0) {
+                container.innerHTML = '<p>Dữ liệu câu hỏi chẩn đoán đang được tải.</p>';
                 return;
             }
 
-            // Simulate baseline setup
-            state.progress.examsTaken = 1;
-            state.progress.exercises = 6;
-            state.progress.totalScore = 8;
+            const idx = state.diagnostic.currentIdx;
+            const q = qs[idx];
+            const total = qs.length;
+            const progressPct = Math.round(((idx + 1) / total) * 100);
+            const currAns = state.diagnostic.answers[q.id] || '';
+
+            let skillBadgeClass = 'badge-blue';
+            if (q.skill === 'reading') skillBadgeClass = 'badge-green';
+            else if (q.skill === 'listening') skillBadgeClass = 'badge-blue';
+            else if (q.skill === 'grammar') skillBadgeClass = 'badge-amber';
+            else if (q.skill === 'lexical') skillBadgeClass = 'badge-purple';
+
+            let passageHtml = '';
+            if (q.passage) {
+                passageHtml = `
+                    <div style="background:var(--surface-muted); padding:1rem 1.15rem; border-radius:var(--radius-md); font-family:var(--font-reading, Georgia, serif); font-size:0.95rem; line-height:1.65; margin-bottom:1.15rem; border-left:3px solid var(--primary); color:var(--ink);">
+                        ${escapeHtml(q.passage)}
+                    </div>
+                `;
+            }
+
+            let audioHtml = '';
+            if (q.audioScript) {
+                audioHtml = `
+                    <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:var(--radius-md); padding:0.85rem 1rem; margin-bottom:1.15rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem;">
+                        <div style="font-size:0.85rem; color:#1e40af; font-weight:600;">
+                            🎧 <strong>Kịch Bản Nghe Khảo Sát Năng Lực</strong>
+                        </div>
+                        <button type="button" class="btn-outline-sm" id="btn-diag-audio" onclick="playDiagnosticAudio(${idx})" style="background:#fff;">
+                            ▶ Nghe Giọng Đọc Khảo Thí
+                        </button>
+                    </div>
+                `;
+            }
+
+            let optionsHtml = '';
+            for (const [key, text] of Object.entries(q.options || {})) {
+                const isChecked = currAns === key ? 'checked' : '';
+                const selectedStyle = currAns === key ? 'border-color:var(--primary); background:rgba(37,99,235,0.06);' : 'border-color:var(--border-subtle);';
+                optionsHtml += `
+                    <label style="display:flex; align-items:flex-start; gap:0.85rem; padding:0.85rem 1.15rem; border:1.5px solid; ${selectedStyle} border-radius:var(--radius-md); cursor:pointer; transition:all 0.15s ease;" onclick="saveDiagnosticAnswer('${q.id}', '${key}')">
+                        <input type="radio" name="diag_radio_${q.id}" value="${key}" ${isChecked} style="margin-top:0.25rem;">
+                        <div style="font-size:0.92rem; color:var(--ink); line-height:1.5;">
+                            <strong style="color:var(--primary);">${key}.</strong> ${escapeHtml(text)}
+                        </div>
+                    </label>
+                `;
+            }
+
+            container.innerHTML = `
+                <div>
+                    <!-- Header & Stepper -->
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+                        <div style="display:flex; align-items:center; gap:0.5rem;">
+                            <span class="badge-pill ${skillBadgeClass}">${escapeHtml(q.title)}</span>
+                            <span class="badge-pill badge-green">Mục Tiêu Band ${q.band}</span>
+                        </div>
+                        <div style="font-size:0.85rem; font-weight:700; color:var(--ink-muted);">
+                            ⏱️ <span id="diag-timer-display">${Math.floor(state.diagnostic.timeSpent / 60)}:${(state.diagnostic.timeSpent % 60).toString().padStart(2, '0')}</span>
+                        </div>
+                    </div>
+
+                    <!-- Progress Bar -->
+                    <div style="margin-bottom:1.25rem;">
+                        <div style="display:flex; justify-content:space-between; font-size:0.78rem; color:var(--ink-muted); margin-bottom:0.35rem;">
+                            <span>Tiến độ khảo sát phân loại</span>
+                            <span>Câu ${idx + 1} / ${total} (${progressPct}%)</span>
+                        </div>
+                        <div style="background:var(--surface-muted); height:6px; border-radius:3px; overflow:hidden;">
+                            <div style="background:linear-gradient(90deg, var(--primary) 0%, #3b82f6 100%); height:100%; width:${progressPct}%; transition:width 0.3s ease;"></div>
+                        </div>
+                    </div>
+
+                    ${passageHtml}
+                    ${audioHtml}
+
+                    <!-- Question Prompt -->
+                    <h3 style="font-size:1.08rem; color:var(--ink); line-height:1.5; margin-bottom:1.15rem; font-weight:700;">
+                        ${escapeHtml(q.text)}
+                    </h3>
+
+                    <!-- Options List -->
+                    <div style="display:flex; flex-direction:column; gap:0.65rem; margin-bottom:1.75rem;">
+                        ${optionsHtml}
+                    </div>
+
+                    <!-- Discriminator Metric -->
+                    <div style="font-size:0.8rem; color:var(--ink-muted); background:var(--surface-muted); padding:0.5rem 0.85rem; border-radius:var(--radius-sm); margin-bottom:1.5rem; display:flex; align-items:center; gap:0.4rem;">
+                        <span>🎯 <strong>Chỉ số phân loại:</strong> ${escapeHtml(q.discriminatorMetric || '')}</span>
+                    </div>
+
+                    <!-- Footer Actions -->
+                    <div style="display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; border-top:1px solid var(--border-subtle); padding-top:1rem;">
+                        <button type="button" class="btn-secondary" onclick="navDiagnosticQuestion(-1)" ${idx === 0 ? 'disabled style="opacity:0.5; cursor:not-allowed;"' : ''}>
+                            ← Câu Trước
+                        </button>
+                        ${idx < total - 1 ? `
+                            <button type="button" class="btn-primary" onclick="navDiagnosticQuestion(1)">
+                                Câu Tiếp Theo →
+                            </button>
+                        ` : `
+                            <button type="button" class="btn-primary" style="background:#16a34a; border-color:#16a34a;" onclick="submitDiagnostic()">
+                                ✓ Hoàn Thành Chẩn Đoán & Thiết Lập Lộ Trình →
+                            </button>
+                        `}
+                    </div>
+                </div>
+            `;
+        }
+
+        function saveDiagnosticAnswer(qId, val) {
+            state.diagnostic.answers[qId] = val;
+            renderDiagnosticQuestion();
+        }
+
+        function navDiagnosticQuestion(delta) {
+            stopListeningAudio(true);
+            safeSpeechCancel();
+            const qs = IELTS_DATA.diagnosticQuestions || [];
+            const nextIdx = state.diagnostic.currentIdx + delta;
+            if (nextIdx >= 0 && nextIdx < qs.length) {
+                state.diagnostic.currentIdx = nextIdx;
+                renderDiagnosticQuestion();
+            }
+        }
+
+        function playDiagnosticAudio(idx) {
+            const qs = IELTS_DATA.diagnosticQuestions || [];
+            const q = qs[idx];
+            if (!q || !q.audioScript) return;
+            speakExaminerPrompt(q.audioScript);
+        }
+
+        function submitDiagnostic() {
+            if (state.diagnostic.timerInterval) clearInterval(state.diagnostic.timerInterval);
+            stopListeningAudio(true);
+            safeSpeechCancel();
+
+            const qs = IELTS_DATA.diagnosticQuestions || [];
+            const weights = { "4.5": 1.0, "5.0": 1.2, "5.5": 1.4, "6.0": 1.6, "6.5": 1.8, "7.0": 2.0, "7.5": 2.2, "8.0": 2.4 };
+            let earnedScore = 0;
+            let totalScore = 0;
+            let correctCount = 0;
+            const analysisItems = [];
+
+            qs.forEach(q => {
+                const w = weights[q.band] || 1.0;
+                totalScore += w;
+                const userAns = state.diagnostic.answers[q.id];
+                const isCorrect = userAns === q.correct;
+                if (isCorrect) {
+                    earnedScore += w;
+                    correctCount++;
+                }
+                analysisItems.push({ q, userAns: userAns || '[Bỏ trống]', isCorrect });
+            });
+
+            const pct = Math.round((earnedScore / totalScore) * 100);
+            let estBand = '4.5';
+            if (pct >= 88) estBand = '7.5';
+            else if (pct >= 76) estBand = '7.0';
+            else if (pct >= 62) estBand = '6.5';
+            else if (pct >= 50) estBand = '6.0';
+            else if (pct >= 38) estBand = '5.5';
+            else if (pct >= 25) estBand = '5.0';
+
+            // Cognitive Bottlenecks
+            const bottlenecks = [];
+            if (!analysisItems[0].isCorrect || !analysisItems[1].isCorrect) {
+                bottlenecks.push("⚠️ <strong>Tốc độ quét dữ liệu và lọc bẫy nhiễu cơ bản:</strong> Dễ bị đánh lừa bởi các con số xuất hiện đầu tiên trước khi người nói đính chính.");
+            }
+            if (!analysisItems[2].isCorrect || !analysisItems[6].isCorrect) {
+                bottlenecks.push("⚠️ <strong>Vốn từ vựng Paraphrase & Collocation học thuật C1:</strong> Còn thói quen tìm từ khóa y hệt đề bài thay vì nhận diện các cách diễn đạt tương đương.");
+            }
+            if (!analysisItems[3].isCorrect) {
+                bottlenecks.push("⚠️ <strong>Ngữ pháp cấu trúc câu phức & mệnh đề nhượng bộ:</strong> Dễ mắc lỗi liên từ kép (dùng đồng thời Although... but).");
+            }
+            if (!analysisItems[4].isCorrect || !analysisItems[5].isCorrect || !analysisItems[7].isCorrect) {
+                bottlenecks.push("⚠️ <strong>Khả năng suy luận tầng nghĩa sâu & tư duy phản biện (Band 7.0+):</strong> Cần rèn luyện nhận diện sắc thái hoài nghi và bẫy tuyệt đối hóa (Extremity Trap).");
+            }
+            if (bottlenecks.length === 0) {
+                bottlenecks.push("🌟 <strong>Nền tảng xuất sắc:</strong> Bạn đã làm chủ hầu hết các bẫy khảo thí từ cơ bản đến nâng cao!");
+            }
+
+            // Save diagnostic result
+            const diagResult = {
+                date: Date.now(),
+                estimatedBand: estBand,
+                correctCount,
+                totalCount: qs.length,
+                pct,
+                timeSpent: state.diagnostic.timeSpent,
+                bottlenecks,
+                targetBand: state.targetBand || '6.5'
+            };
+            state.diagnosticResult = diagResult;
+            localStorage.setItem('diagnosticResult', JSON.stringify(diagResult));
+
+            // Update user progress metrics
+            state.progress.examsTaken = (state.progress.examsTaken || 0) + 1;
+            state.progress.exercises = (state.progress.exercises || 0) + qs.length;
+            state.progress.totalScore = (state.progress.totalScore || 0) + (correctCount / qs.length) * 10;
             localStorage.setItem('progress', JSON.stringify(state.progress));
 
-            showToast('🎉 Chẩn đoán hoàn tất! DeepTutor đã dựng lộ trình học tập cho bạn.');
+            // Render Full Diagnostic Report View
+            renderDiagnosticReport(diagResult, analysisItems);
+        }
+
+        function renderDiagnosticReport(res, items) {
+            const container = document.getElementById('diag-question-container');
+            if (!container) return;
+
+            let reviewHtml = '';
+            items.forEach((item, idx) => {
+                const q = item.q;
+                const statusColor = item.isCorrect ? 'var(--success)' : 'var(--error)';
+                const statusIcon = item.isCorrect ? '✓ Đúng' : '✗ Chưa đúng';
+                
+                let distractorList = '';
+                if (q.distractorReasons) {
+                    distractorList = '<ul style="padding-left:1.25rem; font-size:0.83rem; color:var(--ink-muted); margin-top:0.25rem;">';
+                    for (const [optKey, reason] of Object.entries(q.distractorReasons)) {
+                        distractorList += `<li><b>${optKey}:</b> ${escapeHtml(reason)}</li>`;
+                    }
+                    distractorList += '</ul>';
+                }
+
+                reviewHtml += `
+                    <div style="border:1px solid var(--border-subtle); border-left:4px solid ${statusColor}; border-radius:var(--radius-md); padding:1rem; margin-bottom:1rem; background:#fff;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                            <span style="font-weight:700; color:${statusColor}; font-size:0.95rem;">${statusIcon}: Câu ${idx + 1} (${q.title})</span>
+                            <span class="badge-pill badge-blue">Band ${q.band}</span>
+                        </div>
+                        <div style="font-size:0.9rem; font-weight:600; margin-bottom:0.5rem; color:var(--ink);">${escapeHtml(q.text)}</div>
+                        <div style="font-size:0.83rem; margin-bottom:0.5rem;">
+                            <span>Bạn chọn: <b style="color:${statusColor}">${escapeHtml(item.userAns)}</b></span> • 
+                            <span>Đáp án chuẩn: <b style="color:var(--success)">${escapeHtml(q.correct)}</b></span>
+                        </div>
+                        <div style="font-size:0.83rem; color:var(--ink); background:var(--surface-muted); padding:0.6rem 0.75rem; border-radius:var(--radius-sm); margin-bottom:0.5rem;">
+                            <strong>🤔 Gợi mở DeepTutor:</strong> ${escapeHtml(q.socraticPrompt)}
+                        </div>
+                        ${distractorList}
+                    </div>
+                `;
+            });
+
+            container.innerHTML = `
+                <div>
+                    <!-- Banner Kết Quả Chẩn Đoán -->
+                    <div style="background:linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); color:#fff; padding:1.75rem; border-radius:var(--radius-lg); margin-bottom:1.5rem; text-align:center; box-shadow:0 10px 25px -5px rgba(37,99,235,0.4);">
+                        <span class="badge-pill" style="background:rgba(255,255,255,0.2); color:#fff; font-weight:700;">Hồ Sơ Chẩn Đoán Khảo Thí DeepTutor</span>
+                        <h2 style="font-size:1.85rem; margin:0.6rem 0 0.35rem; font-weight:900;">Trình Độ Ước Tính: Band ${res.estimatedBand}</h2>
+                        <p style="font-size:0.92rem; opacity:0.9; margin:0 auto; max-width:540px; line-height:1.5;">
+                            Mục tiêu đề ra: <strong>Band ${res.targetBand}</strong> • Chính xác: <strong>${res.correctCount}/${res.totalCount} câu (${res.pct}%)</strong> • Thời gian: ${Math.floor(res.timeSpent/60)}p ${res.timeSpent%60}s
+                        </p>
+                    </div>
+
+                    <!-- Điểm Nghẽn Nhận Thức -->
+                    <div class="card" style="border:1px solid #fecaca; background:#fff5f5; margin-bottom:1.5rem;">
+                        <h4 style="color:#b91c1c; font-size:1.05rem; margin-bottom:0.65rem; display:flex; align-items:center; gap:0.4rem;">
+                            <span>🔍</span> Phân Tích Điểm Nghẽn Nhận Thức (Cognitive Bottlenecks)
+                        </h4>
+                        <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.88rem; color:#7f1d1d;">
+                            ${res.bottlenecks.map(b => `<div>${b}</div>`).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Lộ Trình Nâng Band Có Chủ Đích (12 Tuần) -->
+                    <div class="card" style="border:2px solid var(--primary); background:linear-gradient(180deg, #f8fafc 0%, #eff6ff 100%); margin-bottom:1.5rem;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+                            <div>
+                                <span class="badge-pill" style="background:#1e3a8a; color:#fff; font-weight:700;">Chiến Lược Cá Nhân Hóa</span>
+                                <h3 style="font-size:1.2rem; color:var(--ink); margin-top:0.35rem; font-weight:800;">Lộ Trình Bứt Phá Nâng Band Có Chủ Đích (12 Tuần)</h3>
+                            </div>
+                            <span class="badge-pill badge-green">Lộ Trình Tối Ưu Cho Band ${res.estimatedBand} → ${res.targetBand}</span>
+                        </div>
+
+                        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem; margin-bottom:1rem;">
+                            <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                                <div style="font-weight:700; color:var(--primary); font-size:0.9rem; margin-bottom:0.3rem;">Giai Đoạn 1: Tuần 1–4</div>
+                                <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.4rem;">Kiến Tạo Nền Móng</div>
+                                <p style="font-size:0.8rem; color:var(--ink-muted); line-height:1.5; margin:0;">24 Bài Giảng PPP & 120 Thẻ Từ Vựng Hermes. Xây dựng nền tảng từ vựng C1 cốt lõi và ngữ pháp câu phức.</p>
+                            </div>
+                            <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                                <div style="font-weight:700; color:var(--primary); font-size:0.9rem; margin-bottom:0.3rem;">Giai Đoạn 2: Tuần 5–8</div>
+                                <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.4rem;">Bứt Phá Kỹ Năng & Phá Bẫy</div>
+                                <p style="font-size:0.8rem; color:var(--ink-muted); line-height:1.5; margin:0;">240 Đề Luyện Phân Cấp Sectional. Khắc phục triệt để các bẫy Extremity Trap và Paraphrase Shift.</p>
+                            </div>
+                            <div style="background:#fff; padding:0.9rem; border-radius:var(--radius-md); border:1px solid var(--border-subtle);">
+                                <div style="font-weight:700; color:var(--primary); font-size:0.9rem; margin-bottom:0.3rem;">Giai Đoạn 3: Tuần 9–12</div>
+                                <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.4rem;">Thực Chiến Đề Gốc Cambridge 18</div>
+                                <p style="font-size:0.8rem; color:var(--ink-muted); line-height:1.5; margin:0;">10 Full Mock Tests (175 phút liên hoàn). Luyện phản xạ thi thật phòng thi quốc tế IDP/BC.</p>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn-primary" style="width:100%; justify-content:center; font-size:1rem; padding:0.85rem;" onclick="applyDiagnosticRoadmap()">
+                            🚀 Áp Dụng Lộ Trình Này & Bắt Đầu Học Ngay →
+                        </button>
+                    </div>
+
+                    <!-- Xem Lại Từng Câu Chẩn Đoán -->
+                    <details style="background:#fff; border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:1rem;">
+                        <summary style="font-weight:700; color:var(--primary); cursor:pointer; font-size:0.95rem;">
+                            📝 Xem Lại Giải Phẫu 8 Câu Hỏi Chẩn Đoán Chuẩn DeepTutor
+                        </summary>
+                        <div style="margin-top:1rem;">
+                            ${reviewHtml}
+                        </div>
+                    </details>
+                </div>
+            `;
+        }
+
+        function applyDiagnosticRoadmap() {
+            showToast('🎉 Lộ trình nâng Band có chủ đích đã được thiết lập thành công!');
             routeTo('today');
         }
 
