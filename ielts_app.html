@@ -2128,6 +2128,647 @@
         // ====================================================
         // TEXT HIGHLIGHTING & ANNOTATION SYSTEM (1), (2)...
         // ====================================================
+        
+        // ====================================================
+        // EXPERT STRATEGY & REASONING PLAYBOOK SYSTEM (Huy-derived)
+        // ====================================================
+        
+        // Extend state defaults
+        if (!state.followedSkills) {
+            state.followedSkills = getStorageJSON('followedSkills', ['W1-OV-001', 'W2-MECH-001', 'R-QF-001']);
+        }
+        if (!state.skillProgress) {
+            state.skillProgress = getStorageJSON('skillProgress', {});
+        }
+        state.currentPlaybookCategory = 'all';
+        state.playbookSearchQuery = '';
+        state.activeStrategyCard = null;
+        state.activeStrategyStep = 1;
+        state.strategyPracticeTimer = null;
+        state.strategyPracticeSecondsLeft = 45;
+
+        // Visual Task Renderers (Zero GenAI Image Dependency)
+        function renderSvgLineChart(chart) {
+            if (!chart || !chart.data) return '';
+            const years = chart.data.years || [];
+            const series = chart.data.series || [];
+            const w = 480, h = 210, padL = 40, padR = 20, padT = 28, padB = 40;
+            const plotW = w - padL - padR;
+            const plotH = h - padT - padB;
+            
+            let svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" style="width:100%; max-width:480px; height:auto; background:var(--surface-muted); border:1px solid var(--border-subtle); border-radius:var(--radius-md); font-family:var(--font-ui); font-size:11px; margin:0.75rem 0; display:block;">';
+            svg += '<text x="' + (w/2) + '" y="16" text-anchor="middle" font-weight="700" fill="var(--ink)">' + escapeHtml(chart.title || 'Biểu Đồ Đường Số Liệu') + '</text>';
+            
+            for (let i = 0; i <= 4; i++) {
+                const yVal = i * 25;
+                const yPos = padT + plotH - (i * plotH / 4);
+                svg += '<line x1="' + padL + '" y1="' + yPos + '" x2="' + (w - padR) + '" y2="' + yPos + '" stroke="var(--border-subtle)" stroke-dasharray="3,3"/>';
+                svg += '<text x="' + (padL - 6) + '" y="' + (yPos + 4) + '" text-anchor="end" fill="var(--ink-dim)">' + yVal + '%</text>';
+            }
+            
+            years.forEach((yr, idx) => {
+                const xPos = padL + (idx * plotW / (years.length - 1 || 1));
+                svg += '<text x="' + xPos + '" y="' + (h - 18) + '" text-anchor="middle" fill="var(--ink-muted)" font-weight="600">' + yr + '</text>';
+            });
+            
+            series.forEach(s => {
+                const pts = (s.values || []).map((v, idx) => {
+                    const x = padL + (idx * plotW / (years.length - 1 || 1));
+                    const y = padT + plotH - (v * plotH / 100);
+                    return x + ',' + y;
+                }).join(' ');
+                svg += '<polyline points="' + pts + '" fill="none" stroke="' + s.color + '" stroke-width="2.5"/>';
+                (s.values || []).forEach((v, idx) => {
+                    const x = padL + (idx * plotW / (years.length - 1 || 1));
+                    const y = padT + plotH - (v * plotH / 100);
+                    svg += '<circle cx="' + x + '" cy="' + y + '" r="3.5" fill="' + s.color + '" stroke="#ffffff" stroke-width="1.5"/>';
+                });
+            });
+            
+            let legX = padL;
+            series.forEach(s => {
+                svg += '<circle cx="' + legX + '" cy="' + (h - 6) + '" r="4" fill="' + s.color + '"/>';
+                svg += '<text x="' + (legX + 8) + '" y="' + (h - 3) + '" fill="var(--ink)" font-size="10px" font-weight="600">' + escapeHtml(s.name) + '</text>';
+                legX += 115;
+            });
+            
+            svg += '</svg>';
+            return svg;
+        }
+
+        function renderSvgMap(mapTask) {
+            if (!mapTask || !mapTask.zones) return '';
+            const zones = mapTask.zones;
+            return '<div style="background:var(--surface-muted); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:1rem; margin:0.75rem 0;">' +
+                '<div style="font-weight:700; font-size:0.88rem; margin-bottom:0.75rem; text-align:center; color:var(--ink);">🗺️ ' + escapeHtml(mapTask.title || 'Bản Đồ Biến Đổi Không Gian') + '</div>' +
+                '<div style="display:grid; grid-template-columns:1fr 1fr; gap:0.75rem;">' +
+                    '<div style="background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:0.75rem;">' +
+                        '<div style="font-size:0.75rem; font-weight:800; color:var(--ink-muted); text-transform:uppercase; margin-bottom:0.5rem; text-align:center;">📅 2010 (Quá Khứ)</div>' +
+                        '<div style="display:grid; grid-template-rows:repeat(3, 38px); gap:4px;">' +
+                            '<div style="background:#dbeafe; border:1px dashed #3b82f6; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.72rem; font-weight:700; color:#1e40af;">North: ' + escapeHtml(zones.north ? zones.north.past : '') + '</div>' +
+                            '<div style="background:#d1fae5; border:1px dashed #10b981; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.72rem; font-weight:700; color:#065f46;">Center: ' + escapeHtml(zones.center ? zones.center.past : '') + '</div>' +
+                            '<div style="display:grid; grid-template-columns:1fr 1fr; gap:4px;">' +
+                                '<div style="background:#f1f5f9; border:1px dashed #64748b; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.7rem; font-weight:700; color:#334155;">South: ' + escapeHtml(zones.south ? zones.south.past : '') + '</div>' +
+                                '<div style="background:#fef3c7; border:1px dashed #f59e0b; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.7rem; font-weight:700; color:#92400e;">East: ' + escapeHtml(zones.east ? zones.east.past : '') + '</div>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div style="background:var(--surface-card); border:1.5px solid var(--primary-border); border-radius:var(--radius-sm); padding:0.75rem;">' +
+                        '<div style="font-size:0.75rem; font-weight:800; color:var(--primary); text-transform:uppercase; margin-bottom:0.5rem; text-align:center;">📍 Hiện Tại (Chuyển Đổi)</div>' +
+                        '<div style="display:grid; grid-template-rows:repeat(3, 38px); gap:4px;">' +
+                            '<div style="background:#bfdbfe; border:1.5px solid #2563eb; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.72rem; font-weight:800; color:#1d4ed8;">North: ' + escapeHtml(zones.north ? zones.north.present : '') + ' (' + escapeHtml(zones.north ? zones.north.change : '') + ')</div>' +
+                            '<div style="background:#a7f3d0; border:1.5px solid #059669; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.72rem; font-weight:800; color:#047857;">Center: ' + escapeHtml(zones.center ? zones.center.present : '') + ' (' + escapeHtml(zones.center ? zones.center.change : '') + ')</div>' +
+                            '<div style="display:grid; grid-template-columns:1fr 1fr; gap:4px;">' +
+                                '<div style="background:#e2e8f0; border:1px solid #64748b; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.7rem; font-weight:700; color:#334155;">South: ' + escapeHtml(zones.south ? zones.south.present : '') + ' (' + escapeHtml(zones.south ? zones.south.change : '') + ')</div>' +
+                                '<div style="background:#fde68a; border:1.5px solid #d97706; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.7rem; font-weight:800; color:#b45309;">East: ' + escapeHtml(zones.east ? zones.east.present : '') + ' (' + escapeHtml(zones.east ? zones.east.change : '') + ')</div>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
+                '</div>' +
+            '</div>';
+        }
+
+        function renderSvgProcess(procTask) {
+            if (!procTask || !procTask.stages) return '';
+            let stagesHtml = '';
+            procTask.stages.forEach((stg, i) => {
+                stagesHtml += '<div style="background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:0.6rem 0.75rem; flex:1; min-width:105px; text-align:center;">' +
+                    '<div style="font-size:0.68rem; font-weight:800; color:var(--primary); text-transform:uppercase;">Bước ' + stg.stage + '</div>' +
+                    '<div style="font-size:0.8rem; font-weight:800; color:var(--ink); margin:0.15rem 0;">' + escapeHtml(stg.name) + '</div>' +
+                    '<div style="font-size:0.68rem; color:var(--ink-muted); line-height:1.25;">' + escapeHtml(stg.desc) + '</div>' +
+                '</div>';
+                if (i < procTask.stages.length - 1) {
+                    stagesHtml += '<div style="font-size:1.15rem; color:var(--primary); font-weight:900; align-self:center;">➔</div>';
+                }
+            });
+
+            return '<div style="background:var(--surface-muted); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:1rem; margin:0.75rem 0;">' +
+                '<div style="font-weight:700; font-size:0.88rem; margin-bottom:0.75rem; text-align:center; color:var(--ink);">⚙️ ' + escapeHtml(procTask.title || 'Sơ Đồ Quy Trình') + '</div>' +
+                '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem; font-size:0.75rem; font-weight:800;">' +
+                    '<span style="color:var(--ink-muted);">🌱 Đầu vào: <strong style="color:var(--ink);">' + escapeHtml(procTask.input) + '</strong></span>' +
+                    '<span style="color:var(--success);">🏆 Đầu ra: <strong style="color:var(--success);">' + escapeHtml(procTask.output) + '</strong></span>' +
+                '</div>' +
+                '<div style="display:flex; gap:0.35rem; align-items:stretch; overflow-x:auto; padding-bottom:0.25rem;">' +
+                    stagesHtml +
+                '</div>' +
+            '</div>';
+        }
+
+        // Render Expert Playbook Grid
+        function renderPlaybook() {
+            const container = document.getElementById('playbook-cards-grid');
+            if (!container) return;
+
+            const strategies = (window.IELTS_EXPERT_STRATEGIES || []);
+            const category = state.currentPlaybookCategory || 'all';
+            const query = (state.playbookSearchQuery || '').toLowerCase();
+
+            const filtered = strategies.filter(card => {
+                const matchCat = (category === 'all') || (card.skill === category);
+                const matchQuery = !query || 
+                    card.id.toLowerCase().includes(query) ||
+                    card.title.toLowerCase().includes(query) ||
+                    card.hook.toLowerCase().includes(query) ||
+                    (card.subskill_name && card.subskill_name.toLowerCase().includes(query)) ||
+                    (card.error_code && card.error_code.toLowerCase().includes(query));
+                return matchCat && matchQuery;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:3rem 1rem; color:var(--ink-muted);">' +
+                    '<div style="font-size:2.5rem; margin-bottom:0.5rem;">🔍</div>' +
+                    '<h4>Không tìm thấy chiến lược phù hợp</h4>' +
+                    '<p style="font-size:0.85rem;">Thử tìm kiếm với từ khóa khác hoặc chuyển sang danh mục Tất Cả.</p>' +
+                '</div>';
+                return;
+            }
+
+            let html = '';
+            filtered.forEach(card => {
+                const isFollowed = (state.followedSkills || []).includes(card.id);
+                const provenanceTag = card.provenance === 'HUY_DERIVED' ? 
+                    '<span class="badge-pill badge-purple" style="font-size:0.7rem;">Huy Heuristic</span>' : 
+                    '<span class="badge-pill badge-blue" style="font-size:0.7rem;">Deep IELTS Design</span>';
+
+                html += '<div class="card" style="display:flex; flex-direction:column; justify-content:space-between; border:1px solid var(--border-subtle); transition:all 0.2s ease; position:relative; overflow:hidden;">' +
+                    '<div>' +
+                        '<div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.6rem; gap:0.5rem;">' +
+                            '<div style="display:flex; align-items:center; gap:0.35rem; flex-wrap:wrap;">' +
+                                provenanceTag +
+                                '<span class="badge-pill badge-blue" style="font-family:monospace; font-weight:800; font-size:0.7rem;">' + card.id + '</span>' +
+                                '<span class="badge-pill badge-green" style="font-size:0.7rem;">' + escapeHtml(card.subskill_name || card.subskill) + '</span>' +
+                            '</div>' +
+                            '<button type="button" onclick="toggleFollowSkill(\'' + card.id + '\')" title="Lưu/Theo dõi chiến lược này" style="background:none; border:none; cursor:pointer; font-size:1.15rem; line-height:1; color:' + (isFollowed ? '#eab308' : 'var(--ink-dim)') + ';">' +
+                                (isFollowed ? '⭐' : '☆') +
+                            '</button>' +
+                        '</div>' +
+                        '<h4 style="font-size:1.02rem; font-weight:800; color:var(--ink); margin-bottom:0.4rem; line-height:1.4;">' + escapeHtml(card.title) + '</h4>' +
+                        '<p style="font-size:0.82rem; color:var(--ink-muted); font-style:italic; line-height:1.5; margin-bottom:1rem; border-left:2.5px solid var(--primary); padding-left:0.6rem;">' +
+                            '“' + escapeHtml(card.hook) + '”' +
+                        '</p>' +
+                    '</div>' +
+                    '<div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border-subtle); padding-top:0.75rem; margin-top:0.5rem;">' +
+                        '<span style="font-size:0.75rem; font-weight:700; color:var(--ink-muted);">' + (card.band_range ? ('Band ' + card.band_range.join('–')) : 'Tất cả Band') + '</span>' +
+                        '<button type="button" class="btn-primary" onclick="openStrategyCard(\'' + card.id + '\')" style="font-size:0.82rem; padding:0.45rem 0.9rem;">' +
+                            'Khám Phá (6 Bước) →' +
+                        '</button>' +
+                    '</div>' +
+                '</div>';
+            });
+
+            container.innerHTML = html;
+        }
+
+        function filterPlaybookCategory(cat) {
+            state.currentPlaybookCategory = cat;
+            document.querySelectorAll('#playbook-filter-chips button').forEach(b => b.classList.remove('active'));
+            const activeBtn = document.getElementById('pb-chip-' + cat);
+            if (activeBtn) activeBtn.classList.add('active');
+            renderPlaybook();
+        }
+
+        function handlePlaybookSearch(query) {
+            state.playbookSearchQuery = query;
+            renderPlaybook();
+        }
+
+        function toggleFollowSkill(cardId) {
+            if (!state.followedSkills) state.followedSkills = [];
+            const idx = state.followedSkills.indexOf(cardId);
+            if (idx > -1) {
+                state.followedSkills.splice(idx, 1);
+                showToast('Đã bỏ theo dõi chiến lược ' + cardId);
+            } else {
+                state.followedSkills.push(cardId);
+                showToast('⭐ Đã thêm ' + cardId + ' vào danh sách theo dõi!');
+            }
+            localStorage.setItem('followedSkills', JSON.stringify(state.followedSkills));
+            renderPlaybook();
+            if (state.activeStrategyCard === cardId) {
+                updateStrategyFollowButtonState();
+            }
+            if (state.currentRoute === 'today') renderTodayView();
+            if (state.currentRoute === 'review') renderFollowedSkillsReview();
+        }
+
+        function toggleActiveStrategyFollow() {
+            if (state.activeStrategyCard) {
+                toggleFollowSkill(state.activeStrategyCard);
+            }
+        }
+
+        function updateStrategyFollowButtonState() {
+            const btn = document.getElementById('btn-sc-follow');
+            if (!btn || !state.activeStrategyCard) return;
+            const isFollowed = (state.followedSkills || []).includes(state.activeStrategyCard);
+            btn.innerHTML = isFollowed ? '⭐ Đang Theo Dõi' : '☆ Theo Dõi';
+            btn.style.color = isFollowed ? '#ca8a04' : 'var(--ink)';
+            btn.style.borderColor = isFollowed ? '#fde047' : 'var(--border-subtle)';
+        }
+
+        function openRandomStrategyCard() {
+            const list = window.IELTS_EXPERT_STRATEGIES || [];
+            if (list.length === 0) return;
+            const randomCard = list[Math.floor(Math.random() * list.length)];
+            openStrategyCard(randomCard.id, 1);
+        }
+
+        // Open Strategy Card Modal
+        function openStrategyCard(cardId, stepNum = 1) {
+            const strategies = window.IELTS_EXPERT_STRATEGIES || [];
+            const card = strategies.find(c => c.id === cardId);
+            if (!card) {
+                showToast('Không tìm thấy chiến lược ' + cardId);
+                return;
+            }
+
+            state.activeStrategyCard = cardId;
+            state.activeStrategyStep = stepNum;
+            clearInterval(state.strategyPracticeTimer);
+
+            // Populate Header Metadata
+            const titleElem = document.getElementById('sc-title');
+            if (titleElem) titleElem.innerText = card.title;
+            const provBadge = document.getElementById('sc-provenance-badge');
+            if (provBadge) provBadge.innerText = card.provenance_label || card.provenance;
+            const idBadge = document.getElementById('sc-id-badge');
+            if (idBadge) idBadge.innerText = card.id;
+            const skillBadge = document.getElementById('sc-skill-badge');
+            if (skillBadge) skillBadge.innerText = card.skill_name || card.skill;
+            const bandBadge = document.getElementById('sc-band-badge');
+            if (bandBadge) bandBadge.innerText = card.band_range ? ('Band ' + card.band_range.join('–')) : 'Band 6.0–9.0';
+
+            updateStrategyFollowButtonState();
+            switchStrategyStep(stepNum);
+
+            const modal = document.getElementById('modal-strategy-card');
+            if (modal) modal.style.display = 'flex';
+        }
+
+        function closeStrategyModal() {
+            clearInterval(state.strategyPracticeTimer);
+            const modal = document.getElementById('modal-strategy-card');
+            if (modal) modal.style.display = 'none';
+        }
+
+        function navStrategyStep(delta) {
+            let next = state.activeStrategyStep + delta;
+            if (next < 1) next = 1;
+            if (next > 6) next = 6;
+            switchStrategyStep(next);
+        }
+
+        function switchStrategyStep(stepNum) {
+            state.activeStrategyStep = stepNum;
+            const card = (window.IELTS_EXPERT_STRATEGIES || []).find(c => c.id === state.activeStrategyCard);
+            if (!card) return;
+
+            // Update Stepper Tabs
+            for (let i = 1; i <= 6; i++) {
+                const btn = document.getElementById('sc-tab-step-' + i);
+                if (btn) {
+                    if (i === stepNum) btn.classList.add('active');
+                    else btn.classList.remove('active');
+                }
+            }
+
+            // Update Prev/Next Buttons
+            const prevBtn = document.getElementById('btn-sc-prev-step');
+            if (prevBtn) prevBtn.disabled = (stepNum === 1);
+            const nextBtn = document.getElementById('btn-sc-next-step');
+            if (nextBtn) {
+                if (stepNum === 6) {
+                    nextBtn.innerText = '✅ Hoàn Tất Chiến Lược';
+                    nextBtn.onclick = function() { closeStrategyModal(); showToast('🎉 Đã hoàn thành 6 bước chiến lược!'); };
+                } else {
+                    nextBtn.innerText = 'Bước Tiếp Theo →';
+                    nextBtn.onclick = function() { navStrategyStep(1); };
+                }
+            }
+
+            const body = document.getElementById('sc-body-content');
+            if (!body) return;
+
+            let contentHtml = '';
+
+            // STEP 1: RULE
+            if (stepNum === 1) {
+                contentHtml = '<div style="animation:fadeIn 0.2s ease;">' +
+                    '<div style="font-size:0.75rem; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">BƯỚC 1: QUY TẮC CỐT LÕI (CORE RULE)</div>' +
+                    '<blockquote style="background:var(--surface-muted); border-left:4px solid var(--primary); padding:1rem 1.25rem; border-radius:0 var(--radius-md) var(--radius-md) 0; margin:0 0 1.25rem; font-size:1.05rem; font-weight:700; color:var(--ink); line-height:1.5;">' +
+                        '“' + escapeHtml(card.hook) + '”' +
+                    '</blockquote>' +
+                    '<div style="background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:1.25rem 1.5rem;">' +
+                        '<h4 style="font-size:0.95rem; font-weight:800; color:var(--ink); margin-bottom:0.5rem;">📌 Nguyên Lý Vận Hành</h4>' +
+                        '<p style="color:var(--ink); font-size:0.95rem; line-height:1.65; margin:0;">' + escapeHtml(card.core_rule) + '</p>' +
+                    '</div>' +
+                '</div>';
+            }
+            // STEP 2: WHY IT WORKS
+            else if (stepNum === 2) {
+                let mistakesHtml = '';
+                (card.common_mistakes || []).forEach(m => {
+                    mistakesHtml += '<li style="margin-bottom:0.4rem; color:var(--error); font-size:0.9rem;">⚠️ ' + escapeHtml(m) + '</li>';
+                });
+
+                contentHtml = '<div style="animation:fadeIn 0.2s ease;">' +
+                    '<div style="font-size:0.75rem; font-weight:800; color:var(--success); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">BƯỚC 2: TẠI SAO PHƯƠNG PHÁP NÀY HIỆU QUẢ (WHY IT WORKS)</div>' +
+                    '<div style="background:linear-gradient(135deg, rgba(13,148,136,0.06), rgba(37,99,235,0.06)); border:1px solid var(--success-border); border-radius:var(--radius-lg); padding:1.25rem 1.5rem; margin-bottom:1.25rem;">' +
+                        '<h4 style="font-size:0.95rem; font-weight:800; color:var(--success); margin-bottom:0.5rem;">🧠 Góc Nhìn Nhận Thức & Giám Khảo Khảo Thí</h4>' +
+                        '<p style="color:var(--ink); font-size:0.95rem; line-height:1.65; margin:0;">' + escapeHtml(card.why_it_works) + '</p>' +
+                    '</div>' +
+                    '<div style="background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:1.25rem 1.5rem;">' +
+                        '<h4 style="font-size:0.92rem; font-weight:800; color:var(--ink); margin-bottom:0.5rem;">🚫 Các Bẫy Thường Gặp Cần Tránh (Common Traps)</h4>' +
+                        '<ul style="padding-left:1.25rem; margin:0;">' + mistakesHtml + '</ul>' +
+                    '</div>' +
+                '</div>';
+            }
+            // STEP 3: SEE IT / WORKED EXAMPLE
+            else if (stepNum === 3) {
+                const ex = card.worked_example || {};
+                let visualHtml = '';
+                if (card.visual_task) {
+                    if (card.visual_task.type === 'chart_line') visualHtml = renderSvgLineChart(card.visual_task);
+                    else if (card.visual_task.type === 'map_transformation') visualHtml = renderSvgMap(card.visual_task);
+                    else if (card.visual_task.type === 'process_flow') visualHtml = renderSvgProcess(card.visual_task);
+                }
+
+                contentHtml = '<div style="animation:fadeIn 0.2s ease;">' +
+                    '<div style="font-size:0.75rem; font-weight:800; color:var(--warning); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">BƯỚC 3: XEM VÍ DỤ MINH HỌA (SEE IT / WORKED EXAMPLE)</div>' +
+                    visualHtml +
+                    '<div style="background:var(--surface-muted); border-radius:var(--radius-md); padding:0.85rem 1rem; margin-bottom:1rem; font-size:0.88rem;">' +
+                        '<strong>Dữ liệu / Đề bài đầu vào:</strong> ' + escapeHtml(ex.input || '') +
+                    '</div>' +
+                    '<div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1rem;">' +
+                        '<div style="background:#fef2f2; border:1.5px solid var(--error-border); border-radius:var(--radius-md); padding:1rem;">' +
+                            '<div style="font-size:0.75rem; font-weight:800; color:var(--error); text-transform:uppercase; margin-bottom:0.35rem;">❌ Cách Làm Yếu (Weak)</div>' +
+                            '<div style="font-size:0.88rem; color:var(--ink); line-height:1.5;">' + escapeHtml(ex.weak || '') + '</div>' +
+                        '</div>' +
+                        '<div style="background:#f0fdf4; border:1.5px solid var(--success-border); border-radius:var(--radius-md); padding:1rem;">' +
+                            '<div style="font-size:0.75rem; font-weight:800; color:var(--success); text-transform:uppercase; margin-bottom:0.35rem;">✅ Chuẩn Chuyên Gia (Better)</div>' +
+                            '<div style="font-size:0.88rem; color:var(--ink); line-height:1.5; font-weight:600;">' + escapeHtml(ex.better || '') + '</div>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div style="background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:0.85rem 1rem; font-size:0.85rem; color:var(--ink-muted);">' +
+                        '💡 <strong>Phân tích cơ chế:</strong> ' + escapeHtml(ex.explanation || '') +
+                    '</div>' +
+                '</div>';
+            }
+            // STEP 4: TRY IT (MICRO PRACTICE)
+            else if (stepNum === 4) {
+                const mp = card.micro_practice || {};
+                startStrategyPracticeTimer(mp.time_seconds || 45);
+
+                let optionsHtml = '';
+                (mp.options || []).forEach(opt => {
+                    optionsHtml += '<button type="button" class="btn-outline-sm" id="sc-opt-' + opt.id + '" onclick="selectStrategyPracticeOption(\'' + card.id + '\', \'' + opt.id + '\')" style="width:100%; text-align:left; justify-content:flex-start; padding:0.85rem 1.15rem; font-size:0.9rem; margin-bottom:0.6rem; line-height:1.5; border-radius:var(--radius-md); background:var(--surface-card);">' +
+                        '<span style="display:inline-block; width:24px; height:24px; border-radius:50%; background:var(--surface-muted); text-align:center; line-height:24px; font-weight:800; margin-right:0.6rem; font-size:0.8rem;">' + opt.id + '</span>' +
+                        '<span>' + escapeHtml(opt.text) + '</span>' +
+                    '</button>';
+                });
+
+                contentHtml = '<div style="animation:fadeIn 0.2s ease;">' +
+                    '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">' +
+                        '<div style="font-size:0.75rem; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.06em;">BƯỚC 4: THỰC HÀNH TỨC THÌ (TRY IT / MICRO-PRACTICE)</div>' +
+                        '<div id="sc-practice-timer" style="font-family:monospace; font-weight:800; font-size:0.95rem; color:var(--warning); background:var(--warning-subtle); padding:0.25rem 0.6rem; border-radius:var(--radius-sm); border:1px solid var(--warning-border);">' +
+                            '⏱️ ' + state.strategyPracticeSecondsLeft + 's' +
+                        '</div>' +
+                    '</div>' +
+                    '<div style="background:var(--surface-muted); border-radius:var(--radius-lg); padding:1.25rem; margin-bottom:1.25rem; font-size:0.95rem; font-weight:700; color:var(--ink); line-height:1.6;">' +
+                        escapeHtml(mp.prompt || 'Hãy vận dụng chiến lược để trả lời câu hỏi:') +
+                    '</div>' +
+                    '<div style="margin-bottom:1rem;">' + optionsHtml + '</div>' +
+                    '<div id="sc-socratic-hint" style="font-size:0.82rem; color:var(--ink-muted); font-style:italic; background:var(--surface-card); border-left:3px solid var(--warning); padding:0.6rem 0.85rem; border-radius:0 var(--radius-sm) var(--radius-sm) 0;">' +
+                        '🤔 <strong>Gợi ý tư duy Socratic:</strong> ' + escapeHtml(mp.socratic_guidance || 'Tự đặt câu hỏi kiểm tra trước khi chọn.') +
+                    '</div>' +
+                '</div>';
+            }
+            // STEP 5: AI FEEDBACK & DIAGNOSTIC
+            else if (stepNum === 5) {
+                contentHtml = '<div style="animation:fadeIn 0.2s ease;">' +
+                    '<div style="font-size:0.75rem; font-weight:800; color:#8b5cf6; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">BƯỚC 5: PHẢN HỒI AI TUTOR & DIAGNOSTIC</div>' +
+                    '<div id="sc-step5-feedback-box" style="background:var(--surface-card); border:1.5px solid var(--primary-border); border-radius:var(--radius-lg); padding:1.25rem 1.5rem; margin-bottom:1.25rem;">' +
+                        '<div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">' +
+                            '<span style="font-size:1.5rem;">🤖</span>' +
+                            '<div>' +
+                                '<h4 style="font-size:1rem; font-weight:800; color:var(--ink); margin:0;">DeepTutor Socratic Diagnostic</h4>' +
+                                '<div style="font-size:0.78rem; color:var(--ink-muted);">Liên kết mã lỗi chuẩn xác: ' + (card.error_code || card.id) + '</div>' +
+                            '</div>' +
+                        '</div>' +
+                        '<p style="color:var(--ink); font-size:0.92rem; line-height:1.65; margin-bottom:1rem;">' +
+                            'Để làm chủ kỹ năng <strong>' + escapeHtml(card.title) + '</strong>, hãy luôn bám sát nguyên tắc cốt lõi: <em>' + escapeHtml(card.core_rule) + '</em>' +
+                        '</p>' +
+                        '<div style="background:var(--surface-muted); padding:0.85rem 1rem; border-radius:var(--radius-md); font-size:0.85rem;">' +
+                            '🔍 <strong>Phân loại mã lỗi (Error Taxonomy):</strong> ' +
+                            '<span class="badge-pill badge-red" style="font-family:monospace; margin-left:0.25rem;">' + (card.error_code || 'W1-RULE') + '</span>' +
+                        '</div>' +
+                    '</div>' +
+                    '<button type="button" class="btn-outline-sm" onclick="switchStrategyStep(4)" style="width:100%; justify-content:center; padding:0.65rem;">' +
+                        '🔄 Luyện Lại Câu Hỏi Thực Hành' +
+                    '</button>' +
+                '</div>';
+            }
+            // STEP 6: REMEMBER (ACTIVE RECALL)
+            else if (stepNum === 6) {
+                contentHtml = '<div style="animation:fadeIn 0.2s ease;">' +
+                    '<div style="font-size:0.75rem; font-weight:800; color:var(--success); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">BƯỚC 6: GHI NHỚ SÂU & ACTIVE RECALL (REMEMBER)</div>' +
+                    '<div style="background:linear-gradient(135deg, rgba(37,99,235,0.08), rgba(13,148,136,0.08)); border:2px solid var(--primary); border-radius:var(--radius-lg); padding:1.5rem; text-align:center; margin-bottom:1.5rem;">' +
+                        '<div style="font-size:2rem; margin-bottom:0.5rem;">⚓</div>' +
+                        '<h4 style="font-size:1.15rem; font-weight:800; color:var(--ink); margin-bottom:0.5rem;">Mỏ Neo Ghi Nhớ (One-line Memory Anchor)</h4>' +
+                        '<p style="font-size:1.05rem; font-weight:700; color:var(--primary); line-height:1.5; margin:0;">' +
+                            '“' + escapeHtml(card.recall_prompt || card.hook) + '”' +
+                        '</p>' +
+                    '</div>' +
+                    '<div class="card" style="background:var(--surface-card); border:1px solid var(--border-subtle); padding:1.25rem; margin-bottom:1rem;">' +
+                        '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">' +
+                            '<span style="font-size:0.85rem; font-weight:800; color:var(--ink);">Câu Trả Lời Ghi Nhớ:</span>' +
+                            '<button type="button" class="btn-outline-sm" onclick="toggleRecallAnswer()" id="btn-toggle-recall" style="font-size:0.75rem;">👁️ Xem Đáp Án</button>' +
+                        '</div>' +
+                        '<div id="sc-recall-answer-box" style="display:none; background:var(--surface-muted); padding:0.85rem 1rem; border-radius:var(--radius-md); font-size:0.92rem; font-weight:700; color:var(--success); line-height:1.5;">' +
+                            escapeHtml(card.recall_answer || card.core_rule) +
+                        '</div>' +
+                    '</div>' +
+                    '<button type="button" class="btn-primary" onclick="markSkillMastered(\'' + card.id + '\')" style="width:100%; font-size:0.95rem; padding:0.75rem;">' +
+                        '⭐ Đánh Dấu Đã Làm Chủ Kỹ Năng Này' +
+                    '</button>' +
+                '</div>';
+            }
+
+            body.innerHTML = contentHtml;
+        }
+
+        function startStrategyPracticeTimer(seconds) {
+            clearInterval(state.strategyPracticeTimer);
+            state.strategyPracticeSecondsLeft = seconds;
+            state.strategyPracticeTimer = setInterval(() => {
+                state.strategyPracticeSecondsLeft--;
+                const timerElem = document.getElementById('sc-practice-timer');
+                if (timerElem) {
+                    timerElem.innerText = '⏱️ ' + state.strategyPracticeSecondsLeft + 's';
+                    if (state.strategyPracticeSecondsLeft <= 10) {
+                        timerElem.style.color = 'var(--error)';
+                        timerElem.style.background = 'var(--error-subtle)';
+                        timerElem.style.borderColor = 'var(--error-border)';
+                    }
+                }
+                if (state.strategyPracticeSecondsLeft <= 0) {
+                    clearInterval(state.strategyPracticeTimer);
+                }
+            }, 1000);
+        }
+
+        function selectStrategyPracticeOption(cardId, optionId) {
+            clearInterval(state.strategyPracticeTimer);
+            const card = (window.IELTS_EXPERT_STRATEGIES || []).find(c => c.id === cardId);
+            if (!card || !card.micro_practice) return;
+
+            const opt = (card.micro_practice.options || []).find(o => o.id === optionId);
+            if (!opt) return;
+
+            (card.micro_practice.options || []).forEach(o => {
+                const btn = document.getElementById('sc-opt-' + o.id);
+                if (btn) {
+                    if (o.id === optionId) {
+                        if (o.isCorrect) {
+                            btn.style.background = '#f0fdf4';
+                            btn.style.borderColor = 'var(--success)';
+                            btn.style.color = '#15803d';
+                            btn.style.fontWeight = '700';
+                        } else {
+                            btn.style.background = '#fef2f2';
+                            btn.style.borderColor = 'var(--error)';
+                            btn.style.color = '#b91c1c';
+                        }
+                    }
+                }
+            });
+
+            if (!state.skillProgress) state.skillProgress = {};
+            if (opt.isCorrect) {
+                state.skillProgress[cardId] = 'PRACTISING';
+                localStorage.setItem('skillProgress', JSON.stringify(state.skillProgress));
+                showToast('🎉 Tuyệt vời! Bạn đã chọn đáp án chính xác.');
+                setTimeout(() => { switchStrategyStep(5); }, 1200);
+            } else {
+                showToast('Chưa chính xác. Đọc phản hồi Socratic để nhận diện bẫy!');
+                setTimeout(() => { switchStrategyStep(5); }, 1200);
+            }
+        }
+
+        function toggleRecallAnswer() {
+            const box = document.getElementById('sc-recall-answer-box');
+            const btn = document.getElementById('btn-toggle-recall');
+            if (!box || !btn) return;
+            if (box.style.display === 'none') {
+                box.style.display = 'block';
+                btn.innerText = 'Ẩn Đáp Án';
+            } else {
+                box.style.display = 'none';
+                btn.innerText = '👁️ Xem Đáp Án';
+            }
+        }
+
+        function markSkillMastered(cardId) {
+            if (!state.skillProgress) state.skillProgress = {};
+            state.skillProgress[cardId] = 'MASTERED';
+            localStorage.setItem('skillProgress', JSON.stringify(state.skillProgress));
+            showToast('🏆 Đã đánh dấu LÀM CHỦ kỹ năng ' + cardId + '!');
+            closeStrategyModal();
+            if (state.currentRoute === 'today') renderTodayView();
+            if (state.currentRoute === 'review') renderFollowedSkillsReview();
+            if (state.currentRoute === 'learn') renderPlaybook();
+        }
+
+        // Render Today's Strategy Widget on Today View
+        function renderTodayStrategyWidget() {
+            const list = window.IELTS_EXPERT_STRATEGIES || [];
+            if (list.length === 0) return '';
+            
+            const dayIdx = new Date().getDate() % list.length;
+            const card = list[dayIdx] || list[0];
+            const isFollowed = (state.followedSkills || []).includes(card.id);
+
+            return '<div style="background:linear-gradient(135deg, rgba(37,99,235,0.08) 0%, rgba(139,92,246,0.08) 100%); border:1.5px solid var(--primary-border); border-radius:var(--radius-lg); padding:1.25rem 1.5rem; margin-bottom:1.5rem;">' +
+                '<div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.5rem;">' +
+                    '<div style="display:flex; align-items:center; gap:0.4rem;">' +
+                        '<span class="badge-pill badge-purple" style="font-weight:800; font-size:0.72rem;">🎯 CHIẾN LƯỢC HÔM NAY (TODAY\'S STRATEGY)</span>' +
+                        '<span class="badge-pill badge-blue" style="font-family:monospace; font-weight:800; font-size:0.72rem;">' + card.id + '</span>' +
+                    '</div>' +
+                    '<span style="font-size:0.75rem; font-weight:700; color:var(--ink-muted);">' + (card.skill_name || card.skill) + ' • ' + (card.band_range ? ('Band ' + card.band_range.join('–')) : '') + '</span>' +
+                '</div>' +
+                '<h3 style="font-size:1.15rem; font-weight:800; color:var(--ink); margin-bottom:0.35rem;">' + escapeHtml(card.title) + '</h3>' +
+                '<p style="font-size:0.88rem; color:var(--ink-muted); font-style:italic; line-height:1.5; margin-bottom:1rem; border-left:3px solid var(--primary); padding-left:0.75rem;">' +
+                    '“' + escapeHtml(card.hook) + '”' +
+                '</p>' +
+                '<div style="display:flex; gap:0.5rem; flex-wrap:wrap;">' +
+                    '<button type="button" class="btn-primary" onclick="openStrategyCard(\'' + card.id + '\', 1)" style="font-size:0.85rem; padding:0.45rem 1rem;">📖 Học Chiến Lược (30s)</button>' +
+                    '<button type="button" class="btn-outline-sm" onclick="openStrategyCard(\'' + card.id + '\', 4)" style="font-size:0.85rem; padding:0.45rem 1rem; color:var(--primary);">⚡ Thực Hành Ngay (45s)</button>' +
+                    '<button type="button" class="btn-outline-sm" onclick="toggleFollowSkill(\'' + card.id + '\')" style="font-size:0.85rem; padding:0.45rem 0.85rem;">' +
+                        (isFollowed ? '⭐ Đã Theo Dõi' : '☆ Lưu / Theo Dõi') +
+                    '</button>' +
+                '</div>' +
+            '</div>';
+        }
+
+        // Render Followed Skills in Review View
+        function renderFollowedSkillsReview() {
+            const container = document.getElementById('review-tab-content');
+            if (!container) return;
+
+            const followedIds = state.followedSkills || [];
+            const strategies = window.IELTS_EXPERT_STRATEGIES || [];
+            const cards = strategies.filter(c => followedIds.includes(c.id));
+
+            if (cards.length === 0) {
+                container.innerHTML = '<div class="empty-state-card">' +
+                    '<div style="font-size:3rem; margin-bottom:0.75rem;">⭐</div>' +
+                    '<h3 style="font-size:1.3rem; font-weight:800; margin-bottom:0.5rem;">Chưa Theo Dõi Chiến Lược Nào</h3>' +
+                    '<p style="color:var(--ink-muted); max-width:500px; margin:0 auto 1.5rem; font-size:0.9rem;">' +
+                        'Hãy khám phá Cẩm Nang Chiến Lược Chuyên Gia và nhấn ngôi sao ⭐ để lưu lại các kỹ năng bạn muốn củng cố theo chu kỳ ngắt quãng.' +
+                    '</p>' +
+                    '<button type="button" class="btn-primary" onclick="routeTo(\'learn\'); switchLearnTab(\'playbook\');">' +
+                        'Khám Phá Cẩm Nang Chiến Lược →' +
+                    '</button>' +
+                '</div>';
+                return;
+            }
+
+            let html = '<div style="margin-bottom:1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">' +
+                '<div>' +
+                    '<h3 style="font-size:1.15rem; font-weight:800;">Danh Sách Kỹ Năng Đang Theo Dõi (' + cards.length + ' chiến lược)</h3>' +
+                    '<div style="font-size:0.82rem; color:var(--ink-muted);">Hệ thống nhắc nhở ôn luyện ngắt quãng FSRS (Active Recall)</div>' +
+                '</div>' +
+                '<button type="button" class="btn-outline-sm" onclick="routeTo(\'learn\'); switchLearnTab(\'playbook\');">Thêm Kỹ Năng Mới +</button>' +
+            '</div>' +
+            '<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem;">';
+
+            cards.forEach(card => {
+                const prog = (state.skillProgress && state.skillProgress[card.id]) || 'LEARNING';
+                let progBadge = '<span class="badge-pill badge-yellow">Đang Rèn Luyện</span>';
+                if (prog === 'MASTERED') progBadge = '<span class="badge-pill badge-green">🏆 Đã Làm Chủ</span>';
+                else if (prog === 'PRACTISING') progBadge = '<span class="badge-pill badge-blue">⚡ Đã Thực Hành</span>';
+
+                html += '<div class="card" style="border:1px solid var(--border-subtle); display:flex; flex-direction:column; justify-content:space-between;">' +
+                    '<div>' +
+                        '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">' +
+                            '<span class="badge-pill badge-purple" style="font-family:monospace; font-weight:800;">' + card.id + '</span>' +
+                            progBadge +
+                        '</div>' +
+                        '<h4 style="font-size:0.98rem; font-weight:800; color:var(--ink); margin-bottom:0.35rem;">' + escapeHtml(card.title) + '</h4>' +
+                        '<p style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5; margin-bottom:0.75rem;">' + escapeHtml(card.hook) + '</p>' +
+                    '</div>' +
+                    '<div style="display:flex; gap:0.4rem; border-top:1px solid var(--border-subtle); padding-top:0.75rem;">' +
+                        '<button type="button" class="btn-primary" onclick="openStrategyCard(\'' + card.id + '\', 4)" style="flex:1; font-size:0.8rem; padding:0.4rem;">Thực Hành 45s</button>' +
+                        '<button type="button" class="btn-outline-sm" onclick="openStrategyCard(\'' + card.id + '\', 6)" style="font-size:0.8rem; padding:0.4rem;">⚓ Ôn Recall</button>' +
+                        '<button type="button" class="btn-outline-sm" onclick="toggleFollowSkill(\'' + card.id + '\')" title="Bỏ theo dõi" style="padding:0.4rem 0.6rem; color:var(--ink-dim);">✕</button>' +
+                    '</div>' +
+                '</div>';
+            });
+
+            html += '</div>';
+            container.innerHTML = html;
+        }
+
         function setupHighlightListeners() {
             const passageBox = document.getElementById('prac-passage-container');
             const toolbar = document.getElementById('text-select-toolbar');
