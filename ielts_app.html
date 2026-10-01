@@ -1086,6 +1086,26 @@
         .rating-btn.hard:hover { background: var(--warning-subtle); border-color: var(--warning); color: var(--warning); }
         .rating-btn.good:hover { background: var(--primary-subtle); border-color: var(--primary); color: var(--primary); }
         .rating-btn.easy:hover { background: var(--success-subtle); border-color: var(--success); color: var(--success); }
+    
+        /* Responsive donation widget adjustments */
+        @media (max-width: 1024px) {
+            #donation-sidebar-card {
+                left: 10px;
+                top: 75px;
+                width: 220px;
+            }
+        }
+        @media (max-width: 768px) {
+            #donation-sidebar-card {
+                display: none;
+            }
+            #donation-collapsed-chip {
+                top: auto;
+                bottom: 70px;
+                left: 12px;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -1856,6 +1876,136 @@
         </div>
     </div>
 
+    
+    <!-- LEFT SIDEBAR DONATION WIDGET (TECHCOMBANK & MOMO) -->
+    <aside id="donation-sidebar-card" aria-label="Ủng hộ dự án" style="position:fixed; left:16px; top:92px; width:246px; max-height:calc(100vh - 110px); overflow-y:auto; background:#0b0f19; border:1.5px solid #ca8a04; border-radius:14px; padding:10px 10px 12px; box-shadow:0 14px 35px rgba(0,0,0,0.5); z-index:85; font-family:var(--font-ui); color:#f8fafc; transition:all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+        
+        <!-- Header -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px; padding:0 2px;">
+            <div style="font-weight:800; font-size:0.92rem; color:#fbbf24; display:flex; align-items:center; gap:5px; letter-spacing:0.02em;">
+                <span>☕</span> <span>Ủng Hộ Dự Án</span>
+            </div>
+            <button type="button" onclick="collapseDonationWidget()" title="Thu gọn thẻ ủng hộ" style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); color:#94a3b8; border-radius:6px; width:22px; height:22px; display:flex; align-items:center; justify-content:center; cursor:pointer; font-size:0.75rem; line-height:1; transition:0.2s;">✕</button>
+        </div>
+
+        <!-- Description -->
+        <div style="font-size:0.72rem; color:#94a3b8; line-height:1.35; margin-bottom:8px; padding:0 2px;">
+            Quét mã trực tiếp để tiếp sức duy trì máy chủ & phát triển mô hình 3D:
+        </div>
+
+        <!-- Techcombank Box -->
+        <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:7px; margin-bottom:8px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px;">
+                <div style="display:flex; align-items:center; gap:4px;">
+                    <span style="background:#e11d48; color:white; font-weight:900; font-size:0.62rem; padding:1px 4px; border-radius:3px;">TCB</span>
+                    <span style="font-size:0.78rem; font-weight:800; color:#ffffff;">Techcombank</span>
+                </div>
+                <span style="font-size:0.62rem; color:#94a3b8;">Napas 247</span>
+            </div>
+            <div style="background:#ffffff; border-radius:6px; padding:4px; display:flex; justify-content:center; margin-bottom:5px;">
+                <img src="assets/Techcom.jpg" alt="Mã QR Techcombank 19077215974018" style="width:100%; max-width:170px; aspect-ratio:1/1; object-fit:contain; border-radius:4px; display:block;">
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
+                <span style="font-weight:800; font-size:0.84rem; color:#f59e0b; letter-spacing:0.02em;">19077215974018</span>
+                <button type="button" class="btn-copy-tcb" onclick="copyDonationNumber('19077215974018', this)" style="background:rgba(245,158,11,0.15); border:1px solid #f59e0b; color:#fbbf24; font-size:0.68rem; font-weight:700; padding:2px 7px; border-radius:5px; cursor:pointer; display:flex; align-items:center; gap:3px; transition:0.2s;">
+                    📋 Chép
+                </button>
+            </div>
+            <div style="font-size:0.65rem; color:#64748b; text-align:center;">Mọi App Ngân Hàng quét được</div>
+        </div>
+
+        <!-- MoMo Box -->
+        <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:7px; margin-bottom:8px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px;">
+                <div style="display:flex; align-items:center; gap:4px;">
+                    <span style="background:#a21caf; color:white; font-weight:900; font-size:0.62rem; padding:1px 4px; border-radius:3px;">MoMo</span>
+                    <span style="font-size:0.78rem; font-weight:800; color:#ffffff;">Ví MoMo</span>
+                </div>
+                <span style="font-size:0.62rem; color:#f472b6;">VietQR</span>
+            </div>
+            <div style="background:#ffffff; border-radius:6px; padding:4px; display:flex; justify-content:center; margin-bottom:5px;">
+                <img src="assets/MOMO.jpg" alt="Mã QR Ví MoMo 0985578385" style="width:100%; max-width:170px; aspect-ratio:1/1; object-fit:contain; border-radius:4px; display:block;">
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
+                <span style="font-weight:800; font-size:0.84rem; color:#f59e0b; letter-spacing:0.02em;">0985 578 385</span>
+                <button type="button" class="btn-copy-momo" onclick="copyDonationNumber('0985578385', this)" style="background:rgba(245,158,11,0.15); border:1px solid #f59e0b; color:#fbbf24; font-size:0.68rem; font-weight:700; padding:2px 7px; border-radius:5px; cursor:pointer; display:flex; align-items:center; gap:3px; transition:0.2s;">
+                    📋 Chép
+                </button>
+            </div>
+            <div style="font-size:0.65rem; color:#64748b; text-align:center;">Quét nhanh qua App MoMo</div>
+        </div>
+
+        <!-- Footer Button -->
+        <button type="button" onclick="openDonationModal()" style="width:100%; background:#1e293b; border:1px solid rgba(255,255,255,0.15); color:#e2e8f0; font-size:0.75rem; font-weight:700; padding:6px 8px; border-radius:8px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:5px; transition:0.2s;">
+            <span>☕</span> <span>Mời tách cà phê chi tiết</span>
+        </button>
+
+    </aside>
+
+    <!-- COLLAPSED FLOATING CHIP AT LEFT EDGE -->
+    <div id="donation-collapsed-chip" onclick="expandDonationWidget()" style="display:none; position:fixed; left:16px; top:105px; z-index:85; background:#0b0f19; border:1.5px solid #f59e0b; color:#fbbf24; font-size:0.78rem; font-weight:800; padding:6px 12px; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.4); cursor:pointer; align-items:center; gap:5px; transition:all 0.25s ease;">
+        <span>☕</span> <span>Ủng hộ dự án</span>
+    </div>
+
+    <!-- COFFEE DONATION DETAILED MODAL -->
+    <div id="modal-donation-detail" style="display:none; position:fixed; inset:0; background:rgba(15,23,42,0.8); z-index:9999; backdrop-filter:blur(6px); align-items:center; justify-content:center; padding:1rem;" role="dialog" aria-modal="true" aria-label="Mời tách cà phê tiếp sức dự án">
+        <div class="card" style="max-width:560px; width:100%; max-height:92vh; overflow-y:auto; position:relative; box-shadow:var(--shadow-lg); padding:1.5rem; background:#0f172a; border:1.5px solid #f59e0b; color:#f8fafc; border-radius:var(--radius-xl);">
+            
+            <button type="button" onclick="closeDonationModal()" style="position:absolute; top:12px; right:12px; background:rgba(255,255,255,0.1); border:none; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1rem; color:#94a3b8; cursor:pointer;">✕</button>
+
+            <div style="text-align:center; margin-bottom:1.25rem;">
+                <div style="font-size:2.2rem; margin-bottom:0.25rem;">☕✨</div>
+                <h3 style="font-size:1.35rem; font-weight:800; color:#fbbf24; margin:0 0 0.35rem;">Mời Tách Cà Phê — Tiếp Sức Dự Án</h3>
+                <p style="color:#94a3b8; font-size:0.85rem; line-height:1.5; margin:0; max-width:440px; margin:0 auto;">
+                    Mọi sự tiếp sức từ bạn đều là nguồn năng lượng quý giá giúp duy trì máy chủ tốc độ cao, nghiên cứu thuật toán Sư phạm DeepTutor và phát triển kho học liệu 3D miễn phí cho học sinh THPT.
+                </p>
+            </div>
+
+            <!-- Two Columns for QR codes -->
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1.25rem;">
+                <!-- Techcombank Detail -->
+                <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.1); border-radius:12px; padding:0.85rem; text-align:center;">
+                    <div style="display:flex; justify-content:center; align-items:center; gap:4px; margin-bottom:6px;">
+                        <span style="background:#e11d48; color:white; font-weight:900; font-size:0.65rem; padding:1px 4px; border-radius:3px;">TCB</span>
+                        <span style="font-weight:800; font-size:0.82rem;">Techcombank</span>
+                    </div>
+                    <div style="background:#ffffff; border-radius:8px; padding:6px; margin-bottom:8px;">
+                        <img src="assets/Techcom.jpg" alt="Mã QR Techcombank 19077215974018" style="width:100%; aspect-ratio:1/1; object-fit:contain; display:block;">
+                    </div>
+                    <div style="font-size:0.75rem; color:#94a3b8; margin-bottom:2px;">Chủ TK: <strong>NGUYEN VAN NGHIA</strong></div>
+                    <div style="font-weight:800; font-size:0.85rem; color:#f59e0b; margin-bottom:6px;">19077215974018</div>
+                    <button type="button" class="btn-primary" onclick="copyDonationNumber('19077215974018', this)" style="width:100%; font-size:0.75rem; padding:0.35rem;">
+                        📋 Sao Chép STK
+                    </button>
+                </div>
+
+                <!-- MoMo Detail -->
+                <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.1); border-radius:12px; padding:0.85rem; text-align:center;">
+                    <div style="display:flex; justify-content:center; align-items:center; gap:4px; margin-bottom:6px;">
+                        <span style="background:#a21caf; color:white; font-weight:900; font-size:0.65rem; padding:1px 4px; border-radius:3px;">MoMo</span>
+                        <span style="font-weight:800; font-size:0.82rem;">Ví MoMo</span>
+                    </div>
+                    <div style="background:#ffffff; border-radius:8px; padding:6px; margin-bottom:8px;">
+                        <img src="assets/MOMO.jpg" alt="Mã QR Ví MoMo 0985578385" style="width:100%; aspect-ratio:1/1; object-fit:contain; display:block;">
+                    </div>
+                    <div style="font-size:0.75rem; color:#94a3b8; margin-bottom:2px;">Chủ Ví: <strong>NGUYEN VAN NGHIA</strong></div>
+                    <div style="font-weight:800; font-size:0.85rem; color:#f59e0b; margin-bottom:6px;">0985 578 385</div>
+                    <button type="button" class="btn-primary" onclick="copyDonationNumber('0985578385', this)" style="width:100%; font-size:0.75rem; padding:0.35rem; background:linear-gradient(135deg, #a21caf, #db2777); border-color:#db2777;">
+                        📋 Sao Chép SĐT MoMo
+                    </button>
+                </div>
+            </div>
+
+            <div style="background:rgba(245,158,11,0.08); border:1px solid rgba(245,158,11,0.2); border-radius:10px; padding:0.75rem 1rem; font-size:0.8rem; color:#cbd5e1; text-align:center; margin-bottom:1rem; line-height:1.4;">
+                💖 <em>Nội dung chuyển khoản (tùy tâm):</em> <strong>"Ung ho DeepIELTS"</strong> hoặc lời nhắn gửi gắm của bạn.
+            </div>
+
+            <button type="button" class="btn-outline-sm" onclick="closeDonationModal()" style="width:100%; justify-content:center; color:#94a3b8; border-color:rgba(255,255,255,0.15); padding:0.55rem;">
+                Đóng Cửa Sổ
+            </button>
+        </div>
+    </div>
+
     <aside id="floating-zalo-widget" aria-label="Tư vấn và Hỗ trợ" style="position:fixed; bottom:20px; right:20px; z-index:90; display:flex; flex-direction:column; align-items:flex-end;">
         <a href="https://zalo.me/0985578385" target="_blank" rel="noopener noreferrer" style="display:flex; align-items:center; gap:0.5rem; background:linear-gradient(135deg, #0284c7, #2563eb); color:white; padding:0.65rem 1.15rem; border-radius:var(--radius-full); text-decoration:none; font-weight:700; font-size:0.85rem; box-shadow:0 10px 25px -3px rgba(37,99,235,0.4); transition:all 0.2s ease;">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.17.7 4.19 1.94 5.84L2.05 22l4.31-1.85C7.94 21.32 9.9 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
@@ -1977,7 +2127,92 @@
         // ====================================================
         // INITIALIZATION
         // ====================================================
+        
+        // ====================================================
+        // DONATION WIDGET & MODAL LOGIC (TECHCOMBANK & MOMO)
+        // ====================================================
+        function collapseDonationWidget() {
+            const card = document.getElementById('donation-sidebar-card');
+            const chip = document.getElementById('donation-collapsed-chip');
+            if (card) card.style.display = 'none';
+            if (chip) chip.style.display = 'flex';
+            localStorage.setItem('donationWidgetCollapsed', 'true');
+        }
+
+        function expandDonationWidget() {
+            const card = document.getElementById('donation-sidebar-card');
+            const chip = document.getElementById('donation-collapsed-chip');
+            if (card) card.style.display = 'block';
+            if (chip) chip.style.display = 'none';
+            localStorage.setItem('donationWidgetCollapsed', 'false');
+        }
+
+        function copyDonationNumber(text, btnElem) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => {
+                    handleCopySuccess(btnElem);
+                }).catch(() => {
+                    fallbackCopyText(text, btnElem);
+                });
+            } else {
+                fallbackCopyText(text, btnElem);
+            }
+        }
+
+        function fallbackCopyText(text, btnElem) {
+            try {
+                const tempInput = document.createElement('input');
+                tempInput.value = text;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+                handleCopySuccess(btnElem);
+            } catch (err) {
+                showToast('Đã lưu số: ' + text);
+            }
+        }
+
+        function handleCopySuccess(btnElem) {
+            showToast('✓ Đã chép số vào bộ nhớ tạm!');
+            if (btnElem) {
+                const originalText = btnElem.innerHTML;
+                btnElem.innerHTML = '✓ Đã chép!';
+                btnElem.style.background = '#10b981';
+                btnElem.style.borderColor = '#10b981';
+                btnElem.style.color = '#ffffff';
+                setTimeout(() => {
+                    btnElem.innerHTML = originalText;
+                    btnElem.style.background = '';
+                    btnElem.style.borderColor = '';
+                    btnElem.style.color = '';
+                }, 2000);
+            }
+        }
+
+        function openDonationModal() {
+            const modal = document.getElementById('modal-donation-detail');
+            if (modal) modal.style.display = 'flex';
+        }
+
+        function closeDonationModal() {
+            const modal = document.getElementById('modal-donation-detail');
+            if (modal) modal.style.display = 'none';
+        }
+
+        // Check initial state on mobile or saved preferences
+        function initDonationWidgetState() {
+            const isSavedCollapsed = localStorage.getItem('donationWidgetCollapsed') === 'true';
+            const isMobile = window.innerWidth <= 900;
+            if (isSavedCollapsed || isMobile) {
+                collapseDonationWidget();
+            } else {
+                expandDonationWidget();
+            }
+        }
+
         function init() {
+            initDonationWidgetState();
             // Apply Theme
             if (state.darkMode) {
                 document.documentElement.setAttribute('data-theme', 'dark');
