@@ -1087,6 +1087,208 @@
         .rating-btn.good:hover { background: var(--primary-subtle); border-color: var(--primary); color: var(--primary); }
         .rating-btn.easy:hover { background: var(--success-subtle); border-color: var(--success); color: var(--success); }
     
+        /* ====================================================
+           DONATION WIDGET & MODAL (THEME-ALIGNED & RESPONSIVE)
+           ==================================================== */
+        #donation-sidebar-card {
+            position: fixed;
+            left: 16px;
+            top: 92px;
+            width: 246px;
+            max-height: calc(100vh - 110px);
+            overflow-y: auto;
+            background: var(--surface-card);
+            border: 1.5px solid var(--warning-border);
+            border-radius: var(--radius-lg);
+            padding: 10px 10px 12px;
+            box-shadow: var(--shadow-lg);
+            z-index: 85;
+            font-family: var(--font-ui);
+            color: var(--ink);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .donation-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+            padding: 0 2px;
+        }
+        .donation-title {
+            font-weight: 800;
+            font-size: 0.92rem;
+            color: var(--warning);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            letter-spacing: 0.01em;
+        }
+        .donation-close-btn {
+            background: var(--surface-muted);
+            border: 1px solid var(--border-subtle);
+            color: var(--ink-muted);
+            border-radius: var(--radius-sm);
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 0.75rem;
+            line-height: 1;
+            transition: var(--transition-smooth);
+        }
+        .donation-close-btn:hover {
+            background: var(--error-subtle);
+            border-color: var(--error-border);
+            color: var(--error);
+        }
+        .donation-desc {
+            font-size: 0.73rem;
+            color: var(--ink-muted);
+            line-height: 1.4;
+            margin-bottom: 8px;
+            padding: 0 2px;
+        }
+        .donation-account-box {
+            background: var(--surface-muted);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 8px;
+            margin-bottom: 8px;
+            transition: var(--transition-smooth);
+        }
+        .donation-account-box:hover {
+            border-color: var(--warning-border);
+        }
+        .donation-box-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .donation-qr-frame {
+            background: #ffffff;
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            padding: 4px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 6px;
+        }
+        .donation-qr-frame img {
+            width: 100%;
+            max-width: 170px;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+            border-radius: 4px;
+            display: block;
+        }
+        .donation-box-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2px;
+        }
+        .donation-acc-num {
+            font-weight: 800;
+            font-size: 0.84rem;
+            color: var(--warning);
+            letter-spacing: 0.02em;
+        }
+        .donation-copy-btn {
+            background: var(--warning-subtle);
+            border: 1px solid var(--warning-border);
+            color: var(--warning);
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            transition: var(--transition-smooth);
+        }
+        .donation-copy-btn:hover {
+            background: var(--warning);
+            color: #ffffff;
+        }
+        .donation-box-sub {
+            font-size: 0.65rem;
+            color: var(--ink-dim);
+            text-align: center;
+        }
+        .donation-footer-btn {
+            width: 100%;
+            background: var(--surface-muted);
+            border: 1px solid var(--border-subtle);
+            color: var(--ink);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 7px 8px;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            transition: var(--transition-smooth);
+        }
+        .donation-footer-btn:hover {
+            background: var(--warning-subtle);
+            border-color: var(--warning-border);
+            color: var(--warning);
+        }
+        #donation-collapsed-chip {
+            display: none;
+            position: fixed;
+            left: 16px;
+            top: 105px;
+            z-index: 85;
+            background: var(--surface-card);
+            border: 1.5px solid var(--warning);
+            color: var(--warning);
+            font-size: 0.78rem;
+            font-weight: 800;
+            padding: 6px 12px;
+            border-radius: var(--radius-full);
+            box-shadow: var(--shadow-md);
+            cursor: pointer;
+            align-items: center;
+            gap: 6px;
+            transition: var(--transition-smooth);
+        }
+        #donation-collapsed-chip:hover {
+            background: var(--warning-subtle);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+        .donation-modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.75);
+            z-index: 9999;
+            backdrop-filter: blur(6px);
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .donation-modal-body {
+            max-width: 560px;
+            width: 100%;
+            max-height: 92vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: var(--shadow-lg);
+            padding: 1.5rem;
+            background: var(--surface-card);
+            border: 1.5px solid var(--warning-border);
+            color: var(--ink);
+            border-radius: var(--radius-xl);
+        }
+
         /* Responsive donation widget adjustments */
         @media (max-width: 1024px) {
             #donation-sidebar-card {
@@ -1878,129 +2080,129 @@
 
     
     <!-- LEFT SIDEBAR DONATION WIDGET (TECHCOMBANK & MOMO) -->
-    <aside id="donation-sidebar-card" aria-label="Ủng hộ dự án" style="position:fixed; left:16px; top:92px; width:246px; max-height:calc(100vh - 110px); overflow-y:auto; background:#0b0f19; border:1.5px solid #ca8a04; border-radius:14px; padding:10px 10px 12px; box-shadow:0 14px 35px rgba(0,0,0,0.5); z-index:85; font-family:var(--font-ui); color:#f8fafc; transition:all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+    <aside id="donation-sidebar-card" aria-label="Ủng hộ dự án">
         
         <!-- Header -->
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px; padding:0 2px;">
-            <div style="font-weight:800; font-size:0.92rem; color:#fbbf24; display:flex; align-items:center; gap:5px; letter-spacing:0.02em;">
+        <div class="donation-header">
+            <div class="donation-title">
                 <span>☕</span> <span>Ủng Hộ Dự Án</span>
             </div>
-            <button type="button" onclick="collapseDonationWidget()" title="Thu gọn thẻ ủng hộ" style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); color:#94a3b8; border-radius:6px; width:22px; height:22px; display:flex; align-items:center; justify-content:center; cursor:pointer; font-size:0.75rem; line-height:1; transition:0.2s;">✕</button>
+            <button type="button" class="donation-close-btn" onclick="collapseDonationWidget()" title="Thu gọn thẻ ủng hộ">✕</button>
         </div>
 
         <!-- Description -->
-        <div style="font-size:0.72rem; color:#94a3b8; line-height:1.35; margin-bottom:8px; padding:0 2px;">
-            Quét mã trực tiếp để tiếp sức duy trì máy chủ & phát triển mô hình 3D:
+        <div class="donation-desc">
+            Quét mã trực tiếp để tiếp sức duy trì máy chủ AI & phát triển kho học liệu IELTS miễn phí cho học sinh THPT:
         </div>
 
         <!-- Techcombank Box -->
-        <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:7px; margin-bottom:8px;">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px;">
+        <div class="donation-account-box">
+            <div class="donation-box-top">
                 <div style="display:flex; align-items:center; gap:4px;">
                     <span style="background:#e11d48; color:white; font-weight:900; font-size:0.62rem; padding:1px 4px; border-radius:3px;">TCB</span>
-                    <span style="font-size:0.78rem; font-weight:800; color:#ffffff;">Techcombank</span>
+                    <span style="font-size:0.78rem; font-weight:800; color:var(--ink);">Techcombank</span>
                 </div>
-                <span style="font-size:0.62rem; color:#94a3b8;">Napas 247</span>
+                <span style="font-size:0.62rem; color:var(--ink-dim);">Napas 247</span>
             </div>
-            <div style="background:#ffffff; border-radius:6px; padding:4px; display:flex; justify-content:center; margin-bottom:5px;">
-                <img src="assets/Techcom.jpg" alt="Mã QR Techcombank 19077215974018" style="width:100%; max-width:170px; aspect-ratio:1/1; object-fit:contain; border-radius:4px; display:block;">
+            <div class="donation-qr-frame">
+                <img src="assets/Techcom.jpg" alt="Mã QR Techcombank 19077215974018">
             </div>
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-                <span style="font-weight:800; font-size:0.84rem; color:#f59e0b; letter-spacing:0.02em;">19077215974018</span>
-                <button type="button" class="btn-copy-tcb" onclick="copyDonationNumber('19077215974018', this)" style="background:rgba(245,158,11,0.15); border:1px solid #f59e0b; color:#fbbf24; font-size:0.68rem; font-weight:700; padding:2px 7px; border-radius:5px; cursor:pointer; display:flex; align-items:center; gap:3px; transition:0.2s;">
+            <div class="donation-box-info">
+                <span class="donation-acc-num">19077215974018</span>
+                <button type="button" class="donation-copy-btn btn-copy-tcb" onclick="copyDonationNumber('19077215974018', this)">
                     📋 Chép
                 </button>
             </div>
-            <div style="font-size:0.65rem; color:#64748b; text-align:center;">Mọi App Ngân Hàng quét được</div>
+            <div class="donation-box-sub">Mọi App Ngân Hàng quét được</div>
         </div>
 
         <!-- MoMo Box -->
-        <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:7px; margin-bottom:8px;">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:5px;">
+        <div class="donation-account-box">
+            <div class="donation-box-top">
                 <div style="display:flex; align-items:center; gap:4px;">
                     <span style="background:#a21caf; color:white; font-weight:900; font-size:0.62rem; padding:1px 4px; border-radius:3px;">MoMo</span>
-                    <span style="font-size:0.78rem; font-weight:800; color:#ffffff;">Ví MoMo</span>
+                    <span style="font-size:0.78rem; font-weight:800; color:var(--ink);">Ví MoMo</span>
                 </div>
-                <span style="font-size:0.62rem; color:#f472b6;">VietQR</span>
+                <span style="font-size:0.62rem; color:#db2777;">VietQR</span>
             </div>
-            <div style="background:#ffffff; border-radius:6px; padding:4px; display:flex; justify-content:center; margin-bottom:5px;">
-                <img src="assets/MOMO.jpg" alt="Mã QR Ví MoMo 0985578385" style="width:100%; max-width:170px; aspect-ratio:1/1; object-fit:contain; border-radius:4px; display:block;">
+            <div class="donation-qr-frame">
+                <img src="assets/MOMO.jpg" alt="Mã QR Ví MoMo 0985578385">
             </div>
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-                <span style="font-weight:800; font-size:0.84rem; color:#f59e0b; letter-spacing:0.02em;">0985 578 385</span>
-                <button type="button" class="btn-copy-momo" onclick="copyDonationNumber('0985578385', this)" style="background:rgba(245,158,11,0.15); border:1px solid #f59e0b; color:#fbbf24; font-size:0.68rem; font-weight:700; padding:2px 7px; border-radius:5px; cursor:pointer; display:flex; align-items:center; gap:3px; transition:0.2s;">
+            <div class="donation-box-info">
+                <span class="donation-acc-num">0985 578 385</span>
+                <button type="button" class="donation-copy-btn btn-copy-momo" onclick="copyDonationNumber('0985578385', this)">
                     📋 Chép
                 </button>
             </div>
-            <div style="font-size:0.65rem; color:#64748b; text-align:center;">Quét nhanh qua App MoMo</div>
+            <div class="donation-box-sub">Quét nhanh qua App MoMo</div>
         </div>
 
         <!-- Footer Button -->
-        <button type="button" onclick="openDonationModal()" style="width:100%; background:#1e293b; border:1px solid rgba(255,255,255,0.15); color:#e2e8f0; font-size:0.75rem; font-weight:700; padding:6px 8px; border-radius:8px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:5px; transition:0.2s;">
+        <button type="button" class="donation-footer-btn" onclick="openDonationModal()">
             <span>☕</span> <span>Mời tách cà phê chi tiết</span>
         </button>
 
     </aside>
 
     <!-- COLLAPSED FLOATING CHIP AT LEFT EDGE -->
-    <div id="donation-collapsed-chip" onclick="expandDonationWidget()" style="display:none; position:fixed; left:16px; top:105px; z-index:85; background:#0b0f19; border:1.5px solid #f59e0b; color:#fbbf24; font-size:0.78rem; font-weight:800; padding:6px 12px; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.4); cursor:pointer; align-items:center; gap:5px; transition:all 0.25s ease;">
+    <div id="donation-collapsed-chip" onclick="expandDonationWidget()">
         <span>☕</span> <span>Ủng hộ dự án</span>
     </div>
 
     <!-- COFFEE DONATION DETAILED MODAL -->
-    <div id="modal-donation-detail" style="display:none; position:fixed; inset:0; background:rgba(15,23,42,0.8); z-index:9999; backdrop-filter:blur(6px); align-items:center; justify-content:center; padding:1rem;" role="dialog" aria-modal="true" aria-label="Mời tách cà phê tiếp sức dự án">
-        <div class="card" style="max-width:560px; width:100%; max-height:92vh; overflow-y:auto; position:relative; box-shadow:var(--shadow-lg); padding:1.5rem; background:#0f172a; border:1.5px solid #f59e0b; color:#f8fafc; border-radius:var(--radius-xl);">
+    <div id="modal-donation-detail" class="donation-modal-overlay" role="dialog" aria-modal="true" aria-label="Mời tách cà phê tiếp sức dự án">
+        <div class="donation-modal-body">
             
-            <button type="button" onclick="closeDonationModal()" style="position:absolute; top:12px; right:12px; background:rgba(255,255,255,0.1); border:none; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1rem; color:#94a3b8; cursor:pointer;">✕</button>
+            <button type="button" onclick="closeDonationModal()" style="position:absolute; top:12px; right:12px; background:var(--surface-muted); border:1px solid var(--border-subtle); width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1rem; color:var(--ink-muted); cursor:pointer;">✕</button>
 
             <div style="text-align:center; margin-bottom:1.25rem;">
                 <div style="font-size:2.2rem; margin-bottom:0.25rem;">☕✨</div>
-                <h3 style="font-size:1.35rem; font-weight:800; color:#fbbf24; margin:0 0 0.35rem;">Mời Tách Cà Phê — Tiếp Sức Dự Án</h3>
-                <p style="color:#94a3b8; font-size:0.85rem; line-height:1.5; margin:0; max-width:440px; margin:0 auto;">
-                    Mọi sự tiếp sức từ bạn đều là nguồn năng lượng quý giá giúp duy trì máy chủ tốc độ cao, nghiên cứu thuật toán Sư phạm DeepTutor và phát triển kho học liệu 3D miễn phí cho học sinh THPT.
+                <h3 style="font-size:1.35rem; font-weight:800; color:var(--warning); margin:0 0 0.35rem;">Mời Tách Cà Phê — Tiếp Sức Dự Án</h3>
+                <p style="color:var(--ink-muted); font-size:0.85rem; line-height:1.5; margin:0; max-width:440px; margin:0 auto;">
+                    Mọi sự tiếp sức từ bạn đều là nguồn năng lượng quý giá giúp duy trì máy chủ chấm thi AI tốc độ cao, nghiên cứu phương pháp Sư phạm DeepTutor và chia sẻ kho học liệu luyện thi IELTS miễn phí cho học sinh THPT trên toàn quốc.
                 </p>
             </div>
 
             <!-- Two Columns for QR codes -->
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1.25rem;">
                 <!-- Techcombank Detail -->
-                <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.1); border-radius:12px; padding:0.85rem; text-align:center;">
+                <div style="background:var(--surface-muted); border:1px solid var(--border-subtle); border-radius:12px; padding:0.85rem; text-align:center;">
                     <div style="display:flex; justify-content:center; align-items:center; gap:4px; margin-bottom:6px;">
                         <span style="background:#e11d48; color:white; font-weight:900; font-size:0.65rem; padding:1px 4px; border-radius:3px;">TCB</span>
-                        <span style="font-weight:800; font-size:0.82rem;">Techcombank</span>
+                        <span style="font-weight:800; font-size:0.82rem; color:var(--ink);">Techcombank</span>
                     </div>
-                    <div style="background:#ffffff; border-radius:8px; padding:6px; margin-bottom:8px;">
+                    <div style="background:#ffffff; border:1px solid var(--border-subtle); border-radius:8px; padding:6px; margin-bottom:8px;">
                         <img src="assets/Techcom.jpg" alt="Mã QR Techcombank 19077215974018" style="width:100%; aspect-ratio:1/1; object-fit:contain; display:block;">
                     </div>
-                    <div style="font-size:0.75rem; color:#94a3b8; margin-bottom:2px;">Chủ TK: <strong>NGUYEN VAN NGHIA</strong></div>
-                    <div style="font-weight:800; font-size:0.85rem; color:#f59e0b; margin-bottom:6px;">19077215974018</div>
-                    <button type="button" class="btn-primary" onclick="copyDonationNumber('19077215974018', this)" style="width:100%; font-size:0.75rem; padding:0.35rem;">
+                    <div style="font-size:0.75rem; color:var(--ink-muted); margin-bottom:2px;">Chủ TK: <strong style="color:var(--ink);">NGUYEN VAN NGHIA</strong></div>
+                    <div style="font-weight:800; font-size:0.88rem; color:var(--warning); margin-bottom:6px;">19077215974018</div>
+                    <button type="button" class="btn-primary" onclick="copyDonationNumber('19077215974018', this)" style="width:100%; font-size:0.75rem; padding:0.4rem;">
                         📋 Sao Chép STK
                     </button>
                 </div>
 
                 <!-- MoMo Detail -->
-                <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.1); border-radius:12px; padding:0.85rem; text-align:center;">
+                <div style="background:var(--surface-muted); border:1px solid var(--border-subtle); border-radius:12px; padding:0.85rem; text-align:center;">
                     <div style="display:flex; justify-content:center; align-items:center; gap:4px; margin-bottom:6px;">
                         <span style="background:#a21caf; color:white; font-weight:900; font-size:0.65rem; padding:1px 4px; border-radius:3px;">MoMo</span>
-                        <span style="font-weight:800; font-size:0.82rem;">Ví MoMo</span>
+                        <span style="font-weight:800; font-size:0.82rem; color:var(--ink);">Ví MoMo</span>
                     </div>
-                    <div style="background:#ffffff; border-radius:8px; padding:6px; margin-bottom:8px;">
+                    <div style="background:#ffffff; border:1px solid var(--border-subtle); border-radius:8px; padding:6px; margin-bottom:8px;">
                         <img src="assets/MOMO.jpg" alt="Mã QR Ví MoMo 0985578385" style="width:100%; aspect-ratio:1/1; object-fit:contain; display:block;">
                     </div>
-                    <div style="font-size:0.75rem; color:#94a3b8; margin-bottom:2px;">Chủ Ví: <strong>NGUYEN VAN NGHIA</strong></div>
-                    <div style="font-weight:800; font-size:0.85rem; color:#f59e0b; margin-bottom:6px;">0985 578 385</div>
-                    <button type="button" class="btn-primary" onclick="copyDonationNumber('0985578385', this)" style="width:100%; font-size:0.75rem; padding:0.35rem; background:linear-gradient(135deg, #a21caf, #db2777); border-color:#db2777;">
+                    <div style="font-size:0.75rem; color:var(--ink-muted); margin-bottom:2px;">Chủ Ví: <strong style="color:var(--ink);">NGUYEN VAN NGHIA</strong></div>
+                    <div style="font-weight:800; font-size:0.88rem; color:var(--warning); margin-bottom:6px;">0985 578 385</div>
+                    <button type="button" class="btn-primary" onclick="copyDonationNumber('0985578385', this)" style="width:100%; font-size:0.75rem; padding:0.4rem; background:linear-gradient(135deg, #a21caf, #db2777); border-color:#db2777;">
                         📋 Sao Chép SĐT MoMo
                     </button>
                 </div>
             </div>
 
-            <div style="background:rgba(245,158,11,0.08); border:1px solid rgba(245,158,11,0.2); border-radius:10px; padding:0.75rem 1rem; font-size:0.8rem; color:#cbd5e1; text-align:center; margin-bottom:1rem; line-height:1.4;">
+            <div style="background:var(--warning-subtle); border:1px solid var(--warning-border); border-radius:10px; padding:0.75rem 1rem; font-size:0.8rem; color:var(--ink); text-align:center; margin-bottom:1rem; line-height:1.4;">
                 💖 <em>Nội dung chuyển khoản (tùy tâm):</em> <strong>"Ung ho DeepIELTS"</strong> hoặc lời nhắn gửi gắm của bạn.
             </div>
 
-            <button type="button" class="btn-outline-sm" onclick="closeDonationModal()" style="width:100%; justify-content:center; color:#94a3b8; border-color:rgba(255,255,255,0.15); padding:0.55rem;">
+            <button type="button" class="btn-outline-sm" onclick="closeDonationModal()" style="width:100%; justify-content:center; color:var(--ink-muted); border-color:var(--border-subtle); padding:0.55rem;">
                 Đóng Cửa Sổ
             </button>
         </div>
