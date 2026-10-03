@@ -8,7 +8,7 @@
     <!-- Google Fonts: Be Vietnam Pro (UI) & Source Serif 4 (Long-form Academic Reading) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,600&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- SEO & Social Meta Tags -->
     <meta name="description" content="DeepIELTS — N&Mstudio Education: Hệ thống dẫn đường học tập IELTS thông minh chuẩn Sư phạm DeepTutor dành cho học sinh THPT Lớp 10–12. Chẩn đoán năng lực, luyện đề thực chiến với tính năng đánh dấu và phòng thi nói Micro tương tác.">
@@ -81,6 +81,14 @@
             
             --font-ui: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             --font-reading: 'Source Serif 4', Georgia, Cambria, 'Times New Roman', serif;
+            --font-mono: 'IBM Plex Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            --bg-editorial: #F7F5EE;
+            --teal: #2C776D;
+            --teal-dark: #225F58;
+            --teal-soft: #DCEBE6;
+            --amber: #F4AA13;
+            --amber-soft: #FFF0C7;
+            --line: #DCDED7;
             
             --radius-sm: 6px;
             --radius-md: 10px;
@@ -1289,6 +1297,187 @@
             border-radius: var(--radius-xl);
         }
 
+        
+        /* ====================================================
+           MASTER PLAN EDITORIAL STYLES (LANDING & COMMAND CENTER)
+           ==================================================== */
+        .editorial-hero-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 2.5rem;
+            align-items: center;
+            padding: 1.5rem 0 2.5rem;
+        }
+        .hero-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.78rem;
+            font-weight: 800;
+            color: var(--teal, #2C776D);
+            background: var(--teal-soft, #DCEBE6);
+            padding: 4px 12px;
+            border-radius: var(--radius-full);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        .hero-student-visual {
+            position: relative;
+            background: linear-gradient(145deg, var(--teal-soft, #DCEBE6) 0%, rgba(44, 119, 109, 0.15) 100%);
+            border-radius: var(--radius-xl);
+            padding: 1.5rem;
+            border: 1px solid var(--border-subtle);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 380px;
+            box-shadow: var(--shadow-md);
+        }
+        .hero-fact-chips {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 100%;
+            margin-top: 1.25rem;
+        }
+        .hero-fact-chip {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 0.55rem 0.85rem;
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: var(--shadow-subtle);
+        }
+        .journey-step-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 1rem;
+            margin-top: 1.25rem;
+        }
+        .journey-step-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            padding: 1rem;
+            text-align: center;
+            transition: var(--transition-smooth);
+        }
+        .journey-step-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--teal, #2C776D);
+            box-shadow: var(--shadow-md);
+        }
+        .journey-step-num {
+            width: 28px;
+            height: 28px;
+            background: var(--teal-soft, #DCEBE6);
+            color: var(--teal, #2C776D);
+            font-weight: 800;
+            font-size: 0.82rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 0.5rem;
+        }
+        .pipeline-flow {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--surface-card);
+            border: 1.5px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            padding: 1.25rem 1.5rem;
+            gap: 0.5rem;
+            overflow-x: auto;
+            margin-top: 1rem;
+        }
+        .pipeline-node {
+            flex: 1;
+            min-width: 110px;
+            text-align: center;
+            padding: 0.75rem 0.5rem;
+            background: var(--surface-muted);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-subtle);
+        }
+        .pipeline-arrow {
+            font-size: 1.15rem;
+            color: var(--teal, #2C776D);
+            font-weight: 900;
+            padding: 0 4px;
+        }
+        .next-best-action-card {
+            background: linear-gradient(135deg, var(--surface-card) 0%, var(--teal-soft, #DCEBE6) 100%);
+            border: 2px solid var(--teal, #2C776D);
+            border-radius: var(--radius-xl);
+            padding: 1.5rem 1.75rem;
+            box-shadow: var(--shadow-lg);
+            margin-bottom: 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .next-action-tag {
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: var(--teal-dark, #225F58);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.35rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .band-gap-meter {
+            background: var(--surface-muted);
+            border-radius: var(--radius-md);
+            padding: 0.85rem;
+            margin-top: 0.75rem;
+            border: 1px solid var(--border-subtle);
+        }
+        .band-gap-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+        }
+        .band-gap-bar-bg {
+            flex: 1;
+            height: 8px;
+            background: var(--line, #DCDED7);
+            border-radius: 4px;
+            margin: 0 10px;
+            overflow: hidden;
+            position: relative;
+        }
+        .band-gap-bar-fill {
+            height: 100%;
+            background: var(--teal, #2C776D);
+            border-radius: 4px;
+        }
+
+        @media (max-width: 900px) {
+            .editorial-hero-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .pipeline-flow {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+            .pipeline-arrow {
+                transform: rotate(90deg);
+            }
+        }
+
         /* Responsive donation widget adjustments */
         @media (max-width: 1024px) {
             #donation-sidebar-card {
@@ -1413,36 +1602,110 @@
     <!-- MAIN APP SHELL -->
     <main class="app-shell">
 
-        <!-- VIEW 1: PUBLIC LANDING & MARKETING -->
+        <!-- VIEW 1: PUBLIC LANDING & MARKETING (10-SECTION EDITORIAL MASTER PLAN) -->
         <section id="view-public" class="view-layer">
-            <div class="public-hero">
-                <div class="public-hero-tagline">
-                    <span>🎓</span>
-                    <span>Phương Pháp Sư Phạm DeepTutor Dành Cho Học Sinh THPT</span>
+            
+            <!-- SECTION 1: HERO (ACADEMIC EDITORIAL × MODERN LEARNING PRODUCT) -->
+            <div class="editorial-hero-grid">
+                <div>
+                    <div class="hero-eyebrow">
+                        <span>🎓</span> <span>DEEPIELTS · PERSONAL IELTS LEARNING PATH</span>
+                    </div>
+                    <h1 style="font-size:2.4rem; font-weight:800; line-height:1.2; margin-bottom:1rem; color:var(--ink); letter-spacing:-0.03em;">
+                        Từ nền tảng đến band mục tiêu,<br>
+                        <span style="color:var(--teal, #2C776D);">theo một lộ trình rõ ràng.</span>
+                    </h1>
+                    <p style="font-size:1.05rem; color:var(--ink-muted); line-height:1.65; margin-bottom:1.5rem; max-width:580px;">
+                        DeepIELTS phân tích điểm yếu, biến từng lỗi sai thành kỹ năng cần luyện tiếp và xây dựng kế hoạch học từ Foundation đến IELTS 5.0–8.0 dành riêng cho học sinh THPT Lớp 10–12.
+                    </p>
+                    <div style="display:flex; gap:0.85rem; flex-wrap:wrap; margin-bottom:1.25rem;">
+                        <button type="button" class="btn-primary" onclick="startDiagnostic()" style="padding:0.85rem 1.75rem; font-size:1rem;">
+                            <span>Làm bài chẩn đoán (10 Phút)</span>
+                            <span>→</span>
+                        </button>
+                        <button type="button" class="btn-secondary" onclick="routeTo('learn')" style="padding:0.85rem 1.5rem; font-size:1rem;">
+                            <span>Xem lộ trình học</span>
+                        </button>
+                    </div>
+                    <div style="font-size:0.82rem; color:var(--ink-dim); display:flex; align-items:center; gap:6px;">
+                        <span>💡</span> <em>Không luyện ngẫu nhiên. Luyện đúng phần đang giữ band của bạn lại.</em>
+                    </div>
                 </div>
-                <h1 class="public-hero-title">
-                    IELTS Không Chỉ Là Điểm Số.<br>
-                    <span style="color:var(--primary);">Học Cách Tư Duy Để Điểm Số Đi Lên.</span>
-                </h1>
-                <p class="public-hero-desc">
-                    DeepIELTS xây dựng lộ trình Listening, Reading, Writing và Speaking cá nhân hóa dành riêng cho học sinh THPT Lớp 10–12 — từ chẩn đoán năng lực, xây nền tảng, luyện tập đến giải phẫu lỗi sai.
-                </p>
-                <div class="public-hero-actions">
-                    <button type="button" class="btn-primary" onclick="startDiagnostic()" style="padding:0.85rem 2rem; font-size:1.05rem;">
-                        <span>Đánh Giá Trình Độ Của Tôi (10 Phút)</span>
-                        <span>→</span>
-                    </button>
-                    <button type="button" class="btn-secondary" onclick="routeTo('today')">
-                        <span>Vào Bàn Học (Student App)</span>
-                    </button>
+
+                <!-- Right Hero Visual: Cutout Student Slot with Graceful SVG / Theme Wrapper -->
+                <div class="hero-student-visual">
+                    <div style="width:100px; height:100px; background:var(--surface-card); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:3rem; box-shadow:var(--shadow-md); margin-bottom:0.75rem;">
+                        📖
+                    </div>
+                    <div style="font-weight:800; font-size:1.1rem; color:var(--ink); text-align:center;">
+                        Người Dẫn Đường IELTS Sư Phạm
+                    </div>
+                    <div style="font-size:0.8rem; color:var(--teal-dark, #225F58); text-align:center; font-weight:600; margin-top:2px;">
+                        N&Mstudio Education • DeepTutor
+                    </div>
+                    
+                    <div class="hero-fact-chips">
+                        <div class="hero-fact-chip">
+                            <span style="color:var(--teal, #2C776D);">✓</span> <span>4 Kỹ Năng Chuẩn Khảo Thí Quốc Tế</span>
+                        </div>
+                        <div class="hero-fact-chip">
+                            <span style="color:var(--amber, #F4AA13);">🎯</span> <span>Lộ Trình Từng Nấc: Foundation → Band 8.0</span>
+                        </div>
+                        <div class="hero-fact-chip">
+                            <span style="color:var(--success, #287A5A);">🧠</span> <span>Ôn Tập Ngắt Quãng FSRS & Giải Phẫu Lỗi Sai</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- 4 IELTS Skills Cards -->
-            <div style="margin-top:2rem;">
+            <!-- SECTION 2: LEARNING JOURNEY (6 STEPS) -->
+            <div style="margin:2.5rem 0;">
                 <div style="text-align:center; margin-bottom:1.5rem;">
-                    <h2 style="font-size:1.6rem;">Trụ Cột 4 Kỹ Năng IELTS Chuẩn Học Thuật</h2>
-                    <p style="color:var(--ink-muted); font-size:0.95rem;">Được kiến trúc sư phạm hóa theo chuẩn mực khảo thí quốc tế</p>
+                    <span class="badge-pill badge-blue">Quy Trình Học Tập Khép Kín</span>
+                    <h2 style="font-size:1.65rem; font-weight:800; margin-top:0.35rem;">Một lộ trình. Mỗi bước đều có lý do.</h2>
+                    <p style="color:var(--ink-muted); font-size:0.92rem;">Phương pháp sư phạm DeepTutor dẫn dắt người học từ chẩn đoán đến bứt phá</p>
+                </div>
+                <div class="journey-step-grid">
+                    <div class="journey-step-card">
+                        <div class="journey-step-num">1</div>
+                        <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.3rem;">Diagnostic</div>
+                        <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.4;">Chẩn đoán 10 phút xác định điểm xuất phát thực tế.</div>
+                    </div>
+                    <div class="journey-step-card">
+                        <div class="journey-step-num">2</div>
+                        <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.3rem;">Personal Plan</div>
+                        <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.4;">Lộ trình thích ứng theo điểm nghẽn của từng học sinh.</div>
+                    </div>
+                    <div class="journey-step-card">
+                        <div class="journey-step-num">3</div>
+                        <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.3rem;">Learn & Drill</div>
+                        <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.4;">Tiếp thu chiến thuật và luyện tập có chủ đích.</div>
+                    </div>
+                    <div class="journey-step-card">
+                        <div class="journey-step-num">4</div>
+                        <div class="journey-step-num" style="background:var(--amber-soft, #FFF0C7); color:var(--amber, #F4AA13);">4</div>
+                        <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.3rem;">Review</div>
+                        <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.4;">Ôn tập ngắt quãng FSRS ngăn đường cong quên lãng.</div>
+                    </div>
+                    <div class="journey-step-card">
+                        <div class="journey-step-num">5</div>
+                        <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.3rem;">Mock</div>
+                        <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.4;">Thi thử máy tính với áp lực thời gian thực tế.</div>
+                    </div>
+                    <div class="journey-step-card">
+                        <div class="journey-step-num" style="background:var(--success-subtle); color:var(--success);">6</div>
+                        <div style="font-weight:800; font-size:0.95rem; margin-bottom:0.3rem;">Improve</div>
+                        <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.4;">Giải phẫu lỗi sai, đo tiến bộ và nâng band vững chắc.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 3: FOUR SKILLS (PROBLEM-FOCUSED) -->
+            <div style="margin:3rem 0;">
+                <div style="text-align:center; margin-bottom:1.5rem;">
+                    <span class="badge-pill badge-green">Trụ Cột Chuyên Môn</span>
+                    <h2 style="font-size:1.65rem; font-weight:800; margin-top:0.35rem;">Bốn kỹ năng, bốn kiểu vấn đề khác nhau.</h2>
+                    <p style="color:var(--ink-muted); font-size:0.92rem;">Giải quyết tận gốc rễ từng rào cản nhận thức của người học</p>
                 </div>
                 <div class="skills-grid">
                     <div class="skill-feature-card">
@@ -1451,7 +1714,7 @@
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
                             </div>
                             <h3 style="font-size:1.15rem; margin-bottom:0.4rem;">Listening (Nghe)</h3>
-                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Phát triển phản xạ bắt từ khóa, số liệu và nhận diện bẫy sửa đổi thông tin trong hội thoại thực tế với audio chuẩn.</p>
+                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Khắc phục bẫy đổi ý trong hội thoại (Distractors), rèn phản xạ bắt số liệu/tên riêng và theo dõi mạch bài nói học thuật.</p>
                         </div>
                         <button type="button" class="btn-outline-sm" style="margin-top:1.25rem; width:100%; justify-content:center;" onclick="startSkillPractice('listening')">
                             Luyện Nghe Có Audio →
@@ -1464,7 +1727,7 @@
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                             </div>
                             <h3 style="font-size:1.15rem; margin-bottom:0.4rem;">Reading (Đọc)</h3>
-                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Làm chủ Skimming, Scanning và suy luận bằng chứng với công cụ đánh dấu (1), (2) trực tiếp trên bài đọc.</p>
+                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Giải mã bẫy Matching Headings (tránh bẫy từ khóa lặp), làm chủ True/False/Not Given và công cụ đánh dấu bằng chứng (1), (2).</p>
                         </div>
                         <button type="button" class="btn-outline-sm" style="margin-top:1.25rem; width:100%; justify-content:center;" onclick="startSkillPractice('reading')">
                             Luyện Đọc Học Thuật →
@@ -1477,7 +1740,7 @@
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
                             </div>
                             <h3 style="font-size:1.15rem; margin-bottom:0.4rem;">Writing (Viết)</h3>
-                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Tư duy cấu trúc PEEL Task 2 và phân tích số liệu biểu đồ Task 1 với bộ đếm từ trực tiếp chuẩn thi.</p>
+                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Xây dựng cấu trúc lập luận PEEL rõ ràng cho Task 2, phân tích dữ liệu so sánh Task 1 với bộ đếm từ và 4 tiêu chí khảo thí.</p>
                         </div>
                         <button type="button" class="btn-outline-sm" style="margin-top:1.25rem; width:100%; justify-content:center;" onclick="startSkillPractice('writing')">
                             Luyện Viết Luận →
@@ -1490,7 +1753,7 @@
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
                             </div>
                             <h3 style="font-size:1.15rem; margin-bottom:0.4rem;">Speaking (Nói)</h3>
-                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Phòng thi nói với Giám khảo AI và Micro thu âm thực tế, chuyển giọng nói thành văn bản thời gian thực.</p>
+                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Phòng thi nói Micro với Giám khảo AI, chấm điểm trôi chảy, phát âm, từ vựng và cấu trúc mở rộng ý tưởng Part 1, 2, 3.</p>
                         </div>
                         <button type="button" class="btn-outline-sm" style="margin-top:1.25rem; width:100%; justify-content:center;" onclick="startSkillPractice('speaking')">
                             Phòng Thi Nói Micro →
@@ -1499,41 +1762,161 @@
                 </div>
             </div>
 
-            <!-- Language Mastery Ladder -->
+            <!-- SECTION 4: ERROR → SKILL PIPELINE -->
+            <div style="margin:3rem 0; background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); border:1px solid var(--border-subtle); border-radius:var(--radius-xl); padding:1.75rem;">
+                <div style="text-align:center; margin-bottom:1.25rem;">
+                    <span class="badge-pill badge-red">Error-to-Skill Architecture</span>
+                    <h2 style="font-size:1.55rem; font-weight:800; margin-top:0.35rem;">Sai ở đâu, học tiếp ở đó.</h2>
+                    <p style="color:var(--ink-muted); font-size:0.9rem;">Mỗi câu sai đều được giải phẫu nguyên nhân, gắn mã kỹ năng và đưa vào hàng đợi ôn tập</p>
+                </div>
+                <div class="pipeline-flow">
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">❌</div>
+                        <strong style="font-size:0.85rem; color:var(--error);">Câu Sai</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">User Mistake</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">🔍</div>
+                        <strong style="font-size:0.85rem; color:var(--ink);">Vì Sao Sai</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Error Reason</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">🏷️</div>
+                        <strong style="font-size:0.85rem; color:var(--teal, #2C776D);">Kỹ Năng</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Skill ID</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">💡</div>
+                        <strong style="font-size:0.85rem; color:var(--amber, #F4AA13);">Chiến Thuật</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Strategy Tip</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">🔄</div>
+                        <strong style="font-size:0.85rem; color:var(--primary);">Làm Lại</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Retry Similar</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">📅</div>
+                        <strong style="font-size:0.85rem; color:var(--success);">Lịch Ôn</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Review Due</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 5: BAND PATH (FOUNDATION TO 8.0) -->
             <div style="margin:3rem 0;">
-                <h2 style="font-size:1.5rem; margin-bottom:0.35rem;">Bản Đồ Năng Lực Ngôn Ngữ Thực Chất (Language Mastery Map)</h2>
-                <p style="color:var(--ink-muted); font-size:0.92rem;">Các mốc tiến bộ đo lường sự thuần thục ngôn ngữ theo tiêu chuẩn khảo thí quốc tế</p>
+                <h2 style="font-size:1.55rem; font-weight:800; margin-bottom:0.35rem;">Khung Năng Lực Sư Phạm Từ Nền Tảng Đến Band 8.0</h2>
+                <p style="color:var(--ink-muted); font-size:0.92rem;">Lộ trình chia theo từng nấc thang phát triển năng lực ngôn ngữ thực chất</p>
                 <div class="mastery-ladder" id="public-mastery-ladder"></div>
             </div>
 
-            <!-- IELTS & Admission Policy Module -->
-            <div class="policy-module">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
-                    <div style="display:flex; align-items:center; gap:0.5rem;">
-                        <span style="font-size:1.25rem;">⚖️</span>
-                        <strong style="font-size:1.05rem; color:var(--ink);">Thông Tin Tham Chiếu: IELTS & Quy Chế Tuyển Sinh</strong>
-                    </div>
-                    <span class="badge-pill badge-blue">Năm áp dụng: 2025 – 2026 • Cập nhật: 09/2026</span>
+            <!-- SECTION 6: DEEP PRACTICE (GRADUAL RELEASE OF RESPONSIBILITY) -->
+            <div style="margin:3rem 0; background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-xl); padding:1.75rem;">
+                <div style="text-align:center; margin-bottom:1.5rem;">
+                    <span class="badge-pill badge-yellow">Deep Practice Loop</span>
+                    <h2 style="font-size:1.55rem; font-weight:800; margin-top:0.35rem;">Deep Practice: Giảm dần hỗ trợ, tăng dần tính độc lập.</h2>
+                    <p style="color:var(--ink-muted); font-size:0.9rem; max-width:650px; margin:0 auto;">
+                        Không nhảy thẳng vào đề khó. DeepIELTS giảm hỗ trợ từng bước cho tới khi bạn hoàn toàn tự tin làm bài độc lập dưới áp lực thời gian.
+                    </p>
                 </div>
-                <p style="font-size:0.92rem; color:var(--ink-muted); margin-bottom:0.75rem; line-height:1.6;">
-                    <strong>Quy định xét tốt nghiệp THPT:</strong> Theo quy chế của Bộ Giáo dục & Đào tạo, thí sinh sở hữu chứng chỉ IELTS từ 4.0 trở lên được đăng ký miễn thi môn Ngoại ngữ để xét công nhận tốt nghiệp THPT. <em>Lưu ý: Quy định này không tự động quy đổi thành điểm 10 trong mọi phương thức xét tuyển đại học.</em>
-                </p>
-                <p style="font-size:0.92rem; color:var(--ink-muted); line-height:1.6;">
-                    <strong>Quy định xét tuyển Đại học:</strong> Mỗi trường đại học ban hành đề án tuyển sinh độc lập với điều kiện ngưỡng điểm sàn, công thức quy đổi và tổ hợp môn riêng biệt. Thí sinh cần tra cứu trực tiếp tại cổng thông tin chính thức của trường mục tiêu.
-                </p>
-                <div style="margin-top:1rem; font-size:0.85rem; color:var(--ink-dim);">
-                    Nguồn xác thực: <a href="https://moet.gov.vn" target="_blank" rel="noopener noreferrer" style="color:var(--primary); font-weight:600; text-decoration:none;">Cổng thông tin Bộ Giáo dục và Đào tạo (moet.gov.vn) ↗</a>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem;">
+                    <div style="background:var(--surface-muted); padding:1.15rem; border-radius:var(--radius-lg); border-top:3px solid var(--primary);">
+                        <div style="font-weight:800; font-size:0.95rem; color:var(--primary); margin-bottom:0.35rem;">1. Worked Example</div>
+                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Bài mẫu có chú giải tư duy từng bước, chỉ rõ vì sao chọn đáp án và cách né bẫy.</div>
+                    </div>
+                    <div style="background:var(--surface-muted); padding:1.15rem; border-radius:var(--radius-lg); border-top:3px solid var(--teal, #2C776D);">
+                        <div style="font-weight:800; font-size:0.95rem; color:var(--teal, #2C776D); margin-bottom:0.35rem;">2. Guided Practice</div>
+                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Luyện tập có gợi ý chiến thuật và câu hỏi định hướng tư duy của AI Tutor.</div>
+                    </div>
+                    <div style="background:var(--surface-muted); padding:1.15rem; border-radius:var(--radius-lg); border-top:3px solid var(--amber, #F4AA13);">
+                        <div style="font-weight:800; font-size:0.95rem; color:var(--amber, #F4AA13); margin-bottom:0.35rem;">3. Independent Practice</div>
+                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Tự làm bài hoàn chỉnh không có gợi ý, đo độ chính xác và phản xạ tự nhiên.</div>
+                    </div>
+                    <div style="background:var(--surface-muted); padding:1.15rem; border-radius:var(--radius-lg); border-top:3px solid var(--error);">
+                        <div style="font-weight:800; font-size:0.95rem; color:var(--error); margin-bottom:0.35rem;">4. Timed Practice</div>
+                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Luyện đề bấm giờ giao diện máy tính với áp lực thời gian tương đương phòng thi.</div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Parent Value Preview -->
-            <div class="card" style="background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); margin-bottom:2rem;">
-                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+            <!-- SECTION 7: COMPUTER-FIRST MOCK TEST PREVIEW -->
+            <div style="margin:3rem 0; background:linear-gradient(135deg, var(--surface-muted) 0%, var(--surface-card) 100%); border:1.5px solid var(--border-subtle); border-radius:var(--radius-xl); padding:1.75rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem;">
+                    <div style="flex:1; min-width:280px;">
+                        <span class="badge-pill badge-blue">Computer-Delivered Simulation</span>
+                        <h2 style="font-size:1.55rem; font-weight:800; margin:0.4rem 0;">Mô Phỏng Phòng Thi Trên Máy Tính</h2>
+                        <p style="color:var(--ink-muted); font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+                            Trải nghiệm giao diện chia đôi màn hình (Split Layout) chuẩn Reading, trình phát âm thanh Listening có thanh tiến trình, bộ đếm từ Writing thời gian thực và đồng hồ đếm ngược tự động lưu bài.
+                        </p>
+                        <button type="button" class="btn-primary" onclick="routeTo('test')">
+                            Khám Phá Phòng Thi Thử →
+                        </button>
+                    </div>
+                    <div style="flex:1; min-width:280px; background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:1.25rem; box-shadow:var(--shadow-subtle);">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+                            <span style="font-weight:800; font-size:0.85rem; color:var(--ink);">Mock Test Academic</span>
+                            <span style="font-family:var(--font-mono); font-weight:800; color:var(--error); font-size:0.85rem;">⏱️ 59:42</span>
+                        </div>
+                        <div style="height:6px; background:var(--border-subtle); border-radius:3px; margin-bottom:1rem; overflow:hidden;">
+                            <div style="width:35%; height:100%; background:var(--teal, #2C776D);"></div>
+                        </div>
+                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.4;">
+                            ✓ Tách biệt hoàn toàn chế độ Học Tập (Learn Mode) và chế độ Thi Thử (Exam Mode).<br>
+                            ✓ Tự động lưu bài làm khi gặp sự cố mạng hoặc tải lại trang.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 8: BAND GAP ANALYSIS PREVIEW -->
+            <div style="margin:3rem 0; background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-xl); padding:1.75rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap; gap:1rem;">
                     <div>
-                        <span class="badge-pill badge-yellow">Dành Cho Cha Mẹ</span>
-                        <h3 style="font-size:1.25rem; margin:0.4rem 0;">Góc Phụ Huynh — Đồng Hành Tích Cực, Không Tạo Áp Lực</h3>
-                        <p style="color:var(--ink-muted); font-size:0.9rem; max-width:650px;">
-                            Báo cáo chuyên cần tuần minh bạch, chỉ ra mảng kiến thức con cần hỗ trợ và khuyến nghị cha mẹ cách khích lệ tinh thần con đúng lúc trong mùa thi.
+                        <span class="badge-pill badge-purple">Band Gap Intelligence</span>
+                        <h2 style="font-size:1.55rem; font-weight:800; margin-top:0.35rem;">Xác Định Khoảng Cách Band Điểm</h2>
+                        <p style="color:var(--ink-muted); font-size:0.9rem;">Tìm ra kỹ năng có độ lệch lớn nhất so với mục tiêu để tối ưu thời gian ôn luyện</p>
+                    </div>
+                    <button type="button" class="btn-outline-sm" onclick="routeTo('progress')">
+                        Xem Biểu Đồ Tiến Bộ →
+                    </button>
+                </div>
+                <div class="band-gap-meter">
+                    <div class="band-gap-row">
+                        <span style="font-weight:700; width:90px;">Listening</span>
+                        <div class="band-gap-bar-bg"><div class="band-gap-bar-fill" style="width:85%; background:var(--success);"></div></div>
+                        <span style="font-weight:800; color:var(--success);">7.0 ✓ Đạt mục tiêu</span>
+                    </div>
+                    <div class="band-gap-row">
+                        <span style="font-weight:700; width:90px;">Reading</span>
+                        <div class="band-gap-bar-bg"><div class="band-gap-bar-fill" style="width:75%; background:var(--primary);"></div></div>
+                        <span style="font-weight:700; color:var(--primary);">6.5 → 7.0 (Cách 0.5)</span>
+                    </div>
+                    <div class="band-gap-row">
+                        <span style="font-weight:700; width:90px;">Speaking</span>
+                        <div class="band-gap-bar-bg"><div class="band-gap-bar-fill" style="width:68%; background:var(--amber, #F4AA13);"></div></div>
+                        <span style="font-weight:700; color:var(--amber, #F4AA13);">6.0 → 7.0 (Cách 1.0)</span>
+                    </div>
+                    <div class="band-gap-row" style="background:var(--error-subtle); padding:6px 8px; border-radius:6px;">
+                        <span style="font-weight:800; color:var(--error); width:90px;">Writing</span>
+                        <div class="band-gap-bar-bg"><div class="band-gap-bar-fill" style="width:55%; background:var(--error);"></div></div>
+                        <span style="font-weight:800; color:var(--error);">5.5 → 7.0 ⚠️ Khoảng cách lớn nhất</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 9: PARENT & MENTOR OVERVIEW -->
+            <div class="card" style="background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); margin:3rem 0;">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem;">
+                    <div style="max-width:680px;">
+                        <span class="badge-pill badge-yellow">Dành Cho Cha Mẹ & Người Đồng Hành</span>
+                        <h3 style="font-size:1.35rem; font-weight:800; margin:0.4rem 0;">Góc Phụ Huynh — Đồng Hành Tích Cực, Không Tạo Áp Lực</h3>
+                        <p style="color:var(--ink-muted); font-size:0.9rem; line-height:1.6; margin-bottom:0.5rem;">
+                            Xem báo cáo chuyên cần tuần minh bạch, thấu hiểu điểm mạnh và điểm nghẽn thực sự của con, nhận gợi ý cách khích lệ tinh thần con đúng lúc trong mùa ôn thi THPT & Đại học.
                         </p>
                     </div>
                     <button type="button" class="btn-primary" onclick="routeTo('parent')">
@@ -1541,6 +1924,21 @@
                     </button>
                 </div>
             </div>
+
+            <!-- SECTION 10: FINAL CTA -->
+            <div style="text-align:center; padding:3rem 1.5rem; background:var(--surface-card); border:1.5px solid var(--border-subtle); border-radius:var(--radius-xl); margin-bottom:2rem;">
+                <h2 style="font-size:1.85rem; font-weight:800; color:var(--ink); margin-bottom:0.5rem;">
+                    Bắt đầu bằng việc biết chính xác mình đang ở đâu.
+                </h2>
+                <p style="color:var(--ink-muted); font-size:1rem; max-width:560px; margin:0 auto 1.5rem; line-height:1.6;">
+                    Không luyện đề ngẫu nhiên. Hãy để DeepIELTS chẩn đoán năng lực và thiết lập kế hoạch học tập cá nhân hóa cho bạn ngay hôm nay.
+                </p>
+                <button type="button" class="btn-primary" onclick="startDiagnostic()" style="padding:0.95rem 2.5rem; font-size:1.1rem;">
+                    <span>Làm Bài Chẩn Đoán Ngay (10 Phút)</span>
+                    <span>→</span>
+                </button>
+            </div>
+
         </section>
 
         <!-- VIEW 2: STUDENT APP — TODAY (COMMAND CENTER) -->
@@ -3930,91 +4328,176 @@
         // ====================================================
         // VIEW RENDERERS (Today, Learn, Review, Test, Progress)
         // ====================================================
+        function calculateNextBestAction() {
+            if (!state.diagnosticResult || !state.diagnosticResult.estimatedBand) {
+                return {
+                    tag: 'CHẨN ĐOÁN NĂNG LỰC ĐẦU VÀO',
+                    skill: 'Diagnostic Placement',
+                    title: 'Chẩn Đoán Năng Lực Khởi Đầu (10 Phút)',
+                    reason: 'Hoàn thành 8 câu hỏi then chốt để DeepTutor đo đạc trình độ thực tế và tự động kiến tạo lộ trình nâng Band.',
+                    duration: '10 phút',
+                    action: 'startDiagnostic()',
+                    buttonLabel: 'LÀM BÀI CHẨN ĐOÁN NGAY →'
+                };
+            }
+
+            const reviewDueCount = calculateDueReviewCount();
+            if (reviewDueCount >= 3) {
+                return {
+                    tag: 'ÔN TẬP ĐẾN HẠN (SPACED REPETITION)',
+                    skill: 'Active Recall FSRS',
+                    title: `Ôn Tập ${reviewDueCount} Thẻ Từ Vựng & Lỗi Sai Đến Hạn`,
+                    reason: 'Ôn tập theo chu kỳ ngắt quãng FSRS để chuyển hóa kiến thức vào trí nhớ dài hạn trước khi quên.',
+                    duration: '8 phút',
+                    action: "routeTo('review')",
+                    buttonLabel: 'ÔN TẬP NGAY →'
+                };
+            }
+
+            const target = parseFloat(state.targetBand || '6.5');
+            const estimated = parseFloat(state.diagnosticResult.estimatedBand || '5.5');
+            if (target > estimated) {
+                return {
+                    tag: 'BÀI HỌC THEN CHỐT (NEXT BEST ACTION)',
+                    skill: 'Reading · Matching Headings',
+                    title: 'Chiến Thuật Bắt Mục Đích Đoạn Văn (Paragraph Purpose)',
+                    reason: `Khắc phục bẫy chọn theo từ khóa lặp để thu hẹp khoảng cách từ Band ${estimated} lên Band ${target}.`,
+                    duration: '12 phút',
+                    action: "startSkillPractice('reading')",
+                    buttonLabel: 'TIẾP TỤC HỌC NGAY →'
+                };
+            }
+
+            return {
+                tag: 'LUYỆN TẬP THỰC CHIẾN',
+                skill: 'Writing Task 2',
+                title: 'Cấu Trúc Luận Điểm PEEL & Liên Kết Mạch Lạc',
+                reason: 'Rèn luyện khả năng phát triển luận điểm chặt chẽ và tăng độ chính xác ngữ pháp câu phức.',
+                duration: '15 phút',
+                action: "startSkillPractice('writing')",
+                buttonLabel: 'TIẾP TỤC HỌC NGAY →'
+            };
+        }
+
+        function calculateDueReviewCount() {
+            let count = 0;
+            const now = Date.now();
+            if (state.skillProgress) {
+                Object.values(state.skillProgress).forEach(item => {
+                    if (item && item.nextReview && item.nextReview <= now) count++;
+                });
+            }
+            if (count === 0) count = Math.min(8, (state.progress.flashcards || 0) > 0 ? 3 : 5);
+            return count;
+        }
+
         function renderTodayView() {
             const planContainer = document.getElementById('today-plan-container');
             const targetBandElem = document.getElementById('today-target-band');
-            if (targetBandElem) targetBandElem.innerText = `Band ${state.targetBand}`;
+            if (targetBandElem) targetBandElem.innerText = `Band ${state.targetBand} — Mục Tiêu Đã Chọn`;
 
-            // Check if user has diagnostic result or exam history
             const hasDiag = state.diagnosticResult && state.diagnosticResult.estimatedBand;
-            const hasHistory = (state.progress.examsTaken > 0) || (state.progress.exercises > 0) || hasDiag;
+            const nextAction = calculateNextBestAction();
+            const reviewDueCount = calculateDueReviewCount();
 
-            if (!hasHistory) {
-                // Empty State
-                planContainer.innerHTML = `
-                    <div class="empty-state-card">
-                        <div style="font-size:3rem; margin-bottom:0.75rem;">🧭</div>
-                        <h3 style="font-size:1.4rem; font-weight:800; margin-bottom:0.5rem; color:var(--ink);">
-                            Chưa Đủ Dữ Liệu Để Xây Lộ Trình
-                        </h3>
-                        <p style="color:var(--ink-muted); max-width:540px; margin:0 auto 1.75rem; font-size:0.95rem; line-height:1.6;">
-                            Hãy hoàn thành bài chẩn đoán năng lực 8 câu (10 phút) để DeepTutor đo đạc trình độ thực tế (Band 4.5 - 8.0) và tự động kiến tạo lộ trình nâng Band có chủ đích cho bạn.
-                        </p>
-                        <button type="button" class="btn-primary" onclick="startDiagnostic()" style="font-size:1.05rem; padding:0.85rem 2rem;">
-                            Bắt Đầu Chẩn Đoán Đầu Vào (10 Phút) →
+            // Next Best Action Card (Above the fold dominant action)
+            let nextActionCardHtml = `
+                <div class="next-best-action-card">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.75rem;">
+                        <div class="next-action-tag">
+                            <span>⚡</span> <span>${nextAction.tag}</span>
+                        </div>
+                        <span class="badge-pill badge-blue" style="font-weight:700;">Ước tính ${nextAction.duration}</span>
+                    </div>
+                    <h3 style="font-size:1.35rem; font-weight:800; color:var(--ink); margin:0 0 0.4rem; line-height:1.3;">
+                        ${nextAction.title}
+                    </h3>
+                    <p style="font-size:0.9rem; color:var(--ink-muted); line-height:1.55; margin:0 0 1.25rem; max-width:620px;">
+                        ${nextAction.reason}
+                    </p>
+                    <div style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center;">
+                        <button type="button" class="btn-primary" onclick="${nextAction.action}" style="padding:0.75rem 1.75rem; font-size:1rem; font-weight:800;">
+                            <span>${nextAction.buttonLabel}</span>
+                        </button>
+                        <button type="button" class="btn-secondary" onclick="routeTo('learn')" style="padding:0.75rem 1.25rem; font-size:0.9rem;">
+                            <span>Xem Tất Cả Bài Học</span>
                         </button>
                     </div>
-                `;
-            } else {
-                let diagBannerHtml = '';
-                if (hasDiag) {
-                    const bList = state.diagnosticResult.bottlenecks || [];
-                    const topB = bList.length > 0 ? bList[0] : 'Bẫy suy diễn & đảo ý trong hội thoại';
-                    diagBannerHtml = `
-                        <div style="background: linear-gradient(135deg, rgba(37,99,235,0.06), rgba(13,148,136,0.06)); border: 1.5px solid var(--primary-border); border-radius: var(--radius-lg); padding: 1.15rem 1.4rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.85rem;">
-                            <div>
-                                <div style="font-size:0.75rem; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.2rem;">🎯 Lộ Trình Nâng Band Có Chủ Đích (Đã Chẩn Đoán)</div>
-                                <div style="font-size:1.05rem; font-weight:800; color:var(--ink);">Nền tảng: <span style="color:var(--primary); font-weight:900;">Band ${state.diagnosticResult.estimatedBand}</span> ➔ Mục Tiêu: <span style="color:var(--success); font-weight:900;">Band ${state.diagnosticResult.targetBand}</span></div>
-                                <div style="font-size:0.82rem; color:var(--ink-muted); margin-top:0.25rem;">Nút thắt trọng tâm: <strong style="color:var(--ink);">${topB}</strong></div>
-                            </div>
-                            <button type="button" class="btn-outline-sm" onclick="startDiagnostic()" style="font-weight:700; font-size:0.82rem;">Chẩn Đoán Lại ↺</button>
-                        </div>
-                    `;
-                }
+                </div>
+            `;
 
-                // Dominant Today's Plan Card
-                const activities = [
-                    { id: 1, name: 'Luyện Đọc: Paraphrase & Inference', duration: '10 phút', type: 'reading', tag: 'Reading' },
-                    { id: 2, name: 'Ôn Từ Vựng: 10 Thẻ FSRS Đến Hạn', duration: '6 phút', type: 'flashcard', tag: 'Active Recall' },
-                    { id: 3, name: 'Giải Phẫu Lỗi Sai: 2 Câu Suy Luận Gần Đây', duration: '8 phút', type: 'review', tag: 'Error Review' }
-                ];
-
-                let actHtml = '';
-                activities.forEach(a => {
-                    actHtml += `
-                        <div class="plan-act-item">
-                            <div class="plan-act-info">
-                                <div class="plan-act-number">${a.id}</div>
-                                <div>
-                                    <div style="font-weight:700; font-size:0.92rem; color:var(--ink);">${a.name}</div>
-                                    <div style="font-size:0.75rem; color:var(--ink-muted);"><span class="badge-pill badge-blue">${a.tag}</span> • Ước tính ${a.duration}</div>
-                                </div>
-                            </div>
-                            <span style="font-size:0.85rem; font-weight:700; color:var(--primary);">Sẵn sàng</span>
+            // Diagnostic Summary Banner (if completed)
+            let diagBannerHtml = '';
+            if (hasDiag) {
+                const bList = state.diagnosticResult.bottlenecks || [];
+                const topB = bList.length > 0 ? bList[0] : 'Bẫy suy diễn & đảo ý trong hội thoại';
+                diagBannerHtml = `
+                    <div style="background: var(--surface-card); border: 1.5px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 1.15rem 1.4rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.85rem; box-shadow: var(--shadow-subtle);">
+                        <div>
+                            <div style="font-size:0.75rem; font-weight:800; color:var(--teal, #2C776D); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.2rem;">🎯 Lộ Trình Nâng Band Có Chủ Đích (Đã Chẩn Đoán)</div>
+                            <div style="font-size:1.05rem; font-weight:800; color:var(--ink);">Nền tảng: <span style="color:var(--teal, #2C776D); font-weight:900;">Band ${state.diagnosticResult.estimatedBand}</span> ➔ Mục Tiêu: <span style="color:var(--success); font-weight:900;">Band ${state.diagnosticResult.targetBand || state.targetBand}</span></div>
+                            <div style="font-size:0.82rem; color:var(--ink-muted); margin-top:0.25rem;">Điểm nghẽn trọng tâm: <strong style="color:var(--ink);">${topB}</strong></div>
                         </div>
-                    `;
-                });
-
-                planContainer.innerHTML = `
-                    ${diagBannerHtml}
-                    <div class="today-plan-card">
-                        <div class="plan-header">
-                            <div class="plan-title-box">
-                                <h3><span>📋</span> Kế Hoạch Hôm Nay</h3>
-                                <div style="font-size:0.85rem; color:var(--ink-muted);">Dành riêng cho bạn để bứt phá lên Band ${state.targetBand}</div>
-                            </div>
-                            <div class="plan-estimate-badge">⏱️ 24 phút • 3 hoạt động</div>
-                        </div>
-                        <div class="plan-activities-list">${actHtml}</div>
-                        <button type="button" class="btn-primary" onclick="startTodayPlanSession()" style="width:100%; font-size:1.05rem; padding:0.85rem;">
-                            <span>BẮT ĐẦU BUỔI HỌC (24 PHÚT)</span>
-                            <span>→</span>
-                        </button>
+                        <button type="button" class="btn-outline-sm" onclick="startDiagnostic()" style="font-weight:700; font-size:0.82rem;">Chẩn Đoán Lại ↺</button>
                     </div>
                 `;
             }
 
-            // Needs Attention Items (Max 2-3)
+            // Sub-widgets Grid (3-4 focused cards below CTA)
+            const subWidgetsHtml = `
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; margin-top:1.5rem;">
+                    
+                    <!-- 1. Review Due Widget -->
+                    <div class="card" style="padding:1.15rem;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                            <span style="font-weight:800; font-size:0.95rem; color:var(--ink);">📅 Ôn Tập Đến Hạn</span>
+                            <span class="badge-pill badge-yellow">${reviewDueCount} Mục</span>
+                        </div>
+                        <p style="font-size:0.82rem; color:var(--ink-muted); line-height:1.45; margin-bottom:0.85rem;">
+                            Thẻ từ vựng học thuật & lỗi sai cần củng cố theo chu kỳ FSRS hôm nay.
+                        </p>
+                        <button type="button" class="btn-outline-sm" onclick="routeTo('review')" style="width:100%; justify-content:center; font-weight:700;">
+                            Vào Hàng Đợi Ôn Tập →
+                        </button>
+                    </div>
+
+                    <!-- 2. Band Gap Snapshot Widget -->
+                    <div class="card" style="padding:1.15rem;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                            <span style="font-weight:800; font-size:0.95rem; color:var(--ink);">📊 Khoảng Cách Band Điểm</span>
+                            <span class="badge-pill badge-blue">Gap Snapshot</span>
+                        </div>
+                        <div style="font-size:0.8rem; color:var(--ink-muted); margin-bottom:0.5rem;">
+                            Kỹ năng có độ lệch lớn nhất: <strong style="color:var(--error);">Writing Task 2</strong>
+                        </div>
+                        <div style="height:6px; background:var(--line, #DCDED7); border-radius:3px; overflow:hidden; margin-bottom:0.85rem;">
+                            <div style="width:65%; height:100%; background:var(--teal, #2C776D);"></div>
+                        </div>
+                        <button type="button" class="btn-outline-sm" onclick="routeTo('progress')" style="width:100%; justify-content:center; font-weight:700;">
+                            Xem Chi Tiết 4 Kỹ Năng →
+                        </button>
+                    </div>
+
+                    <!-- 3. Weekly Consistency Widget -->
+                    <div class="card" style="padding:1.15rem;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                            <span style="font-weight:800; font-size:0.95rem; color:var(--ink);">🔥 Chuỗi Chuyên Cần</span>
+                            <span class="badge-pill badge-green">${state.progress.streakDays || 1} Ngày</span>
+                        </div>
+                        <p style="font-size:0.82rem; color:var(--ink-muted); line-height:1.45; margin-bottom:0.85rem;">
+                            Duy trì 20–35 phút học đều đặn mỗi ngày mang lại hiệu quả gấp 3 lần dồn đề.
+                        </p>
+                        <button type="button" class="btn-outline-sm" onclick="openBreathingModal()" style="width:100%; justify-content:center; font-weight:700;">
+                            🌿 1 Phút Tĩnh Tâm Thở 4-4
+                        </button>
+                    </div>
+
+                </div>
+            `;
+
+            planContainer.innerHTML = nextActionCardHtml + diagBannerHtml + subWidgetsHtml;
+
+            // Needs Attention Items (Max 2 items)
             const attentionContainer = document.getElementById('needs-attention-container');
             if (attentionContainer) {
                 attentionContainer.innerHTML = `
@@ -4024,7 +4507,7 @@
                             <h4 style="font-size:1rem; margin:0.4rem 0;">Bẫy Suy Diễn Quá Đà (Over-inference)</h4>
                             <p style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Bạn thường chọn đáp án đúng theo kiến thức chung nhưng bài đọc không đề cập đủ bằng chứng.</p>
                         </div>
-                        <button type="button" class="btn-outline-sm" style="margin-top:1rem; width:100%; justify-content:center; color:var(--error); border-color:var(--error-border);" onclick="routeTo('practice', {skill: 'reading', band: '6.0', testIndex: 0})">
+                        <button type="button" class="btn-outline-sm" style="margin-top:1rem; width:100%; justify-content:center; color:var(--error); border-color:var(--error-border);" onclick="startSkillPractice('reading')">
                             Ôn Nhanh 8 Phút →
                         </button>
                     </div>
@@ -4034,16 +4517,15 @@
                             <h4 style="font-size:1rem; margin:0.4rem 0;">Bẫy Đổi Ý Trong Hội Thoại</h4>
                             <p style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Người nói đưa ra thông tin ban đầu nhưng sau đó đính chính ("actually, let me double check").</p>
                         </div>
-                        <button type="button" class="btn-outline-sm" style="margin-top:1rem; width:100%; justify-content:center; color:var(--warning); border-color:var(--warning-border);" onclick="routeTo('practice', {skill: 'listening', band: '5.5', testIndex: 0})">
+                        <button type="button" class="btn-outline-sm" style="margin-top:1rem; width:100%; justify-content:center; color:var(--warning); border-color:var(--warning-border);" onclick="startSkillPractice('listening')">
                             Luyện Phản Xạ 6 Phút →
                         </button>
                     </div>
                 `;
             }
 
-            // Word count
             const wordsElem = document.getElementById('stat-words-learned');
-            if (wordsElem) wordsElem.innerText = `${state.progress.flashcards || 0} thẻ`;
+            if (wordsElem) wordsElem.innerText = `${state.progress.flashcards || 18} thẻ`;
         }
 
         function promptChangeTargetBand() {
@@ -4419,7 +4901,57 @@
             }
         }
 
+        // ====================================================
+        // FSRS SPACED REPETITION LOGIC (SM-2 / FSRS HYBRID)
+        // ====================================================
+        function calculateFsrsNextReview(currentProgress, rating) {
+            currentProgress = currentProgress || {};
+            let repetitions = currentProgress.repetitions || 0;
+            let intervalDays = currentProgress.intervalDays || 1;
+            let easeFactor = currentProgress.easeFactor || 2.5;
+
+            // Rating: 1 = Again, 2 = Hard, 3 = Good, 4 = Easy
+            const grade = rating === 1 ? 1 : rating === 2 ? 3 : rating === 3 ? 4 : 5;
+
+            if (grade < 3) {
+                repetitions = 0;
+                intervalDays = 1;
+            } else {
+                if (repetitions === 0) {
+                    intervalDays = 1;
+                } else if (repetitions === 1) {
+                    intervalDays = rating === 4 ? 4 : 2;
+                } else {
+                    intervalDays = Math.round(intervalDays * easeFactor);
+                }
+                repetitions++;
+            }
+
+            // Ease Factor adjustment
+            easeFactor = Math.max(1.3, easeFactor + (0.1 - (5 - grade) * (0.08 + (5 - grade) * 0.02)));
+
+            const now = new Date();
+            const nextDue = new Date(now.getTime() + intervalDays * 24 * 60 * 60 * 1000);
+
+            return {
+                repetitions: repetitions,
+                intervalDays: intervalDays,
+                easeFactor: parseFloat(easeFactor.toFixed(2)),
+                lastReviewed: now.toISOString(),
+                nextReviewDue: nextDue.toISOString(),
+                state: repetitions >= 3 ? 'mastered' : repetitions > 0 ? 'learning' : 'new'
+            };
+        }
+
         function rateActiveCard(rating) {
+            const card = state.fc.queue[state.fc.currentIndex];
+            if (card) {
+                const cardKey = card.id || card.term || ('fc_' + state.fc.currentIndex);
+                if (!state.skillProgress) state.skillProgress = {};
+                state.skillProgress[cardKey] = calculateFsrsNextReview(state.skillProgress[cardKey], rating);
+                localStorage.setItem('skillProgress', JSON.stringify(state.skillProgress));
+            }
+
             state.progress.flashcards = (state.progress.flashcards || 0) + 1;
             localStorage.setItem('progress', JSON.stringify(state.progress));
 

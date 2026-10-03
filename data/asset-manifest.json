@@ -1,0 +1,41 @@
+{
+  "basePath": "/assets/deepielts/",
+  "assets": {
+    "heroStudent": {
+      "path": "hero/hero-student.png",
+      "aspectRatio": "4:5",
+      "alt": "Học sinh THPT ôn luyện IELTS với phương pháp Sư phạm DeepTutor",
+      "fallback": "abstract-editorial-teal"
+    },
+    "readingStudent": {
+      "path": "skills/reading-student.png",
+      "aspectRatio": "1:1",
+      "alt": "Kỹ năng IELTS Reading",
+      "fallback": "abstract-reading-badge"
+    },
+    "listeningStudent": {
+      "path": "skills/listening-student.png",
+      "aspectRatio": "1:1",
+      "alt": "Kỹ năng IELTS Listening",
+      "fallback": "abstract-listening-badge"
+    },
+    "writingStudent": {
+      "path": "skills/writing-student.png",
+      "aspectRatio": "1:1",
+      "alt": "Kỹ năng IELTS Writing",
+      "fallback": "abstract-writing-badge"
+    },
+    "speakingStudent": {
+      "path": "skills/speaking-student.png",
+      "aspectRatio": "1:1",
+      "alt": "Kỹ năng IELTS Speaking",
+      "fallback": "abstract-speaking-badge"
+    },
+    "teacherCoach": {
+      "path": "coach/teacher-coach.png",
+      "aspectRatio": "1:1",
+      "alt": "Thầy cô Cố vấn Học tập DeepTutor",
+      "fallback": "abstract-coach-badge"
+    }
+  }
+}

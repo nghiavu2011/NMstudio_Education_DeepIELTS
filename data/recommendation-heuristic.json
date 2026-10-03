@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "heuristic": {
+    "formula": "priority_score = band_gap_weight + recent_error_weight + review_due_weight + prerequisite_weight + exam_proximity_weight",
+    "weights": {
+      "band_gap_weight": 0.35,
+      "recent_error_weight": 0.25,
+      "review_due_weight": 0.20,
+      "prerequisite_weight": 0.10,
+      "exam_proximity_weight": 0.10
+    },
+    "rules_in_priority_order": [
+      {
+        "id": "RULE_1_DIAGNOSTIC_INCOMPLETE",
+        "condition": "user.diagnosticCompleted === false",
+        "action": "ROUTE_DIAGNOSTIC",
+        "label": "Hoàn tất đánh giá đầu vào (10 phút)"
+      },
+      {
+        "id": "RULE_2_OVERDUE_REVIEW",
+        "condition": "reviewDueCount > 0 && weakSkillMatchesReview",
+        "action": "ROUTE_REVIEW",
+        "label": "Ôn tập củng cố lỗi sai quá hạn"
+      },
+      {
+        "id": "RULE_3_PREREQUISITE_MISSING",
+        "condition": "activeTrackHasMissingPrerequisite",
+        "action": "ROUTE_PREREQUISITE",
+        "label": "Lấp lỗ hổng kiến thức nền tảng"
+      },
+      {
+        "id": "RULE_4_LARGEST_BAND_GAP",
+        "condition": "hasValidBandGap",
+        "action": "ROUTE_SKILL_GAP",
+        "label": "Luyện kỹ năng có độ lệch Band lớn nhất"
+      },
+      {
+        "id": "RULE_5_EXAM_PROXIMITY",
+        "condition": "daysToExam <= 14",
+        "action": "ROUTE_TIMED_MOCK",
+        "label": "Luyện đề thực chiến bấm giờ"
+      },
+      {
+        "id": "RULE_6_POST_MOCK_ERROR",
+        "condition": "recentMockCompleted",
+        "action": "ROUTE_ERROR_DRILL",
+        "label": "Khắc phục bẫy lỗi từ bài thi thử gần nhất"
+      }
+    ]
+  }
+}
