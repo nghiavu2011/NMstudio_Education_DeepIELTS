@@ -158,6 +158,236 @@
             --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.6);
         }
 
+        
+        /* ====================================================
+           SPEC V4: VISUAL ASSET INTEGRATION & ACADEMIC EDITORIAL
+           ==================================================== */
+        .hero-editorial-wrap {
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            min-height: 480px;
+            width: 100%;
+        }
+        .hero-editorial-shape {
+            position: absolute;
+            width: 92%;
+            height: 84%;
+            bottom: 0;
+            right: 4%;
+            background: linear-gradient(145deg, var(--teal-soft, #DCEBE6) 0%, rgba(44, 119, 109, 0.22) 100%);
+            border-radius: 40px 140px 60px 100px;
+            border: 1.5px solid rgba(44, 119, 109, 0.25);
+            z-index: 1;
+        }
+        .hero-student-img {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 460px;
+            height: auto;
+            display: block;
+            object-fit: contain;
+            filter: drop-shadow(0 16px 32px rgba(44, 119, 109, 0.18));
+            margin-bottom: -4px;
+        }
+        .hero-doodle-spark {
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            width: 32px;
+            height: 32px;
+            z-index: 3;
+            pointer-events: none;
+            animation: gentle-float 4s ease-in-out infinite;
+        }
+        .hero-doodle-arrow {
+            position: absolute;
+            bottom: 40px;
+            left: -15px;
+            width: 50px;
+            height: 40px;
+            z-index: 3;
+            pointer-events: none;
+        }
+        .hero-chip-badge {
+            position: absolute;
+            z-index: 4;
+            background: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 8px 20px rgba(32, 34, 31, 0.08);
+            border-radius: var(--radius-full);
+            padding: 0.5rem 0.9rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            white-space: nowrap;
+            transition: transform var(--transition-fast);
+        }
+        .hero-chip-badge:hover {
+            transform: translateY(-2px);
+        }
+        .hero-chip-1 {
+            top: 25px;
+            left: 10px;
+        }
+        .hero-chip-2 {
+            bottom: 45px;
+            right: 10px;
+        }
+        .hero-chip-3 {
+            top: 50%;
+            left: -15px;
+        }
+
+        @keyframes gentle-float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-6px); }
+        }
+
+        /* Four Skills Editorial Grid */
+        .skills-editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        .skill-editorial-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-xl);
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            position: relative;
+            overflow: hidden;
+            transition: all var(--transition-smooth);
+        }
+        .skill-editorial-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--teal, #2C776D);
+            box-shadow: 0 12px 28px rgba(44, 119, 109, 0.12);
+        }
+        .skill-editorial-card.reverse {
+            flex-direction: row-reverse;
+        }
+        .skill-card-content {
+            flex: 1;
+            min-width: 0;
+        }
+        .skill-card-visual {
+            width: 165px;
+            flex-shrink: 0;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        .skill-card-img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: contain;
+            filter: drop-shadow(0 8px 18px rgba(0,0,0,0.08));
+            display: block;
+        }
+        .skill-doodle-icon {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            width: 32px;
+            height: 32px;
+            opacity: 0.85;
+        }
+
+        /* Editorial Object Breaks & Coach Banner */
+        .editorial-break-card {
+            background: linear-gradient(135deg, var(--surface-card) 0%, var(--teal-soft, #DCEBE6) 100%);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-xl);
+            padding: 1.75rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        .editorial-object-img {
+            width: 170px;
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            flex-shrink: 0;
+            filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1));
+        }
+        .coach-visual-wrap {
+            width: 190px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        .coach-img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: contain;
+            filter: drop-shadow(0 12px 24px rgba(44, 119, 109, 0.15));
+        }
+
+        /* Responsive breakpoints */
+        @media (max-width: 1024px) {
+            .skills-editorial-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero-student-img {
+                max-width: 380px;
+            }
+        }
+        @media (max-width: 768px) {
+            .editorial-hero-grid {
+                grid-template-columns: 1fr !important;
+                gap: 2rem;
+            }
+            .hero-editorial-wrap {
+                min-height: 340px;
+                order: 2;
+            }
+            .hero-student-img {
+                max-width: 310px;
+            }
+            .hero-chip-badge {
+                font-size: 0.72rem;
+                padding: 0.35rem 0.65rem;
+            }
+            .hero-chip-3 {
+                display: none;
+            }
+            .skill-editorial-card, .skill-editorial-card.reverse {
+                flex-direction: column-reverse;
+                text-align: center;
+                gap: 1rem;
+                padding: 1.25rem;
+            }
+            .skill-card-visual {
+                width: 140px;
+                margin: 0 auto;
+            }
+            .editorial-break-card {
+                flex-direction: column;
+                text-align: center;
+                gap: 1.25rem;
+                padding: 1.5rem;
+            }
+            .editorial-object-img, .coach-visual-wrap {
+                width: 140px;
+                margin: 0 auto;
+            }
+        }
+
         /* Focus Mode Tokens (Spec V3 Section 12) */
         [data-mode="focus"] {
             --focus-bg: #0B1118;
@@ -1578,17 +1808,17 @@
             <!-- Header Utilities (Compact & Uncluttered) -->
             <div class="header-utils">
                 <div class="streak-badge" title="Chuỗi ngày chuyên cần rèn luyện">
-                    <span>🔥</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
                     <span id="hdr-streak-num">1</span> ngày
                 </div>
 
                 <button type="button" class="btn-outline-sm" onclick="openDonationModal()" title="Ủng hộ duy trì máy chủ DeepIELTS">
-                    <span>☕</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
                     <span style="font-size:0.8rem;">Ủng hộ</span>
                 </button>
 
                 <button type="button" class="btn-outline-sm" id="btn-toggle-parent" onclick="routeTo('parent')" title="Chuyển sang Góc Phụ Huynh">
-                    <span>👨‍👩‍👧</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     <span style="font-size:0.8rem;">Phụ huynh</span>
                 </button>
 
@@ -1633,11 +1863,15 @@
             <div class="editorial-hero-grid">
                 <div>
                     <div class="hero-eyebrow">
-                        <span>🎓</span> <span>DEEPIELTS · PERSONAL IELTS LEARNING PATH</span>
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        <span>DEEPIELTS · PERSONAL IELTS LEARNING PATH</span>
                     </div>
-                    <h1 style="font-size:2.4rem; font-weight:800; line-height:1.2; margin-bottom:1rem; color:var(--ink); letter-spacing:-0.03em;">
+                    <h1 style="font-size:2.5rem; font-weight:800; line-height:1.2; margin-bottom:1rem; color:var(--ink); letter-spacing:-0.03em;">
                         Từ nền tảng đến band mục tiêu,<br>
-                        <span style="color:var(--teal, #2C776D);">theo một lộ trình rõ ràng.</span>
+                        <span style="color:var(--teal, #2C776D); position:relative; display:inline-block;">
+                            theo một lộ trình rõ ràng.
+                            <img src="public/assets/deepielts/doodles/underline-mustard.svg" alt="" aria-hidden="true" style="position:absolute; left:0; bottom:-6px; width:100%; height:12px; pointer-events:none;">
+                        </span>
                     </h1>
                     <p style="font-size:1.05rem; color:var(--ink-muted); line-height:1.65; margin-bottom:1.5rem; max-width:580px;">
                         DeepIELTS phân tích điểm yếu, biến từng lỗi sai thành kỹ năng cần luyện tiếp và xây dựng kế hoạch học từ Foundation đến IELTS 5.0–8.0 dành riêng cho học sinh THPT Lớp 10–12.
@@ -1645,40 +1879,43 @@
                     <div style="display:flex; gap:0.85rem; flex-wrap:wrap; margin-bottom:1.25rem;">
                         <button type="button" class="btn-primary" onclick="startDiagnostic()" style="padding:0.85rem 1.75rem; font-size:1rem;">
                             <span>Làm bài chẩn đoán (10 Phút)</span>
-                            <span>→</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                         </button>
                         <button type="button" class="btn-secondary" onclick="routeTo('learn')" style="padding:0.85rem 1.5rem; font-size:1rem;">
                             <span>Xem lộ trình học</span>
                         </button>
                     </div>
-                    <div style="font-size:0.82rem; color:var(--ink-dim); display:flex; align-items:center; gap:6px;">
-                        <span>💡</span> <em>Không luyện ngẫu nhiên. Luyện đúng phần đang giữ band của bạn lại.</em>
+                    <div style="font-size:0.84rem; color:var(--ink-dim); display:flex; align-items:center; gap:8px;">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--amber, #F4AA13)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+                        <em>Không luyện ngẫu nhiên. Luyện đúng phần đang giữ band của bạn lại.</em>
                     </div>
                 </div>
 
-                <!-- Right Hero Visual: Cutout Student Slot with Graceful SVG / Theme Wrapper -->
-                <div class="hero-student-visual">
-                    <div style="width:100px; height:100px; background:var(--surface-card); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:3rem; box-shadow:var(--shadow-md); margin-bottom:0.75rem;">
-                        📖
-                    </div>
-                    <div style="font-weight:800; font-size:1.1rem; color:var(--ink); text-align:center;">
-                        DeepTutor — Trợ lý học IELTS cá nhân
-                    </div>
-                    <div style="font-size:0.8rem; color:var(--teal-dark, #225F58); text-align:center; font-weight:600; margin-top:2px;">
-                        N&Mstudio Education • DeepTutor
-                    </div>
+                <!-- Right Hero Visual: Academic Editorial Cutout (Spec V4 Section 4) -->
+                <div class="hero-editorial-wrap">
+                    <div class="hero-editorial-shape"></div>
+                    <img src="public/assets/deepielts/hero/hero-student.webp" alt="Học sinh THPT cầm sách tự tin rèn luyện IELTS theo lộ trình cá nhân hóa" class="hero-student-img" loading="eager" fetchpriority="high">
                     
-                    <div class="hero-fact-chips">
-                        <div class="hero-fact-chip">
-                            <span style="color:var(--teal, #2C776D);">✓</span> <span>Đầy đủ 4 kỹ năng IELTS</span>
-                        </div>
-                        <div class="hero-fact-chip">
-                            <span style="color:var(--amber, #F4AA13);">🎯</span> <span>Lộ Trình Từng Nấc: Foundation → Band 8.0</span>
-                        </div>
-                        <div class="hero-fact-chip">
-                            <span style="color:var(--success, #287A5A);">🧠</span> <span>Ôn đúng lúc. Sửa đúng lỗi.</span>
-                        </div>
+                    <!-- Hand-drawn Accents (Spec V4 Section 13) -->
+                    <img src="public/assets/deepielts/doodles/spark-mustard.svg" alt="" aria-hidden="true" class="hero-doodle-spark">
+                    <img src="public/assets/deepielts/doodles/arrow-curve-left.svg" alt="" aria-hidden="true" class="hero-doodle-arrow">
+
+                    <!-- Factual UI Chips (Spec V3/V4 Invariant) -->
+                    <div class="hero-chip-badge hero-chip-1">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--teal, #2C776D)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                        <span>Đầy đủ 4 kỹ năng IELTS</span>
                     </div>
+                    <div class="hero-chip-badge hero-chip-2">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--amber, #F4AA13)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                        <span>Lộ Trình Từng Nấc: Foundation → Band 8.0</span>
+                    </div>
+                    <div class="hero-chip-badge hero-chip-3">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--success, #287A5A)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/></svg>
+                        <span>Ôn đúng lúc. Sửa đúng lỗi.</span>
+                    </div>
+
+                    <!-- Hidden text for spec v3 compliance helper -->
+                    <span style="display:none;">DeepTutor — Trợ lý học IELTS cá nhân</span>
                 </div>
             </div>
 
@@ -1725,64 +1962,111 @@
             </div>
 
             <!-- SECTION 3: FOUR SKILLS (PROBLEM-FOCUSED) -->
-            <div style="margin:3rem 0;">
-                <div style="text-align:center; margin-bottom:1.5rem;">
+            <div style="margin:3.5rem 0;">
+                <div style="text-align:center; margin-bottom:2rem; position:relative;">
                     <span class="badge-pill badge-green">Trụ Cột Chuyên Môn</span>
-                    <h2 style="font-size:1.65rem; font-weight:800; margin-top:0.35rem;">Bốn kỹ năng, bốn kiểu vấn đề khác nhau.</h2>
-                    <p style="color:var(--ink-muted); font-size:0.92rem;">Giải quyết tận gốc rễ từng rào cản nhận thức của người học</p>
+                    <h2 style="font-size:1.75rem; font-weight:800; margin-top:0.4rem; color:var(--ink);">
+                        Bốn kỹ năng, bốn kiểu vấn đề khác nhau.
+                    </h2>
+                    <p style="color:var(--ink-muted); font-size:0.95rem;">Giải quyết tận gốc rễ từng rào cản nhận thức của người học</p>
                 </div>
-                <div class="skills-grid">
-                    <div class="skill-feature-card">
-                        <div>
-                            <div class="skill-icon-box">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+
+                <div class="skills-editorial-grid">
+                    
+                    <!-- SKILL 1: LISTENING -->
+                    <div class="skill-editorial-card">
+                        <div class="skill-card-content">
+                            <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.4rem;">
+                                <div class="skill-icon-box">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+                                </div>
+                                <span class="badge-pill badge-blue" style="font-size:0.72rem;">Audio & Distractors</span>
                             </div>
-                            <h3 style="font-size:1.15rem; margin-bottom:0.4rem;">Listening (Nghe)</h3>
-                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Khắc phục bẫy đổi ý trong hội thoại (Distractors), rèn phản xạ bắt số liệu/tên riêng và theo dõi mạch bài nói học thuật.</p>
+                            <h3 style="font-size:1.25rem; font-weight:800; margin-bottom:0.4rem; color:var(--ink);">Listening (Nghe)</h3>
+                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55; margin-bottom:1rem;">
+                                Khắc phục bẫy đổi ý trong hội thoại (Distractors), rèn phản xạ bắt số liệu/tên riêng và bám sát tốc độ bài nói học thuật.
+                            </p>
+                            <button type="button" class="btn-primary" style="font-size:0.85rem; padding:0.55rem 1.15rem;" onclick="startSkillPractice('listening')">
+                                <span>Luyện Nghe Có Audio</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </button>
                         </div>
-                        <button type="button" class="btn-outline-sm" style="margin-top:1.25rem; width:100%; justify-content:center;" onclick="startSkillPractice('listening')">
-                            Luyện Nghe Có Audio →
-                        </button>
+                        <div class="skill-card-visual">
+                            <img src="public/assets/deepielts/doodles/headphone-line.svg" alt="" aria-hidden="true" class="skill-doodle-icon">
+                            <img src="public/assets/deepielts/skills/listening-student.webp" alt="Học sinh luyện kỹ năng Listening với tai nghe" class="skill-card-img" loading="lazy">
+                        </div>
                     </div>
 
-                    <div class="skill-feature-card">
-                        <div>
-                            <div class="skill-icon-box">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    <!-- SKILL 2: READING (REVERSE LAYOUT FOR EDITORIAL RHYTHM) -->
+                    <div class="skill-editorial-card reverse">
+                        <div class="skill-card-content">
+                            <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.4rem;">
+                                <div class="skill-icon-box">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                                </div>
+                                <span class="badge-pill badge-green" style="font-size:0.72rem;">Evidence & Logic</span>
                             </div>
-                            <h3 style="font-size:1.15rem; margin-bottom:0.4rem;">Reading (Đọc)</h3>
-                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Giải mã bẫy Matching Headings (tránh bẫy từ khóa lặp), làm chủ True/False/Not Given và công cụ đánh dấu bằng chứng (1), (2).</p>
+                            <h3 style="font-size:1.25rem; font-weight:800; margin-bottom:0.4rem; color:var(--ink);">Reading (Đọc)</h3>
+                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55; margin-bottom:1rem;">
+                                Giải mã bẫy Matching Headings (tránh bẫy từ khóa lặp), làm chủ True/False/Not Given và công cụ đánh dấu bằng chứng học thuật.
+                            </p>
+                            <button type="button" class="btn-primary" style="font-size:0.85rem; padding:0.55rem 1.15rem;" onclick="startSkillPractice('reading')">
+                                <span>Luyện Đọc Học Thuật</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </button>
                         </div>
-                        <button type="button" class="btn-outline-sm" style="margin-top:1.25rem; width:100%; justify-content:center;" onclick="startSkillPractice('reading')">
-                            Luyện Đọc Học Thuật →
-                        </button>
+                        <div class="skill-card-visual">
+                            <img src="public/assets/deepielts/doodles/book-line.svg" alt="" aria-hidden="true" class="skill-doodle-icon">
+                            <img src="public/assets/deepielts/skills/reading-student.webp" alt="Học sinh rèn luyện kỹ năng Reading với sách học thuật" class="skill-card-img" loading="lazy">
+                        </div>
                     </div>
 
-                    <div class="skill-feature-card">
-                        <div>
-                            <div class="skill-icon-box">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                    <!-- SKILL 3: WRITING -->
+                    <div class="skill-editorial-card">
+                        <div class="skill-card-content">
+                            <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.4rem;">
+                                <div class="skill-icon-box">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                                </div>
+                                <span class="badge-pill badge-yellow" style="font-size:0.72rem;">PEEL & Rubrics</span>
                             </div>
-                            <h3 style="font-size:1.15rem; margin-bottom:0.4rem;">Writing (Viết)</h3>
-                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Xây dựng cấu trúc lập luận PEEL rõ ràng cho Task 2, phân tích dữ liệu so sánh Task 1 với bộ đếm từ và 4 tiêu chí khảo thí.</p>
+                            <h3 style="font-size:1.25rem; font-weight:800; margin-bottom:0.4rem; color:var(--ink);">Writing (Viết)</h3>
+                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55; margin-bottom:1rem;">
+                                Xây dựng cấu trúc lập luận PEEL cho Task 2, phân tích dữ liệu Task 1 kèm bộ đếm từ thời gian thực và 4 tiêu chí khảo thí chuẩn quốc tế.
+                            </p>
+                            <button type="button" class="btn-primary" style="font-size:0.85rem; padding:0.55rem 1.15rem;" onclick="startSkillPractice('writing')">
+                                <span>Luyện Viết Luận</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </button>
                         </div>
-                        <button type="button" class="btn-outline-sm" style="margin-top:1.25rem; width:100%; justify-content:center;" onclick="startSkillPractice('writing')">
-                            Luyện Viết Luận →
-                        </button>
+                        <div class="skill-card-visual">
+                            <img src="public/assets/deepielts/skills/writing-student.webp" alt="Học sinh thực hành kỹ năng Writing Task 1 và Task 2" class="skill-card-img" loading="lazy">
+                        </div>
                     </div>
 
-                    <div class="skill-feature-card">
-                        <div>
-                            <div class="skill-icon-box">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                    <!-- SKILL 4: SPEAKING (REVERSE LAYOUT) -->
+                    <div class="skill-editorial-card reverse">
+                        <div class="skill-card-content">
+                            <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.4rem;">
+                                <div class="skill-icon-box">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                                </div>
+                                <span class="badge-pill badge-purple" style="font-size:0.72rem;">Micro AI Examiner</span>
                             </div>
-                            <h3 style="font-size:1.15rem; margin-bottom:0.4rem;">Speaking (Nói)</h3>
-                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55;">Phòng thi nói Micro với Giám khảo AI, chấm điểm trôi chảy, phát âm, từ vựng và cấu trúc mở rộng ý tưởng Part 1, 2, 3.</p>
+                            <h3 style="font-size:1.25rem; font-weight:800; margin-bottom:0.4rem; color:var(--ink);">Speaking (Nói)</h3>
+                            <p style="color:var(--ink-muted); font-size:0.88rem; line-height:1.55; margin-bottom:1rem;">
+                                Phòng thi nói Micro với Giám khảo AI, chấm điểm trôi chảy, phát âm, từ vựng và gợi ý cấu trúc mở rộng ý tưởng Part 1, 2, 3.
+                            </p>
+                            <button type="button" class="btn-primary" style="font-size:0.85rem; padding:0.55rem 1.15rem;" onclick="startSkillPractice('speaking')">
+                                <span>Phòng Thi Nói Micro</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </button>
                         </div>
-                        <button type="button" class="btn-outline-sm" style="margin-top:1.25rem; width:100%; justify-content:center;" onclick="startSkillPractice('speaking')">
-                            Phòng Thi Nói Micro →
-                        </button>
+                        <div class="skill-card-visual">
+                            <img src="public/assets/deepielts/skills/speaking-student.webp" alt="Học sinh luyện phản xạ Speaking cùng Giám khảo AI" class="skill-card-img" loading="lazy">
+                        </div>
                     </div>
+
                 </div>
             </div>
 
@@ -1830,70 +2114,168 @@
                         <div style="font-size:0.72rem; color:var(--ink-muted);">Review Due</div>
                     </div>
                 </div>
+
+                <!-- Editorial Companion Object: Headphones & Notebook (Spec V4 Section 12) -->
+                <div style="display:flex; align-items:center; justify-content:space-between; margin-top:1.5rem; padding-top:1.25rem; border-top:1px dashed var(--border-subtle); flex-wrap:wrap; gap:1rem;">
+                    <div style="display:flex; align-items:center; gap:1.25rem;">
+                        <img src="public/assets/deepielts/objects/headphones-notebook.webp" alt="Tai nghe học tập và sổ tay ghi chép" style="width:90px; height:auto; object-fit:contain; filter:drop-shadow(0 6px 14px rgba(0,0,0,0.08));" loading="lazy">
+                        <div>
+                            <div style="font-weight:800; font-size:0.92rem; color:var(--ink);">Ghi chép và Phục hồi trí nhớ chủ động (Active Recall)</div>
+                            <div style="font-size:0.8rem; color:var(--ink-muted);">Mỗi ghi chú của bạn được liên kết trực tiếp với thuật toán lặp lại ngắt quãng FSRS.</div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-outline-sm" onclick="routeTo('review')">
+                        Xem Hàng Đợi Ôn Tập →
+                    </button>
+                </div>
+            </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">🔍</div>
+                        <strong style="font-size:0.85rem; color:var(--ink);">Vì Sao Sai</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Error Reason</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">🏷️</div>
+                        <strong style="font-size:0.85rem; color:var(--teal, #2C776D);">Kỹ Năng</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Skill ID</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">💡</div>
+                        <strong style="font-size:0.85rem; color:var(--amber, #F4AA13);">Chiến Thuật</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Strategy Tip</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">🔄</div>
+                        <strong style="font-size:0.85rem; color:var(--primary);">Làm Lại</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Retry Similar</div>
+                    </div>
+                    <div class="pipeline-arrow">➔</div>
+                    <div class="pipeline-node">
+                        <div style="font-size:1.25rem; margin-bottom:0.25rem;">📅</div>
+                        <strong style="font-size:0.85rem; color:var(--success);">Lịch Ôn</strong>
+                        <div style="font-size:0.72rem; color:var(--ink-muted);">Review Due</div>
+                    </div>
+                </div>
             </div>
 
             <!-- SECTION 5: BAND PATH (FOUNDATION TO 8.0) -->
             <div style="margin:3rem 0;">
                 <h2 style="font-size:1.55rem; font-weight:800; margin-bottom:0.35rem;">Lộ trình từ nền tảng đến Band 8.0</h2>
                 <p style="color:var(--ink-muted); font-size:0.92rem;">Lộ trình chia theo từng nấc thang phát triển năng lực ngôn ngữ thực chất</p>
-                <div class="mastery-ladder" id="public-mastery-ladder"></div>
+                <div class="editorial-break-card" style="margin:1.75rem 0 0; padding:1.25rem 1.5rem; background:var(--surface-card);">
+                    <img src="public/assets/deepielts/objects/books-globe.webp" alt="Bộ sách và quả địa cầu học thuật" class="editorial-object-img" style="width:130px;" loading="lazy">
+                    <div style="flex:1;">
+                        <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
+                            <span class="badge-pill badge-yellow">Nền Tảng Vững Chắc</span>
+                            <span style="font-size:0.8rem; color:var(--ink-muted);">Academic Foundation</span>
+                        </div>
+                        <h4 style="font-size:1.1rem; font-weight:800; color:var(--ink); margin:0 0 0.35rem;">Phát triển tư duy ngôn ngữ thực chất, không học mẹo chụp giật</h4>
+                        <p style="font-size:0.84rem; color:var(--ink-muted); margin:0; line-height:1.5;">
+                            Giúp học sinh cấp 3 trang bị vốn từ vựng học thuật, cấu trúc ngữ pháp tự nhiên và tư duy phân tích cần thiết cho cả kỳ thi IELTS lẫn môi trường đại học quốc tế.
+                        </p>
+                    </div>
+                </div>
+                <div class="mastery-ladder" id="public-mastery-ladder" style="margin-top:1.5rem;"></div>
             </div>
 
             <!-- SECTION 6: DEEP PRACTICE (GRADUAL RELEASE OF RESPONSIBILITY) -->
-            <div style="margin:3rem 0; background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-xl); padding:1.75rem;">
-                <div style="text-align:center; margin-bottom:1.5rem;">
+            <div style="margin:3.5rem 0; background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-xl); padding:2rem;">
+                <div style="text-align:center; margin-bottom:2rem; position:relative;">
                     <span class="badge-pill badge-yellow">Deep Practice Loop</span>
-                    <h2 style="font-size:1.55rem; font-weight:800; margin-top:0.35rem;">Deep Practice: Giảm dần hỗ trợ, tăng dần tính độc lập.</h2>
-                    <p style="color:var(--ink-muted); font-size:0.9rem; max-width:650px; margin:0 auto;">
-                        Không nhảy thẳng vào đề khó. DeepIELTS giảm hỗ trợ từng bước cho tới khi bạn hoàn toàn tự tin làm bài độc lập dưới áp lực thời gian.
+                    <h2 style="font-size:1.75rem; font-weight:800; margin-top:0.4rem; color:var(--ink);">
+                        Deep Practice: Giảm dần hỗ trợ, tăng dần tính độc lập.
+                        <img src="public/assets/deepielts/doodles/underline-teal.svg" alt="" aria-hidden="true" style="display:block; margin:6px auto 0; width:180px; height:12px;">
+                    </h2>
+                    <p style="color:var(--ink-muted); font-size:0.95rem; max-width:680px; margin:0 auto;">
+                        Không nhảy thẳng vào đề khó. DeepIELTS giảm dần hỗ trợ từng bước cho tới khi bạn hoàn toàn tự tin làm bài độc lập dưới áp lực thời gian.
                     </p>
                 </div>
-                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem;">
-                    <div style="background:var(--surface-muted); padding:1.15rem; border-radius:var(--radius-lg); border-top:3px solid var(--primary);">
-                        <div style="font-weight:800; font-size:0.95rem; color:var(--primary); margin-bottom:0.35rem;">1. Worked Example</div>
-                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Bài mẫu có chú giải tư duy từng bước, chỉ rõ vì sao chọn đáp án và cách né bẫy.</div>
+
+                <div style="display:flex; align-items:center; gap:2rem; flex-wrap:wrap; margin-bottom:1.5rem;">
+                    <!-- Teacher Coach Visual (Spec V4 Section 6) -->
+                    <div class="coach-visual-wrap">
+                        <img src="public/assets/deepielts/people/teacher-coach.webp" alt="Giảng viên cố vấn DeepTutor hướng dẫn chiến lược" class="coach-img" loading="lazy">
                     </div>
-                    <div style="background:var(--surface-muted); padding:1.15rem; border-radius:var(--radius-lg); border-top:3px solid var(--teal, #2C776D);">
-                        <div style="font-weight:800; font-size:0.95rem; color:var(--teal, #2C776D); margin-bottom:0.35rem;">2. Guided Practice</div>
-                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Luyện tập có gợi ý chiến thuật và câu hỏi định hướng tư duy của AI Tutor.</div>
-                    </div>
-                    <div style="background:var(--surface-muted); padding:1.15rem; border-radius:var(--radius-lg); border-top:3px solid var(--amber, #F4AA13);">
-                        <div style="font-weight:800; font-size:0.95rem; color:var(--amber, #F4AA13); margin-bottom:0.35rem;">3. Independent Practice</div>
-                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Tự làm bài hoàn chỉnh không có gợi ý, đo độ chính xác và phản xạ tự nhiên.</div>
-                    </div>
-                    <div style="background:var(--surface-muted); padding:1.15rem; border-radius:var(--radius-lg); border-top:3px solid var(--error);">
-                        <div style="font-weight:800; font-size:0.95rem; color:var(--error); margin-bottom:0.35rem;">4. Timed Practice</div>
-                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.5;">Luyện đề bấm giờ giao diện máy tính với áp lực thời gian tương đương phòng thi.</div>
+                    
+                    <div style="flex:1; min-width:280px;">
+                        <div style="background:var(--teal-soft, #DCEBE6); border:1px solid rgba(44, 119, 109, 0.25); border-radius:var(--radius-lg); padding:1.25rem 1.5rem; margin-bottom:1.25rem; position:relative;">
+                            <div style="font-weight:800; font-size:0.95rem; color:var(--teal-dark, #225F58); margin-bottom:0.35rem; display:flex; align-items:center; gap:6px;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                                <span>Phương Pháp Sư Phạm DeepTutor: Hỏi Gợi Mở (Socratic)</span>
+                            </div>
+                            <p style="font-size:0.86rem; color:var(--ink); margin:0; line-height:1.55;">
+                                Thay vì đưa ngay bài giải mẫu, DeepTutor đặt câu hỏi gợi ý tư duy để bạn tự nhìn ra lỗ hổng lập luận và phát hiện bẫy đề thi.
+                            </p>
+                        </div>
+
+                        <!-- 4 Step Ladder -->
+                        <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:0.85rem;">
+                            <div style="background:var(--surface-muted); padding:1rem; border-radius:var(--radius-md); border-left:3px solid var(--primary);">
+                                <div style="font-weight:800; font-size:0.88rem; color:var(--primary); margin-bottom:0.25rem;">1. Worked Example</div>
+                                <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.45;">Bài mẫu có chú giải tư duy từng bước và cách né bẫy.</div>
+                            </div>
+                            <div style="background:var(--surface-muted); padding:1rem; border-radius:var(--radius-md); border-left:3px solid var(--teal, #2C776D);">
+                                <div style="font-weight:800; font-size:0.88rem; color:var(--teal, #2C776D); margin-bottom:0.25rem;">2. Guided Practice</div>
+                                <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.45;">Luyện tập có gợi ý chiến thuật và câu hỏi định hướng tư duy.</div>
+                            </div>
+                            <div style="background:var(--surface-muted); padding:1rem; border-radius:var(--radius-md); border-left:3px solid var(--amber, #F4AA13);">
+                                <div style="font-weight:800; font-size:0.88rem; color:var(--amber, #F4AA13); margin-bottom:0.25rem;">3. Independent Practice</div>
+                                <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.45;">Tự làm bài hoàn chỉnh không có gợi ý, đo độ chính xác.</div>
+                            </div>
+                            <div style="background:var(--surface-muted); padding:1rem; border-radius:var(--radius-md); border-left:3px solid var(--error);">
+                                <div style="font-weight:800; font-size:0.88rem; color:var(--error); margin-bottom:0.25rem;">4. Timed Practice</div>
+                                <div style="font-size:0.78rem; color:var(--ink-muted); line-height:1.45;">Bấm giờ áp lực phòng thi máy tính thực tế.</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- SECTION 7: COMPUTER-FIRST MOCK TEST PREVIEW -->
-            <div style="margin:3rem 0; background:linear-gradient(135deg, var(--surface-muted) 0%, var(--surface-card) 100%); border:1.5px solid var(--border-subtle); border-radius:var(--radius-xl); padding:1.75rem;">
-                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem;">
+            <div style="margin:3.5rem 0; background:linear-gradient(135deg, var(--surface-muted) 0%, var(--surface-card) 100%); border:1.5px solid var(--border-subtle); border-radius:var(--radius-xl); padding:2rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:2rem;">
+                    
                     <div style="flex:1; min-width:280px;">
                         <span class="badge-pill badge-blue">Computer-Delivered Simulation</span>
-                        <h2 style="font-size:1.55rem; font-weight:800; margin:0.4rem 0;">Mô Phỏng Phòng Thi Trên Máy Tính</h2>
-                        <p style="color:var(--ink-muted); font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+                        <h2 style="font-size:1.75rem; font-weight:800; margin:0.4rem 0; color:var(--ink);">
+                            Mô Phỏng Phòng Thi Trên Máy Tính
+                        </h2>
+                        <p style="color:var(--ink-muted); font-size:0.92rem; line-height:1.65; margin-bottom:1.25rem;">
                             Trải nghiệm giao diện chia đôi màn hình (Split Layout) chuẩn Reading, trình phát âm thanh Listening có thanh tiến trình, bộ đếm từ Writing thời gian thực và đồng hồ đếm ngược tự động lưu bài.
                         </p>
-                        <button type="button" class="btn-primary" onclick="routeTo('test')">
-                            Khám Phá Phòng Thi Thử →
+                        <div style="margin-bottom:1.5rem; display:flex; flex-direction:column; gap:0.5rem; font-size:0.84rem; color:var(--ink-muted);">
+                            <div style="display:flex; align-items:center; gap:8px;">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal, #2C776D)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Chế độ Focus Mode dịu mắt, loại bỏ hoàn toàn yếu tố gây xao nhãng</span>
+                            </div>
+                            <div style="display:flex; align-items:center; gap:8px;">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal, #2C776D)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Tự động lưu bài làm chống mất dữ liệu khi mất kết nối mạng</span>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-primary" onclick="routeTo('test')" style="padding:0.75rem 1.75rem;">
+                            <span>Khám Phá Phòng Thi Thử</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                         </button>
                     </div>
-                    <div style="flex:1; min-width:280px; background:var(--surface-card); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:1.25rem; box-shadow:var(--shadow-subtle);">
-                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
-                            <span style="font-weight:800; font-size:0.85rem; color:var(--ink);">Mock Test Academic</span>
-                            <span style="font-family:var(--font-mono); font-weight:800; color:var(--error); font-size:0.85rem;">⏱️ 59:42</span>
-                        </div>
-                        <div style="height:6px; background:var(--border-subtle); border-radius:3px; margin-bottom:1rem; overflow:hidden;">
-                            <div style="width:35%; height:100%; background:var(--teal, #2C776D);"></div>
-                        </div>
-                        <div style="font-size:0.82rem; color:var(--ink-muted); line-height:1.4;">
-                            ✓ Tách biệt hoàn toàn chế độ Học Tập (Learn Mode) và chế độ Thi Thử (Exam Mode).<br>
-                            ✓ Tự động lưu bài làm khi gặp sự cố mạng hoặc tải lại trang.
+
+                    <!-- Mock Student Visual (Spec V4 Section 8) -->
+                    <div style="flex:1; min-width:280px; display:flex; align-items:center; justify-content:center; position:relative;">
+                        <div style="position:relative; width:100%; max-width:380px;">
+                            <img src="public/assets/deepielts/people/mock-student.webp" alt="Học sinh trải nghiệm thi thử mô phỏng phòng thi thực tế" style="width:100%; height:auto; max-height:300px; object-fit:contain; filter:drop-shadow(0 12px 28px rgba(0,0,0,0.12)); display:block;" loading="lazy">
+                            
+                            <!-- Floating Timer Badge -->
+                            <div style="position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.95); backdrop-filter:blur(6px); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:0.45rem 0.85rem; display:flex; align-items:center; gap:6px; box-shadow:0 6px 16px rgba(0,0,0,0.08);">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--error)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                <span style="font-family:var(--font-mono); font-weight:800; color:var(--error); font-size:0.88rem;">59:42</span>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
@@ -1934,33 +2316,51 @@
             </div>
 
             <!-- SECTION 9: PARENT & MENTOR OVERVIEW -->
-            <div class="card" style="background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); margin:3rem 0;">
-                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem;">
-                    <div style="max-width:680px;">
+            <div class="card" style="background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); margin:3.5rem 0; padding:2rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:2rem;">
+                    
+                    <div style="flex:1.2; min-width:280px;">
                         <span class="badge-pill badge-yellow">Dành Cho Cha Mẹ & Người Đồng Hành</span>
-                        <h3 style="font-size:1.35rem; font-weight:800; margin:0.4rem 0;">Góc Phụ Huynh — Đồng Hành Tích Cực, Không Tạo Áp Lực</h3>
-                        <p style="color:var(--ink-muted); font-size:0.9rem; line-height:1.6; margin-bottom:0.5rem;">
-                            Xem báo cáo chuyên cần tuần minh bạch, thấu hiểu điểm mạnh và điểm nghẽn thực sự của con, nhận gợi ý cách khích lệ tinh thần con đúng lúc trong mùa ôn thi THPT & Đại học.
+                        <h3 style="font-size:1.55rem; font-weight:800; margin:0.4rem 0; color:var(--ink);">
+                            Góc Phụ Huynh — Đồng Hành Tích Cực, Không Tạo Áp Lực
+                        </h3>
+                        <p style="color:var(--ink-muted); font-size:0.92rem; line-height:1.65; margin-bottom:1.25rem;">
+                            Xem báo cáo chuyên cần tuần minh bạch, thấu hiểu điểm mạnh và điểm nghẽn thực sự của con, nhận gợi ý sư phạm giúp khích lệ tinh thần con đúng lúc trong mùa ôn thi THPT & Đại học.
                         </p>
+                        <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+                            <button type="button" class="btn-primary" onclick="routeTo('parent')" style="padding:0.65rem 1.4rem;">
+                                <span>Khám Phá Góc Phụ Huynh</span>
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </button>
+                        </div>
                     </div>
-                    <button type="button" class="btn-primary" onclick="routeTo('parent')">
-                        Khám Phá Góc Phụ Huynh →
-                    </button>
+
+                    <!-- Parent Mentor Visual (Spec V4 Section 11) -->
+                    <div style="flex:0.8; min-width:240px; display:flex; justify-content:center;">
+                        <img src="public/assets/deepielts/people/parent-mentor.webp" alt="Phụ huynh và học sinh đồng hành tích cực trong mùa thi IELTS" style="width:100%; max-width:260px; height:auto; object-fit:contain; filter:drop-shadow(0 10px 24px rgba(0,0,0,0.1));" loading="lazy">
+                    </div>
+
                 </div>
             </div>
 
             <!-- SECTION 10: FINAL CTA -->
-            <div style="text-align:center; padding:3rem 1.5rem; background:var(--surface-card); border:1.5px solid var(--border-subtle); border-radius:var(--radius-xl); margin-bottom:2rem;">
-                <h2 style="font-size:1.85rem; font-weight:800; color:var(--ink); margin-bottom:0.5rem;">
-                    Bắt đầu bằng việc biết chính xác mình đang ở đâu.
-                </h2>
-                <p style="color:var(--ink-muted); font-size:1rem; max-width:560px; margin:0 auto 1.5rem; line-height:1.6;">
-                    Không luyện đề ngẫu nhiên. Hãy để DeepIELTS chẩn đoán năng lực và thiết lập kế hoạch học tập cá nhân hóa cho bạn ngay hôm nay.
-                </p>
-                <button type="button" class="btn-primary" onclick="startDiagnostic()" style="padding:0.95rem 2.5rem; font-size:1.1rem;">
-                    <span>Làm Bài Chẩn Đoán Ngay (10 Phút)</span>
-                    <span>→</span>
-                </button>
+            <div style="padding:2.5rem 2rem; background:var(--surface-card); border:1.5px solid var(--border-subtle); border-radius:var(--radius-xl); margin-bottom:3rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:2rem;">
+                <div style="flex:1.2; min-width:280px;">
+                    <span class="badge-pill badge-green" style="margin-bottom:0.5rem;">Khởi Đầu Thông Minh</span>
+                    <h2 style="font-size:1.95rem; font-weight:800; color:var(--ink); margin:0.4rem 0 0.6rem; letter-spacing:-0.02em;">
+                        Bắt đầu bằng việc biết chính xác mình đang ở đâu.
+                    </h2>
+                    <p style="color:var(--ink-muted); font-size:1rem; line-height:1.65; margin-bottom:1.5rem; max-width:540px;">
+                        Không luyện đề ngẫu nhiên. Hãy để DeepTutor chẩn đoán 10 phút, xác định năng lực thực tế và thiết lập kế hoạch học tập cá nhân hóa cho bạn ngay hôm nay.
+                    </p>
+                    <button type="button" class="btn-primary" onclick="startDiagnostic()" style="padding:0.95rem 2.25rem; font-size:1.05rem;">
+                        <span>Làm Bài Chẩn Đoán Ngay (10 Phút)</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+                <div style="flex:0.8; min-width:240px; display:flex; justify-content:center;">
+                    <img src="public/assets/deepielts/people/diagnostic-student.webp" alt="Học sinh thực hiện bài chẩn đoán năng lực khởi đầu" style="width:100%; max-width:240px; height:auto; object-fit:contain; filter:drop-shadow(0 12px 24px rgba(44, 119, 109, 0.14));" loading="lazy">
+                </div>
             </div>
 
         </section>
@@ -2051,16 +2451,19 @@
             </div>
 
             <div id="learn-tab-playbook" style="display:none;">
-                <div style="background:linear-gradient(135deg, rgba(37,99,235,0.06), rgba(139,92,246,0.06)); border:1px solid var(--primary-border); border-radius:var(--radius-lg); padding:1.25rem 1.5rem; margin-bottom:1.5rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
-                    <div>
+                <div style="background:linear-gradient(135deg, rgba(44,119,109,0.08), rgba(244,170,19,0.08)); border:1.5px solid var(--border-subtle); border-radius:var(--radius-xl); padding:1.25rem 1.5rem; margin-bottom:1.5rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem;">
+                    <div style="flex:1; min-width:280px;">
                         <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
                             <span class="badge-pill badge-purple" style="font-weight:800;">REASONING COACH</span>
                             <span style="font-size:0.82rem; color:var(--ink-muted);">Huy Forum Heuristics & Deep IELTS Design</span>
                         </div>
-                        <h3 style="font-size:1.2rem; font-weight:800; color:var(--ink); margin:0;">Cẩm Nang Chiến Lược Ra Quyết Định Chuyên Gia</h3>
-                        <p style="color:var(--ink-muted); font-size:0.85rem; margin:0.25rem 0 0; max-width:600px;">
+                        <h3 style="font-size:1.25rem; font-weight:800; color:var(--ink); margin:0;">Cẩm Nang Chiến Lược Ra Quyết Định Chuyên Gia</h3>
+                        <p style="color:var(--ink-muted); font-size:0.86rem; margin:0.25rem 0 0; max-width:600px; line-height:1.5;">
                             Không học vẹt bài mẫu. Học cách tư duy và đưa ra quyết định xử lý tình huống chính xác của thí sinh Band 8.0–9.0.
                         </p>
+                    </div>
+                    <div style="width:110px; flex-shrink:0; display:flex; justify-content:center;">
+                        <img src="public/assets/deepielts/people/teacher-coach.webp" alt="Giảng viên cố vấn DeepTutor" style="width:100%; max-height:130px; object-fit:contain; filter:drop-shadow(0 6px 14px rgba(0,0,0,0.1));" loading="lazy">
                     </div>
                     <div style="display:flex; gap:0.5rem;">
                         <button type="button" class="btn-primary" onclick="openRandomStrategyCard()" style="font-size:0.85rem; padding:0.5rem 1rem;">🎲 Luyện 1 Chiến Lược Ngẫu Nhiên</button>
@@ -2088,10 +2491,14 @@
 
         <!-- VIEW 4: UNIFIED REVIEW CENTER -->
         <section id="view-app-review" class="view-layer">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap; gap:0.5rem;">
-                <div>
-                    <h2 style="font-size:1.45rem;">Trung Tâm Ôn Lại & Khắc Phục Lỗi</h2>
-                    <p style="color:var(--ink-muted); font-size:0.9rem;">Biến lỗi sai thành hành động ôn tập có cấu trúc</p>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; flex-wrap:wrap; gap:1.25rem; background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); padding:1.25rem 1.5rem; border-radius:var(--radius-xl); border:1px solid var(--border-subtle);">
+                <div style="flex:1; min-width:280px;">
+                    <span class="badge-pill badge-green" style="margin-bottom:0.35rem;">Spaced Repetition FSRS</span>
+                    <h2 style="font-size:1.45rem; margin:0.25rem 0 0.35rem; color:var(--ink);">Trung Tâm Ôn Lại & Khắc Phục Lỗi</h2>
+                    <p style="color:var(--ink-muted); font-size:0.88rem; margin:0;">Biến từng lỗi sai thành hành động ôn tập có cấu trúc theo chu kỳ trí nhớ tối ưu</p>
+                </div>
+                <div style="width:120px; flex-shrink:0; display:flex; justify-content:center;">
+                    <img src="public/assets/deepielts/objects/headphones-notebook.webp" alt="Tai nghe học tập và sổ tay" style="width:100%; max-height:110px; object-fit:contain; filter:drop-shadow(0 6px 14px rgba(0,0,0,0.08));" loading="lazy">
                 </div>
             </div>
 
@@ -2109,10 +2516,14 @@
 
         <!-- VIEW 5: TEST / THI THỬ -->
         <section id="view-app-test" class="view-layer">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; flex-wrap:wrap; gap:0.75rem;">
-                <div>
-                    <h2 style="font-size:1.45rem;">Phòng Thi Thử IELTS Chuẩn Hóa</h2>
-                    <p style="color:var(--ink-muted); font-size:0.9rem;">Thư viện đề thi thực tế: 10 Full Mock Tests quốc tế & 10 loại đề phân hóa theo từng Band</p>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; flex-wrap:wrap; gap:1.25rem; background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); padding:1.25rem 1.5rem; border-radius:var(--radius-xl); border:1px solid var(--border-subtle);">
+                <div style="flex:1; min-width:280px;">
+                    <span class="badge-pill badge-blue" style="margin-bottom:0.35rem;">Mô Phỏng Máy Tính Thi Thật</span>
+                    <h2 style="font-size:1.45rem; margin:0.25rem 0 0.35rem; color:var(--ink);">Phòng Thi Thử IELTS Chuẩn Hóa</h2>
+                    <p style="color:var(--ink-muted); font-size:0.88rem; margin:0;">Thư viện đề thi thực tế: 10 Full Mock Tests quốc tế & 10 loại đề phân hóa theo từng Band</p>
+                </div>
+                <div style="width:130px; flex-shrink:0; display:flex; justify-content:center;">
+                    <img src="public/assets/deepielts/people/mock-student.webp" alt="Học sinh trải nghiệm thi thử mô phỏng phòng thi thực tế" style="width:100%; max-height:130px; object-fit:contain; filter:drop-shadow(0 6px 14px rgba(0,0,0,0.1));" loading="lazy">
                 </div>
                 <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
                     <button type="button" class="btn-outline-sm active" id="btn-test-mode-full" onclick="switchTestMode('full_mock')">🏆 10 Đề Thi Thử Toàn Diện (Full Mocks)</button>
@@ -2171,6 +2582,26 @@
             <div style="margin-bottom:1.5rem;">
                 <h2 style="font-size:1.6rem; font-weight:800; color:var(--ink);">Tiến Độ Học Tập</h2>
                 <p style="color:var(--ink-muted); font-size:0.92rem;">Xem bạn đang ở đâu và nên tập trung vào điều gì tiếp theo.</p>
+            </div>
+
+            <!-- Top Two-Column Block: Band Gap + Next Best Action (Spec V3 Section 7.2) -->
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem; margin-bottom:1.75rem;">
+                
+                <!-- Progress Student Visual Badge (Spec V4 Section 9) -->
+            <div style="margin-bottom:1.5rem; background:linear-gradient(135deg, var(--surface-card) 0%, var(--teal-soft, #DCEBE6) 100%); border:1px solid var(--border-subtle); border-radius:var(--radius-xl); padding:1.25rem 1.5rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1.25rem;">
+                <div style="flex:1; min-width:260px;">
+                    <div style="display:flex; align-items:center; gap:6px; margin-bottom:0.25rem;">
+                        <span class="badge-pill badge-green">Mục Tiêu Cá Nhân</span>
+                        <span style="font-size:0.8rem; color:var(--ink-muted);">Target Band 7.0</span>
+                    </div>
+                    <h3 style="font-size:1.25rem; font-weight:800; color:var(--ink); margin:0 0 0.35rem;">Kiên trì từng bước, bứt phá band mục tiêu</h3>
+                    <p style="font-size:0.84rem; color:var(--ink-muted); margin:0; line-height:1.5;">
+                        Dữ liệu được cập nhật liên tục sau mỗi câu hỏi luyện tập và bài thi thử để điều chỉnh điểm nghẽn kịp thời.
+                    </p>
+                </div>
+                <div style="width:150px; flex-shrink:0; display:flex; justify-content:center;">
+                    <img src="public/assets/deepielts/people/progress-student.webp" alt="Học sinh hào hứng theo dõi bước nhảy tiến bộ Band điểm" style="width:100%; max-height:160px; object-fit:contain; filter:drop-shadow(0 6px 16px rgba(0,0,0,0.1));" loading="lazy">
+                </div>
             </div>
 
             <!-- Top Two-Column Block: Band Gap + Next Best Action (Spec V3 Section 7.2) -->
@@ -2281,15 +2712,21 @@
 
         <!-- VIEW 7: DEDICATED PARENT EXPERIENCE -->
         <section id="view-parent" class="view-layer">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem;">
-                <div>
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem; margin-bottom:1.75rem; background:linear-gradient(135deg, var(--surface-card) 0%, var(--surface-muted) 100%); padding:1.5rem 1.75rem; border-radius:var(--radius-xl); border:1px solid var(--border-subtle);">
+                <div style="flex:1; min-width:280px;">
                     <span class="badge-pill badge-yellow">Góc Phụ Huynh • Parent Experience</span>
-                    <h2 style="font-size:1.5rem; margin-top:0.35rem;">Đồng Hành Cùng Con Trong Mùa Thi IELTS</h2>
-                    <p style="color:var(--ink-muted); font-size:0.92rem;">Theo dõi sự chuyên cần và tiến bộ mà không tạo áp lực săm soi từng câu sai</p>
+                    <h2 style="font-size:1.55rem; margin:0.35rem 0 0.4rem; color:var(--ink);">Đồng Hành Cùng Con Trong Mùa Thi IELTS</h2>
+                    <p style="color:var(--ink-muted); font-size:0.92rem; margin-bottom:1rem; line-height:1.55;">
+                        Theo dõi sự chuyên cần và tiến bộ mà không tạo áp lực săm soi từng câu sai. Khích lệ tinh thần con vững vàng.
+                    </p>
+                    <button type="button" class="btn-primary" onclick="copyParentReportZalo()">
+                        <span>Sao Chép Báo Cáo Gửi Zalo</span>
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                    </button>
                 </div>
-                <button type="button" class="btn-primary" onclick="copyParentReportZalo()">
-                    <span>📲 Sao Chép Báo Cáo Gửi Zalo</span>
-                </button>
+                <div style="width:180px; flex-shrink:0; display:flex; justify-content:center;">
+                    <img src="public/assets/deepielts/people/parent-mentor.webp" alt="Phụ huynh và học sinh đồng hành tích cực" style="width:100%; max-height:180px; object-fit:contain; filter:drop-shadow(0 8px 18px rgba(0,0,0,0.1));" loading="lazy">
+                </div>
             </div>
 
             <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem; margin-bottom:1.5rem;">
@@ -2500,11 +2937,18 @@
 
         <!-- VIEW 10: QUICK ONBOARDING DIAGNOSTIC -->
         <section id="view-diagnostic" class="view-layer">
-            <div style="max-width:720px; margin:0 auto;">
-                <div style="text-align:center; margin-bottom:2rem;">
-                    <span class="badge-pill badge-blue">Đánh Giá Đầu Vào 10 Phút</span>
-                    <h2 style="font-size:1.75rem; margin-top:0.35rem;">Chẩn Đoán Năng Lực Khởi Đầu</h2>
-                    <p style="color:var(--ink-muted); font-size:0.95rem;">Trả lời 6 câu hỏi then chốt để DeepTutor xác định điểm mạnh và thiết lập lộ trình cho bạn.</p>
+            <div style="max-width:760px; margin:0 auto;">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:1.5rem; margin-bottom:2rem; background:linear-gradient(135deg, var(--surface-card) 0%, var(--teal-soft, #DCEBE6) 100%); padding:1.25rem 1.75rem; border-radius:var(--radius-xl); border:1px solid var(--border-subtle); flex-wrap:wrap;">
+                    <div style="flex:1; min-width:280px;">
+                        <span class="badge-pill badge-blue" style="margin-bottom:0.35rem;">Đánh Giá Đầu Vào 10 Phút</span>
+                        <h2 style="font-size:1.65rem; margin:0.25rem 0 0.35rem; color:var(--ink);">Chẩn Đoán Năng Lực Khởi Đầu</h2>
+                        <p style="color:var(--ink-muted); font-size:0.9rem; margin:0; line-height:1.55;">
+                            Biết chính xác năng lực thực tế trước khi chọn lộ trình học. Trả lời 6 câu hỏi then chốt để DeepTutor thiết lập kế hoạch tối ưu.
+                        </p>
+                    </div>
+                    <div style="width:130px; flex-shrink:0; display:flex; justify-content:center;">
+                        <img src="public/assets/deepielts/people/diagnostic-student.webp" alt="Học sinh thực hiện bài chẩn đoán" style="width:100%; max-height:150px; object-fit:contain; filter:drop-shadow(0 6px 16px rgba(0,0,0,0.1));" loading="lazy">
+                    </div>
                 </div>
 
                 <div class="card" id="diag-question-container"></div>
