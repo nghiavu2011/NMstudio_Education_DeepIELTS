@@ -10,5 +10,4 @@ Thumbs.db
 # Temporary / Scratch
 *.log
 .vercel
-
-.vercel
+scratch/
