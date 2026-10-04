@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "name": "n-mstudio-education-deep-ielts",
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/public/assets/(.*)",
+      "destination": "/assets/$1"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -22,7 +31,7 @@
       ]
     },
     {
-      "source": "/(logo.png|ielts_data.js)",
+      "source": "/(logo.png|ielts_data.js|assets/.*|public/.*)",
       "headers": [
         {
           "key": "Cache-Control",
