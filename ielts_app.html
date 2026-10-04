@@ -18,7 +18,7 @@
     
     <!-- Open Graph / Zalo / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="DeepIELTS — N&Mstudio Education | Người Dẫn Đường IELTS Sư Phạm THPT">
+    <meta property="og:title" content="DeepIELTS — N&Mstudio Education | DeepTutor — Trợ lý học IELTS cá nhân THPT">
     <meta property="og:description" content="IELTS không chỉ là điểm số. Học cách tư duy để điểm số đi lên với phương pháp DeepTutor chuẩn Sư phạm.">
     <meta property="og:image" content="logo.png">
 
@@ -47,99 +47,134 @@
 
     <style>
         :root {
-            --canvas-bg: #f8fafc;
-            --surface-bg: #ffffff;
-            --surface-card: #ffffff;
-            --surface-muted: #f1f5f9;
-            --surface-accent: #f8fafc;
-            
-            --ink: #0f172a;
-            --ink-muted: #475569;
-            --ink-dim: #94a3b8;
+            /* Academic Editorial Brand Tokens (Spec V3) */
+            --bg-canvas: #F7F5EE;
+            --bg-surface: #FFFFFF;
+            --bg-soft: #F1F4F1;
+
+            --ink-primary: #20221F;
+            --ink-secondary: #5F655F;
+            --ink-muted: #7A807A;
+
+            --brand-teal: #2C776D;
+            --brand-teal-dark: #225F58;
+            --brand-teal-soft: #DCEBE6;
+
+            --accent-amber: #F4AA13;
+            --accent-amber-soft: #FFF0C7;
+
+            --semantic-success: #218C74;
+            --semantic-info: #356AE6;
+            --semantic-warning: #D98B00;
+            --semantic-danger: #D94A47;
+
+            --border-default: #DCDED7;
+            --border-strong: #C8CCC4;
+
+            --radius-sm: 10px;
+            --radius-md: 16px;
+            --radius-lg: 20px;
+            --radius-xl: 24px;
+            --radius-full: 9999px;
+
+            --shadow-soft: 0 8px 24px rgba(31, 40, 34, 0.06);
+            --shadow-elevated: 0 14px 36px rgba(31, 40, 34, 0.10);
+
+            /* Mapped Application Tokens */
+            --canvas-bg: var(--bg-canvas);
+            --surface-bg: var(--bg-surface);
+            --surface-card: var(--bg-surface);
+            --surface-muted: var(--bg-soft);
+            --surface-accent: var(--bg-soft);
+
+            --ink: var(--ink-primary);
+            --ink-muted: var(--ink-secondary);
+            --ink-dim: var(--ink-muted);
             --ink-inverse: #ffffff;
-            
-            --border-subtle: #e2e8f0;
-            --border-strong: #cbd5e1;
-            --border-focus: #2563eb;
-            
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
-            --primary-subtle: #eff6ff;
-            --primary-border: #bfdbfe;
-            
-            --success: #0d9488;
-            --success-subtle: #f0fdfa;
+
+            --border-subtle: var(--border-default);
+            --border-focus: var(--brand-teal);
+
+            --primary: var(--brand-teal);
+            --primary-hover: var(--brand-teal-dark);
+            --primary-subtle: var(--brand-teal-soft);
+            --primary-border: rgba(44, 119, 109, 0.25);
+
+            --success: var(--semantic-success);
+            --success-subtle: #E5F4ED;
             --success-border: #99f6e4;
-            
-            --warning: #d97706;
-            --warning-subtle: #fffbeb;
-            --warning-border: #fde68a;
-            
-            --error: #dc2626;
-            --error-subtle: #fef2f2;
+
+            --warning: var(--accent-amber);
+            --warning-subtle: var(--accent-amber-soft);
+            --warning-border: rgba(244, 170, 19, 0.35);
+
+            --error: var(--semantic-danger);
+            --error-subtle: #FDE8E6;
             --error-border: #fecaca;
-            
+
             --font-ui: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             --font-reading: 'Source Serif 4', Georgia, Cambria, 'Times New Roman', serif;
             --font-mono: 'IBM Plex Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-            --bg-editorial: #F7F5EE;
-            --teal: #2C776D;
-            --teal-dark: #225F58;
-            --teal-soft: #DCEBE6;
-            --amber: #F4AA13;
-            --amber-soft: #FFF0C7;
-            --line: #DCDED7;
-            
-            --radius-sm: 6px;
-            --radius-md: 10px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-            --radius-full: 9999px;
-            
-            --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
-            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
-            --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
-            
+
             --reading-max-width: 72ch;
             --transition-smooth: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         [data-theme="dark"] {
-            --canvas-bg: #0b0f19;
-            --surface-bg: #111827;
-            --surface-card: #182234;
-            --surface-muted: #1f293d;
-            --surface-accent: #151d2d;
-            
-            --ink: #f8fafc;
-            --ink-muted: #94a3b8;
-            --ink-dim: #64748b;
-            --ink-inverse: #0b0f19;
-            
-            --border-subtle: rgba(255, 255, 255, 0.08);
-            --border-strong: rgba(255, 255, 255, 0.16);
-            --border-focus: #3b82f6;
-            
-            --primary: #3b82f6;
-            --primary-hover: #2563eb;
-            --primary-subtle: rgba(59, 130, 246, 0.12);
-            --primary-border: rgba(59, 130, 246, 0.3);
-            
-            --success: #14b8a6;
-            --success-subtle: rgba(20, 184, 166, 0.12);
-            --success-border: rgba(20, 184, 166, 0.3);
-            
-            --warning: #f59e0b;
-            --warning-subtle: rgba(245, 158, 11, 0.12);
-            --warning-border: rgba(245, 158, 11, 0.3);
-            
-            --error: #ef4444;
-            --error-subtle: rgba(239, 68, 68, 0.12);
-            --error-border: rgba(239, 68, 68, 0.3);
-            
+            --canvas-bg: #141716;
+            --surface-bg: #1C211F;
+            --surface-card: #1C211F;
+            --surface-muted: #252C29;
+            --surface-accent: #252C29;
+
+            --ink: #F3F5F2;
+            --ink-muted: #A1A79F;
+            --ink-dim: #727870;
+            --ink-inverse: #141716;
+
+            --border-subtle: #2F3834;
+            --border-strong: #3D4944;
+            --border-focus: #479E93;
+
+            --primary: #479E93;
+            --primary-hover: #35857B;
+            --primary-subtle: rgba(71, 158, 147, 0.18);
+            --primary-border: rgba(71, 158, 147, 0.35);
+
+            --success: #3EB285;
+            --success-subtle: #1A3B2E;
+            --success-border: rgba(62, 178, 133, 0.35);
+
+            --warning: #FBBF24;
+            --warning-subtle: #382E12;
+            --warning-border: rgba(251, 191, 36, 0.35);
+
+            --error: #E56353;
+            --error-subtle: #3B1D19;
+            --error-border: rgba(229, 99, 83, 0.35);
+
             --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.3);
             --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
             --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Focus Mode Tokens (Spec V3 Section 12) */
+        [data-mode="focus"] {
+            --focus-bg: #0B1118;
+            --canvas-bg: #0B1118;
+            --surface-bg: rgba(17, 27, 39, 0.95);
+            --surface-card: rgba(17, 27, 39, 0.95);
+            --surface-muted: rgba(21, 34, 48, 0.92);
+            --ink: #F3F6F4;
+            --ink-muted: #AAB6B0;
+            --primary: #43A99C;
+            --primary-hover: #38BFD5;
+            --primary-subtle: rgba(56, 191, 213, 0.15);
+            --primary-border: rgba(56, 191, 213, 0.35);
+            --warning: #F4B942;
+            --warning-subtle: rgba(244, 185, 66, 0.15);
+            --border-subtle: rgba(255, 255, 255, 0.10);
+            --border-strong: rgba(56, 191, 213, 0.35);
         }
 
         *, *::before, *::after {
@@ -1099,21 +1134,10 @@
            DONATION WIDGET & MODAL (THEME-ALIGNED & RESPONSIVE)
            ==================================================== */
         #donation-sidebar-card {
-            position: fixed;
-            left: 16px;
-            top: 92px;
-            width: 246px;
-            max-height: calc(100vh - 110px);
-            overflow-y: auto;
-            background: var(--surface-card);
-            border: 1.5px solid var(--warning-border);
-            border-radius: var(--radius-lg);
-            padding: 10px 10px 12px;
-            box-shadow: var(--shadow-lg);
-            z-index: 85;
-            font-family: var(--font-ui);
-            color: var(--ink);
-            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            display: none !important;
+        }
+        #donation-collapsed-chip {
+            display: none !important;
         }
         .donation-header {
             display: flex;
@@ -1527,45 +1551,45 @@
                 </div>
             </a>
 
-            <!-- Primary Student Navigation (5 Core Destinations) -->
+            <!-- Primary Student Navigation (5 Core Destinations - Spec V3 Section 5) -->
             <nav id="student-nav-bar" class="student-nav" aria-label="Điều hướng học tập chính">
                 <button type="button" class="nav-btn active" id="nav-today" onclick="routeTo('today')">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                    <span>Hôm Nay</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="18" height="18"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    <span>Hôm nay</span>
                 </button>
                 <button type="button" class="nav-btn" id="nav-learn" onclick="routeTo('learn')">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-                    <span>Học & Luyện</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="18" height="18"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <span>Học</span>
                 </button>
                 <button type="button" class="nav-btn" id="nav-review" onclick="routeTo('review')">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
-                    <span>Ôn Lại</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="18" height="18"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+                    <span>Ôn tập</span>
                 </button>
                 <button type="button" class="nav-btn" id="nav-test" onclick="routeTo('test')">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                    <span>Thi Thử</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="18" height="18"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    <span>Thi thử</span>
                 </button>
                 <button type="button" class="nav-btn" id="nav-progress" onclick="routeTo('progress')">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                    <span>Tiến Bộ</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="18" height="18"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    <span>Tiến bộ</span>
                 </button>
             </nav>
 
-            <!-- Header Utilities -->
+            <!-- Header Utilities (Compact & Uncluttered) -->
             <div class="header-utils">
                 <div class="streak-badge" title="Chuỗi ngày chuyên cần rèn luyện">
                     <span>🔥</span>
                     <span id="hdr-streak-num">1</span> ngày
                 </div>
 
-                <button type="button" class="btn-outline-sm" onclick="openBreathingModal()" title="Thử 1 phút thở 4-4-4-4 để tĩnh tâm">
-                    <span>🌿</span>
-                    <span style="font-size:0.78rem;">1 Phút Tĩnh Tâm</span>
+                <button type="button" class="btn-outline-sm" onclick="openDonationModal()" title="Ủng hộ duy trì máy chủ DeepIELTS">
+                    <span>☕</span>
+                    <span style="font-size:0.8rem;">Ủng hộ</span>
                 </button>
 
                 <button type="button" class="btn-outline-sm" id="btn-toggle-parent" onclick="routeTo('parent')" title="Chuyển sang Góc Phụ Huynh">
                     <span>👨‍👩‍👧</span>
-                    <span>Phụ Huynh</span>
+                    <span style="font-size:0.8rem;">Phụ huynh</span>
                 </button>
 
                 <button type="button" class="btn-icon-sm" onclick="toggleTheme()" title="Đổi giao diện Sáng / Tối" aria-label="Đổi giao diện Sáng / Tối">
@@ -1638,7 +1662,7 @@
                         📖
                     </div>
                     <div style="font-weight:800; font-size:1.1rem; color:var(--ink); text-align:center;">
-                        Người Dẫn Đường IELTS Sư Phạm
+                        DeepTutor — Trợ lý học IELTS cá nhân
                     </div>
                     <div style="font-size:0.8rem; color:var(--teal-dark, #225F58); text-align:center; font-weight:600; margin-top:2px;">
                         N&Mstudio Education • DeepTutor
@@ -1646,13 +1670,13 @@
                     
                     <div class="hero-fact-chips">
                         <div class="hero-fact-chip">
-                            <span style="color:var(--teal, #2C776D);">✓</span> <span>4 Kỹ Năng Chuẩn Khảo Thí Quốc Tế</span>
+                            <span style="color:var(--teal, #2C776D);">✓</span> <span>Đầy đủ 4 kỹ năng IELTS</span>
                         </div>
                         <div class="hero-fact-chip">
                             <span style="color:var(--amber, #F4AA13);">🎯</span> <span>Lộ Trình Từng Nấc: Foundation → Band 8.0</span>
                         </div>
                         <div class="hero-fact-chip">
-                            <span style="color:var(--success, #287A5A);">🧠</span> <span>Ôn Tập Ngắt Quãng FSRS & Giải Phẫu Lỗi Sai</span>
+                            <span style="color:var(--success, #287A5A);">🧠</span> <span>Ôn đúng lúc. Sửa đúng lỗi.</span>
                         </div>
                     </div>
                 </div>
@@ -1810,7 +1834,7 @@
 
             <!-- SECTION 5: BAND PATH (FOUNDATION TO 8.0) -->
             <div style="margin:3rem 0;">
-                <h2 style="font-size:1.55rem; font-weight:800; margin-bottom:0.35rem;">Khung Năng Lực Sư Phạm Từ Nền Tảng Đến Band 8.0</h2>
+                <h2 style="font-size:1.55rem; font-weight:800; margin-bottom:0.35rem;">Lộ trình từ nền tảng đến Band 8.0</h2>
                 <p style="color:var(--ink-muted); font-size:0.92rem;">Lộ trình chia theo từng nấc thang phát triển năng lực ngôn ngữ thực chất</p>
                 <div class="mastery-ladder" id="public-mastery-ladder"></div>
             </div>
@@ -2145,20 +2169,113 @@
         <!-- VIEW 6: PROGRESS & RECOMMENDATIONS -->
         <section id="view-app-progress" class="view-layer">
             <div style="margin-bottom:1.5rem;">
-                <h2 style="font-size:1.45rem;">Tiến Độ & Khuyến Nghị Học Tập</h2>
-                <p style="color:var(--ink-muted); font-size:0.9rem;">Thấu hiểu tiến trình và xác định chính xác bước đi tiếp theo</p>
+                <h2 style="font-size:1.6rem; font-weight:800; color:var(--ink);">Tiến Độ Học Tập</h2>
+                <p style="color:var(--ink-muted); font-size:0.92rem;">Xem bạn đang ở đâu và nên tập trung vào điều gì tiếp theo.</p>
             </div>
 
-            <div class="card" style="margin-bottom:1.5rem;">
-                <h3 style="font-size:1.15rem; margin-bottom:0.35rem;">Ma Trận 4 Trụ Cột Nhận Thức (Cognitive Diagnostic Matrix)</h3>
-                <p style="color:var(--ink-muted); font-size:0.85rem; margin-bottom:1.25rem;">Hệ thống phân tích nguồn gốc lỗi sai để xây đơn thuốc sư phạm</p>
+            <!-- Top Two-Column Block: Band Gap + Next Best Action (Spec V3 Section 7.2) -->
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem; margin-bottom:1.75rem;">
+                
+                <!-- Left: Band Gap -->
+                <div class="card" style="padding:1.4rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                        <span style="font-size:0.8rem; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.04em;">Khoảng Cách Mục Tiêu</span>
+                        <span class="badge-pill badge-blue" style="font-weight:700;">Target 7.0</span>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.85rem;" id="progress-band-gap-list">
+                        <div style="display:flex; justify-content:space-between; align-items:center; padding:0.6rem 0.8rem; background:var(--surface-muted); border-radius:var(--radius-sm);">
+                            <span style="font-weight:700;">🎧 Listening</span>
+                            <span style="color:var(--success); font-weight:800; font-size:0.88rem;">7.0 ✓ Đạt mục tiêu</span>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; align-items:center; padding:0.6rem 0.8rem; background:var(--surface-muted); border-radius:var(--radius-sm);">
+                            <span style="font-weight:700;">📖 Reading</span>
+                            <span style="color:var(--ink); font-weight:800; font-size:0.88rem;">6.5 → 7.0</span>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; align-items:center; padding:0.6rem 0.8rem; background:var(--surface-muted); border-radius:var(--radius-sm);">
+                            <span style="font-weight:700;">🗣️ Speaking</span>
+                            <span style="color:var(--ink); font-weight:800; font-size:0.88rem;">6.0 → 7.0</span>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; align-items:center; padding:0.6rem 0.8rem; background:var(--warning-subtle); border:1px solid var(--warning-border); border-radius:var(--radius-sm);">
+                            <span style="font-weight:800; color:var(--warning);">✍️ Writing</span>
+                            <span style="color:var(--warning); font-weight:800; font-size:0.88rem;">5.5 → 7.0 ← Khoảng cách lớn nhất</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Next Best Action (Spec V3 Section 7.2) -->
+                <div class="card" style="padding:1.4rem; border:1.5px solid var(--primary-border); display:flex; flex-direction:column; justify-content:space-between;">
+                    <div>
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+                            <span style="font-size:0.78rem; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.04em;">⚡ HÀNH ĐỘNG TIẾP THEO HIỆU QUẢ NHẤT</span>
+                            <span class="badge-pill badge-green">~15 Phút</span>
+                        </div>
+                        <div style="font-size:0.82rem; color:var(--ink-muted); margin-bottom:0.25rem;">Khoảng cách lớn nhất: <strong>Writing 5.5 → 7.0</strong></div>
+                        <h3 style="font-size:1.25rem; font-weight:800; color:var(--ink); margin-bottom:0.5rem;">
+                            Phát Triển Ý Tưởng Task 2 (Idea Development)
+                        </h3>
+                        <p style="font-size:0.86rem; color:var(--ink-muted); line-height:1.5; margin-bottom:1rem;">
+                            Điểm nghẽn chính khiến bài viết dừng ở Band 5.5 là các luận điểm chưa có ví dụ thực tế mở rộng. Luyện ngay kỹ thuật PEEL (Point - Explain - Evidence - Link).
+                        </p>
+                    </div>
+                    <button type="button" class="btn-primary" onclick="routeTo('learn')" style="width:100%; justify-content:center; font-size:0.95rem; font-weight:800; padding:0.65rem 1rem;">
+                        HỌC NGAY →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Current Bottlenecks (Spec V3 Section 7.5) -->
+            <div class="card" style="margin-bottom:1.75rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+                    <div>
+                        <h3 style="font-size:1.15rem; font-weight:800; color:var(--ink);">Điểm Nghẽn Hiện Tại (Bottlenecks)</h3>
+                        <div style="font-size:0.82rem; color:var(--ink-muted);">Các yếu tố đang kìm hãm bước nhảy Band của bạn</div>
+                    </div>
+                    <span style="font-size:0.78rem; color:var(--ink-dim); font-style:italic;">Cập nhật theo dữ liệu thực chiến</span>
+                </div>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:1rem;">
+                    <div style="background:var(--surface-muted); padding:1rem; border-radius:var(--radius-md); display:flex; justify-content:space-between; align-items:center;">
+                        <div>
+                            <div style="font-weight:800; font-size:0.92rem; color:var(--ink);">1. Idea Development</div>
+                            <div style="font-size:0.75rem; color:var(--error); font-weight:700;">Mức độ: Cao</div>
+                        </div>
+                        <button type="button" class="btn-outline-sm" onclick="routeTo('learn')">Khắc phục</button>
+                    </div>
+                    <div style="background:var(--surface-muted); padding:1rem; border-radius:var(--radius-md); display:flex; justify-content:space-between; align-items:center;">
+                        <div>
+                            <div style="font-weight:800; font-size:0.92rem; color:var(--ink);">2. Paraphrase Recognition</div>
+                            <div style="font-size:0.75rem; color:var(--warning); font-weight:700;">Mức độ: Trung bình</div>
+                        </div>
+                        <button type="button" class="btn-outline-sm" onclick="routeTo('learn')">Khắc phục</button>
+                    </div>
+                    <div style="background:var(--surface-muted); padding:1rem; border-radius:var(--radius-md); display:flex; justify-content:space-between; align-items:center;">
+                        <div>
+                            <div style="font-weight:800; font-size:0.92rem; color:var(--ink);">3. Suy luận & xử lý bẫy</div>
+                            <div style="font-size:0.75rem; color:var(--warning); font-weight:700;">Mức độ: Trung bình</div>
+                        </div>
+                        <button type="button" class="btn-outline-sm" onclick="routeTo('learn')">Khắc phục</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Foundation Competencies (Renamed from Cognitive Matrix - Spec V3 Section 7.6) -->
+            <div class="card" style="margin-bottom:1.75rem;">
+                <h3 style="font-size:1.15rem; font-weight:800; color:var(--ink); margin-bottom:0.25rem;">Năng Lực Nền Tảng</h3>
+                <p style="color:var(--ink-muted); font-size:0.85rem; margin-bottom:1.25rem;">Những kỹ năng đang ảnh hưởng trực tiếp đến kết quả của bạn.</p>
                 <div id="progress-pillars-bars" style="display:flex; flex-direction:column; gap:1rem;"></div>
             </div>
 
+            <!-- Language Mastery Ladder with Clear States (Spec V3 Section 7.7) -->
             <div class="card">
-                <h3 style="font-size:1.15rem; margin-bottom:0.35rem;">Nấc Thang Thuần Thục Ngôn Ngữ</h3>
-                <p style="color:var(--ink-muted); font-size:0.85rem; margin-bottom:1.25rem;">Các mốc đã mở khóa dựa trên bài thi thực tế</p>
-                <div class="mastery-ladder" id="progress-mastery-ladder"></div>
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem; flex-wrap:wrap; gap:0.5rem;">
+                    <div>
+                        <h3 style="font-size:1.15rem; font-weight:800; color:var(--ink);">Nấc Thang Thuần Thục Ngôn Ngữ</h3>
+                        <p style="color:var(--ink-muted); font-size:0.85rem;">Trạng thái năng lực tích lũy qua từng bài luyện</p>
+                    </div>
+                    <div style="font-size:0.75rem; color:var(--ink-dim); font-style:italic;">
+                        Ước tính nội bộ của DeepTutor, không phải chứng chỉ IELTS chính thức.
+                    </div>
+                </div>
+                <div class="mastery-ladder" id="progress-mastery-ladder" style="margin-top:1rem;"></div>
             </div>
         </section>
 
@@ -2490,7 +2607,7 @@
 
         <!-- Description -->
         <div class="donation-desc">
-            Quét mã trực tiếp để tiếp sức duy trì máy chủ AI & phát triển kho học liệu IELTS miễn phí cho học sinh THPT:
+            Nếu DeepIELTS hữu ích, bạn có thể góp một ly cà phê để giúp duy trì máy chủ và AI:
         </div>
 
         <!-- Techcombank Box -->
@@ -2606,10 +2723,10 @@
         </div>
     </div>
 
-    <aside id="floating-zalo-widget" aria-label="Tư vấn và Hỗ trợ" style="position:fixed; bottom:20px; right:20px; z-index:90; display:flex; flex-direction:column; align-items:flex-end;">
-        <a href="https://zalo.me/0985578385" target="_blank" rel="noopener noreferrer" style="display:flex; align-items:center; gap:0.5rem; background:linear-gradient(135deg, #0284c7, #2563eb); color:white; padding:0.65rem 1.15rem; border-radius:var(--radius-full); text-decoration:none; font-weight:700; font-size:0.85rem; box-shadow:0 10px 25px -3px rgba(37,99,235,0.4); transition:all 0.2s ease;">
+    <aside id="floating-zalo-widget" aria-label="Tư vấn và Hỗ trợ">
+        <a href="https://zalo.me/0985578385" target="_blank" rel="noopener noreferrer" class="floating-zalo-compact" style="display:flex; align-items:center; gap:0.5rem; background:var(--brand-teal, #2C776D); color:white; padding:0.55rem 1.1rem; border-radius:var(--radius-full); text-decoration:none; font-weight:700; font-size:0.82rem; box-shadow:0 4px 14px rgba(44,119,109,0.3); transition:all 0.2s ease;">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.17.7 4.19 1.94 5.84L2.05 22l4.31-1.85C7.94 21.32 9.9 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
-            <span>Tư Vấn Zalo: 098 557 8385</span>
+            <span>Tư vấn</span>
         </a>
     </aside>
 
@@ -2802,13 +2919,8 @@
 
         // Check initial state on mobile or saved preferences
         function initDonationWidgetState() {
-            const isSavedCollapsed = localStorage.getItem('donationWidgetCollapsed') === 'true';
-            const isMobile = window.innerWidth <= 900;
-            if (isSavedCollapsed || isMobile) {
-                collapseDonationWidget();
-            } else {
-                expandDonationWidget();
-            }
+            // Spec V3: Never auto-open donation panel over learning content
+            collapseDonationWidget();
         }
 
         function init() {
@@ -2895,6 +3007,12 @@
         }
 
         function routeTo(route, params = {}, updateHash = true) {
+            // Focus Mode Handling (Spec V3 Section 12)
+            if (route === 'test' || route === 'practice') {
+                document.documentElement.setAttribute('data-mode', 'focus');
+            } else {
+                document.documentElement.removeAttribute('data-mode');
+            }
             // Clean up running exam resources if leaving practice
             if (state.currentRoute === 'practice' && route !== 'practice') {
                 clearInterval(state.exam.timerInterval);
@@ -6268,10 +6386,10 @@
             if (!barsContainer) return;
 
             const pillars = [
-                { name: '🎧/📖 Nhận Thức Âm & Quét Từ (Perceptual & Scanning)', pct: 75, status: '🟢 Vững vàng' },
-                { name: '📚 Vốn Từ & Bẫy Đồng Nghĩa (Lexical & Paraphrase)', pct: 60, status: '🟡 Cần củng cố' },
-                { name: '📐 Cấu Trúc & Ngữ Pháp (Structural & Grammar)', pct: 55, status: '🟡 Cần củng cố' },
-                { name: '🧠 Tư Duy Phản Biện & Phá Bẫy (Critical Inference)', pct: 45, status: '🔴 Cần chữa lành' }
+                { name: '🎧/📖 Nhận Thức Âm & Quét Từ (Nhận diện & tìm thông tin)', pct: 75, status: '🟢 Vững vàng' },
+                { name: '📚 Vốn Từ & Bẫy Đồng Nghĩa (Từ vựng & paraphrase)', pct: 60, status: '🟡 Cần củng cố' },
+                { name: '📐 Cấu Trúc & Ngữ Pháp (Ngữ pháp & cấu trúc câu)', pct: 55, status: '🟡 Cần củng cố' },
+                { name: '🧠 Tư Duy Phản Biện & Phá Bẫy (Suy luận & xử lý bẫy)', pct: 45, status: '🔴 Cần chữa lành' }
             ];
 
             let html = '';
